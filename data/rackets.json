@@ -569,5 +569,478 @@
       "https://badminton-navi.net/racket/detail/629",
       "https://www.racquetsproshop.ca/product-page/li-ning-axforce-bigbang-7u-70g-black-badminton-racquet"
     ]
+  },
+  {
+    "id": "li-ning-halbertec-9000-power",
+    "brand": "Li-Ning",
+    "model": "Halbertec 9000 Power",
+    "short_label": "HAL9000P",
+    "product_code": "AYPW001",
+    "product_code_note": "コードは代表型番。カラーやグリップ・重量規格(3U/4U/4UG6)によって枝番(例: AYPW001-1/-2/-3)が異なる。",
+    "release_year": "2025",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "ULTRA高弾性カーボン+高密度制振材+ポリイミド繊維、シャフト径6.6mm",
+    "frame_material": "ULTRA高弾性カーボンファイバー",
+    "string_tension_lbs": "3U ≤31 lbs / 4U・4UG6 ≤30 lbs",
+    "price_jpy_approx": 31900,
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:295mm/4U:300mmおよび実測重量を採用。4Uはシャフトが「やや柔らかい」で3Uの「普通」よりしなやか。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 88.0, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 84.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "戦戟9000(無印)からの強化モデルで、中国のレビューでは「中杆(シャフト)の鞭のようなしなりが強く、パワーショット後の収まりが速い」と評され、頭重寄りのバランスながらシャフトの反発でスタビリティと連続性を両立していると紹介されている。ネット前のカットやスライス、コントロールショットで非常に安定した挙動を見せ、「今年最強のコントロール系ラケット」と称する評もある。日本の販売店では「攻守兼用の上級者向け」「スイングスピードとシャトルの弾きを両立」と紹介され、フレーム上部の連結グロメット構造でインパクト時の安定性を高めているとされる。",
+    "sources": [
+      "https://www.racket.co.jp/product/lin-hal9000p.html",
+      "https://item.rakuten.co.jp/sportsplaza/lin-hal9000p/",
+      "https://tatsumisports-info.com/hal9000power/",
+      "https://www.liningtw.com/products/aypw001",
+      "https://www.badmintoncn.com/cbo_eq/view.php?eid=24653"
+    ]
+  },
+  {
+    "id": "li-ning-halbertec-9000",
+    "brand": "Li-Ning",
+    "model": "Halbertec 9000",
+    "short_label": "HAL9000",
+    "product_code": "AYPU021",
+    "product_code_note": "コードは代表型番。カラー(晶石緑/龍吟紫など)で枝番(例: AYPU021-3)が異なる。ギフトボックス仕様は別型番AYPU115。",
+    "release_year": "2024",
+    "head_balance": "Even Balance",
+    "flex": "Medium",
+    "shaft_material": "T1100+ULTRA高弾性カーボン、シャフト径6.6mm",
+    "frame_material": "ULTRA高弾性カーボンファイバー",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
+    "price_jpy_approx": 31900,
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:298mm/4U:298mmおよび実測重量を採用。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 89.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 85.0, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "戦戟(HALBERTEC)シリーズの最上位モデルとして2024年初頭に登場し、日本代表・渡辺勇大選手の使用モデルとしても知られる。フレーム上部の八連結グロメット構造(戦戟8000にはない特徴)により高速ラリーや強打時のフレーム変形を抑え、安定した打球感を実現しているとされる。中国のレビューでは「スピードと操作性のバランスが良く、高いパフォーマンスを求める愛好家向け」「コントロール欲を満たすラケット」といった評価が見られ、コントロール性能を重視した設計であることが強調されている。",
+    "sources": [
+      "https://www.racket.co.jp/product/lin-hal9000.html",
+      "https://item.rakuten.co.jp/sunfast/ln-hal9000/",
+      "https://www.liningtw.com/products/aypu021",
+      "https://www.badmintoncn.com/cbo_eq/view.php?eid=17829",
+      "https://zhuanlan.zhihu.com/p/32828126900"
+    ]
+  },
+  {
+    "id": "li-ning-halbertec-8000",
+    "brand": "Li-Ning",
+    "model": "Halbertec 8000",
+    "short_label": "HAL8000",
+    "product_code": "AYPT015",
+    "product_code_note": "複数カラー展開により型番が異なる(例: AYPT013, AYPT015, AYPT369)。",
+    "release_year": "2022",
+    "head_balance": "Even Balance",
+    "flex": "Medium",
+    "shaft_material": "ULTRA高弾性カーボン(高密度制振材使用)、シャフト径6.8mm",
+    "frame_material": "T1100+MED高弾性カーボンファイバー",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
+    "price_jpy_approx": 29700,
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:290mm/4U:295mmおよび実測重量を採用。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 87.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 290, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 85.3, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "戦戟シリーズの第一弾として2022年9月末に発売され、羽毛球オリンピック金メダリストの傅海峰が使用したことでも知られる。中国のレビューでは、高密度制振シャフトによりインパクト時の振動を大きく抑え、柔らかい打球感を実現していると評されている。6.8mmシャフトは弾力性があり、平打ちやレシーブ・守備面で扱いやすく、初中級者でも比較的扱いやすいという声が多い。3Uはより重厚で威力重視、4Uはより軽快でシャフトもしなやかという住み分けが紹介されている。",
+    "sources": [
+      "https://www.sunfast.jp/shopdetail/000000032832/",
+      "https://item.rakuten.co.jp/sunfast/ln-hal8000/",
+      "https://www.liningtw.com/products/aypt015",
+      "https://zhuanlan.zhihu.com/p/715571229",
+      "https://zhuanlan.zhihu.com/p/32828126900"
+    ]
+  },
+  {
+    "id": "li-ning-halbertec-7000",
+    "brand": "Li-Ning",
+    "model": "Halbertec 7000",
+    "short_label": "HAL7000",
+    "product_code": "AYPU013",
+    "product_code_note": "カラー(青碧緑×蛍光橙など)により枝番(例: AYPU013-4)が異なる。後継の「Halbertec 7000 II」は別モデル。",
+    "release_year": "2023",
+    "head_balance": "Even Balance",
+    "flex": "Stiff",
+    "shaft_material": "ULTRA高弾性カーボン、シャフト径6.8mm",
+    "frame_material": "MED高弾性カーボンファイバー",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
+    "price_jpy_approx": 27500,
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:292mm/4U:292mmおよび実測重量を採用。シャフトは3Uが「やや硬い」、4Uが「普通」とわずかに差がある。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 87.8, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 205, "overall_length_mm": 675, "balance_point_mm": 292, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 83.3, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 205, "overall_length_mm": 675, "balance_point_mm": 292, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "2023年10月に発売された戦戟シリーズの中堅モデルで、6.8mmの高弾性シャフトとACC-RIFTECHという多次元複合コントロールシステム、高密度複合制振システムを搭載する。中国のレビューでは、シャフトが反発性能とねじれ剛性のバランスに優れ、力が正確に伝わり打点を集中させやすいと評価されている。バランス・操作性・攻撃力・機動性のバランスが良く、シングルス・ダブルス問わず幅広いレベルの選手に向くという評も見られる。",
+    "sources": [
+      "https://www.sunfast.jp/shopdetail/000000034733/",
+      "https://www.liningtw.com/products/aypu013",
+      "https://www.sohu.com/a/729580523_120535839",
+      "https://zhuanlan.zhihu.com/p/32828126900"
+    ]
+  },
+  {
+    "id": "li-ning-halbertec-7000-ii",
+    "brand": "Li-Ning",
+    "model": "Halbertec 7000 II",
+    "short_label": "HAL7000II",
+    "product_code": "AYPW015",
+    "product_code_note": "中国本土での型番はAYPW015(カラー展開によりAYPW015-4等の枝番あり)。日本国内の正規代理店では調査時点でII型の取り扱いを確認できず、初代HALBERTEC7000のみ流通している可能性がある。",
+    "release_year": null,
+    "head_balance": "Even Balance",
+    "flex": "Medium",
+    "shaft_material": "ULTRA高弾性カーボン+高密度制振材、6.8mm中径シャフト(戦戟8000譲りの中杆技術と紹介されている)",
+    "frame_material": "MED高弾性カーボン(一部情報ではULTRA+MEDの複合構成、高密度複合減震システム搭載)",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
+    "price_jpy_approx": null,
+    "balance_note": "実測または公式スペックシートでのバランスポイント(mm)は情報源から確認できなかった。中国の通販サイト・記事は素材構成や中羽在線での評価(8.9点)には言及するが、具体的な数値バランスポイントの記載がなく、複数ソースで整合する数値が得られなかったためnullとしている。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "戦戟(Halbertec)7000の後継モデルで、フレームにULTRA+MED高弾性カーボン、中杆に高密度制振材を加えたULTRAカーボンを採用し、初代より打感がクリアで操作がより繊細になったとされる。中羽在線でのユーザー評価は8.9点と高く、攻守バランスの取れたコントロール型ラケットとして紹介されている。上位機種・戦戟8000の中杆技術を一部踏襲しつつ価格を抑えた「価格対性能比に優れる中位機」という位置付けで語られることが多い。ただし独自に実測された重量・バランスポイントを報告するソースは見つからなかった。",
+    "sources": [
+      "https://www.badmintoncn.com/eqm.php?a=view&eid=24658&mag_hide_progress=1",
+      "https://www.dku51.com/goods-5144.html",
+      "https://www.dku51.com/article-15121.html"
+    ]
+  },
+  {
+    "id": "li-ning-bladex-900-new",
+    "brand": "Li-Ning",
+    "model": "BladeX 900 New",
+    "short_label": "BX900NEW",
+    "product_code": "AYPU047",
+    "product_code_note": "コロンウェイ別に枝番あり(例: AYPU047-3=蛍光ベリーレッド)。中国マスターズ限定のギフトセット配色は別コード(AYPV019/AYPV085)。",
+    "release_year": "2024",
+    "head_balance": "Head Light",
+    "flex": "Medium",
+    "shaft_material": "ULTRA高弾性カーボン+高密度減振素材、6.8mmシャフト",
+    "frame_material": "M46+ULTRA高弾性カーボン",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
+    "price_jpy_approx": 30800,
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:295mm/4U:298mmおよび実測重量を採用。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 88.0, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 83.8, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "レビューでは、旧世代の900 MAXシリーズと比較してヘッドライトバランスと6.8mmのやや硬めのシャフトにより、スマッシュやドライブの打球感・レスポンスが向上したと評価されている。中国メディアの評測では、旧モデルよりスイングウェイトがやや重くシャフトも硬くなったため、プレーヤー自身のパワーをより必要とすると指摘されている。前衛でのハイスピードなプレッシャーラリーや連続性を重視するダブルスプレーヤーに向いているとされ、中級者以上向けの一本として紹介されている。",
+    "sources": [
+      "https://www.liningtw.com/products/aypu047-3",
+      "https://www.sunfast.jp/shopdetail/000000035031/",
+      "https://www.sohu.com/a/780391036_120535839",
+      "https://bbs.badmintoncn.com/forum.php?mod=viewthread&tid=3231998"
+    ]
+  },
+  {
+    "id": "li-ning-bladex-900-sunmax",
+    "brand": "Li-Ning",
+    "model": "BladeX 900 Sun Max",
+    "short_label": "BX900Sun",
+    "product_code": "AYPT021(3U) / AYPT023(4U)",
+    "product_code_note": "「太陽」モチーフのゴールドカラーで、対となる「Moon Max」とセットのギフトボックスもある。",
+    "release_year": "2023",
+    "head_balance": "Even Balance",
+    "flex": "Medium",
+    "shaft_material": "ULTRA高弾性カーボン+M46、6.6mmシャフト",
+    "frame_material": "高弾性カーボンファイバー",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
+    "price_jpy_approx": 30800,
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:293mm/4U:298mmおよび実測重量を採用。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 87.8, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 293, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 84.5, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "太陽をモチーフにしたゴールドカラーが特徴で、BLADEXシリーズの最高峰モデルとしてテンポの速いラリーやパワフルなスマッシュに対応できると説明されている。海外レビューでは、シャフトが硬く最初は振り抜きにやや硬さを感じるものの、実際に打ち込むうちに扱いやすくなり、パワーよりコントロールを重視する上級者・経験者向けと評価されている。ヨネックスのアークセイバー10/11 Proのようなイーブンバランス系ハイエンドモデルに近い打球感とも比較されている。男子ダブルスの張楠選手と関連付けて紹介されることが多い。",
+    "sources": [
+      "https://www.sunfast.jp/shopdetail/000000032831/",
+      "https://volantbadminton.com/blogs/volant-community/li-ning-blade-x-900-sun-max-badminton-racket-review",
+      "https://en.badminton-navi.net/racket/detail/630",
+      "https://www.ckyew.com/post/li-ning-bladex-900-max-sun-badminton-racket-review"
+    ]
+  },
+  {
+    "id": "li-ning-bladex-900-moonmax",
+    "brand": "Li-Ning",
+    "model": "BladeX 900 Moon Max",
+    "short_label": "BX900Moon",
+    "product_code": "AYPT025(3U) / AYPT027(4U)",
+    "product_code_note": "「月」モチーフのブルーカラーで、「Sun Max」と対をなすペアモデル。",
+    "release_year": "2023",
+    "head_balance": "Head Light",
+    "flex": "Stiff",
+    "shaft_material": "ULTRA高弾性カーボン+M46、6.6mmシャフト",
+    "frame_material": "高弾性カーボンファイバー",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
+    "price_jpy_approx": 30800,
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:290mm/4U:287mmおよび実測重量を採用。シャフト硬さは3Uが「硬い」(Extra Stiff相当)、4Uが「やや硬い」(Stiff)とやや異なり、Sun Maxよりどちらも一段硬めの設定。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 88.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 290, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 84.2, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 287, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "月をモチーフにしたブルーカラーが特徴で、Sun Maxと対をなすBLADEXシリーズ最高峰モデルと位置付けられている。Sun Maxより硬いシャフトとややヘッドライトのバランス設計により、前衛での素早いタッチとシャトルコントロールがしやすいとされる。中国の販売情報では男子ダブルスの張楠(Zhang Nan)選手と関連付けて紹介されており、Sun Max(イーブン寄り・やや硬め)とMoon Max(ヘッドライト寄り・硬め)はヘッドバランスとシャフト硬度の違いで打感を打ち分けたペアモデルという位置付けである。",
+    "sources": [
+      "https://www.sunfast.jp/shopdetail/000000032830/",
+      "https://www.badmintoncn.com/eqm.php?a=view&eid=15734",
+      "https://joybadminton.com/products/li-ning-bladex-900-moon-max-blue"
+    ]
+  },
+  {
+    "id": "li-ning-bladex-880-shida",
+    "brand": "Li-Ning",
+    "model": "BladeX 880 Shida",
+    "short_label": "BX880Shida",
+    "product_code": "AYPW051",
+    "product_code_note": "日本代表・志田千陽選手のシグネチャーモデル。パールホワイト単色展開。中国本土での型番表記は情報源から特定できなかった。",
+    "release_year": "2026",
+    "head_balance": "Head Light",
+    "flex": "Medium",
+    "shaft_material": "T1100+ULTRA高弾性カーボン+高密度制振材、約6.8mmの超極細高弾性シャフト",
+    "frame_material": "M46X+ULTRA高弾性カーボン、薄型のエアロフレーム構造",
+    "string_tension_lbs": "30-32 lbs (代理店表記により差あり)",
+    "price_jpy_approx": 33000,
+    "balance_note": "SUNFASTおよびFUNPORTの正規販売ページでは重量・バランスポイントの数値記載がなかった。中国の通販サイト情報では4Uで約83g・バランスポイント295mm前後(ヘッドライト)とする記述が複数見られたが、いずれも販促コピーの範囲で独立した実測データではないため推定値として扱う。海外の一般レビューサイトでは292〜298mmなど微妙に異なる数値も見られ、確証は取れていない。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "estimated", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "日本代表・志田千陽選手のシグネチャーモデルで、定番の鋒影(BladeX)800をベースにパールホワイト×ピンク×ブルーの専用カラーとM46X+ULTRAフレーム、T1100+ULTRA+高密度制振シャフトへとアップグレードされている。速度型(スピード系)に分類され、前衛でのネット処理やダブルスでの連続した速い展開を得意とするプレースタイル向けと紹介されている。グリップエンドには志田選手本人のサインが入り、専用ラケットケースが付属する限定モデルである。",
+    "sources": [
+      "https://www.sunfast.jp/shopdetail/000000036414/",
+      "https://order.funport.co.jp/view/item/000000001807",
+      "https://item.rakuten.co.jp/racket/lin-aypw051/"
+    ]
+  },
+  {
+    "id": "li-ning-bladex-800",
+    "brand": "Li-Ning",
+    "model": "BladeX 800",
+    "short_label": "BX800",
+    "product_code": null,
+    "product_code_note": "Li-Ningの公式SKUはカラー/バージョン(通常版、張楠モデルAYPR268、蝶変NEW版AYPT331など)ごとに異なる形式で付与されており、単一の統一コードは確認できず。",
+    "release_year": "2021",
+    "head_balance": "Even Balance",
+    "flex": "Stiff",
+    "shaft_material": "6.8mm高弾性M46(M46+Ultra高弾性)カーボンシャフト",
+    "frame_material": "M46+Ultra高弾性カーボンフレーム、HDF(高密度)衝撃吸収材内蔵",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
+    "price_jpy_approx": 28600,
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:289mm/4U:292mmおよび実測重量を採用。シャフトは3Uが「硬い」(Extra Stiff相当)、4Uが「普通」(Medium)と幅がある。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 87.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 289, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 84.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 292, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "BladeX 800は速度重視のドライブ型ラケットとして位置づけられ、ヨネックスのAstroxシリーズに対抗する国産速度型モデルの代表格と評されている。しっかりとした打感で、鋭く歯切れの良いショットと正確な配球がしやすいとの評価がある。速度型としてはフレームがやや大きめで、ミッドコートでのコントロールや受け身の展開処理にも強いとされる。2021年発売当初は張楠選手が起用され、ダブルスのドライブ合戦を意識した設計思想が語られている。",
+    "sources": [
+      "https://order.funport.co.jp/view/item/000000001039",
+      "https://www.racket-company.com/en/li-ning-bladex-800.html",
+      "https://zhuanlan.zhihu.com/p/552170334",
+      "https://www.badmintoncn.com/cbo_eq/view_9885.html"
+    ]
+  },
+  {
+    "id": "li-ning-bladex-800-speed",
+    "brand": "Li-Ning",
+    "model": "BladeX 800 Speed",
+    "short_label": "BX800Speed",
+    "product_code": "AYPW003",
+    "product_code_note": "台湾李寧公式サイトでの型番はAYPW003(枝番-4はブラック/ブルー)。通常版「BladeX 800」やPower版とは別SKUの並売モデル。",
+    "release_year": "2026",
+    "head_balance": "Head Light",
+    "flex": "Stiff",
+    "shaft_material": "ULTRA高弾性カーボン+高密度制振材、6.8mm高密度制振中杆",
+    "frame_material": "東レM46X+ULTRA高弾性カーボン",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
+    "price_jpy_approx": null,
+    "balance_note": "台湾公式サイトの商品ページには重量・バランスポイントの数値明記がなかった。中国語の紹介記事では「李寧の3U完成品の中でも最もバランスポイントが低い」「3U=293mm、4U=295mm程度」とする記述が見られたが、公式スペックシートによる裏付けは取れておらず、推定値として扱う。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 293, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "2026年3月に発売された鋒影(BladeX)800シリーズの速度特化モデルで、東レM46X+ULTRAカーボンフレームと6.8mm高密度制振シャフトを採用し、速く連続した引き球・平打ちを得意とするプレースタイル向けとされる。李寧ブランドの3U完成品ラケットの中でも特にバランスポイントが低い(ヘッドライト)部類とされ、振り抜きの速さが特徴と評されている。同800シリーズの通常版・Power版とは異なる独立SKUとして併売されている。",
+    "sources": [
+      "https://www.liningtw.com/products/aypw003-4",
+      "https://zhuanlan.zhihu.com/p/2015443106837865100"
+    ]
+  },
+  {
+    "id": "li-ning-bladex-800-power",
+    "brand": "Li-Ning",
+    "model": "BladeX 800 Power",
+    "short_label": "BX800Power",
+    "product_code": "AYPW005",
+    "product_code_note": "カラー・重量クラスごとに枝番が異なる(例: AYPW005-5=5U)。日本市場ではBX800Pの商品名で展開。Speed版や無印BladeX 800とは別SKU。",
+    "release_year": "2025",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "ULTRA高弾性カーボン+高密度制振材、シャフト径6.8mm",
+    "frame_material": "M46X+ULTRA高弾性カーボンファイバー",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
+    "price_jpy_approx": 29700,
+    "balance_note": "公式サイトは打感・スイングウェイトを重量クラス別に定性的に記載するのみで、具体的なバランスポイント(mm数値)を公表しているソースは見つからなかった。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "BladeX 800 Powerは、速度重視のSpeed版に対してヘッド側にわずかに荷重を寄せ、スマッシュの威力を高めた攻撃寄りのバリエーションである。M46X+ULTRA高弾性カーボンフレームと高密度制振シャフトにより、しっかりとした打感と重みのあるスマッシュを両立させているとレビューされている。海外レビューでは中管がやや硬めでクリアやドライブ、レシーブからのブロックに向く一方、ネット前での取り回しはSpeed版よりやや遅れると指摘されている。総じて、スピードを保ちながら決定力のあるスマッシュを求める中上級ダブルスプレーヤー向けとされる。",
+    "sources": [
+      "https://intobadminton.com/review/li-ning-bladex-800-power-review/",
+      "https://www.liningtw.com/products/aypw005",
+      "https://item.rakuten.co.jp/shuttlestudio/li-ning-bx800p/"
+    ]
+  },
+  {
+    "id": "li-ning-bladex-700",
+    "brand": "Li-Ning",
+    "model": "BladeX 700",
+    "short_label": "BX700",
+    "product_code": null,
+    "product_code_note": "Li-Ning公式SKUはカラー展開ごとに個別のAYPT系型番が付与されているが、確実に裏付ける一次情報を確認できなかった。",
+    "release_year": "2022",
+    "head_balance": "Head Light",
+    "flex": "Medium",
+    "shaft_material": "高弾性M40Xカーボン、Resil Shaft(テーパー構造)",
+    "frame_material": "高弾性カーボンファイバー+高弾性M40X、内部にEVA制振材",
+    "string_tension_lbs": "4U ≤29 lbs / 5U ≤30 lbs",
+    "price_jpy_approx": 26400,
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:292mm/5U:300mmおよび実測重量を採用。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83.3, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 292, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 81.7, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "BladeX 700は小顔(スモールフレーム)設計の速度型ラケットで、女性プレーヤーやアジリティ重視の選手を意識した製品と紹介されている。手に取った際の軽さと、ミッドシャフトの反発が非常にクリアで、振り抜きの良さと弾き感の良さが評価されている。前衛での平打ちや素早いネットプレー、連続したスマッシュ回収に強いとの声がある一方、フレームが小さいためミスヒットへの許容度が低く、フレーム剛性がやや弱いためスマッシュの威力が安定しにくいという指摘もある。全体としてはコストパフォーマンスの高さが評価されている。",
+    "sources": [
+      "https://order.funport.co.jp/view/item/000000001037",
+      "https://www.sunfast.jp/shopdetail/000000032126/",
+      "https://zhuanlan.zhihu.com/p/556438775"
+    ]
+  },
+  {
+    "id": "li-ning-bladex-73-light",
+    "brand": "Li-Ning",
+    "model": "BladeX 73 Light",
+    "short_label": "BX73Light",
+    "product_code": "AYPS061",
+    "product_code_note": "カラーバリエーションごとに型番が異なる(例: ピンク系AYPS061-1、新配色AYPT355)。",
+    "release_year": "2022",
+    "head_balance": "Head Light",
+    "flex": "Flexible",
+    "shaft_material": "7.0mmカーボンシャフト(ソフトフレックス設定)",
+    "frame_material": "フルカーボンファイバーフレーム",
+    "string_tension_lbs": "26 lbs",
+    "price_jpy_approx": 20900,
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により6U:297mmおよび実測重量を採用。",
+    "variants": [
+      { "weight_class": "6U", "weight_g": 72.5, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": 205, "overall_length_mm": 670, "balance_point_mm": 297, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "BladeX 73 Lightは6U(実測72.5g前後)の超軽量モデルで、初中級の女性プレーヤー層をターゲットにした製品と紹介されている。軽さゆえにラケットを振り出しやすく、テンポの速いラリーでの連続したストロークがしやすいとされる。ソフトフレックス気味のシャフトにより、非力なプレーヤーでも比較的楽に飛びと打感の心地よさを得られる設計とされているが、本機に特化した詳細なインプレッション記事は他モデルほど多くは見つからない。",
+    "sources": [
+      "https://www.liningtw.com/products/ayps061-1",
+      "https://store.shopping.yahoo.co.jp/rabbit-shop/bladex73light.html",
+      "https://www.badmintoncn.com/cbo_eq/view_buy.php?eid=11421"
+    ]
+  },
+  {
+    "id": "li-ning-windstorm-72s",
+    "brand": "Li-Ning",
+    "model": "Windstorm 72S",
+    "short_label": "WS72S",
+    "product_code": "AYPR008",
+    "product_code_note": "カラーごとに枝番が異なる(例: AYPR008-1=ピンク/ブルー)。無印Windstorm 72(AYPM系)と同じ72g・6Uクラスの派生SKUで、シャフトが無印より柔らかいとする情報あり。「Windstorm 72 Speed/Power」(AYPU069/AYPU071)とは別モデル。",
+    "release_year": null,
+    "head_balance": "Head Heavy",
+    "flex": "Flexible",
+    "shaft_material": "カーボンファイバー(UHBシャフト、フレックス設計)",
+    "frame_material": "カーボンファイバー(AEROTEC-BEAM SYSTEM+OPTIMUM FRAME技術)",
+    "string_tension_lbs": "≤30 lbs(日本代理店は24-28 lbs推奨と表記)",
+    "price_jpy_approx": 16830,
+    "balance_note": "バランスポイント315mmという数値は、独立した複数の海外リテーラー(bashminton.com、marcottesports、ANA Mall等)で一致して記載されており公称値としての信頼度は比較的高いが、独立計測によるものではなくメーカー/代理店発表値の転記とみられる。",
+    "variants": [
+      { "weight_class": "6U", "weight_g": 72, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": null, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 315, "balance_confidence": "estimated", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "Windstorm 72Sは同シリーズの中でも最軽量級となる72gの超軽量モデルで、フレーム重量をヘッド側に寄せることでスイング加速と振り抜きの速さを両立させているとされる。複数の海外リテーラー情報ではバランスポイント315mmという前寄りの数値が一貫して報告されており、軽量ながらヘッドヘビー傾向の設計であることがうかがえる。シャフトはフレックス(柔らかめ)とされ、非力なプレーヤーや初中級者でも振り抜きやすいという評価が見られる。",
+    "sources": [
+      "https://www.bashminton.com/en/products/li-ning-windstorm-72-s-badminton-racket",
+      "https://marcottesports.com/products/li-ning-badminton-racket-windstorm-72s-pink-aypr008-1",
+      "https://anamall.ana.co.jp/shop/g/g0189-1449380/"
+    ]
+  },
+  {
+    "id": "li-ning-windstorm-74",
+    "brand": "Li-Ning",
+    "model": "Windstorm 74",
+    "short_label": "WS74",
+    "product_code": "AYPQ004",
+    "product_code_note": "カラーごとに型番が異なる(AYPQ004=イエロー、AYPQ008=グレー、AYPQ012=ホワイト等)。無印Windstorm 72(72g・6U)より2g重い。",
+    "release_year": "2020",
+    "head_balance": "Head Heavy",
+    "flex": "Flexible",
+    "shaft_material": "カーボンファイバー(細径高強度シャフト、超導ナノ素材配合)",
+    "frame_material": "コマーシャルグレード・カーボンファイバー(Dynamic-Optimum Frame+Aerotec Beam System)",
+    "string_tension_lbs": "≤30 lbs",
+    "price_jpy_approx": 14960,
+    "balance_note": "バランスポイントは情報源により差異があり、海外リテーラー(marcottesports、tennisnuts等)は310mmと記載する一方、中国語レビュー(知乎)は298mmとしている。カラー・ロット差、または計測基準の違いの可能性があり数値としての確定度は中程度。",
+    "variants": [
+      { "weight_class": "6U", "weight_g": 74, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": null, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 310, "balance_confidence": "estimated", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "Windstorm 74は74gの超軽量フレームにヘッドヘビー気味のバランス(310mm前後、情報源により298mmとする例もあり)を組み合わせ、軽さと振り抜きの速さを両立させたモデルとされる。海外レビューではネット前での機動力とダブルスの速い展開への適性が高く評価される一方、後衛からの威力あるスマッシュは専用のパワー系モデルには及ばないとされている。初中級者や非力な女性プレーヤー向けとして紹介されることが多い。",
+    "sources": [
+      "https://marcottesports.com/products/li-ning-badminton-racket-windstorm-74-yellow-aypq004-3",
+      "https://www.sunfast.jp/shopdetail/000000030959/",
+      "https://zhuanlan.zhihu.com/p/571342372"
+    ]
+  },
+  {
+    "id": "li-ning-windstorm-79s",
+    "brand": "Li-Ning",
+    "model": "Windstorm 79S",
+    "short_label": "WS79S",
+    "product_code": "AYPR136-1",
+    "product_code_note": "台湾Li-Ning公式サイトではAYPR136-1(白)。欧米ショップではAYPT447-5表記もあり、地域・販売時期によりSKUが異なる可能性がある。",
+    "release_year": "2021",
+    "head_balance": "Head Heavy",
+    "flex": "Flexible",
+    "shaft_material": "カーボンファイバー製シャフト(中甲はやや軟らかめ設定)",
+    "frame_material": "フルカーボンファイバー",
+    "string_tension_lbs": "≤30 lbs",
+    "price_jpy_approx": 17600,
+    "balance_note": "台湾Li-Ning公式サイト、複数の海外情報源はバランスポイントを298mmと記載しており頭重寄りの数値だが、日本のSUNFASTは数値を公開せず「イーブンバランス設計」とのみ説明しており表現に一貫性がない。独立した実測データは確認できなかったため、数値はメーカー公称値に基づく。",
+    "variants": [
+      { "weight_class": "5U", "weight_g": 79, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": null, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "Windstorm 79Sは同シリーズの中でも中甲(シャフト)がやや軟らかめに設定されたモデルで、非力な選手や初心者でもラケットを振らせやすいのが特徴とされる。5U(79g)の超軽量フレームにより素早いスイングが可能で、SUNFASTの商品説明でも「柔らかいシャフトで幅広い層に使用できる」「操作性に長けビギナーにおすすめ」と紹介されている。台湾Li-Ning公式サイトでは「超軽79g、中桿軟弾、適合女性選手」と表記されており、女性プレーヤーや技術重視のラリー展開を好む層向けと位置づけられている。",
+    "sources": [
+      "https://www.liningtw.com/products/aypr136-1",
+      "https://shopbadmintononline.com/badminton-racket-windstorm-79s-p-3300.html",
+      "https://www.sunfast.jp/shopdetail/000000030961/"
+    ]
+  },
+  {
+    "id": "li-ning-windstorm-79h",
+    "brand": "Li-Ning",
+    "model": "Windstorm 79H",
+    "short_label": "WS79H",
+    "product_code": "AYPT449-5",
+    "product_code_note": "台湾Li-Ning公式サイト上の表記コードはAYPT449-5。中国語圏の比較ページ等ではAYPR138のコードでも参照されている。79Sとペアで展開されるモデル。",
+    "release_year": "2021",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "カーボンファイバー製シャフト(中甲は硬め設定、スリム設計)",
+    "frame_material": "フルカーボンファイバー",
+    "string_tension_lbs": "≤30 lbs",
+    "price_jpy_approx": 17600,
+    "balance_note": "79Sと同様、台湾Li-Ning公式サイトや海外ショップはバランスポイント298mmと記載する一方、日本のSUNFASTは「イーブンバランス設計」とのみ表記。海外ショップ間でも「Head Heavy」「Even Balance」と表記が割れており統一されていない。独立した実測ソースは確認できず、数値はメーカー公称値に基づく。",
+    "variants": [
+      { "weight_class": "5U", "weight_g": 79, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": null, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "Windstorm 79Hは同じ79S/Hペアの中で中甲(シャフト)が硬めに設定された、より攻撃寄りのモデルである。SUNFASTの商品ページでは「硬めのシャフトとイーブンバランス設計により、ドライブや前衛での操作性が高い」「タッチ重視のプレーヤーにおすすめ」と説明されている。台湾Li-Ning公式サイトの表記は「超軽79g、回弾速度快」で、シャトルの跳ね返りの速さを重視した設計とされる。中国語圏の製品情報では頭部がやや重く攻撃的な性格とする評もあり、頭重・頭軽の体感評価は情報源によって分かれている。",
+    "sources": [
+      "https://www.liningtw.com/products/aypr138-1",
+      "https://in.lining.studio/products/windstorm-79-h",
+      "https://www.sunfast.jp/shopdetail/000000030960/"
+    ]
   }
 ]
