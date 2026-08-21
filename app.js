@@ -279,6 +279,8 @@ function variantsTableHtml(r) {
     return `<tr>
       <td>${escapeHtml(v.weight_class)}</td>
       <td>${v.weight_g != null ? v.weight_g + " g" : "不明"}${v.weight_confidence === "estimated" ? " <span style=\"color:var(--text-muted);font-size:0.85em;\">(推定)</span>" : ""}</td>
+      <td>${v.grip_size ? escapeHtml(v.grip_size) : "―"}</td>
+      <td>${v.shaft_diameter_mm != null ? v.shaft_diameter_mm + " mm" : "―"}</td>
       <td>${v.balance_point_mm != null ? v.balance_point_mm + " mm" : "不明"}${confLabel ? ` <span style="color:var(--text-muted);font-size:0.85em;">(${escapeHtml(confLabel)})</span>` : ""}</td>
       <td>${sw != null ? sw.toFixed(1) : "―"}</td>
     </tr>`;
@@ -287,7 +289,7 @@ function variantsTableHtml(r) {
     <div class="review-block">
       <h4>重量クラス別スペック</h4>
       <table class="spec-table variant-table">
-        <tr><th>クラス</th><th>重量</th><th>バランス</th><th>推定SW(kg・cm²)</th></tr>
+        <tr><th>クラス</th><th>重量</th><th>グリップ</th><th>シャフト径</th><th>バランス</th><th>推定SW(kg・cm²)</th></tr>
         ${rows}
       </table>
       <p style="font-size:0.78em;color:var(--text-muted);margin-top:4px;">

@@ -262,15 +262,15 @@
     "product_code_note": "重量クラスにより枝番あり(3U: AYPT235-3、4U: AYPT235-4)。「麒麟(Qilin/Kilin)」はカラーウェイ名で同一SKU。2025年発売の後継モデル「AxForce 100 II」とは別モデル。",
     "release_year": "2023",
     "head_balance": "Head Heavy",
-    "flex": "Stiff",
+    "flex": "Extra Stiff",
     "shaft_material": "M50+T1100+EXTRA高弾性カーボンファイバー、6.0mm極細シャフト",
     "frame_material": "M50+M40X+EXTRA高弾性カーボンファイバー、ボックスウイングフレーム(Dynamic Optimum Frame)",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 33000,
-    "balance_note": "バランスポイントの数値は情報源で幅がある。日本の実測データベース(bd-boku.com)は4U(88.2g)で316mmと報告し、別の販売サイト(chinasportshop.com)も315mmで近い値を示す一方、複数の海外通販サイト(yumo.ca等)は306mmと案内しており、10mm程度の差が生じている。より詳細な測定条件が明記された316mmを目安値として採用したが、公式の一次資料でmm値を確認できたわけではない点に留意。3Uクラスの独立した実測値は見つからなかった。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により304mm(3U/4U共通)に更新。以前のWeb調査では306〜316mmとばらつきがあったが、こちらの数値を採用する。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "balance_point_mm": 316, "balance_confidence": "estimated", "balance_specific_to_class": false },
-      { "weight_class": "4U", "weight_g": 88.2, "weight_confidence": "measured", "balance_point_mm": 316, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 88.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.0, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 304, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 82.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.0, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 304, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AXFORCE100はシリーズ最高峰の攻撃型モデルで、極細6.0mmシャフトとヘッドヘビーバランスの組み合わせにより、後衛からの一撃必殺のスマッシュに強みを持つとされる。日本語レビューでは「フレーム・シャフトともに非常に硬く、しっかりした打感」「Astrox 99PROなど硬めのラケットに慣れた上級者向け」と評され、素早いドライブ交換やレシーブではその硬さゆえに扱いにくいという指摘もある。海外レビューでは後継のGen2と比較して「pure violence」的な、握力とスイングパワーを要求する荒々しい打感と表現されている。初中級者よりも、スマッシュの威力を最優先したいシングルスプレーヤー向け。",
     "sources": [
@@ -322,16 +322,16 @@
     "product_code_note": null,
     "release_year": "2024",
     "head_balance": "Head Heavy",
-    "flex": "Medium",
+    "flex": "Stiff",
     "shaft_material": "M46+T1100+ULTRA高弾性カーボンファイバー+高密度制振材、6.4mmシャフト",
     "frame_material": "MED高弾性カーボンファイバー+高分子蓄力制振材、76孔ボックスウイングフレーム",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "中国側の実測レビュー(素ラケ+グリップテープで81.39g/302mm、ガット張り後87.22g/305mm)と日本の実測データベース(bd-boku.com、4U・G5、87.7g/307mm)がいずれも300mm台前半で近い値を示しており、他のAXFORCEモデルと比べて情報源間の一致度は高い。ただし3U・5Uクラスの独立した実測値は確認できなかった。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:290mm/4U:297mm/5U:302mmに更新。以前のWeb調査(302〜307mm、クラス不問で一律扱い)より精度が高いこちらの値を採用する。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "balance_point_mm": 304, "balance_confidence": "estimated", "balance_specific_to_class": false },
-      { "weight_class": "4U", "weight_g": 81.4, "weight_confidence": "measured", "balance_point_mm": 304, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "balance_point_mm": 304, "balance_confidence": "estimated", "balance_specific_to_class": false }
+      { "weight_class": "3U", "weight_g": 88.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 290, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 83.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 297, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 77.6, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 302, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AXFORCE90 NEWは取り回しの良さと攻撃力を両立させたモデルと位置づけられ、フレーム剛性の高さから「力をスピードに変換しやすい」とする中国語レビューが見られる。6.4mmシャフトによる鋭い弾き感が特徴で、単発の強打よりも連続攻撃・後衛からの持続的な攻めを得意とするという評価が多い。海外レビューでは旧世代(Long/Tiger)と比較してスイートスポットが約1割拡大し、振り抜きが速く守備面での取り回しも改善されたとされ、「AXFORCE80から一段階レベルアップしたい層」に向くとされる。ただしヘッド面が小さいため、ミスヒット時の失速がやや大きく、ダブルス前衛の速い展開よりも、シングルスや後衛主体で連続攻撃を仕掛けるプレーヤーに適するとの指摘がある。",
     "sources": [
@@ -357,10 +357,10 @@
     "frame_material": "M50+EXTRA高弾性カーボン",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "バランスポイント(3U:307mm/4U:309mm)はLi-Ning台湾公式サイトの製品ページで重量クラスごとに明記されており、複数の海外リテーラーの記載とも一致するため信頼度は高い。ただし正確な実測重量(グラム)を公表する一次情報は見つからず、重量クラスの範囲表記に基づく中央値を推定値として使用。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:300mm/4U:306mmおよび実測重量に更新。以前のWeb調査(3U:307mm/4U:309mm、重量は推定)より精度が高いこちらの値を採用する。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "balance_point_mm": 307, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": 309, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 89.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 84.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 306, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AxForce 90 Dragon MaxはLi-Ningが「硬め」に分類する最上位アタッキングモデルで、Tiger Maxと比較してシャフトが硬く、拍頭側の重さも強めに設定されている。レビュアーの間ではスマッシュの破壊力とドライブ・ドロップの精度の両立が評価される一方、シャフトが硬いためスイングを速く振り抜けるパワーとタイミングが必要で、上級者向けという評価が多い。羅健佑(Loh Kean Yew)が使用していることで知られ、片手で強打を打ち込むシングルスのアタッカーに向くとされる。",
     "sources": [
@@ -385,10 +385,10 @@
     "frame_material": "M50+EXTRA高弾性カーボン",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "Li-Ning台湾公式サイトの製品ページでは3U:302mm/4U:305mmと重量クラスごとにバランスポイントが明記されているが、一部の海外ショップやレビュー要約では4U固有値が省略され「302mm」とだけ記載されるケースがあり情報源間で粒度に差がある。公式ページの重量クラス別数値を優先して採用。実測グラム重量の一次情報は見つからず、重量クラス範囲の中央値で推定。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:302mm/4U:304mmおよび実測重量に更新。以前のWeb調査(3U:302mm/4U:305mm、重量は推定)とほぼ近い値だが、こちらをより精度の高い出典として採用する。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "balance_point_mm": 302, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": 305, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 86.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 302, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 83.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 304, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AxForce 90 Tiger MaxはLi-Ningが「中程度」に分類するモデルで、Dragon Maxよりもシャフトがしなやかで扱いやすく、連続攻撃やスピード重視のプレーに向くとされる。拍頭は重めだが中間的な硬さのシャフトによりスイング時の振り抜けが良く、スマッシュの威力とテンポの速い連続攻撃を両立しやすいという評価が多い。ジョナタン・クリスティが使用していることで知られ、シングルス・ダブルスを問わず連続攻撃を得意とする中上級のパワー/スピード型プレイヤー向けとされる。",
     "sources": [
@@ -408,16 +408,16 @@
     "product_code_note": "台湾公式ではカラーウェイ別コードAYPT271系の表記もあり。日本市場では「AX80」とも表記される。軽量姉妹モデル「AxForce 80 Light」とは別製品。",
     "release_year": "2021",
     "head_balance": "Head Heavy",
-    "flex": "Medium",
+    "flex": "Stiff",
     "shaft_material": "M46+ULTRA高弾性カーボン、極細6.6mmシャフト",
     "frame_material": "高強度カーボン+ULTRA高弾性カーボン+M40X",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 29700,
-    "balance_note": "Li-Ning台湾公式サイトの製品ページに3U:300mm/4U:302mm/5U:304mmと3クラス分のバランスポイントが明記されており、中国語圏のデータベースサイト(badmintoncn.com)の記載とも整合するため信頼度は比較的高い。ただし正確な実測重量(グラム)を明示する一次情報は確認できず、重量クラス範囲の中央値を推定値として採用。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:295mm/4U:300mm/5U:300mmおよび実測重量に更新。以前のWeb調査(300/302/304mm、重量は推定)より精度が高いこちらの値を採用する。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": 302, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "balance_point_mm": 304, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 86.3, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 83.0, "weight_confidence": "measured", "grip_size": "G5/G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 77.6, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AxForce 80は東京オリンピックで諶龍(チェン・ロン)が使用したことで知られる高付加価値アタッキングモデルで、6.6mmの極細シャフトによりしなりを活かした「弾ける」ような打感が特徴と評される。中国語圏のレビューでは、高めのバランスポイントとシャフトの弾性によりスマッシュの球速と角度が出しやすく、ネット前からの角度スマッシュでも威力が出ると好評な一方、クリアなどでもテンポを変えやすいとされる。総じて、ある程度のパワーの基礎があるシングルスのラリー〜アタック型プレイヤーに向くという評価が多く、渡辺勇大、キダンビ・スリカンス、シンドゥなども使用している。",
     "sources": [
@@ -464,16 +464,16 @@
     "product_code_note": "地域・カラーにより型番表記が揺れる(カラー別枝番の例: AYPT277-4)。",
     "release_year": "2023",
     "head_balance": "Head Heavy",
-    "flex": "Flexible",
+    "flex": "Medium",
     "shaft_material": "ULTRA高弾性カーボン+6.6mm極細シャフト+高密度制振素材",
     "frame_material": "M40X新世代カーボン+高強度/高弾性カーボン、ボックスウイングフレーム",
     "string_tension_lbs": "4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 27500,
     "price_note": "実売は22,000円前後、メーカー希望小売価格は27,500円程度とサイトにより表記に差がある。",
-    "balance_note": "バランスポイントの具体的な数値(mm)は公式(Li-Ning台湾・日本代理店)サイトには掲載されていない。一部海外通販サイトが示す「302mm」という値はAxForce 60など別モデル・別重量クラスのページにも同一の値がそのまま使い回されており信頼性が低いため、本データベースでは採用していない。ヘッドヘビーという定性的な分類自体は複数の公式ソースで一致している。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:300mm/5U:300mmおよび実測重量に更新。以前のWeb調査ではmm値を確認できていなかった。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
-      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+      { "weight_class": "4U", "weight_g": 84.4, "weight_confidence": "measured", "grip_size": "G5/G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 80.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AxForce 70はLi-Ningの攻撃的なラインナップの中でも国際トップ選手仕様として展開されるモデルで、ヘッドヘビーなバランスと6.6mmの柔らかめシャフトの組み合わせにより強いスマッシュを打ちやすい設計とされる。フレームにはM40X世代のカーボンを採用し、反発力と操作性の両立を狙う。公式説明では上級者だけでなく、これからレベルアップを目指す中級者にも推奨されている。独立系メディアによる詳細な試打レビューは少なく、評価は主にメーカー・代理店の製品説明に基づく。",
     "sources": [
@@ -499,10 +499,10 @@
     "string_tension_lbs": "4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 26400,
     "price_note": "実売は21,000円前後、メーカー希望小売価格は26,400円程度とサイトにより表記に差がある。",
-    "balance_note": "バランスポイントの具体的な数値(mm)は公式(Li-Ning日本代理店)サイトには掲載されていない。一部海外通販サイトが示す「302mm」という値はAxForce 70など別モデル・別重量クラスのページにも同一の値がそのまま使い回されており信頼性が低いため、本データベースでは採用していない。ヘッドヘビーという定性的な分類自体は複数の公式ソースで一致している。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:298mm/5U:302mmおよび実測重量に更新。以前のWeb調査ではmm値を確認できていなかった。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
-      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+      { "weight_class": "4U", "weight_g": 82.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 205, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 77.8, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 302, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AxForce 60はシリーズの中でもラリー型・エントリー向けに位置づけられ、柔らかめの6.8mmシャフトによりジュニアやレディースプレーヤーでも扱いやすいとされる。ヘッドヘビーのバランスとしなりのあるシャフトによりクリアが飛ばしやすく、強打一辺倒よりも安定したラリー展開を重視するプレーヤー向けとされる。中国語圏のレビュー(知乎)では、重すぎない重量とやや高めのバランスポイントがスマッシュなど下方向への打球に有利と評されている。独立系の詳細な計測データは限定的で、評価は主に公式説明と限られたユーザーレビューに基づく。",
     "sources": [
@@ -548,18 +548,18 @@
     "product_code_note": "SKUはカラーウェイ/地域ごとに異なり単一コードが特定できない(例: インド向けAYPT289、英国向けAYPT291、中国向けAYPS273/AYPS275)。いずれも同一モデル「AXFORCE BIGBANG」の派生。",
     "release_year": null,
     "head_balance": "Head Heavy",
-    "flex": "Flexible",
-    "shaft_material": "高弾性カーボンファイバー、シャフト径6.6〜7.0mm(販売サイトにより表記に差あり)",
+    "flex": "Medium",
+    "shaft_material": "高弾性カーボンファイバー、7.0mmシャフト",
     "frame_material": "カーボンファイバー(Ex-Light Frame / Dynamic Optimum Frame、Box Wing Frame、Sonic Boomシステム搭載)",
     "string_tension_lbs": "20-28 lbs",
     "price_jpy_approx": 20000,
     "price_note": "重量クラスにより17,000〜22,000円程度と幅がある(7Uクラスでバドナビ掲載22,000円、別サイト掲載17,600円等)。",
-    "balance_note": "308mm(±2mm)という数値は4Uクラスの販売ページ(Badminton HQ)でのみ確認でき、公式サイトや他クラスでの独立した実測値は見つからなかった。バランス区分は英語レビューサイト1件のみ「Even Balance」としているが、これは他の全ての情報源(日本語バドナビ、Li-Ning公式系列販売サイト、複数の小売店ページ)が一致して示す「Head Heavy」と矛盾しており、外れ値の可能性が高い。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:300mm/5U:305mm/7U:316mmおよび実測重量に更新。以前のWeb調査では4Uの308mmのみ(Badminton HQ掲載)を暫定採用していた。7Uは超軽量ながら極端なヘッドヘビー値になっているが、同様に超軽量帯で意図的にヘッドヘビー設計とされるWindstorm72(72g/315mm)と近い傾向であり、方向性としては整合的。なお6Uクラスは今回のスペック表に記載がなく、以前のWeb調査による推定値のまま(実測未確認)。フレックスは4U/5Uが「普通」、7Uが「やや柔らかい」とやや異なる。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": 308, "balance_confidence": "estimated", "balance_specific_to_class": true },
-      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 82.1, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 79.0, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 305, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "6U", "weight_g": 72, "weight_confidence": "estimated", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
-      { "weight_class": "7U", "weight_g": 70, "weight_confidence": "estimated", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+      { "weight_class": "7U", "weight_g": 70.3, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 316, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AXFORCE BigBangは「シャフトのしなりで攻める攻撃型」と位置づけられ、従来のAXFORCEシリーズよりシャフトを柔らかめに仕上げることで、より幅広いレベルの選手が扱いやすいよう設計されている。ヘッドヘビーな静的バランスながら、4U〜7Uという非常に軽量なクラス展開により振り抜きは軽く、初中級者・ジュニア・レディース・シニア層でも強打を打ちやすいことが特徴として挙げられている。軽量設計のため長時間プレーでの腕への負担が少ない点も評価されている。独立レビューサイトには本モデル単体の詳細レビュー記事は少なく、上記の評価は主に販売ページ・日本語商品データベースの記述に基づく。",
     "sources": [
