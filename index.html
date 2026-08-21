@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>バドミントンラケット図鑑</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>🏸 バドミントンラケット図鑑</h1>
+  <p class="subtitle">スペック・レビューを集約し、ヘッドバランス×硬さで比較</p>
+</header>
+
+<main>
+  <section class="panel" id="register-panel">
+    <h2>ラケットを登録する</h2>
+    <p>
+      新しいラケットを追加したいときは、Claude に「〈ラケット名〉を登録して」と伝えてください。
+      Claude が公式スペックとレビューサイトをリサーチし、<code>data/rackets.json</code> に追加してこのページに反映します。
+      （このページ自体は静的サイトのため自動収集は行いません）
+    </p>
+  </section>
+
+  <section class="panel" id="matrix-panel">
+    <h2>ヘッドバランス × 硬さ マトリクス</h2>
+    <p class="hint">点をクリックすると詳細が見られます。近い位置の点は少しずらして表示しています。</p>
+    <div id="matrix-chart"></div>
+  </section>
+
+  <section class="panel" id="list-panel">
+    <h2>ラケット一覧</h2>
+    <div class="filters">
+      <input type="search" id="search-input" placeholder="ブランド・モデル名で検索">
+      <select id="brand-filter"><option value="">すべてのブランド</option></select>
+      <select id="balance-filter">
+        <option value="">すべてのバランス</option>
+        <option value="Head Heavy">Head Heavy</option>
+        <option value="Even Balance">Even Balance</option>
+        <option value="Head Light">Head Light</option>
+      </select>
+      <select id="flex-filter">
+        <option value="">すべての硬さ</option>
+        <option value="Flexible">Flexible</option>
+        <option value="Medium">Medium</option>
+        <option value="Stiff">Stiff</option>
+        <option value="Extra Stiff">Extra Stiff</option>
+      </select>
+    </div>
+    <div id="racket-grid" class="racket-grid"></div>
+  </section>
+</main>
+
+<div id="detail-overlay" class="overlay hidden">
+  <div class="detail-modal">
+    <button id="detail-close" class="close-btn" aria-label="閉じる">×</button>
+    <div id="detail-content"></div>
+  </div>
+</div>
+
+<footer>
+  <p>データ出典は各ラケット詳細内のリンクを参照してください。社内利用ツール（非公式）。</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
