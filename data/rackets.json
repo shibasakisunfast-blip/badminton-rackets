@@ -327,9 +327,9 @@
     "frame_material": "MED高弾性カーボンファイバー+高分子減振素材システム、76孔ボックスウイングフレーム",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:295mm/4U:297mm/5U:302mmに更新。以前のWeb調査(302〜307mm、クラス不問で一律扱い)より精度が高いこちらの値を採用する。",
+    "balance_note": "ユーザー指定により3U:298mm/4U:297mm/5U:302mmに更新。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 88.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "3U", "weight_g": 88.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 83.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 297, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "5U", "weight_g": 77.6, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 302, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
@@ -413,9 +413,9 @@
     "frame_material": "高強度カーボン+ULTRA高弾性カーボン+M40X",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 29700,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:295mm/4U:300mm/5U:300mmおよび実測重量に更新。以前のWeb調査(300/302/304mm、重量は推定)より精度が高いこちらの値を採用する。",
+    "balance_note": "ユーザー指定により3U:298mm/4U:300mm/5U:300mmに更新。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 86.3, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "3U", "weight_g": 86.3, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 83.0, "weight_confidence": "measured", "grip_size": "G5/G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "5U", "weight_g": 77.6, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
