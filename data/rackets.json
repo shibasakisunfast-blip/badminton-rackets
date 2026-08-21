@@ -120,7 +120,7 @@
   {
     "id": "victor-thruster-k-falcon-claw",
     "brand": "Victor",
-    "model": "Thruster K Falcon Claw (TK-F CLAW)",
+    "model": "Thruster K Falcon Claw",
     "short_label": "TK-FClaw",
     "product_code": "TK-F C",
     "product_code_note": "単体の統一SKUはなく、必ずエディション名付きで販売される(例: TK-F C LTD A, TK-F C Ultra X)",
@@ -148,7 +148,7 @@
   {
     "id": "victor-auraspeed-90k",
     "brand": "Victor",
-    "model": "Auraspeed 90K (ARS-90K)",
+    "model": "Auraspeed 90K",
     "short_label": "ARS90K",
     "product_code": "ARS-90K",
     "product_code_note": "世代・カラーにより「ARS-90K H」「ARS-90K II B」等の派生コードあり",
@@ -176,7 +176,7 @@
   {
     "id": "li-ning-aeronaut-9000c",
     "brand": "Li-Ning",
-    "model": "Aeronaut 9000C (AN9000C / Combat)",
+    "model": "Aeronaut 9000C",
     "short_label": "AN9000C",
     "product_code": "AYPP122",
     "product_code_note": "「AN9000C」は通称・マーケティング名で、Li-Ning公式のSKUはAYPP122系(カラーにより末尾番号が変化、例: AYPP122-5)",
@@ -204,7 +204,7 @@
   {
     "id": "li-ning-windstorm-72",
     "brand": "Li-Ning",
-    "model": "Windstorm 72 (WS72)",
+    "model": "Windstorm 72",
     "short_label": "WS72",
     "product_code": null,
     "product_code_note": "「WS72」は販売店による通称で、Li-Ning公式の統一品番は存在しない。カラーごとに全く異なる接頭辞のSKUが割り当てられる(例: AYPM204-1(黒)、AYPQ124-1、AYPU069-6等)",

@@ -16,6 +16,7 @@ const CONFIDENCE_LABEL = { measured: "実測値", estimated: "推定値", unknow
 const PIVOT_MM = 100;
 
 let RACKETS = [];
+const SELECTED_IDS = new Set();
 
 function brandColorVar(brand) {
   return `var(${BRAND_COLOR_VAR[brand] || "--accent"})`;
@@ -113,34 +114,71 @@ function setupFilterDropdowns() {
   });
 }
 
+function getMatrixRackets(filteredList) {
+  if (SELECTED_IDS.size > 0) {
+    return RACKETS.filter(r => SELECTED_IDS.has(r.id));
+  }
+  return filteredList;
+}
+
+function renderSelectionBar() {
+  const bar = document.getElementById("selection-bar");
+  if (!bar) return;
+  if (SELECTED_IDS.size === 0) {
+    bar.innerHTML = "";
+    bar.classList.add("hidden");
+    return;
+  }
+  bar.classList.remove("hidden");
+  bar.innerHTML = `
+    <span>${SELECTED_IDS.size}件を選択中(マトリクス図は選択したラケットのみ表示されます)</span>
+    <button type="button" id="selection-clear-btn">選択を解除</button>
+  `;
+  document.getElementById("selection-clear-btn").addEventListener("click", () => {
+    SELECTED_IDS.clear();
+    renderList();
+  });
+}
+
 function renderList() {
   const list = getFiltered();
   const grid = document.getElementById("racket-grid");
   grid.innerHTML = "";
   if (list.length === 0) {
     grid.innerHTML = '<p style="color:var(--text-muted)">該当するラケットがありません。</p>';
-    return;
+  } else {
+    for (const r of list) {
+      const card = document.createElement("div");
+      card.className = "racket-card" + (SELECTED_IDS.has(r.id) ? " selected" : "");
+      const weightChips = (r.variants || []).map(v => {
+        const sw = swingWeight(v.weight_g, v.balance_point_mm);
+        return `<span class="tag weight-tag">${escapeHtml(v.weight_class)}${v.weight_g ? ` ${v.weight_g}g` : ""}${sw ? ` ・SW${sw.toFixed(1)}` : ""}</span>`;
+      }).join("");
+      card.innerHTML = `
+        <label class="select-check" title="比較用に選択">
+          <input type="checkbox" ${SELECTED_IDS.has(r.id) ? "checked" : ""}>
+        </label>
+        <div class="brand">${escapeHtml(r.brand)}</div>
+        <div class="model">${escapeHtml(r.model)}</div>
+        <div class="tag-row">
+          <span class="tag balance-${cssEscape(r.head_balance)}">${escapeHtml(r.head_balance)}</span>
+          <span class="tag">${escapeHtml(r.flex)}</span>
+        </div>
+        <div class="tag-row" style="margin-top:6px;">${weightChips}</div>
+      `;
+      card.querySelector(".select-check input").addEventListener("click", e => {
+        e.stopPropagation();
+        if (e.target.checked) SELECTED_IDS.add(r.id); else SELECTED_IDS.delete(r.id);
+        card.classList.toggle("selected", e.target.checked);
+        renderSelectionBar();
+        renderMatrix(getMatrixRackets(list));
+      });
+      card.addEventListener("click", () => openDetail(r.id));
+      grid.appendChild(card);
+    }
   }
-  for (const r of list) {
-    const card = document.createElement("div");
-    card.className = "racket-card";
-    const weightChips = (r.variants || []).map(v => {
-      const sw = swingWeight(v.weight_g, v.balance_point_mm);
-      return `<span class="tag weight-tag">${escapeHtml(v.weight_class)}${v.weight_g ? ` ${v.weight_g}g` : ""}${sw ? ` ・SW${sw.toFixed(1)}` : ""}</span>`;
-    }).join("");
-    card.innerHTML = `
-      <div class="brand">${escapeHtml(r.brand)}</div>
-      <div class="model">${escapeHtml(r.model)}</div>
-      <div class="tag-row">
-        <span class="tag balance-${cssEscape(r.head_balance)}">${escapeHtml(r.head_balance)}</span>
-        <span class="tag">${escapeHtml(r.flex)}</span>
-      </div>
-      <div class="tag-row" style="margin-top:6px;">${weightChips}</div>
-    `;
-    card.addEventListener("click", () => openDetail(r.id));
-    grid.appendChild(card);
-  }
-  renderMatrix(list);
+  renderSelectionBar();
+  renderMatrix(getMatrixRackets(list));
 }
 
 function cssEscape(s) {
