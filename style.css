@@ -170,6 +170,21 @@ main {
   border: 1.5px dashed var(--accent);
   opacity: 0.3;
 }
+.legend-line {
+  width: 14px;
+  height: 0;
+  border-top: 2px solid var(--accent);
+  opacity: 0.4;
+  display: inline-block;
+}
+
+.weight-tag {
+  background: var(--bg);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
+.variant-table th, .variant-table td { font-size: 0.85rem; }
 
 .overlay {
   position: fixed;

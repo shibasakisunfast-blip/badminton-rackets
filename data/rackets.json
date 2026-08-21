@@ -4,24 +4,26 @@
     "brand": "Yonex",
     "model": "Astrox 100ZZ",
     "release_year": "2020",
-    "weight_class": "4U(3Uもあり)",
-    "weight_g": 83,
-    "balance_point_mm": 310,
-    "balance_confidence": "estimated",
-    "balance_note": "メーカー公式のmm値は非公開のため、複数の独立採寸データ(300〜317mmの範囲でばらつきあり)の中間値を採用。測定方法(グリップ・ストリングの有無等)がサイトごとに異なるため目安値。",
     "head_balance": "Head Heavy",
     "flex": "Extra Stiff",
     "shaft_material": "Namd + Nanometric高弾性グラファイト",
     "frame_material": "HM Graphite, Namd, タングステンウェイト, Black Micro Core, Nanometric",
     "string_tension_lbs": "20-28 lbs (4U) / 21-29 lbs (3U)",
     "price_jpy_approx": 38500,
+    "balance_note": "メーカー公式のmm値は非公開のため、複数の独立採寸データ(300〜317mmの範囲でばらつきあり)の中間値310mmを全重量クラス共通の目安として採用。重量クラスごとのバランス差は公表されていない。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "measured", "balance_point_mm": 310, "balance_confidence": "estimated", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "measured", "balance_point_mm": 310, "balance_confidence": "estimated", "balance_specific_to_class": false }
+    ],
     "review_summary_ja": "エクストラスティッフのシャフトとヘッドヘビーバランスにより、鋭く正確なスマッシュやハーフスマッシュ、スライス系のショットを得意とするラケット。レビューでは「生々しい強打というよりクリーンで精密な一撃」と評価され、シングルスで攻撃的にネット前のスピンショットやジャンプスマッシュを織り交ぜるプレイヤーに向く。一方でヘッドヘビーな分、前後左右の切り返しはやや遅くなるため、基礎技術が未熟な初心者には扱いづらいという指摘もある。",
     "sources": [
       "https://www.yonex.com/badminton/racquets/astrox/astrox-100zz-ax100zz",
       "https://us.yonex.com/products/astrox-100zz",
       "https://www.getgoodatbadminton.com/blog/yonex-astrox-100zz-badminton-racket-review-why-this-is-my-new-main-racket",
       "https://yonexshop.jp/item/detail/1_1_AX100ZZ_1/821",
-      "https://db.bd-boku.com/f892c94038dd42c7b4afc2e36c6e92c7"
+      "https://db.bd-boku.com/f892c94038dd42c7b4afc2e36c6e92c7",
+      "https://www.windsorracket.co.jp/shop/g/gAX100ZZ-8213U4/",
+      "https://www.sunfast.jp/shopdetail/000000034117/"
     ]
   },
   {
@@ -29,24 +31,27 @@
     "brand": "Yonex",
     "model": "Nanoflare 800",
     "release_year": "2019",
-    "weight_class": "4U(3Uもあり)",
-    "weight_g": 83,
-    "balance_point_mm": 298,
-    "balance_confidence": "estimated",
-    "balance_note": "前回調査で採用した306mmは再検証の結果、他モデル(Nanoflare 800 Pro/800LT)の数値との混同の可能性が高く誤りと判断し、独立採寸データベース(bd-boku.com)の298mmに修正。",
     "head_balance": "Head Light",
     "flex": "Medium",
     "shaft_material": "Nanometricスリム/エアロシャフト",
     "frame_material": "360°レイザーフレーム: 上部HMG、下部TORAYCA M40グラファイト",
     "string_tension_lbs": "20-28 lbs",
     "price_jpy_approx": 27500,
+    "balance_note": "前回調査で採用した306mmは再検証の結果、他モデル(Nanoflare 800 Pro/800LT)の数値との混同の可能性が高く誤りと判断し、独立採寸データベース(bd-boku.com)の298mmに修正。全重量クラス共通の目安として使用。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "measured", "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "measured", "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": false }
+    ],
     "review_summary_ja": "ヘッドライトバランスと360°レイザーフレームによる空気抵抗の低減で、振り抜きの速さと瞬間的な弾きの良さを追求したスピード系ラケット。実打レビューでは「振り負けない硬さと弾きの良さで気持ちのいいドライブが打てる」と評価され、ダブルスの前衛や素早いレシーブ・ドライブ展開を得意とするプレイヤーに向く。一方でクリアやスマッシュなど生の威力を求めるプレイには不向きで、ドロップやネット前の繊細なタッチショットでは感覚がつかみにくいという声もある。",
     "sources": [
       "https://www.yonex.com/news/new-nanoflare-800-the-counter-drive-theyll-never-see-coming/",
       "https://bd-boku.com/nf800/",
       "https://www.playbestbadminton.com/yonex-nanoflare-800-review/",
       "https://kakaku.com/item/S0000875830/",
-      "https://www.ckyew.com/post/yonex-nanoflare-800-review"
+      "https://www.ckyew.com/post/yonex-nanoflare-800-review",
+      "https://us.yonex.com/products/nanoflare-800pro",
+      "https://www.windsorracket.co.jp/shop/g/g23NF-800P-2693U4/",
+      "https://badminton-navi.net/racket/detail/455"
     ]
   },
   {
@@ -54,23 +59,25 @@
     "brand": "Yonex",
     "model": "Arcsaber 11 Pro",
     "release_year": "2022",
-    "weight_class": "4U(3Uもあり)",
-    "weight_g": 83,
-    "balance_point_mm": 290,
-    "balance_confidence": "estimated",
-    "balance_note": "独立レビューサイトの290mmを採用(Yonexの「イーブンバランス」表記と整合)。別の採寸データベースでは305〜313mmという高めの値もあるが、これはグリップ除去・張り直し後の測定によるもので、標準的な販売状態とは条件が異なる。",
     "head_balance": "Even Balance",
     "flex": "Stiff",
     "shaft_material": "H.M. Graphite, Super HMG, Ultra PEF",
     "frame_material": "H.M. Graphite",
     "string_tension_lbs": "20-28 lbs",
     "price_jpy_approx": 28160,
+    "balance_note": "独立レビューサイトの290mmを採用(Yonexの「イーブンバランス」表記と整合)。別の採寸データベースでは305〜313mmという高めの値もあるが、これはグリップ除去・張り直し後の測定によるもので、標準的な販売状態とは条件が異なる。全重量クラス共通の目安として使用。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "measured", "balance_point_mm": 290, "balance_confidence": "estimated", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "measured", "balance_point_mm": 290, "balance_confidence": "estimated", "balance_specific_to_class": false }
+    ],
     "review_summary_ja": "イーブンバランス・硬めシャフトのコントロール系ラケットで、上級者向けとされる。レビューではハンドリングの良さとシャトルの捕まりの良さが評価され、狙った場所に鋭く返球しやすい一方、パワー重視のプレイヤーには物足りないという指摘もある。シングルスでは相手の隙を突く技術派、ダブルスでは前衛でのタッチプレーが得意な選手に向いている。",
     "sources": [
       "https://us.yonex.com/products/arcsaber-11-pro",
       "https://www.yonex.co.jp/sp/badminton/news/2022/01/2201071603.html",
       "https://badmintonlabs.com/racquets/yonex-arcsaber-11-pro",
-      "https://thegodofsports.com/yonex-arcsaber-11-pro-badminton-racket/"
+      "https://thegodofsports.com/yonex-arcsaber-11-pro-badminton-racket/",
+      "https://yonexshop.jp/item/detail/1_1_ARC11-P_1/764",
+      "https://www.racket.co.jp/product/ynx-arc11-p.html"
     ]
   },
   {
@@ -78,23 +85,24 @@
     "brand": "Yonex",
     "model": "Duora 10",
     "release_year": "2015",
-    "weight_class": "3U",
-    "weight_g": 88,
-    "balance_point_mm": 298,
-    "balance_confidence": "estimated",
-    "balance_note": "独立レビュー(TheGodOfSports)の298mmを採用。別のレビューでは295mm、bd-boku.comの独自採寸(グリップ張り替え後)では約313mmとする例もあり、幅がある。",
     "head_balance": "Even Balance",
     "flex": "Stiff",
     "shaft_material": "H.M. Graphite, NANOMETRIC",
     "frame_material": "H.M. Graphite, NANOMETRIC DR, Ni-Ti Fiber",
     "string_tension_lbs": "24-26 lbs推奨(最大26 lbs)",
     "price_jpy_approx": 28600,
+    "balance_note": "独立レビュー(TheGodOfSports)の298mmを採用。別のレビューでは295mm、bd-boku.comの独自採寸(グリップ張り替え後)では約313mmとする例もあり、幅がある。全重量クラス共通の目安として使用。なお正規のDUORA10は2U/3Uのみの展開で、4U(約83g)は「DUORA 10 LT」という別モデルであり本機の重量バリエーションではない。",
+    "variants": [
+      { "weight_class": "2U", "weight_g": 93, "weight_confidence": "measured", "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": false },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "measured", "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": false }
+    ],
     "review_summary_ja": "フレームの表(フォア)と裏(バック)で設計を変え、フォア面はスマッシュなど攻撃的なショットに、バック面はドライブなど守備的なショットに強いとされる異形フレームのラケット。レビューでは「振り抜きも取り回しもクラシックなややヘッドヘビーの3U」と評され、表裏で打球感が異なるため慣れが必要という指摘がある一方、バック側はクロス方向への打球がしやすいと好評だった。",
     "sources": [
       "https://www.yonex.com/news/introducing-the-duora-10-lt-the-aggressive-power-of-the-duora-10-in-a-lighter-racquet-with-a-softer-feel/",
       "https://www.badmintonbay.com/yonex-duora-10-lee-chong-wei-badminton-racket.html",
       "https://bd-boku.com/duo10/",
-      "https://www.thegodofsports.com/duora-10-in-depth/"
+      "https://www.thegodofsports.com/duora-10-in-depth/",
+      "https://www.yonex.co.jp/badminton/duora10/"
     ]
   },
   {
@@ -102,23 +110,24 @@
     "brand": "Victor",
     "model": "Thruster K Falcon Claw (TK-F CLAW)",
     "release_year": null,
-    "weight_class": "4U(3Uもあり)",
-    "weight_g": 82,
-    "balance_point_mm": null,
-    "balance_point_mm_display": 305,
-    "balance_confidence": "unknown",
-    "balance_note": "mm単位の実測データが信頼できる情報源から見つからなかったため、図中の位置は「Head Heavy」区分の他機種の平均値を仮置きした概算(点線マーカー)。正確な値ではない点に注意。",
     "head_balance": "Head Heavy",
     "flex": "Medium",
     "shaft_material": "High Resilience Modulus Graphite + PYROFIL, 6.5mm極細アンチトーションシャフト",
     "frame_material": "High Resilience Modulus Graphite + Nano Fortify TR + Hard Cored Technology",
     "string_tension_lbs": "最大31 lbs (14kg)",
     "price_jpy_approx": 30800,
+    "balance_note": "mm単位の実測データが信頼できる情報源から見つからなかったため、図中の位置は「Head Heavy」区分の他機種の平均値(305mm)を仮置きした概算。正確な値ではない点に注意。重量も公式レンジの中間値を使用。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "balance_point_mm": 305, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": 305, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
     "review_summary_ja": "戴資穎(タイ・ツーイン)使用モデルとして知られ、極端ではないヘッドヘビーバランスと6.5mmの細径アンチトーションシャフトにより、パワーと安定したコントロールを両立させたラケット。レビューでは「しっかりとした正確で心地よい打球感」と評価され、クリアとドロップを織り交ぜて主導権を握る攻撃的かつコントロール志向のシングルスプレイヤーに適するとされる。中級〜上級者向け。",
     "sources": [
       "https://www.victorsport.com/product/thruster-f-claw",
       "https://shop.au.victorsport.com/products/thruster-k-falcon-claw-ltd",
-      "https://www.badmintonwarehouse.com/blogs/news/how-good-is-the-victor-thruster-f-claw-white-tai-tzu-ying-badminton-racket"
+      "https://www.badmintonwarehouse.com/blogs/news/how-good-is-the-victor-thruster-f-claw-white-tai-tzu-ying-badminton-racket",
+      "https://e78.us/products/tk-fc",
+      "https://e78.us/products/thruster-k-f-claw-a"
     ]
   },
   {
@@ -126,23 +135,24 @@
     "brand": "Victor",
     "model": "Auraspeed 90K (ARS-90K)",
     "release_year": "2019",
-    "weight_class": "4U",
-    "weight_g": 82,
-    "balance_point_mm": 315,
-    "balance_confidence": "estimated",
-    "balance_note": "bd-boku.comの独立採寸(グリップ張り替え後、3U5/4U5)は314〜316mmで、実測値としてはこれが唯一の直接データ。一方、一部小売店は「ヘッドライト寄り」と真逆の表現をしており、情報源間で評価が割れている点に注意。",
     "head_balance": "Head Light",
     "flex": "Stiff",
     "shaft_material": "High Resilience Modulus Graphite + PYROFIL + 6.8カーボンシャフト, WES, アンチトーションシステム",
     "frame_material": "High Resilience Modulus Graphite + Nano Fortify TR+ + Hard Cored Technology, Dynamic-Sword異形フレーム",
     "string_tension_lbs": "19-27 lbs (4U) / 20-28 lbs前後 (3U)",
     "price_jpy_approx": 23800,
+    "balance_note": "bd-boku.comの独立採寸(グリップ張り替え後、3U5/4U5)は314〜316mmで、実測値としてはこれが唯一の直接データ。一方、一部小売店は「ヘッドライト寄り」と真逆の表現をしており、情報源間で評価が割れている点に注意。全重量クラス共通の目安として使用。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "balance_point_mm": 315, "balance_confidence": "estimated", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": 315, "balance_confidence": "estimated", "balance_specific_to_class": false }
+    ],
     "review_summary_ja": "Dynamic-Sword構造とWES/アンチトーションシステムにより振りが速く、ネットキルやスマッシュなど攻撃面で高評価を得つつ、ドロップやクリアなどコントロール面も安定しており、バランスの取れた万能型として紹介されている。硬めのシャフトで芯を食った際の弾き返しが強く、アンダース・アントンセン選手の使用モデルとしても知られる。バランスは「ややヘッドライト」とする評が多いが情報源により見解が分かれる。中上級〜上級者向け。",
     "sources": [
       "https://ca.victorsport.com/product/62765/auraspeed-90k-h",
       "https://www.ckyew.com/post/victor-auraspeed-90k-badminton-racket-review-the-underrated-gem",
       "https://www.badmintonwarehouse.com/blogs/news/victor-auraspeed-90k-badminton-racket-seriously-good",
-      "https://bd-boku.com/ars-90k/"
+      "https://bd-boku.com/ars-90k/",
+      "https://e78.us/products/ars-90k"
     ]
   },
   {
@@ -150,22 +160,24 @@
     "brand": "Li-Ning",
     "model": "Aeronaut 9000C (AN9000C / Combat)",
     "release_year": "2019",
-    "weight_class": "3U",
-    "weight_g": 87,
-    "balance_point_mm": 298,
-    "balance_confidence": "measured",
-    "balance_note": "Li-Ningが公表する仕様値(±2mm)。複数の販売店が同一の数値を掲載しており信頼度は高い。",
     "head_balance": "Head Heavy",
     "flex": "Medium",
     "shaft_material": "軍用グレード/TB-Nanoカーボンファイバーシャフト",
     "frame_material": "カーボンファイバー, Aeronautエアストリームチャンネル(風洞)設計, Sonic Boom System, Wing Stabilizer, MPCF補強",
     "string_tension_lbs": "最大32 lbs (3U) / 最大30 lbs (4U)",
     "price_jpy_approx": 29700,
+    "balance_note": "298mmはLi-Ning公表仕様値(±2mm)として複数の販売店で一致しており信頼度は高いが、3U基準の数値であり4Uでの公表値は見つからなかったため4Uは3Uと同値と仮定。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": false }
+    ],
     "review_summary_ja": "頭部が重いヘッドヘビーバランスと中程度の張りのあるシャフトにより、強力なスマッシュや深いクリアを打ちやすい攻撃的なラケットと評価されている。エアストリームチャンネルによりスイング速度と精度が高く、強いオーバーヘッドスマッシュから繊細なドロップショットへ滑らかに切り替えられる点が評価される一方、シャフトがやや硬くヘッド寄りの重量配分のため、守備的なプレースタイルの選手やパワー不足の初心者には扱いにくいとの指摘もある。鄭思維や渡辺勇大選手が使用することでも知られ、上級者・攻撃的なプレーヤー向け。",
     "sources": [
       "https://www.shopnings.com/li-ning-aeronaut-9000c-badminton-racket/",
       "https://order.funport.co.jp/view/item/000000000563",
-      "https://www.playbestbadminton.com/li-ning-aeronaut-9000c-review/"
+      "https://www.playbestbadminton.com/li-ning-aeronaut-9000c-review/",
+      "https://www.liningtw.com/products/aypp122-5",
+      "https://prokicksports.com/en-us/products/li-ning-aeronaut-9000c-badminton-racket-4ug6-unstrung-professional-racquet-for-power-control-golden-ultra-strong-carbon-fiber-frame-high-tension-support"
     ]
   },
   {
@@ -173,21 +185,22 @@
     "brand": "Li-Ning",
     "model": "Windstorm 72 (WS72)",
     "release_year": null,
-    "weight_class": "6U (W1)",
-    "weight_g": 72,
-    "balance_point_mm": 315,
-    "balance_confidence": "measured",
-    "balance_note": "3つの独立した販売店・レビューサイトで同一の315mmが一致しており信頼度は高い。72gという超軽量フレームながら意図的にヘッドヘビーに設計されており、軽さと振りの重さ(スイングパワー)を両立させるWindstormシリーズ特有の設計思想による。",
     "head_balance": "Head Heavy",
     "flex": "Flexible",
     "shaft_material": "商用グレードカーボンファイバー + UHBシャフト(柔らかいシャフト, スペックコードF)",
     "frame_material": "商用グレードカーボンファイバー, Super Light Technology, Dynamic-Optimum空力設計",
     "string_tension_lbs": "24-28 lbs",
     "price_jpy_approx": 19800,
+    "balance_note": "3つの独立した販売店・レビューサイトで同一の315mmが一致しており信頼度は高い。72gという超軽量フレームながら意図的にヘッドヘビーに設計されており、軽さと振りの重さ(スイングパワー)を両立させるWindstormシリーズ特有の設計思想による。この「Windstorm 72」モデルは単一重量クラス(6U/W1)のみの展開で、他の重量バリエーションは確認できなかった。",
+    "variants": [
+      { "weight_class": "6U (W1)", "weight_g": 72, "weight_confidence": "measured", "balance_point_mm": 315, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
     "review_summary_ja": "公式スペックはW1(6U)・72g、ヘッドヘビーバランス、柔らかいシャフト(F)の超軽量モデルで、初心者・女性・ジュニア向けの入門用として位置づけられている。レビューでは「軽く柔らかくて振り抜きやすい」「適度なヘッドの重さでオーバーヘッドクリアも打ちやすい」と評価され、スイング速度と取り回しの良さが高く評価されている一方、パワー自体は控えめで、上級者向けというよりは初〜中級者向けのエントリーモデルとして紹介されている。",
     "sources": [
       "https://order.funport.co.jp/view/item/000000001090",
-      "https://www.badmintonbay.com/li-ning-windstorm-72-black-badminton-racket.html"
+      "https://www.badmintonbay.com/li-ning-windstorm-72-black-badminton-racket.html",
+      "https://www.badmintoncn.com/cbo_eq/view.php?eid=6657",
+      "http://www.ctsports.com.cn/article-90989.html"
     ]
   },
   {
@@ -195,22 +208,22 @@
     "brand": "Mizuno",
     "model": "Fortius 11 Power",
     "release_year": "2021",
-    "weight_class": "4U6",
-    "weight_g": null,
-    "balance_point_mm": 303,
-    "balance_confidence": "measured",
-    "balance_note": "複数の販売店仕様(302mm前後)と、独立採寸データベース(bd-boku.com, 304mm)がほぼ一致しており信頼度は高い。",
     "head_balance": "Head Heavy",
     "flex": "Stiff",
     "shaft_material": "高弾性グラファイト + グラファイト, M FUSION",
     "frame_material": "高弾性グラファイト + グラファイト, M FUSION, タングステン",
     "string_tension_lbs": "22-29 lbs",
     "price_jpy_approx": 27500,
+    "balance_note": "複数の販売店仕様(302mm前後)と、独立採寸データベース(bd-boku.com, 304mm)がほぼ一致しており信頼度は高い。重量は「4U6」(4U区分)としか公表されておらず正確なグラム数が見つからなかったため、4U標準レンジの中間値(82g)を暫定使用。この機種は4U(G6グリップ)の単一重量展開のみで販売されている。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": 303, "balance_confidence": "measured", "balance_specific_to_class": false }
+    ],
     "review_summary_ja": "FORTIUSシリーズの最上位パワーモデルで、Trans Force Frameとタングステンをフレーム下部に配置することで重心をラケット中心付近に集め、スイングの回転速度を高めて強烈なスマッシュを生み出すとされる。レビューでは「非常に重量感がありスマッシュが重くなる」「先代モデルより扱いやすくなった」という声がある一方、「パワーの伝わりは良いが、しっかりしたフォームが求められる」との指摘もある。バックコートからの強打を武器にする攻撃的なプレースタイルの選手向け。",
     "sources": [
       "https://jpn.mizuno.com/badminton/news/products/20211119_fortius11_quick_power",
       "https://jpn.mizuno.com/badminton/fortius/",
-      "https://triplepointsports.com/products/mizuno-fortius-11-power-badminton-racket-made-in-japan"
+      "https://triplepointsports.com/products/mizuno-fortius-11-power-badminton-racket-made-in-japan",
+      "https://www.racket.co.jp/product/miz-73jtb112.html"
     ]
   }
 ]
