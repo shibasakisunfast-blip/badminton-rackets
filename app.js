@@ -60,27 +60,56 @@ async function loadData() {
 }
 
 function populateBrandFilter() {
-  const select = document.getElementById("brand-filter");
+  const panel = document.getElementById("brand-filter-panel");
   const brands = [...new Set(RACKETS.map(r => r.brand))].sort();
-  for (const b of brands) {
-    const opt = document.createElement("option");
-    opt.value = b;
-    opt.textContent = b;
-    select.appendChild(opt);
-  }
+  panel.innerHTML = brands.map(b => `<label><input type="checkbox" value="${escapeHtml(b)}"> ${escapeHtml(b)}</label>`).join("");
+}
+
+function getCheckedValues(panelId) {
+  return Array.from(document.querySelectorAll(`#${panelId} input:checked`)).map(el => el.value);
 }
 
 function getFiltered() {
   const q = document.getElementById("search-input").value.trim().toLowerCase();
-  const brand = document.getElementById("brand-filter").value;
-  const balance = document.getElementById("balance-filter").value;
-  const flex = document.getElementById("flex-filter").value;
+  const brands = getCheckedValues("brand-filter-panel");
+  const balances = getCheckedValues("balance-filter-panel");
+  const flexes = getCheckedValues("flex-filter-panel");
   return RACKETS.filter(r => {
-    if (brand && r.brand !== brand) return false;
-    if (balance && r.head_balance !== balance) return false;
-    if (flex && r.flex !== flex) return false;
+    if (brands.length && !brands.includes(r.brand)) return false;
+    if (balances.length && !balances.includes(r.head_balance)) return false;
+    if (flexes.length && !flexes.includes(r.flex)) return false;
     if (q && !(`${r.brand} ${r.model}`.toLowerCase().includes(q))) return false;
     return true;
+  });
+}
+
+function setupFilterDropdowns() {
+  const groups = [
+    { key: "brand", label: "すべてのブランド" },
+    { key: "balance", label: "すべてのバランス" },
+    { key: "flex", label: "すべての硬さ" }
+  ];
+  groups.forEach(({ key, label }) => {
+    const btn = document.getElementById(`${key}-filter-btn`);
+    const panel = document.getElementById(`${key}-filter-panel`);
+
+    btn.addEventListener("click", e => {
+      e.stopPropagation();
+      const willOpen = !panel.classList.contains("open");
+      document.querySelectorAll(".filter-panel.open").forEach(p => p.classList.remove("open"));
+      if (willOpen) panel.classList.add("open");
+    });
+
+    panel.addEventListener("change", () => {
+      const checked = getCheckedValues(`${key}-filter-panel`);
+      btn.textContent = (checked.length ? `${label.replace("すべての", "")} (${checked.length}) ` : label) + " ▾";
+      btn.classList.toggle("active", checked.length > 0);
+      renderList();
+    });
+  });
+
+  document.addEventListener("click", () => {
+    document.querySelectorAll(".filter-panel.open").forEach(p => p.classList.remove("open"));
   });
 }
 
@@ -204,12 +233,12 @@ function renderMatrix(rackets) {
       const color = brandColorVar(it.racket.brand);
       const dash = conf === "measured" ? "" : `stroke-dasharray="3,2"`;
       const fillOpacity = conf === "unknown" ? "0.15" : "0.85";
-      const label = it.weightClass ? `${it.racket.model} (${it.weightClass})` : it.racket.model;
+      const shortName = it.racket.short_label || it.racket.model;
+      const label = it.weightClass ? `${shortName} ${it.weightClass}` : shortName;
 
       svg += `<g class="matrix-point" data-id="${it.pointId}" transform="translate(${px},${py})">
-        <circle r="7" style="fill:${color};stroke:${color}" fill-opacity="${fillOpacity}" stroke-width="1.5" ${dash}/>
-        <text x="0" y="-11" text-anchor="middle" font-size="10" style="fill:var(--text)">${escapeHtml(it.racket.brand)}</text>
-        <text x="0" y="20" text-anchor="middle" font-size="9" style="fill:var(--text-muted)">${escapeHtml(it.racket.model)}${it.weightClass ? " " + escapeHtml(it.weightClass) : ""}</text>
+        <circle r="6" style="fill:${color};stroke:${color}" fill-opacity="${fillOpacity}" stroke-width="1.5" ${dash}/>
+        <text x="0" y="17" text-anchor="middle" font-size="9" style="fill:var(--text)">${escapeHtml(label)}</text>
       </g>`;
     });
   }
@@ -302,9 +331,7 @@ document.addEventListener("keydown", e => {
   if (e.key === "Escape") closeDetail();
 });
 
-["search-input", "brand-filter", "balance-filter", "flex-filter"].forEach(id => {
-  document.getElementById(id).addEventListener("input", renderList);
-  document.getElementById(id).addEventListener("change", renderList);
-});
+document.getElementById("search-input").addEventListener("input", renderList);
+setupFilterDropdowns();
 
 loadData();

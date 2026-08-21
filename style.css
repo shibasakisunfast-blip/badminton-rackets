@@ -83,7 +83,7 @@ main {
   gap: 10px;
   margin-bottom: 16px;
 }
-.filters input, .filters select {
+.filters input {
   padding: 8px 10px;
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -92,6 +92,48 @@ main {
   font-size: 0.9rem;
 }
 #search-input { flex: 1 1 220px; }
+
+.filter-dropdown { position: relative; }
+.filter-btn {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel-bg);
+  color: var(--text);
+  font-size: 0.9rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.filter-btn:hover { border-color: var(--accent); }
+.filter-btn.active { border-color: var(--accent); color: var(--accent); }
+.filter-panel {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 20;
+  background: var(--panel-bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 8px;
+  min-width: 180px;
+  flex-direction: column;
+  gap: 2px;
+}
+.filter-panel.open { display: flex; }
+.filter-panel label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.filter-panel label:hover { background: var(--bg); }
+.filter-panel input[type="checkbox"] { cursor: pointer; }
 
 .racket-grid {
   display: grid;

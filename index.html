@@ -44,20 +44,27 @@
     <h2>ラケット一覧</h2>
     <div class="filters">
       <input type="search" id="search-input" placeholder="ブランド・モデル名で検索">
-      <select id="brand-filter"><option value="">すべてのブランド</option></select>
-      <select id="balance-filter">
-        <option value="">すべてのバランス</option>
-        <option value="Head Heavy">Head Heavy</option>
-        <option value="Even Balance">Even Balance</option>
-        <option value="Head Light">Head Light</option>
-      </select>
-      <select id="flex-filter">
-        <option value="">すべての硬さ</option>
-        <option value="Flexible">Flexible</option>
-        <option value="Medium">Medium</option>
-        <option value="Stiff">Stiff</option>
-        <option value="Extra Stiff">Extra Stiff</option>
-      </select>
+      <div class="filter-dropdown" data-key="brand">
+        <button type="button" class="filter-btn" id="brand-filter-btn">すべてのブランド ▾</button>
+        <div class="filter-panel" id="brand-filter-panel"></div>
+      </div>
+      <div class="filter-dropdown" data-key="balance">
+        <button type="button" class="filter-btn" id="balance-filter-btn">すべてのバランス ▾</button>
+        <div class="filter-panel" id="balance-filter-panel">
+          <label><input type="checkbox" value="Head Heavy"> Head Heavy</label>
+          <label><input type="checkbox" value="Even Balance"> Even Balance</label>
+          <label><input type="checkbox" value="Head Light"> Head Light</label>
+        </div>
+      </div>
+      <div class="filter-dropdown" data-key="flex">
+        <button type="button" class="filter-btn" id="flex-filter-btn">すべての硬さ ▾</button>
+        <div class="filter-panel" id="flex-filter-panel">
+          <label><input type="checkbox" value="Flexible"> Flexible</label>
+          <label><input type="checkbox" value="Medium"> Medium</label>
+          <label><input type="checkbox" value="Stiff"> Stiff</label>
+          <label><input type="checkbox" value="Extra Stiff"> Extra Stiff</label>
+        </div>
+      </div>
     </div>
     <div id="racket-grid" class="racket-grid"></div>
   </section>
