@@ -264,6 +264,13 @@ function renderMatrix(rackets) {
   });
 }
 
+function productCodeCellHtml(r) {
+  if (!r.product_code) {
+    return `不明${r.product_code_note ? ` <span style="color:var(--text-muted);font-size:0.85em;">(${escapeHtml(r.product_code_note)})</span>` : ""}`;
+  }
+  return `${escapeHtml(r.product_code)}${r.product_code_note ? `<div style="font-size:0.8em;color:var(--text-muted);margin-top:2px;">${escapeHtml(r.product_code_note)}</div>` : ""}`;
+}
+
 function variantsTableHtml(r) {
   if (!r.variants || !r.variants.length) return "";
   const rows = r.variants.map(v => {
@@ -298,6 +305,7 @@ function openDetail(id) {
     <h3>${escapeHtml(r.model)}</h3>
     <div class="detail-brand">${escapeHtml(r.brand)}${r.release_year ? " ・ " + escapeHtml(r.release_year) + "年" : ""}</div>
     <table class="spec-table">
+      <tr><th>品番</th><td>${productCodeCellHtml(r)}</td></tr>
       <tr><th>ヘッドバランス</th><td>${escapeHtml(r.head_balance)}</td></tr>
       <tr><th>硬さ (Flex)</th><td>${escapeHtml(r.flex)}</td></tr>
       <tr><th>シャフト素材</th><td>${escapeHtml(r.shaft_material) || "不明"}</td></tr>
