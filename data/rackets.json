@@ -6,7 +6,9 @@
     "release_year": "2020",
     "weight_class": "4U(3Uもあり)",
     "weight_g": 83,
-    "balance_point_mm": null,
+    "balance_point_mm": 310,
+    "balance_confidence": "estimated",
+    "balance_note": "メーカー公式のmm値は非公開のため、複数の独立採寸データ(300〜317mmの範囲でばらつきあり)の中間値を採用。測定方法(グリップ・ストリングの有無等)がサイトごとに異なるため目安値。",
     "head_balance": "Head Heavy",
     "flex": "Extra Stiff",
     "shaft_material": "Namd + Nanometric高弾性グラファイト",
@@ -18,7 +20,8 @@
       "https://www.yonex.com/badminton/racquets/astrox/astrox-100zz-ax100zz",
       "https://us.yonex.com/products/astrox-100zz",
       "https://www.getgoodatbadminton.com/blog/yonex-astrox-100zz-badminton-racket-review-why-this-is-my-new-main-racket",
-      "https://yonexshop.jp/item/detail/1_1_AX100ZZ_1/821"
+      "https://yonexshop.jp/item/detail/1_1_AX100ZZ_1/821",
+      "https://db.bd-boku.com/f892c94038dd42c7b4afc2e36c6e92c7"
     ]
   },
   {
@@ -28,7 +31,9 @@
     "release_year": "2019",
     "weight_class": "4U(3Uもあり)",
     "weight_g": 83,
-    "balance_point_mm": 306,
+    "balance_point_mm": 298,
+    "balance_confidence": "estimated",
+    "balance_note": "前回調査で採用した306mmは再検証の結果、他モデル(Nanoflare 800 Pro/800LT)の数値との混同の可能性が高く誤りと判断し、独立採寸データベース(bd-boku.com)の298mmに修正。",
     "head_balance": "Head Light",
     "flex": "Medium",
     "shaft_material": "Nanometricスリム/エアロシャフト",
@@ -40,7 +45,8 @@
       "https://www.yonex.com/news/new-nanoflare-800-the-counter-drive-theyll-never-see-coming/",
       "https://bd-boku.com/nf800/",
       "https://www.playbestbadminton.com/yonex-nanoflare-800-review/",
-      "https://kakaku.com/item/S0000875830/"
+      "https://kakaku.com/item/S0000875830/",
+      "https://www.ckyew.com/post/yonex-nanoflare-800-review"
     ]
   },
   {
@@ -50,7 +56,9 @@
     "release_year": "2022",
     "weight_class": "4U(3Uもあり)",
     "weight_g": 83,
-    "balance_point_mm": null,
+    "balance_point_mm": 290,
+    "balance_confidence": "estimated",
+    "balance_note": "独立レビューサイトの290mmを採用(Yonexの「イーブンバランス」表記と整合)。別の採寸データベースでは305〜313mmという高めの値もあるが、これはグリップ除去・張り直し後の測定によるもので、標準的な販売状態とは条件が異なる。",
     "head_balance": "Even Balance",
     "flex": "Stiff",
     "shaft_material": "H.M. Graphite, Super HMG, Ultra PEF",
@@ -61,7 +69,8 @@
     "sources": [
       "https://us.yonex.com/products/arcsaber-11-pro",
       "https://www.yonex.co.jp/sp/badminton/news/2022/01/2201071603.html",
-      "https://badmintonlabs.com/racquets/yonex-arcsaber-11-pro"
+      "https://badmintonlabs.com/racquets/yonex-arcsaber-11-pro",
+      "https://thegodofsports.com/yonex-arcsaber-11-pro-badminton-racket/"
     ]
   },
   {
@@ -71,7 +80,9 @@
     "release_year": "2015",
     "weight_class": "3U",
     "weight_g": 88,
-    "balance_point_mm": null,
+    "balance_point_mm": 298,
+    "balance_confidence": "estimated",
+    "balance_note": "独立レビュー(TheGodOfSports)の298mmを採用。別のレビューでは295mm、bd-boku.comの独自採寸(グリップ張り替え後)では約313mmとする例もあり、幅がある。",
     "head_balance": "Even Balance",
     "flex": "Stiff",
     "shaft_material": "H.M. Graphite, NANOMETRIC",
@@ -82,7 +93,8 @@
     "sources": [
       "https://www.yonex.com/news/introducing-the-duora-10-lt-the-aggressive-power-of-the-duora-10-in-a-lighter-racquet-with-a-softer-feel/",
       "https://www.badmintonbay.com/yonex-duora-10-lee-chong-wei-badminton-racket.html",
-      "https://bd-boku.com/duo10/"
+      "https://bd-boku.com/duo10/",
+      "https://www.thegodofsports.com/duora-10-in-depth/"
     ]
   },
   {
@@ -93,6 +105,9 @@
     "weight_class": "4U(3Uもあり)",
     "weight_g": 82,
     "balance_point_mm": null,
+    "balance_point_mm_display": 305,
+    "balance_confidence": "unknown",
+    "balance_note": "mm単位の実測データが信頼できる情報源から見つからなかったため、図中の位置は「Head Heavy」区分の他機種の平均値を仮置きした概算(点線マーカー)。正確な値ではない点に注意。",
     "head_balance": "Head Heavy",
     "flex": "Medium",
     "shaft_material": "High Resilience Modulus Graphite + PYROFIL, 6.5mm極細アンチトーションシャフト",
@@ -113,7 +128,9 @@
     "release_year": "2019",
     "weight_class": "4U",
     "weight_g": 82,
-    "balance_point_mm": null,
+    "balance_point_mm": 315,
+    "balance_confidence": "estimated",
+    "balance_note": "bd-boku.comの独立採寸(グリップ張り替え後、3U5/4U5)は314〜316mmで、実測値としてはこれが唯一の直接データ。一方、一部小売店は「ヘッドライト寄り」と真逆の表現をしており、情報源間で評価が割れている点に注意。",
     "head_balance": "Head Light",
     "flex": "Stiff",
     "shaft_material": "High Resilience Modulus Graphite + PYROFIL + 6.8カーボンシャフト, WES, アンチトーションシステム",
@@ -124,7 +141,8 @@
     "sources": [
       "https://ca.victorsport.com/product/62765/auraspeed-90k-h",
       "https://www.ckyew.com/post/victor-auraspeed-90k-badminton-racket-review-the-underrated-gem",
-      "https://www.badmintonwarehouse.com/blogs/news/victor-auraspeed-90k-badminton-racket-seriously-good"
+      "https://www.badmintonwarehouse.com/blogs/news/victor-auraspeed-90k-badminton-racket-seriously-good",
+      "https://bd-boku.com/ars-90k/"
     ]
   },
   {
@@ -135,6 +153,8 @@
     "weight_class": "3U",
     "weight_g": 87,
     "balance_point_mm": 298,
+    "balance_confidence": "measured",
+    "balance_note": "Li-Ningが公表する仕様値(±2mm)。複数の販売店が同一の数値を掲載しており信頼度は高い。",
     "head_balance": "Head Heavy",
     "flex": "Medium",
     "shaft_material": "軍用グレード/TB-Nanoカーボンファイバーシャフト",
@@ -156,6 +176,8 @@
     "weight_class": "6U (W1)",
     "weight_g": 72,
     "balance_point_mm": 315,
+    "balance_confidence": "measured",
+    "balance_note": "3つの独立した販売店・レビューサイトで同一の315mmが一致しており信頼度は高い。72gという超軽量フレームながら意図的にヘッドヘビーに設計されており、軽さと振りの重さ(スイングパワー)を両立させるWindstormシリーズ特有の設計思想による。",
     "head_balance": "Head Heavy",
     "flex": "Flexible",
     "shaft_material": "商用グレードカーボンファイバー + UHBシャフト(柔らかいシャフト, スペックコードF)",
@@ -175,7 +197,9 @@
     "release_year": "2021",
     "weight_class": "4U6",
     "weight_g": null,
-    "balance_point_mm": null,
+    "balance_point_mm": 303,
+    "balance_confidence": "measured",
+    "balance_note": "複数の販売店仕様(302mm前後)と、独立採寸データベース(bd-boku.com, 304mm)がほぼ一致しており信頼度は高い。",
     "head_balance": "Head Heavy",
     "flex": "Stiff",
     "shaft_material": "高弾性グラファイト + グラファイト, M FUSION",
@@ -185,7 +209,8 @@
     "review_summary_ja": "FORTIUSシリーズの最上位パワーモデルで、Trans Force Frameとタングステンをフレーム下部に配置することで重心をラケット中心付近に集め、スイングの回転速度を高めて強烈なスマッシュを生み出すとされる。レビューでは「非常に重量感がありスマッシュが重くなる」「先代モデルより扱いやすくなった」という声がある一方、「パワーの伝わりは良いが、しっかりしたフォームが求められる」との指摘もある。バックコートからの強打を武器にする攻撃的なプレースタイルの選手向け。",
     "sources": [
       "https://jpn.mizuno.com/badminton/news/products/20211119_fortius11_quick_power",
-      "https://jpn.mizuno.com/badminton/fortius/"
+      "https://jpn.mizuno.com/badminton/fortius/",
+      "https://triplepointsports.com/products/mizuno-fortius-11-power-badminton-racket-made-in-japan"
     ]
   }
 ]

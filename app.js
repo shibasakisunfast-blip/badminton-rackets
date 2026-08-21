@@ -1,7 +1,20 @@
 const FLEX_ORDER = ["Flexible", "Medium", "Stiff", "Extra Stiff"];
-const BALANCE_ORDER = ["Head Light", "Even Balance", "Head Heavy"]; // bottom -> top on chart
+const BRAND_COLOR_VAR = {
+  Yonex: "--brand-yonex",
+  Victor: "--brand-victor",
+  "Li-Ning": "--brand-lining",
+  Mizuno: "--brand-mizuno"
+};
 
 let RACKETS = [];
+
+function brandColorVar(brand) {
+  return `var(${BRAND_COLOR_VAR[brand] || "--accent"})`;
+}
+
+function getBalanceMm(r) {
+  return r.balance_point_mm ?? r.balance_point_mm_display ?? null;
+}
 
 async function loadData() {
   const res = await fetch("data/rackets.json", { cache: "no-store" });
@@ -72,71 +85,79 @@ function escapeHtml(s) {
 
 function renderMatrix(rackets) {
   const container = document.getElementById("matrix-chart");
-  const width = 640, height = 460;
-  const margin = { top: 20, right: 20, bottom: 60, left: 110 };
+  const plottable = rackets.filter(r => FLEX_ORDER.includes(r.flex) && getBalanceMm(r) !== null);
+
+  const width = 680, height = 480;
+  const margin = { top: 20, right: 24, bottom: 56, left: 56 };
   const plotW = width - margin.left - margin.right;
   const plotH = height - margin.top - margin.bottom;
   const cols = FLEX_ORDER.length;
-  const rows = BALANCE_ORDER.length;
-  const cellW = plotW / cols;
-  const cellH = plotH / rows;
+  const colW = plotW / cols;
 
-  // group rackets by cell for jitter layout
-  const cells = {};
-  for (const r of rackets) {
-    const ci = FLEX_ORDER.indexOf(r.flex);
-    const ri = BALANCE_ORDER.indexOf(r.head_balance);
-    if (ci === -1 || ri === -1) continue;
-    const key = `${ci}-${ri}`;
-    if (!cells[key]) cells[key] = [];
-    cells[key].push(r);
-  }
+  // Y domain: continuous, based on actual balance point mm (with padding), rounded to nice 5mm steps
+  const mmValues = plottable.map(getBalanceMm);
+  const rawMin = mmValues.length ? Math.min(...mmValues) : 280;
+  const rawMax = mmValues.length ? Math.max(...mmValues) : 310;
+  const yMin = Math.floor((rawMin - 6) / 5) * 5;
+  const yMax = Math.ceil((rawMax + 6) / 5) * 5;
+  const yScale = mm => margin.top + plotH * (1 - (mm - yMin) / (yMax - yMin));
 
   let svg = `<svg viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" font-family="inherit">`;
 
-  // grid background + lines
+  // vertical guide lines between flex columns
   for (let c = 0; c <= cols; c++) {
-    const x = margin.left + c * cellW;
-    svg += `<line x1="${x}" y1="${margin.top}" x2="${x}" y2="${margin.top + plotH}" style="stroke:var(--border)" stroke-width="1"/>`;
+    const x = margin.left + c * colW;
+    svg += `<line x1="${x}" y1="${margin.top}" x2="${x}" y2="${margin.top + plotH}" style="stroke:var(--border)" stroke-width="1" stroke-dasharray="${c === 0 || c === cols ? "0" : "3,3"}"/>`;
   }
-  for (let rIdx = 0; rIdx <= rows; rIdx++) {
-    const y = margin.top + rIdx * cellH;
-    svg += `<line x1="${margin.left}" y1="${y}" x2="${margin.left + plotW}" y2="${y}" style="stroke:var(--border)" stroke-width="1"/>`;
+
+  // horizontal mm ticks every 5mm
+  for (let mm = yMin; mm <= yMax; mm += 5) {
+    const y = yScale(mm);
+    svg += `<line x1="${margin.left}" y1="${y}" x2="${margin.left + plotW}" y2="${y}" style="stroke:var(--border)" stroke-width="1" stroke-opacity="0.5"/>`;
+    svg += `<text x="${margin.left - 8}" y="${y + 3}" text-anchor="end" font-size="9" style="fill:var(--text-muted)">${mm}</text>`;
   }
 
   // column labels (flex, bottom)
   FLEX_ORDER.forEach((label, ci) => {
-    const x = margin.left + ci * cellW + cellW / 2;
-    svg += `<text x="${x}" y="${margin.top + plotH + 24}" text-anchor="middle" font-size="12" style="fill:var(--text-muted)">${escapeHtml(label)}</text>`;
+    const x = margin.left + ci * colW + colW / 2;
+    svg += `<text x="${x}" y="${margin.top + plotH + 20}" text-anchor="middle" font-size="12" style="fill:var(--text-muted)">${escapeHtml(label)}</text>`;
   });
-  svg += `<text x="${margin.left + plotW / 2}" y="${height - 6}" text-anchor="middle" font-size="12" font-weight="600" style="fill:var(--text)">硬さ (Flex) →</text>`;
+  svg += `<text x="${margin.left + plotW / 2}" y="${height - 4}" text-anchor="middle" font-size="12" font-weight="600" style="fill:var(--text)">硬さ (Flex) →</text>`;
 
-  // row labels (balance, left) — index 0 (Head Light) at bottom, so invert
-  BALANCE_ORDER.forEach((label, ri) => {
-    const rowFromTop = rows - 1 - ri;
-    const y = margin.top + rowFromTop * cellH + cellH / 2;
-    svg += `<text x="${margin.left - 10}" y="${y + 4}" text-anchor="end" font-size="12" style="fill:var(--text-muted)">${escapeHtml(label)}</text>`;
-  });
-  svg += `<text x="20" y="${margin.top + plotH / 2}" text-anchor="middle" font-size="12" font-weight="600" style="fill:var(--text)" transform="rotate(-90 20 ${margin.top + plotH / 2})">← ヘッドバランス</text>`;
+  svg += `<text x="14" y="${margin.top + 6}" font-size="10" style="fill:var(--text-muted)">Head Heavy</text>`;
+  svg += `<text x="14" y="${margin.top + plotH - 2}" font-size="10" style="fill:var(--text-muted)">Head Light</text>`;
+  svg += `<text x="14" y="${margin.top + plotH / 2}" text-anchor="middle" font-size="12" font-weight="600" style="fill:var(--text)" transform="rotate(-90 14 ${margin.top + plotH / 2})">バランスポイント(mm) ←→</text>`;
 
-  // points
-  for (const key in cells) {
-    const [ci, ri] = key.split("-").map(Number);
-    const rowFromTop = rows - 1 - ri;
-    const group = cells[key];
-    const n = group.length;
-    const baseX = margin.left + ci * cellW + cellW / 2;
-    const baseY = margin.top + rowFromTop * cellH + cellH / 2;
-    const jitterRadius = Math.min(cellW, cellH) * 0.26;
-    group.forEach((r, idx) => {
-      let px = baseX, py = baseY;
-      if (n > 1) {
-        const angle = (2 * Math.PI * idx) / n;
-        px += jitterRadius * Math.cos(angle);
-        py += jitterRadius * Math.sin(angle);
+  // group by flex column, then resolve close-in-y collisions with left/right offsets
+  const byCol = {};
+  for (const r of plottable) {
+    const ci = FLEX_ORDER.indexOf(r.flex);
+    (byCol[ci] ||= []).push(r);
+  }
+
+  for (const ci in byCol) {
+    const colCenterX = margin.left + Number(ci) * colW + colW / 2;
+    const group = byCol[ci].slice().sort((a, b) => getBalanceMm(a) - getBalanceMm(b));
+    const placed = []; // {py}
+    const minGap = 20;
+    group.forEach(r => {
+      const py = yScale(getBalanceMm(r));
+      let side = 0; // 0, then alternating +1,-1,+2,-2...
+      let overlapCount = placed.filter(p => Math.abs(p.py - py) < minGap).length;
+      if (overlapCount > 0) {
+        side = Math.ceil(overlapCount / 2) * (overlapCount % 2 === 1 ? 1 : -1);
       }
+      const px = colCenterX + side * 16;
+      placed.push({ py });
+
+      const isMeasured = r.balance_confidence === "measured";
+      const isEstimated = r.balance_confidence === "estimated";
+      const color = brandColorVar(r.brand);
+      const dash = isMeasured ? "" : `stroke-dasharray="3,2"`;
+      const fillOpacity = r.balance_confidence === "unknown" ? "0.15" : "0.85";
+
       svg += `<g class="matrix-point" data-id="${r.id}" transform="translate(${px},${py})">
-        <circle r="7" style="fill:var(--accent);stroke:var(--panel-bg)" fill-opacity="0.85" stroke-width="1.5"/>
+        <circle r="7" style="fill:${color};stroke:${color}" fill-opacity="${fillOpacity}" stroke-width="1.5" ${dash}/>
         <text x="0" y="-11" text-anchor="middle" font-size="10" style="fill:var(--text)">${escapeHtml(r.brand)}</text>
         <text x="0" y="20" text-anchor="middle" font-size="9" style="fill:var(--text-muted)">${escapeHtml(r.model)}</text>
       </g>`;
@@ -146,9 +167,33 @@ function renderMatrix(rackets) {
   svg += `</svg>`;
   container.innerHTML = svg;
 
+  const skipped = rackets.length - plottable.length;
+  const legend = document.getElementById("matrix-legend");
+  if (legend) {
+    legend.innerHTML = `
+      <span class="legend-item"><span class="legend-dot solid"></span>実測値ベース</span>
+      <span class="legend-item"><span class="legend-dot dashed"></span>推定値(採寸データにばらつきあり)</span>
+      <span class="legend-item"><span class="legend-dot hollow"></span>データなし(区分から概算配置)</span>
+      ${skipped > 0 ? `<span class="legend-item">※${skipped}件は硬さ区分未確定のため図に非表示</span>` : ""}
+    `;
+  }
+
   container.querySelectorAll(".matrix-point").forEach(el => {
     el.addEventListener("click", () => openDetail(el.dataset.id));
   });
+}
+
+const CONFIDENCE_LABEL = { measured: "実測値", estimated: "推定値", unknown: "データなし(概算)" };
+
+function balancePointCellHtml(r) {
+  const mm = getBalanceMm(r);
+  if (mm === null) return "不明";
+  const confLabel = CONFIDENCE_LABEL[r.balance_confidence] || "";
+  let html = `${mm} mm${confLabel ? ` <span style="color:var(--text-muted);font-size:0.85em;">(${escapeHtml(confLabel)})</span>` : ""}`;
+  if (r.balance_note) {
+    html += `<div style="font-size:0.8em;color:var(--text-muted);margin-top:3px;">${escapeHtml(r.balance_note)}</div>`;
+  }
+  return html;
 }
 
 function openDetail(id) {
@@ -163,7 +208,7 @@ function openDetail(id) {
       <tr><th>ヘッドバランス</th><td>${escapeHtml(r.head_balance)}</td></tr>
       <tr><th>硬さ (Flex)</th><td>${escapeHtml(r.flex)}</td></tr>
       <tr><th>重量クラス</th><td>${escapeHtml(r.weight_class)}${r.weight_g ? `(約${r.weight_g}g)` : ""}</td></tr>
-      <tr><th>バランスポイント</th><td>${r.balance_point_mm ? r.balance_point_mm + " mm" : "不明"}</td></tr>
+      <tr><th>バランスポイント</th><td>${balancePointCellHtml(r)}</td></tr>
       <tr><th>シャフト素材</th><td>${escapeHtml(r.shaft_material) || "不明"}</td></tr>
       <tr><th>フレーム素材</th><td>${escapeHtml(r.frame_material) || "不明"}</td></tr>
       <tr><th>推奨テンション</th><td>${escapeHtml(r.string_tension_lbs) || "不明"}</td></tr>
