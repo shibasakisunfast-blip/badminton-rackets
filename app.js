@@ -311,7 +311,7 @@ function openDetail(id) {
       <tr><th>シャフト素材</th><td>${escapeHtml(r.shaft_material) || "不明"}</td></tr>
       <tr><th>フレーム素材</th><td>${escapeHtml(r.frame_material) || "不明"}</td></tr>
       <tr><th>推奨テンション</th><td>${escapeHtml(r.string_tension_lbs) || "不明"}</td></tr>
-      <tr><th>参考価格</th><td>${r.price_jpy_approx ? "¥" + Number(r.price_jpy_approx).toLocaleString() + " (税抜目安)" : "不明"}</td></tr>
+      <tr><th>参考価格</th><td>${r.price_jpy_approx ? "¥" + Number(r.price_jpy_approx).toLocaleString() + " (税抜目安)" : "不明"}${r.price_note ? `<div style="font-size:0.8em;color:var(--text-muted);margin-top:2px;">${escapeHtml(r.price_note)}</div>` : ""}</td></tr>
     </table>
     ${variantsTableHtml(r)}
     ${r.balance_note ? `<p style="font-size:0.8em;color:var(--text-muted);">${escapeHtml(r.balance_note)}</p>` : ""}
