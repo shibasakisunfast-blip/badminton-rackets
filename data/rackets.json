@@ -1109,5 +1109,677 @@
       "https://li-ning.co.uk/product/an-9000-i/",
       "https://www.shopnings.com/li-ning-aeronaut-9000i-badminton-racket-black-gold-2021-summer/"
     ]
+  },
+  {
+    "id": "yonex-astrox-100-tour",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 100 Tour",
+    "short_label": "AX100Tour",
+    "product_code": "AX100T",
+    "product_code_note": "ヴィクター・アクセルセン選手カラーの別展開「AX100T VA」も存在する。",
+    "release_year": "2024",
+    "head_balance": "Head Heavy",
+    "flex": "Extra Stiff",
+    "shaft_material": "高弾性カーボン+ナノメッシュネオ(内蔵T型ジョイント)",
+    "frame_material": "高弾性カーボン+ナノメッシュネオ+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 33000,
+    "balance_note": "ヨネックス公式・レビューサイトいずれも実測バランスポイント(mm)の具体的数値は掲載されておらず、「ヘッドヘビー」という定性的な位置づけのみ複数ソースで一致している。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G4/G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス100ツアーは、フラッグシップのアストロクス100ZZと同コンセプトで設計された上級者向けモデルで、エクストラスティッフのシャフトとヘッドヘビーバランスにより連続スマッシュを得意とする。実打レビューでは、100ZZほどの最大出力はないもののシャフトはやや振りやすく、ラリーでのコントロール性能に優れるとの評価が見られた。面が比較的小さく振り抜きやすいため、ラリー展開を強みとするプレースタイルに向くという口コミもある。上級者〜中上級者向けで、初心者には硬めのシャフトが扱いにくいとされる。",
+    "sources": [
+      "https://us.yonex.com/products/astrox-100-tour",
+      "https://yonexshop.jp/item/detail/1_1_AX100T_1",
+      "https://badminton-navi.net/racket/detail/652",
+      "https://itomurablog.com/astrox-100-tour-review/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-100-game",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 100 Game",
+    "short_label": "AX100Game",
+    "product_code": "AX100G",
+    "product_code_note": "ヴィクター・アクセルセン選手カラーの別展開「AX100G VA」も存在する。",
+    "release_year": "2024",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "高弾性カーボン+ナノメッシュネオ(内蔵T型ジョイント)",
+    "frame_material": "高弾性カーボン+ナノメッシュネオ+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 24200,
+    "balance_note": "ヨネックス公式・レビューサイトいずれも実測バランスポイント(mm)の具体的数値は掲載されておらず、「ヘッドヘビー」という定性的な位置づけのみ複数ソースで一致している。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G4/G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス100ゲームは、100ZZ/100ツアーと共通のコンセプトを持ちながら、ミディアムフレックスのシャフトで扱いやすさを高めた中級者向けモデルである。柔らかい打球感と球持ちの良さが特徴とされ、レシーブなど守備的な場面でも扱いやすいという評価がある。ヘッドヘビーバランスにより攻撃時のパワーも一定確保しつつ、100ZZ系より穏やかな出力特性で中級者にも扱いやすいとされる。ダブルスの前衛や、シングルスでパワー面に不安がある中級プレーヤー向けとして紹介されることが多い。",
+    "sources": [
+      "https://us.yonex.com/products/astrox-100-game",
+      "https://yonexshop.jp/item/detail/1_1_AX100G_1",
+      "https://badminton-navi.net/racket/detail/653"
+    ]
+  },
+  {
+    "id": "yonex-astrox-99-pro-gen3",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 99 Pro (2025)",
+    "short_label": "AX99Pro25",
+    "product_code": "3AX99-P",
+    "product_code_note": "先頭の「3」はヨネックス公式の第3世代表記(単なる小売業者の略号ではない)。2025年9月5日発売。2021年発売の「Astrox 99 Pro (2021)」とは別モデル。",
+    "release_year": "2025",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "高弾性カーボン+2G-Namd Flex Force+ウルトラPEファイバー(新内蔵T型ジョイント)",
+    "frame_material": "高弾性カーボン+CFR+タングステン+2G-Namd Flex Force",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 38500,
+    "balance_note": "公式・レビューサイトいずれも実測バランスポイント(mm)の具体的数値は掲載されていない。海外レビューでは「ヨネックスのラインナップ中で最もヘッドヘビー」という定性的な表現が一致している。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G4/G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "2025年9月発売の第3世代アストロクス99プロは、ヨネックスのラインナップの中でも最もヘッドヘビーとされる設計で、スティッフなシャフトと組み合わせてスマッシュの「刺さる」感覚を追求したモデルである。レビューでは「スマッシュ時の炸裂感」が高く評価される一方、オフセンターヒット時の許容度は低く、扱うにはある程度のスイングスピードとパワーが要求されるとの指摘がある。前世代からは球持ちとコントロール性能が向上したとされる。トップ選手を含む上級〜エリート、シングルスやダブルス後衛のパワープレーヤー向けに位置づけられている。",
+    "sources": [
+      "https://yonexshop.jp/item/detail/1_1_3AX99-P_1/",
+      "https://www.racket.co.jp/product/ynx-3ax99-p.html",
+      "https://itomurablog.com/astrox-99-pro-review/",
+      "https://us.yonex.com/products/astrox-99-pro"
+    ]
+  },
+  {
+    "id": "yonex-astrox-99-game-gen3",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 99 Game (2025)",
+    "short_label": "AX99Game25",
+    "product_code": "3AX99-G",
+    "product_code_note": "先頭の「3」は第3世代を示す公式表記。旧世代の「Astrox 99 Game (2021)」とは別商品。国内販売店で現在確認できる展開は4U(G5/G6)のみで、3Uの取り扱いは確認できなかった。",
+    "release_year": "2025",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "高弾性カーボン+2G-ナノメッシュネオ(内蔵T型ジョイント)",
+    "frame_material": "高弾性カーボン+CSR+タングステン+2G-ナノメッシュネオ",
+    "string_tension_lbs": "4U: 20-28 lbs",
+    "price_jpy_approx": 23100,
+    "balance_note": "公式・レビューサイトいずれも実測バランスポイント(mm)の具体的数値は掲載されていない。「ヘッドヘビー」という定性的な位置づけのみ確認できた。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "2025年9月発売の第3世代アストロクス99ゲームは、上位モデルのアストロクス99プロと共通コンセプトを持ちながら、中級者でも扱いやすい設計とされるヘッドヘビーモデルである。公式には強力なパワーと自在な打ち分けの両立を狙った製品として紹介されており、トップ選手モデルに近い性能をより扱いやすい形で体験できるモデルと位置づけられる。現行の国内販売バリエーションは4U(G5/G6)のみが確認されている。",
+    "sources": [
+      "https://yonexshop.jp/item/detail/1_1_3AX99-G_1/",
+      "https://www.racket.co.jp/product/ynx-3ax99-g.html",
+      "https://us.yonex.com/products/astrox-99-game"
+    ]
+  },
+  {
+    "id": "yonex-astrox-99-pro-gen2",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 99 Pro (2021)",
+    "short_label": "AX99Pro21",
+    "product_code": "AX99-P",
+    "product_code_note": "2021年9月発売(桃田賢斗選手モデル)。2025年発売の第3世代「3AX99-P」とは別商品。フレーム/シャフト素材がNamd(2G-Namdではない)、ストリングホールが68穴である点が3代目と異なる。",
+    "release_year": "2021",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "高弾性カーボン+Namd",
+    "frame_material": "高弾性カーボン+Namd+VOLUME CUT RESIN+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 35200,
+    "balance_note": "ヨネックス公式は「ヘッドヘビー」という区分のみを公表しており、mm単位のバランスポイント実測値は公式資料に記載がない。海外レビューサイトで測定値らしき数値(300〜310mm前後)が言及されているのを見かけたが、出典記事を直接確認できなかったため、本データベースでは信頼できる実測値として採用していない。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G4/G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "先代のアストロクス99と比べて球持ちが良くなり、球足(弾道)をコントロールしやすくなったと評価されている。ヘッドヘビーな特性によりオーバーヘッドのショットが打ちやすく、スマッシュのスピードも出やすい。一方でインパクトの感触がやや「ぼやける」というトレードオフも指摘されている。シャフトは硬めで、パワーとコントロールを両立したい上級者・シングルスプレーヤー向けとされる。",
+    "sources": [
+      "https://yonexshop.jp/item/detail/1_1_AX99-P_1",
+      "https://www.windsorracket.co.jp/shop/g/g21AX99-P-8254U5/",
+      "https://machida-badminton.com/astrox99-pro/",
+      "https://www.getgoodatbadminton.com/blog/yonex-astrox-99-pro-badminton-racket-review-better-than-its-predecessor"
+    ]
+  },
+  {
+    "id": "yonex-astrox-99-game-gen2",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 99 Game (2021)",
+    "short_label": "AX99Game21",
+    "product_code": "AX99-G",
+    "product_code_note": "2021年9月発売、AX99-P(アストロクス99プロ)と同時発売の同世代の中級者向けバリエーション。2025年発売の第3世代「3AX99-G」とは別商品。",
+    "release_year": "2021",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "高弾性カーボン+NANOMESH NEO",
+    "frame_material": "高弾性カーボン+NANOMESH NEO+VOLUME CUT RESIN+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 20900,
+    "balance_note": "AX99-Pと同様、公式資料は「ヘッドヘビー」の区分表示のみでmm単位のバランスポイント実測値は非公開。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": null, "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": null, "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "AX99-Pと同コンセプトで開発された中級者向けモデルで、トッププレーヤー志向の強打と打ち分けやすさを両立させることを狙っている。インパクトの感触はPROよりもやや柔らかく、スイートスポットも広めでミスヒットへの許容度が高いと評価されている。ミドルフレックスのシャフトによりスイングパワーを伝えやすく、パワーと安定性を両立させたい中〜上級者に向くモデルとされる。",
+    "sources": [
+      "https://yonexshop.jp/item/detail/1_1_AX99-G_1/825",
+      "https://www.racket.co.jp/product/ynx-ax99-g.html",
+      "https://kitaji107.com/tool/astrox-99-game/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-88d-pro-gen3",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 88D Pro (2024)",
+    "short_label": "AX88DPro24",
+    "product_code": "3AX88D-P",
+    "product_code_note": "2024年春(2024SS)発売の第3世代モデル。ダブルス後衛用コンセプトラケット「アストロクス88D」シリーズの3代目。",
+    "release_year": "2024",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "高弾性カーボン+2G-Namd FLEX FORCE+ウルトラPEファイバー",
+    "frame_material": "高弾性カーボン+CFR+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 36300,
+    "balance_note": "公式には「ヘッドヘビー」表記のみでmm単位のバランスポイントは非公開。海外レビューで88D Tourより「振り抜き重量(スイングウェイト)が重い」との言及があるが、実測mm値は確認できなかった。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G4/G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス77プロに近い系統の打感を持ちながら、パワーを引き出すにはより強いスイングが要求される「上位互換だが要求水準の高いモデル」と評されている。シャフトの硬さがはっきり感じられ、ミスヒット時にはフレームの硬さがそのまま手に返ってくるため「シビアなラケット」との声もある。後衛でのオーバーヘッドのミスが少ない中〜上級ダブルスプレーヤー向けで、初中級者にはやや扱いづらいとされる。",
+    "sources": [
+      "https://yonexshop.jp/item/detail/1_1_3AX88D-P_1/076",
+      "https://www.yonex.com/3ax88d-p",
+      "https://intobadminton.com/review/yonex-astrox-88-pro-2024-review/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-88d-tour-gen3",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 88D Tour (2024)",
+    "short_label": "AX88DTour24",
+    "product_code": "3AX88D-T",
+    "product_code_note": "2024年春(2024SS)発売の第3世代モデル。88DシリーズでPROとGAMEの中間に位置する上級者向けバリエーション。",
+    "release_year": "2024",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "高弾性カーボン+2G-Namd FLEX FORCE",
+    "frame_material": "高弾性カーボン+CSR+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 30800,
+    "balance_note": "公式資料はヘッドヘビー区分のみでmm単位のバランスポイント値の公開はなし。独立レビューではPROよりヘッド側が軽く感じられ「ヘッドライト的」と表現されることもあるが、体感評価であり実測値の裏付けは確認できていない。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": null, "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": null, "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "PROと同じダブルス後衛コンセプトながら、ヘッド側の重さがPROより軽く感じられ、振り抜きが速く前衛での対応もしやすいと評価されている。後衛からのパワーは十分に出せる一方、フレームの硬さはPROよりやや控えめで「中空感」のある打感との声もある。総じてパワーと機動力のバランスが良く、PROほどのパワー特化を求めないが後衛での攻撃力は落としたくないプレーヤーに向くとされる。",
+    "sources": [
+      "https://yonexshop.jp/item/detail/1_1_3AX88D-T_1/",
+      "https://www.yonex.com/3ax88d-t",
+      "https://www.badmintonbay.com/yonex-astrox-88d-tour-black-silver-4ug5-badminton-racket.html"
+    ]
+  },
+  {
+    "id": "yonex-astrox-88d-game-gen3",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 88D Game (2024)",
+    "short_label": "AX88DGame24",
+    "product_code": "3AX88D-G",
+    "product_code_note": "2024年春(2024SS)発売の第3世代モデル。88Dシリーズの中級者向けエントリーバリエーション。3Uサイズはなく4Uのみの展開である点がPRO/TOURと異なる。",
+    "release_year": "2024",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "高弾性カーボン+2G-NANOMESH NEO",
+    "frame_material": "高弾性カーボン+CSR+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs",
+    "price_jpy_approx": 20900,
+    "balance_note": "公式資料はヘッドヘビー区分のみでmm単位のバランスポイント値は非公開。独立レビューでは「クラシックなパワー系ラケット」と表現されている。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "「パワー特化のクラシックなラケット」と評され、後衛からの強打は十分に出せるが、前衛での繊細なネットプレーにはパワーが勝りすぎてコントロールが難しいとの指摘がある。同系統のアストロクス100ゲームと比較すると軽快さで劣り、より「重量級のパワーラケット」的な振り心地とされる。中〜上級者でパワー重視の後衛プレーを志向するプレーヤーに向くモデルである。",
+    "sources": [
+      "https://yonexshop.jp/item/detail/1_1_3AX88D-G_1/",
+      "https://www.yonex.com/3ax88d-g",
+      "https://beastbadminton.com/astrox-88d-game-review/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-88s-pro-gen3",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 88S Pro (2024)",
+    "short_label": "AX88SPro24",
+    "product_code": "3AX88S-P",
+    "product_code_note": "2024年3月22日、88シリーズ刷新(第3世代)と同時に世界同時発売。",
+    "release_year": "2024",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "2G-Namd FLEX FORCE, Ultra PE Fiber, Ultra Slim Shaft",
+    "frame_material": "High Modulus (HM) Graphite, CFR, Tungsten",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 36300,
+    "balance_note": "ヨネックス公式はバランスポイントの具体的な数値(mm)を公開していない。ここに記載した実測値(4U5:約309mm/3U5:約310mm)はレビューサイト「バドミントンと僕」の実打記事に基づくもので、個体差やガット・グリップテープの重量により変動しうる。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 89, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.7, "grip_length_mm": 210, "overall_length_mm": 670, "balance_point_mm": 309, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "3U", "weight_g": 93, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.7, "grip_length_mm": 210, "overall_length_mm": 670, "balance_point_mm": 310, "balance_confidence": "measured", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "アストロクス88Sプロは前衛(フロントコート)特化のダブルス向けモデルで、ヘッドヘビーながら振り抜きが軽く感じられると評価されている。グロメット数を削減した新設計フレームによりシャトルが一瞬吸い付くような球持ち感があり、速いラリーでの正確なコントロールに向いている。公式フレックスはStiffだが、レビューでは「テイクバックが小さくても威力を出せる」という声が多い。レシーブ時のフェイス作りの速さや振動吸収性も評価されており、前衛で速いタッチプレーを好む上級者に適したラケットとされる。",
+    "sources": [
+      "https://www.yonex.co.jp/news/2024/983.html",
+      "https://us.yonex.com/products/astrox-88s-pro",
+      "https://yonexshop.jp/item/detail/1_1_3AX88S-P_1/417",
+      "https://bd-boku.com/ax88s-p/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-88s-tour-gen3",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 88S Tour (2024)",
+    "short_label": "AX88STour24",
+    "product_code": "3AX88S-T",
+    "product_code_note": "TOURグレードは2024年の88シリーズ刷新で新設されたラインで、それ以前の世代にTOURモデルは存在しない。",
+    "release_year": "2024",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "2G-Namd FLEX FORCE, Ultra Slim Shaft, Rexis Shaft",
+    "frame_material": "HM Graphite, Volume Cut Resin (CSR), Tungsten",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 29700,
+    "balance_note": "ヨネックス公式・独立レビューサイトともにバランスポイントのmm数値は確認できず、「プロよりイーブン寄り」という定性的な相対評価のみが得られた。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 670, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 670, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス88Sツアーはプロモデルと同コンセプトながら台湾製で、価格を抑えつつ広めのスイートスポットとコントロール性を狙ったモデルである。実打レビューでは、プロよりバランスがややイーブン寄りで、シャフトの入りもマイルドと評されており、初中級者でも扱いやすいとされる。中上級者のダブルス前衛用として、プロへのステップアップまたはコストを抑えた選択肢として位置づけられる。",
+    "sources": [
+      "https://www.yonex.co.jp/news/2024/983.html",
+      "https://us.yonex.com/products/astrox-88s-tour",
+      "https://yonexshop.jp/item/detail/1_1_3AX88S-T_1/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-88s-game-gen3",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 88S Game (2024)",
+    "short_label": "AX88SGame24",
+    "product_code": "3AX88S-G",
+    "product_code_note": null,
+    "release_year": "2024",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "2G-Namd FLEX FORCE (2G-Nanomesh Neo), Super Slim Shaft",
+    "frame_material": "HM Graphite, CFR, Tungsten, Ultra PE Fiber",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 20900,
+    "balance_note": "バランスポイントの公式数値は非公開で、シャフト径(7.1mm、実測レビューより)以外の実測データは確認できなかった。ヘッドヘビーという定性評価のみ確認済み。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": 7.1, "grip_length_mm": null, "overall_length_mm": 670, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス88Sゲームは中級者向けのエントリーグレードで、プロ・ツアーと同じコンセプト設計ながら価格を抑えたモデルである。公式フレックスはMediumとされるが、実測レビューではシャフト径7.1mmとやや硬めの数値が報告されており、強打時のブレの少なさが評価される一方、インパクト後の振動がやや大きいという指摘もある。ヘッドヘビーでダブルスの前衛でのスピード展開に対応しやすく、価格重視で導入しやすいモデルとして紹介されている。",
+    "sources": [
+      "https://www.yonex.co.jp/news/2024/983.html",
+      "https://us.yonex.com/products/astrox-88s-game",
+      "https://yonexshop.jp/item/detail/1_1_3AX88S-G_1/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-88d-pro-gen2",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 88D Pro (2021)",
+    "short_label": "AX88DPro21",
+    "product_code": "AX88D-P",
+    "product_code_note": "「2AX88D-P」という表記は公式には存在しない。2021年3月発売の当該世代の正式品番は先頭に世代数字のない「AX88D-P」。2024年発売の最新世代は「3AX88D-P」。「2」の接頭辞は社内資料上の便宜的な世代表記と考えられる。",
+    "release_year": "2021",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "高弾性カーボン+Namd",
+    "frame_material": "高弾性カーボン+VOLUME CUT RESIN+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 28600,
+    "balance_note": "公式・レビューサイトともにバランスポイントの具体的mm値は見つからず、「ヘッドヘビー」という定性評価のみ確認できた。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス88Dプロは後衛(バックコート)向けのヘッドヘビーモデルで、シャフトがやや硬めに設定され、スマッシュの伸びと切れ味が向上したと評価されている。グリップエンド・フレームトップ・ジョイント部の重量配分見直しにより、ヘッドヘビーでありながらラケットの戻りが速く連続攻撃がしやすいとされる。日本製で、シングルス・ダブルス両方の後衛での強打を得意とする上級者向けモデルという評価が複数のレビューで一致している。",
+    "sources": [
+      "https://www.yonex.co.jp/badminton/news/2021/03/2101071700.html",
+      "https://kakaku.com/item/S0000951535/",
+      "https://machida-badminton.com/astrox88sd-game-pro/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-88d-game-gen2",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 88D Game (2021)",
+    "short_label": "AX88DGame21",
+    "product_code": "AX88D-G",
+    "product_code_note": "「2AX88D-G」という表記も公式には存在しない。2021年3月発売の当該世代の正式品番は先頭に世代数字のない「AX88D-G」。2024年発売の最新世代は「3AX88D-G」。",
+    "release_year": "2021",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "高弾性カーボン+Nanomesh Neo",
+    "frame_material": "高弾性カーボン+VOLUME CUT RESIN+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 16000,
+    "balance_note": "バランスポイントのmm数値は情報源から確認できず、公式・レビューサイトいずれも定性的な「イーブン〜ややヘッドヘビー」評価にとどまる。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス88Dゲームはプロと同コンセプトながら台湾製の中級者向けモデルで、シャフトが柔らかめに設定され自然にしなる打球感が特徴とされる。プロと比較するとヘッドの重さはやや控えめで、イーブン〜ややヘッドヘビーのバランスとされ、ラリー全般でのオールラウンドな使いやすさが評価されている。後衛からの強打で相手を崩すという88Dのコンセプトを引き継ぎつつ、価格を抑えて中級者にも扱いやすくした位置づけのラケットである。",
+    "sources": [
+      "https://www.yonex.co.jp/badminton/news/2021/03/2101071700.html",
+      "https://kakaku.com/item/S0000948463/",
+      "https://machida-badminton.com/astrox88sd-game-pro/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-88s-game-gen2",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 88S Game (2022)",
+    "short_label": "AX88SGame22",
+    "product_code": "AX88S-G",
+    "product_code_note": "「2AX88S-G」という表記は公式には存在しない。Yonexは2024年発売の第3世代で初めて「3AX88S-G」のように世代数字を型番に付けるようになった。それ以前(2022年頃発売)の無印「AX88S-G」がここでいう「2世代目」に相当する。現行の3AX88S-Gとは別モデル。",
+    "release_year": "2022",
+    "head_balance": "Even Balance",
+    "flex": "Medium",
+    "shaft_material": "ナノメッシュネオ(NANOMESH NEO)高弾性カーボンシャフト",
+    "frame_material": "高弾性カーボン+VOLUME CUT RESIN",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 18700,
+    "balance_note": "メーカー公表の実測バランス値(mm)は情報源では確認できなかった。前衛(S)向けのイーブンバランス寄り設計とされるが、具体的な数値データは入手できていない。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス88Sプロの廉価版として追加されたモデルで、前衛でのラリー戦を意識した設計。シャフトはPro譲りのコンセプトを持ちつつミディアムフレックスで扱いやすく、価格を抑えた中級者向けの位置づけとされる。前衛でのブロックやプッシュ、素早い展開への対応を重視したイーブンバランス寄りの特性を持つ。",
+    "sources": [
+      "https://www.sunfast.jp/shopdetail/000000034124/",
+      "https://kakaku.com/item/S0000948464/",
+      "https://machida-badminton.com/astrox88sd-game-pro/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-88d-gen1",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 88D (2018)",
+    "short_label": "AX88D",
+    "product_code": "AX88D",
+    "product_code_note": "2018年発売のオリジナルモデル。Pro/Game/Tourのサフィックスや世代数字接頭辞は付かない。現在は生産終了(廃盤)で、後継として88D Pro/Game(2021)系統、88D Pro/Game/Tour(2024)系統が展開されている。",
+    "release_year": "2018",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "高弾性カーボン+Namd",
+    "frame_material": "高弾性カーボン+ナノメトリック+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 27500,
+    "balance_note": "実測バランスポイント(mm)は情報源では確認できなかったが、全長675mm(標準より10mm長い設計)、シャフト硬さ「硬め」との記載があり、複数レビューが一貫して「かなりのヘッドヘビー」と表現している。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G4", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "2018年発売、Astroxシリーズ初期の後衛(ダブルス)向けフラッグシップで、「D」はDominate(支配)の意。強烈なスマッシュを沈めやすく、打球音も気持ちよいと評される一方、ヘッドヘビーゆえに前衛での小技操作にはやや慣れが必要とされる。廃盤後もクラブプレーヤーの間で人気が根強い定番機。",
+    "sources": [
+      "https://bad-log.com/astrox88d-review/",
+      "https://badminton-coach.co.uk/10304/yonex-astrox-88d-badminton-racket-review/",
+      "https://badminton-navi.net/racket/detail/279"
+    ]
+  },
+  {
+    "id": "yonex-astrox-88s-gen1",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 88S (2018)",
+    "short_label": "AX88S",
+    "product_code": "AX88S",
+    "product_code_note": "2018年発売のオリジナルモデル(通称「スキル」)。Pro/Game/Tourのサフィックスなし。現在は生産終了(廃盤)。",
+    "release_year": "2018",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "高弾性カーボン+Namd",
+    "frame_material": "高弾性カーボン+ナノメトリック+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 27500,
+    "balance_note": "実測バランス点(mm)は確認できなかったが、全長670mm、シャフト硬さ「硬め」との記載がある。88Dより穏やかな打感と評するレビューもあれば、「Head Heavy/Stiff」と明記する海外レビューもあり、88Dとの相対比較で表現の幅がある。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 670, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G4", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 670, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "2018年発売、88Dと対をなす前衛(ダブルス)向けモデルで、「S」はSkillの意。88Dに比べてやや軽快なスイングとコントロール性能を重視した設計とされ、ミッドコートでのドライブやプッシュでの操作性、ネット前でのタッチの良さが高く評価されている。守備・コントロール面で特に強みを発揮するとされ、バドナビの口コミ平均は9.51/10と非常に高い。",
+    "sources": [
+      "https://badminton-coach.co.uk/10288/yonex-astrox-88s-badminton-racket-review/",
+      "https://badminton-navi.net/racket/detail/278",
+      "https://bd-boku.com/astrox/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-77-pro",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 77 Pro",
+    "short_label": "AX77Pro",
+    "product_code": "AX77-P",
+    "product_code_note": "2022年10月下旬発売。日本製。",
+    "release_year": "2022",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "高弾性カーボンシャフト+Namd+ウルトラPEファイバー",
+    "frame_material": "高弾性カーボン+フレックスフューズ+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 27500,
+    "balance_note": "海外レビューサイトBadmintonBitesの実測では4U/G5で重量84.2g・バランス点298mmと報告されている。タツミスポーツのプレシジョンスキャン実測でも概ね299〜306mm程度の範囲が確認でき、おおむね近い値だが個体差がある点に留意。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 84.2, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "新素材「フレックスフューズ」をジョイント部に採用し、マイルドな打球感としなやかなショット性能を両立したモデル。海外レビューでは、オールラウンドプレーヤー向けに「ドライブが直線的でパンチが効く」「クリアが打ちやすい」「コントロールとパワーのバランスが良い」と評されている。ラリーを組み立てながら得点機会を作るタイプのシングルスプレーヤーや、ローテーションの多いダブルスプレーヤーに向くとされる。",
+    "sources": [
+      "https://www.yonex.co.jp/badminton/news/2022/09/2209221300.html",
+      "https://yonexshop.jp/item/detail/1_1_AX77-P_1/752",
+      "https://badmintonbites.com/a-detailed-review-of-the-yonex-astrox-77-pro-4ug5/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-77-tour",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 77 Tour",
+    "short_label": "AX77Tour",
+    "product_code": "AX77-T",
+    "product_code_note": "2024年4月中旬発売(台湾製)。日本語公式名は「アストロクス77ツアー」、米国公式サイトでも「ASTROX 77 TOUR」表記で一致。一部海外小売サイトでは類似コンセプトの製品を「Astrox 77 Play」の名称で扱う例があるが、ヨネックス公式(日本・米国)がこの型番に用いる名称は一貫して「Tour」。",
+    "release_year": "2024",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "高弾性カーボン+NANOMESH NEO(米国表記ではREXIS SHAFT/LIGHT FEEL)",
+    "frame_material": "高弾性カーボン+ライトフィールカーボンネオ+タングステン",
+    "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
+    "price_jpy_approx": 27500,
+    "balance_note": "タツミスポーツのプレシジョンスキャン実測では4U5/4U6の個体で概ね298〜303mm程度の値が確認された(個体差あり)。メーカー公式スペックシートでは具体的なmm数値は公表されていない。",
+    "variants": [
+      { "weight_class": "4U(G5)", "weight_g": 81.9, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U(G6)", "weight_g": 83.1, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 303, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "PROモデルと同コンセプトのデザインを持ちつつ、中上級者向けに威力あるスマッシュとマイルドな打球感を両立させたモデル。バドナビの口コミでは「攻撃と操作性のバランスが良い」と評され、ヘッドヘビーながらシャフトのしなりとタッチの良さを両立していると好意的に評価されている。台湾製で価格は日本製PROモデルよりやや抑えられている。",
+    "sources": [
+      "https://us.yonex.com/products/astrox-77-tour",
+      "https://yonexshop.jp/item/detail/1_1_AX77-T_1/752",
+      "https://badminton-navi.net/racket/detail/662"
+    ]
+  },
+  {
+    "id": "yonex-astrox-66",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 66",
+    "short_label": "AX66",
+    "product_code": "AX66-354",
+    "product_code_note": "カラーはミストパープル(354)の1色展開のみ。フレームのみでの販売(グリップ・ガットは別売、専用ケース付属)。",
+    "release_year": "2018",
+    "head_balance": "Head Heavy",
+    "flex": "Flexible",
+    "shaft_material": "高弾性カーボン+Namd",
+    "frame_material": "高弾性カーボン+タングステン+Tough G Fiber(グラスファイバー×カーボンナノチューブ複合素材)",
+    "string_tension_lbs": "19-27 lbs (4U)",
+    "price_jpy_approx": 22680,
+    "balance_note": "ヨネックス公式は「ヘッドヘビー」とのみ表記し、mm単位のバランスポイント値は公表・確認できなかった。独立レビューでは「ほぼイーブンに近いヘッドヘビー」と評されており、感覚的な評価にとどまる。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス66は2018年発売のレディース・初中級者向けモデルで、Tough G Fiber素材とやわらかめのシャフトにより、クリアやロブを楽に奥まで飛ばせる柔らかい打球感が特徴。ヘッドバランスはヘッドヘビーながら「ほぼイーブンに近い」と評されるほど軽快に振れ、振り抜きやすさとコントロール性を両立している。軽い力でスマッシュにスピードを乗せられるため、非力な初心者や女性プレーヤーに特に向いているとされる。",
+    "sources": [
+      "https://www.yonex.co.jp/badminton/news/2018/01/1801161730.html",
+      "https://www.yonex.com/news/astrox-66-easy-returns-and-deep-lifts/",
+      "https://machida-badminton.com/astrox66/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-55a",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 55 A",
+    "short_label": "AX55A",
+    "product_code": "AX55A",
+    "product_code_note": "旧モデル「アストロクス55」(現在は生産終了)の後継として2022年12月中旬に発売された別製品。単なるカラーバリエーションではなく、シャフトおよび剣先キャップ設計を変更した仕様違いモデル。",
+    "release_year": "2022",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "高弾性カーボン+Namd+ウルトラPEファイバー",
+    "frame_material": "高弾性カーボン+VOLUME CUT RESIN+タングステン",
+    "string_tension_lbs": "19-24 lbs (5U)",
+    "price_jpy_approx": 25850,
+    "balance_note": "ヨネックス公式・小売サイトともに「ヘッドヘビー」という定性的表記のみで、mm単位のバランスポイント値は見つからなかった。フレックス区分も公式には数値化されておらず、レビュー記述からの推定値である。",
+    "variants": [
+      { "weight_class": "5U", "weight_g": 78, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス55Aは2022年12月発売、旧モデル「アストロクス55」の後継として登場した中級者向け軽量モデル(5U・平均78g)。シャフトと剣先キャップの設計変更によりしなり戻り性能が向上し、旧55と比べて「弾き」と初速が強化された、より攻撃的な打球感が得られると評されている。軽量ながらヘッド側に適度な重量を残したヘッドヘビー設計で、非力なプレーヤーでも威力あるスマッシュを打ちやすいとされる。",
+    "sources": [
+      "https://www.yonex.co.jp/badminton/news/2022/11/2211111700.html",
+      "https://yonexshop.jp/item/detail/1_1_AX55A_1/293",
+      "https://kitaji107.com/tool/astrox55-55a-differences/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-33",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 33",
+    "short_label": "AX33",
+    "product_code": "AX33-626",
+    "product_code_note": "カラーはアース(626)の1色展開。ヨネックス自身が「マイファーストラケット」と位置づける入門モデル。",
+    "release_year": "2020",
+    "head_balance": "Head Heavy",
+    "flex": "Flexible",
+    "shaft_material": "カーボン+Namd",
+    "frame_material": "高強度カーボン+タングステン",
+    "string_tension_lbs": "18-23 lbs (5U)",
+    "price_jpy_approx": 18700,
+    "balance_note": "複数の販売・レビューサイトが「ヘッドヘビーバランス」と一致して記載しているが、いずれも定性的表記でmm単位のバランスポイント実測値は見つからなかった。",
+    "variants": [
+      { "weight_class": "5U", "weight_g": 78, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス33は2020年10月発売の「マイファーストラケット」と位置づけられる入門・初心者向けモデル(5U)。カーボン+Namdシャフトによる柔らかい打球感が特徴で、クリアやロブを楽に飛ばせるほか、アイソメトリック形状による広いスイートエリアでタイミングのズレにも強い。ヘッドヘビーバランスでありながら軽量設計のため手首や腕への負担が少なく、長時間の練習でも疲れにくいと評価されている。",
+    "sources": [
+      "https://www.yonex.co.jp/badminton/news/2020/09/2009151600.html",
+      "https://yonexshop.jp/item/detail/1_1_AX33_1/626",
+      "https://kitaji107.com/tool/astrox33/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-22rx",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 22 RX",
+    "short_label": "AX22RX",
+    "product_code": "AX22RX-184",
+    "product_code_note": "型番の数字自体は下位番号だが、実際は2023年発売の比較的新しい超軽量モデルであり、番号順=発売時期の序列とは一致しない点に注意。",
+    "release_year": "2023",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "高弾性カーボン+NANOMESH NEO",
+    "frame_material": "高弾性カーボン+タングステン",
+    "string_tension_lbs": "20-28 lbs (2F)",
+    "price_jpy_approx": 25300,
+    "balance_note": "ヨネックス公式ページでは定性的なバランス表記が見当たらず、独立レビューサイトでは一貫して「ヘッドヘビー」と記載されている一方、海外の一部データベースでは「Even Balance」と分類されており情報源間で表記の揺れがある。mm単位の実測値はいずれの情報源にも見つからなかった。",
+    "variants": [
+      { "weight_class": "2F", "weight_g": 68, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス22RXは2023年12月発売の超軽量(2F・平均68g)モデルで、軽さを武器に攻めたい中級者向けに位置づけられている。シャフトはスティッフ(かため)で、しなりすぎず打感がクリアに伝わる設計となっている。ヘッドヘビーバランスにより軽量ながらスマッシュにもそれなりの威力を出せる点が特徴で、「軽さと強さを両立した扱いやすさの究極形」と評するレビューもある。",
+    "sources": [
+      "https://www.yonex.com/astrox-22-rx",
+      "https://yonexshop.jp/item/detail/1_1_AX22RX_1/184",
+      "https://badmintonlabs.com/racquets/yonex-astrox-22-rx"
+    ]
+  },
+  {
+    "id": "yonex-astrox-11",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox 11",
+    "short_label": "AX11",
+    "product_code": "AX11",
+    "product_code_note": "現行カラーはブラック×グリーン(カラーコード530)の単色展開。発売時期は複数の小売サイトの「24SS」表記に基づく推定(公式発表日は未確認)。",
+    "release_year": "2024",
+    "head_balance": "Head Heavy",
+    "flex": "Flexible",
+    "shaft_material": "カーボン+NANOMESH NEO",
+    "frame_material": "カーボン+タングステン",
+    "string_tension_lbs": "17-22 lbs",
+    "price_jpy_approx": 16500,
+    "balance_note": "公式ページや小売サイトはいずれも「ヘッドヘビー」という定性的な表現のみで、具体的なバランスポイント(mm)の数値は見つからなかった。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス11はエントリーモデルと位置づけられ、柔らかめのシャフトによりシャトルとの接触時間が長くなり、力の弱い初心者でも飛距離を出しやすいと評されている。ヘッドヘビー設計でスマッシュやクリアに遠心力を活かしやすい一方、シャフトが柔らかいためパワー面では中上級者には物足りないとの声もある。複数のレビューでは「レシーブが安定する」「ショットが正確になりやすい」といった好意的な評価が多く、部活動を始めたばかりの中高生や、体力・筋力に自信のない初心者に向くとされる。",
+    "sources": [
+      "https://yonexshop.jp/item/detail/1_1_AX11_1/530",
+      "https://www.sunfast.jp/shopdetail/000000034512/",
+      "https://itomurablog.com/astrox-11-review/"
+    ]
+  },
+  {
+    "id": "yonex-astrox-nextage",
+    "brand": "Yonex",
+    "series": "Astrox",
+    "model": "Astrox Nextage",
+    "short_label": "AXNT",
+    "product_code": "AXNT",
+    "product_code_note": "カラーは「ブラック×グリーン(530/BKG)」と「ライトグレー(148)」の2色展開。海外では2023年発売、国内では2024年12月下旬発売と地域により発売時期が異なる。",
+    "release_year": "2024",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "カーボン+NANOMESH NEO(スリムシャフト)",
+    "frame_material": "カーボン(HMグラファイト)+VDM+タングステン",
+    "string_tension_lbs": "20-28 lbs",
+    "price_jpy_approx": 27500,
+    "balance_note": "公式サイトはいずれも「ヘッドヘビー」という定性的表現のみを記載し、具体的なバランスポイント数値は非公開。従来のアストロクスよりややマイルドな重心という認識が複数ソースで一致しているが、mm単位の実測値は確認できなかった。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アストロクス ネクステージは中級者以上を対象とした、パワーと快適な打球感の両立を狙ったモデル。VDM(振動吸収メッシュ)により従来のアストロクスよりマイルドな打球感になっているとされ、シャフトはミディアムで、球持ちの良さからレシーブがしやすいと複数のレビューで評価されている。ヘッドヘビーながら角度のあるスマッシュや、遠心力を活かしたクリア・ロブも打ちやすいとされ、アタックとレシーブのバランスを求めるシングルスプレーヤーに向くという評価が多い。",
+    "sources": [
+      "https://yonexshop.jp/item/detail/1_1_AXNT_1/",
+      "https://www.yonex.com/axnt",
+      "https://us.yonex.com/products/astrox-nextage",
+      "https://badminton-coach.co.uk/17128/yonex-astrox-nextage-badminton-racket-review-video/"
+    ]
   }
 ]
