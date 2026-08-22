@@ -164,7 +164,7 @@ function renderSelectionBar() {
   });
 }
 
-const BRAND_ORDER = ["Yonex", "Victor", "Li-Ning", "Mizuno"];
+const BRAND_ORDER = ["Li-Ning", "Yonex"]; // fixed priority order; any other brand falls back to alphabetical
 
 function groupByBrandAndSeries(list) {
   const byBrand = {};
