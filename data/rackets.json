@@ -1,6 +1,7 @@
 [
   {
     "id": "yonex-astrox-100zz",
+    "series": "Astrox",
     "brand": "Yonex",
     "model": "Astrox 100ZZ",
     "short_label": "AX100ZZ",
@@ -31,6 +32,7 @@
   },
   {
     "id": "yonex-nanoflare-800",
+    "series": "Nanoflare",
     "brand": "Yonex",
     "model": "Nanoflare 800",
     "short_label": "NF800",
@@ -62,6 +64,7 @@
   },
   {
     "id": "yonex-arcsaber-11-pro",
+    "series": "Arcsaber",
     "brand": "Yonex",
     "model": "Arcsaber 11 Pro",
     "short_label": "ARC11Pro",
@@ -91,6 +94,7 @@
   },
   {
     "id": "yonex-duora-10",
+    "series": "Duora",
     "brand": "Yonex",
     "model": "Duora 10",
     "short_label": "DUO10",
@@ -119,6 +123,7 @@
   },
   {
     "id": "victor-thruster-k-falcon-claw",
+    "series": "Thruster",
     "brand": "Victor",
     "model": "Thruster K Falcon Claw",
     "short_label": "TK-FClaw",
@@ -147,6 +152,7 @@
   },
   {
     "id": "victor-auraspeed-90k",
+    "series": "Auraspeed",
     "brand": "Victor",
     "model": "Auraspeed 90K",
     "short_label": "ARS90K",
@@ -175,6 +181,7 @@
   },
   {
     "id": "li-ning-aeronaut-9000c",
+    "series": "Aeronaut",
     "brand": "Li-Ning",
     "model": "Aeronaut 9000C",
     "short_label": "AN9000C",
@@ -203,6 +210,7 @@
   },
   {
     "id": "li-ning-windstorm-72",
+    "series": "Windstorm",
     "brand": "Li-Ning",
     "model": "Windstorm 72",
     "short_label": "WS72",
@@ -229,6 +237,7 @@
   },
   {
     "id": "mizuno-fortius-11-power",
+    "series": "Fortius",
     "brand": "Mizuno",
     "model": "Fortius 11 Power",
     "short_label": "FT11Power",
@@ -255,6 +264,7 @@
   },
   {
     "id": "li-ning-axforce-100",
+    "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 100",
     "short_label": "AXF100",
@@ -288,6 +298,7 @@
   },
   {
     "id": "li-ning-axforce-100-ii",
+    "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 100 II",
     "short_label": "AXF100II",
@@ -315,6 +326,7 @@
   },
   {
     "id": "li-ning-axforce-90-new",
+    "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 90 New",
     "short_label": "AXF90N",
@@ -345,6 +357,7 @@
   },
   {
     "id": "li-ning-axforce-90-dragon-max",
+    "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 90 Dragon Max",
     "short_label": "AXF90DM",
@@ -373,6 +386,7 @@
   },
   {
     "id": "li-ning-axforce-90-tiger-max",
+    "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 90 Tiger Max",
     "short_label": "AXF90TM",
@@ -401,6 +415,7 @@
   },
   {
     "id": "li-ning-axforce-80",
+    "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 80",
     "short_label": "AXF80",
@@ -430,6 +445,7 @@
   },
   {
     "id": "li-ning-axforce-80-light",
+    "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 80 Light",
     "short_label": "AXF80L",
@@ -457,6 +473,7 @@
   },
   {
     "id": "li-ning-axforce-70",
+    "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 70",
     "short_label": "AXF70",
@@ -486,6 +503,7 @@
   },
   {
     "id": "li-ning-axforce-60",
+    "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 60",
     "short_label": "AXF60",
@@ -515,6 +533,7 @@
   },
   {
     "id": "li-ning-axforce-30-ex-light",
+    "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 30 EX-Light",
     "short_label": "AXF30EXL",
@@ -541,6 +560,7 @@
   },
   {
     "id": "li-ning-axforce-big-bang",
+    "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce Big Bang",
     "short_label": "AXFBBang",
@@ -572,6 +592,7 @@
   },
   {
     "id": "li-ning-halbertec-9000-power",
+    "series": "Halbertec",
     "brand": "Li-Ning",
     "model": "Halbertec 9000 Power",
     "short_label": "HAL9000P",
@@ -600,6 +621,7 @@
   },
   {
     "id": "li-ning-halbertec-9000",
+    "series": "Halbertec",
     "brand": "Li-Ning",
     "model": "Halbertec 9000",
     "short_label": "HAL9000",
@@ -628,6 +650,7 @@
   },
   {
     "id": "li-ning-halbertec-8000",
+    "series": "Halbertec",
     "brand": "Li-Ning",
     "model": "Halbertec 8000",
     "short_label": "HAL8000",
@@ -656,6 +679,7 @@
   },
   {
     "id": "li-ning-halbertec-7000",
+    "series": "Halbertec",
     "brand": "Li-Ning",
     "model": "Halbertec 7000",
     "short_label": "HAL7000",
@@ -683,6 +707,7 @@
   },
   {
     "id": "li-ning-halbertec-7000-ii",
+    "series": "Halbertec",
     "brand": "Li-Ning",
     "model": "Halbertec 7000 II",
     "short_label": "HAL7000II",
@@ -709,6 +734,7 @@
   },
   {
     "id": "li-ning-bladex-900-new",
+    "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 900 New",
     "short_label": "BX900NEW",
@@ -736,6 +762,7 @@
   },
   {
     "id": "li-ning-bladex-900-sunmax",
+    "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 900 Sun Max",
     "short_label": "BX900Sun",
@@ -763,6 +790,7 @@
   },
   {
     "id": "li-ning-bladex-900-moonmax",
+    "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 900 Moon Max",
     "short_label": "BX900Moon",
@@ -789,6 +817,7 @@
   },
   {
     "id": "li-ning-bladex-880-shida",
+    "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 880 Shida",
     "short_label": "BX880Shida",
@@ -814,6 +843,7 @@
   },
   {
     "id": "li-ning-bladex-800",
+    "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 800",
     "short_label": "BX800",
@@ -841,6 +871,7 @@
   },
   {
     "id": "li-ning-bladex-800-speed",
+    "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 800 Speed",
     "short_label": "BX800Speed",
@@ -867,6 +898,7 @@
   },
   {
     "id": "li-ning-bladex-800-power",
+    "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 800 Power",
     "short_label": "BX800Power",
@@ -894,6 +926,7 @@
   },
   {
     "id": "li-ning-bladex-700",
+    "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 700",
     "short_label": "BX700",
@@ -920,6 +953,7 @@
   },
   {
     "id": "li-ning-bladex-73-light",
+    "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 73 Light",
     "short_label": "BX73Light",
@@ -945,6 +979,7 @@
   },
   {
     "id": "li-ning-windstorm-72s",
+    "series": "Windstorm",
     "brand": "Li-Ning",
     "model": "Windstorm 72S",
     "short_label": "WS72S",
@@ -970,6 +1005,7 @@
   },
   {
     "id": "li-ning-windstorm-74",
+    "series": "Windstorm",
     "brand": "Li-Ning",
     "model": "Windstorm 74",
     "short_label": "WS74",
@@ -995,6 +1031,7 @@
   },
   {
     "id": "li-ning-windstorm-79s",
+    "series": "Windstorm",
     "brand": "Li-Ning",
     "model": "Windstorm 79S",
     "short_label": "WS79S",
@@ -1020,6 +1057,7 @@
   },
   {
     "id": "li-ning-windstorm-79h",
+    "series": "Windstorm",
     "brand": "Li-Ning",
     "model": "Windstorm 79H",
     "short_label": "WS79H",
@@ -1045,6 +1083,7 @@
   },
   {
     "id": "li-ning-aeronaut-9000i",
+    "series": "Aeronaut",
     "brand": "Li-Ning",
     "model": "Aeronaut 9000I",
     "short_label": "AN9000I",

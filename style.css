@@ -106,6 +106,8 @@ main {
 }
 .filter-btn:hover { border-color: var(--accent); }
 .filter-btn.active { border-color: var(--accent); color: var(--accent); }
+.filter-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.filter-btn:disabled:hover { border-color: var(--border); }
 .filter-panel {
   display: none;
   position: absolute;
@@ -139,6 +141,25 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 14px;
+}
+
+.brand-group { margin-bottom: 28px; }
+.brand-group:last-child { margin-bottom: 0; }
+.brand-group-title {
+  font-size: 1.15rem;
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--border);
+}
+.series-group { margin: 0 0 18px 4px; }
+.series-group:last-child { margin-bottom: 0; }
+.series-group-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 0 0 8px;
 }
 
 .racket-card {

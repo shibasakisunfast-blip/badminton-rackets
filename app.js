@@ -70,13 +70,34 @@ function getCheckedValues(panelId) {
   return Array.from(document.querySelectorAll(`#${panelId} input:checked`)).map(el => el.value);
 }
 
+function updateSeriesFilterPanel() {
+  const brands = getCheckedValues("brand-filter-panel");
+  const panel = document.getElementById("series-filter-panel");
+  const btn = document.getElementById("series-filter-btn");
+  panel.innerHTML = "";
+  panel.classList.remove("open");
+  if (brands.length === 0) {
+    btn.disabled = true;
+    btn.textContent = "すべてのシリーズ ▾";
+    btn.classList.remove("active");
+    return;
+  }
+  btn.disabled = false;
+  btn.textContent = "すべてのシリーズ ▾";
+  btn.classList.remove("active");
+  const seriesList = [...new Set(RACKETS.filter(r => brands.includes(r.brand)).map(r => r.series).filter(Boolean))].sort();
+  panel.innerHTML = seriesList.map(s => `<label><input type="checkbox" value="${escapeHtml(s)}"> ${escapeHtml(s)}</label>`).join("");
+}
+
 function getFiltered() {
   const q = document.getElementById("search-input").value.trim().toLowerCase();
   const brands = getCheckedValues("brand-filter-panel");
+  const seriesList = getCheckedValues("series-filter-panel");
   const balances = getCheckedValues("balance-filter-panel");
   const flexes = getCheckedValues("flex-filter-panel");
   return RACKETS.filter(r => {
     if (brands.length && !brands.includes(r.brand)) return false;
+    if (seriesList.length && !seriesList.includes(r.series)) return false;
     if (balances.length && !balances.includes(r.head_balance)) return false;
     if (flexes.length && !flexes.includes(r.flex)) return false;
     if (q && !(`${r.brand} ${r.model}`.toLowerCase().includes(q))) return false;
@@ -87,6 +108,7 @@ function getFiltered() {
 function setupFilterDropdowns() {
   const groups = [
     { key: "brand", label: "すべてのブランド" },
+    { key: "series", label: "すべてのシリーズ" },
     { key: "balance", label: "すべてのバランス" },
     { key: "flex", label: "すべての硬さ" }
   ];
@@ -96,12 +118,14 @@ function setupFilterDropdowns() {
 
     btn.addEventListener("click", e => {
       e.stopPropagation();
+      if (btn.disabled) return;
       const willOpen = !panel.classList.contains("open");
       document.querySelectorAll(".filter-panel.open").forEach(p => p.classList.remove("open"));
       if (willOpen) panel.classList.add("open");
     });
 
     panel.addEventListener("change", () => {
+      if (key === "brand") updateSeriesFilterPanel();
       const checked = getCheckedValues(`${key}-filter-panel`);
       btn.textContent = (checked.length ? `${label.replace("すべての", "")} (${checked.length}) ` : label) + " ▾";
       btn.classList.toggle("active", checked.length > 0);
@@ -140,6 +164,58 @@ function renderSelectionBar() {
   });
 }
 
+const BRAND_ORDER = ["Yonex", "Victor", "Li-Ning", "Mizuno"];
+
+function groupByBrandAndSeries(list) {
+  const byBrand = {};
+  for (const r of list) {
+    const series = r.series || "その他";
+    (byBrand[r.brand] ||= {});
+    (byBrand[r.brand][series] ||= []).push(r);
+  }
+  const brands = Object.keys(byBrand).sort((a, b) => {
+    const ai = BRAND_ORDER.indexOf(a), bi = BRAND_ORDER.indexOf(b);
+    if (ai === -1 && bi === -1) return a.localeCompare(b);
+    if (ai === -1) return 1;
+    if (bi === -1) return -1;
+    return ai - bi;
+  });
+  return brands.map(brand => ({
+    brand,
+    seriesGroups: Object.keys(byBrand[brand]).sort().map(series => ({ series, items: byBrand[brand][series] }))
+  }));
+}
+
+function buildRacketCard(r, list) {
+  const card = document.createElement("div");
+  card.className = "racket-card" + (SELECTED_IDS.has(r.id) ? " selected" : "");
+  const weightChips = (r.variants || []).map(v => {
+    const sw = swingWeight(v.weight_g, v.balance_point_mm);
+    return `<span class="tag weight-tag">${escapeHtml(v.weight_class)}${v.weight_g ? ` ${v.weight_g}g` : ""}${sw ? ` ・SW${sw.toFixed(1)}` : ""}</span>`;
+  }).join("");
+  card.innerHTML = `
+    <label class="select-check" title="比較用に選択">
+      <input type="checkbox" ${SELECTED_IDS.has(r.id) ? "checked" : ""}>
+    </label>
+    <div class="brand">${escapeHtml(r.brand)}</div>
+    <div class="model">${escapeHtml(r.model)}</div>
+    <div class="tag-row">
+      <span class="tag balance-${cssEscape(r.head_balance)}">${escapeHtml(r.head_balance)}</span>
+      <span class="tag">${escapeHtml(r.flex)}</span>
+    </div>
+    <div class="tag-row" style="margin-top:6px;">${weightChips}</div>
+  `;
+  card.querySelector(".select-check input").addEventListener("click", e => {
+    e.stopPropagation();
+    if (e.target.checked) SELECTED_IDS.add(r.id); else SELECTED_IDS.delete(r.id);
+    card.classList.toggle("selected", e.target.checked);
+    renderSelectionBar();
+    renderMatrix(getMatrixRackets(list));
+  });
+  card.addEventListener("click", () => openDetail(r.id));
+  return card;
+}
+
 function renderList() {
   const list = getFiltered();
   const grid = document.getElementById("racket-grid");
@@ -147,34 +223,26 @@ function renderList() {
   if (list.length === 0) {
     grid.innerHTML = '<p style="color:var(--text-muted)">該当するラケットがありません。</p>';
   } else {
-    for (const r of list) {
-      const card = document.createElement("div");
-      card.className = "racket-card" + (SELECTED_IDS.has(r.id) ? " selected" : "");
-      const weightChips = (r.variants || []).map(v => {
-        const sw = swingWeight(v.weight_g, v.balance_point_mm);
-        return `<span class="tag weight-tag">${escapeHtml(v.weight_class)}${v.weight_g ? ` ${v.weight_g}g` : ""}${sw ? ` ・SW${sw.toFixed(1)}` : ""}</span>`;
-      }).join("");
-      card.innerHTML = `
-        <label class="select-check" title="比較用に選択">
-          <input type="checkbox" ${SELECTED_IDS.has(r.id) ? "checked" : ""}>
-        </label>
-        <div class="brand">${escapeHtml(r.brand)}</div>
-        <div class="model">${escapeHtml(r.model)}</div>
-        <div class="tag-row">
-          <span class="tag balance-${cssEscape(r.head_balance)}">${escapeHtml(r.head_balance)}</span>
-          <span class="tag">${escapeHtml(r.flex)}</span>
-        </div>
-        <div class="tag-row" style="margin-top:6px;">${weightChips}</div>
-      `;
-      card.querySelector(".select-check input").addEventListener("click", e => {
-        e.stopPropagation();
-        if (e.target.checked) SELECTED_IDS.add(r.id); else SELECTED_IDS.delete(r.id);
-        card.classList.toggle("selected", e.target.checked);
-        renderSelectionBar();
-        renderMatrix(getMatrixRackets(list));
-      });
-      card.addEventListener("click", () => openDetail(r.id));
-      grid.appendChild(card);
+    for (const { brand, seriesGroups } of groupByBrandAndSeries(list)) {
+      const brandSection = document.createElement("div");
+      brandSection.className = "brand-group";
+      const brandTitle = document.createElement("h3");
+      brandTitle.className = "brand-group-title";
+      brandTitle.style.color = brandColorVar(brand);
+      brandTitle.textContent = brand;
+      brandSection.appendChild(brandTitle);
+
+      for (const { series, items } of seriesGroups) {
+        const seriesBlock = document.createElement("div");
+        seriesBlock.className = "series-group";
+        seriesBlock.innerHTML = `<h4 class="series-group-title">${escapeHtml(series)}</h4>`;
+        const cardsWrap = document.createElement("div");
+        cardsWrap.className = "racket-grid";
+        for (const r of items) cardsWrap.appendChild(buildRacketCard(r, list));
+        seriesBlock.appendChild(cardsWrap);
+        brandSection.appendChild(seriesBlock);
+      }
+      grid.appendChild(brandSection);
     }
   }
   renderSelectionBar();
