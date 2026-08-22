@@ -1042,5 +1042,33 @@
       "https://in.lining.studio/products/windstorm-79-h",
       "https://www.sunfast.jp/shopdetail/000000030960/"
     ]
+  },
+  {
+    "id": "li-ning-aeronaut-9000i",
+    "brand": "Li-Ning",
+    "model": "Aeronaut 9000I",
+    "short_label": "AN9000I",
+    "product_code": "AYPR004-1",
+    "product_code_note": "愛称「Instinct」。カラー(Black/Gold/Purpleなど)により末尾の枝番が異なる場合あり。中国では2020年11月にNo.0001〜No.1000の限定ギフトボックス版が先行発売され、通常のグローバル展開は2021年夏。既存の「Aeronaut 9000C(AN9000C)」とは別モデルで、9000Iは前衛・速攻志向、9000Cは後衛からのパワー志向という住み分け。",
+    "release_year": "2021",
+    "head_balance": "Head Heavy",
+    "flex": "Flexible",
+    "shaft_material": "カーボンファイバー+アラミド繊維複合シャフト(TB-Nanoテクノロジーでカーボンと樹脂を高密度結合、中管弾性復位システム)",
+    "frame_material": "カーボンファイバー(MPCF複合強化、フレーム下部4孔の風洞(エアストリームチャンネル)構造、Wing Stabilizer、Cubic Locking構造)",
+    "string_tension_lbs": "上限32 lbs(推奨目安24-28 lbs、販売店により20-32 lbsとも表記)",
+    "price_jpy_approx": 29700,
+    "balance_note": "バランスポイント327mmという数値は、中国の中羽在線(badmintoncn.com)の製品データベース、海外小売店shopnings、Li-Ning公式英国サイト(li-ning.co.uk)など複数の独立したソースで一致して記載されており信頼性は高いが、メーカー公表のカタログ値であり第三者による実測の記述は見つからなかった。販売されている重量クラスは5U(79g)のみで、他の重量クラス展開は確認できなかった。",
+    "variants": [
+      { "weight_class": "5U", "weight_g": 79, "weight_confidence": "estimated", "grip_size": "G6 (S1)", "shaft_diameter_mm": null, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 327, "balance_confidence": "estimated", "balance_specific_to_class": true }
+    ],
+    "review_summary_ja": "AN9000I(愛称「Instinct」)は同じ風動9000系の「9000C」よりも軽量な5U(79g)専用展開で、軽さと高いバランスポイントを両立させることでフロントコートでの速い展開と、軽量ながらも威力のあるスマッシュを狙えるモデルとされる。中国のユーザーレビューでは9.1〜9.7点という高評価が付けられており、球速の速さと落下点の正確さ、軽い自重による取り回しの良さが評価されている。フレーム下部の4孔風洞構造(エアストリームチャンネル)により空気抵抗を抑えつつ振り抜きの良さとコントロール性を両立させているとの説明があり、フレックスは柔らかめとする販売店表記が多く、パワーよりも操作性・タッチ重視の設計と考えられる。渡辺勇大選手のダブルスモデルとして日本の複数の正規代理店(SUNFAST、FUNPORT)で扱われているほか、Anthony Ginting、Jonatan Christie、Goh Jin Weiらの使用歴も報じられている。",
+    "sources": [
+      "https://www.badmintoncn.com/cbo_eq/view.php?eid=8621",
+      "https://www.sohu.com/a/431148515_120535839",
+      "https://www.sunfast.jp/shopdetail/000000029073/",
+      "https://order.funport.co.jp/view/item/000000000566",
+      "https://li-ning.co.uk/product/an-9000-i/",
+      "https://www.shopnings.com/li-ning-aeronaut-9000i-badminton-racket-black-gold-2021-summer/"
+    ]
   }
 ]
