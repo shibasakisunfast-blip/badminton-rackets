@@ -1369,10 +1369,10 @@
     "frame_material": "High Modulus (HM) Graphite, CFR, Tungsten",
     "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
     "price_jpy_approx": 36300,
-    "balance_note": "ヨネックス公式はバランスポイントの具体的な数値(mm)を公開していない。ここに記載した実測値(4U5:約309mm/3U5:約310mm)はレビューサイト「バドミントンと僕」の実打記事に基づくもので、個体差やガット・グリップテープの重量により変動しうる。",
+    "balance_note": "ヨネックス公式はバランスポイントの具体的な数値(mm)を公開していない。レビューサイト「バドミントンと僕」の実打記事では実測値(4U5:約309mm/3U5:約310mm)が報告されているが、ヨネックス公式の相対マトリクス図(Racquet Selector)ではAstrox 77 Pro/Tourより下(よりヘッドライト側)に位置している。ユーザー指示により、図中の位置関係を優先してバランス値を297/298mmに調整(実測値309/310mmより低く設定)。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 89, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.7, "grip_length_mm": 210, "overall_length_mm": 670, "balance_point_mm": 309, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "3U", "weight_g": 93, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.7, "grip_length_mm": 210, "overall_length_mm": 670, "balance_point_mm": 310, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "4U", "weight_g": 89, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.7, "grip_length_mm": 210, "overall_length_mm": 670, "balance_point_mm": 297, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "3U", "weight_g": 93, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.7, "grip_length_mm": 210, "overall_length_mm": 670, "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "アストロクス88Sプロは前衛(フロントコート)特化のダブルス向けモデルで、ヘッドヘビーながら振り抜きが軽く感じられると評価されている。グロメット数を削減した新設計フレームによりシャトルが一瞬吸い付くような球持ち感があり、速いラリーでの正確なコントロールに向いている。公式フレックスはStiffだが、レビューでは「テイクバックが小さくても威力を出せる」という声が多い。レシーブ時のフェイス作りの速さや振動吸収性も評価されており、前衛で速いタッチプレーを好む上級者に適したラケットとされる。",
     "sources": [
@@ -1399,8 +1399,8 @@
     "price_jpy_approx": 29700,
     "balance_note": "ヨネックス公式・独立レビューサイトともにバランスポイントのmm数値は確認できず、「プロよりイーブン寄り」という定性的な相対評価のみが得られた。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 670, "balance_point_mm": 305, "balance_confidence": "estimated", "balance_specific_to_class": false },
-      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 670, "balance_point_mm": 305, "balance_confidence": "estimated", "balance_specific_to_class": false }
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 670, "balance_point_mm": 296, "balance_confidence": "estimated", "balance_specific_to_class": false },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 670, "balance_point_mm": 296, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
     "review_summary_ja": "アストロクス88Sツアーはプロモデルと同コンセプトながら台湾製で、価格を抑えつつ広めのスイートスポットとコントロール性を狙ったモデルである。実打レビューでは、プロよりバランスがややイーブン寄りで、シャフトの入りもマイルドと評されており、初中級者でも扱いやすいとされる。中上級者のダブルス前衛用として、プロへのステップアップまたはコストを抑えた選択肢として位置づけられる。",
     "sources": [
@@ -1585,10 +1585,10 @@
     "frame_material": "高弾性カーボン+フレックスフューズ+タングステン",
     "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
     "price_jpy_approx": 27500,
-    "balance_note": "海外レビューサイトBadmintonBitesの実測では4U/G5で重量84.2g・バランス点298mmと報告されている。タツミスポーツのプレシジョンスキャン実測でも概ね299〜306mm程度の範囲が確認でき、おおむね近い値だが個体差がある点に留意。",
+    "balance_note": "海外レビューサイトBadmintonBitesの実測では4U/G5で重量84.2g・バランス点298mmと報告されている(タツミスポーツのプレシジョンスキャン実測でも概ね299〜306mm程度)。ただしヨネックス公式の相対マトリクス図(Racquet Selector)ではAstrox 88S Pro/Tourより上(よりヘッドヘビー側)に位置しており、実測値の並び(88Sの方が高い)とは逆転している。ユーザー指示により、図中の位置関係を優先してバランス値を301mmに調整(実測値298mmより高く設定)。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 84.2, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+      { "weight_class": "4U", "weight_g": 84.2, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 301, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 301, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
     "review_summary_ja": "新素材「フレックスフューズ」をジョイント部に採用し、マイルドな打球感としなやかなショット性能を両立したモデル。海外レビューでは、オールラウンドプレーヤー向けに「ドライブが直線的でパンチが効く」「クリアが打ちやすい」「コントロールとパワーのバランスが良い」と評されている。ラリーを組み立てながら得点機会を作るタイプのシングルスプレーヤーや、ローテーションの多いダブルスプレーヤーに向くとされる。",
     "sources": [
@@ -1612,11 +1612,11 @@
     "frame_material": "高弾性カーボン+ライトフィールカーボンネオ+タングステン",
     "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
     "price_jpy_approx": 27500,
-    "balance_note": "タツミスポーツのプレシジョンスキャン実測では4U5/4U6の個体で概ね298〜303mm程度の値が確認された(個体差あり)。メーカー公式スペックシートでは具体的なmm数値は公表されていない。",
+    "balance_note": "タツミスポーツのプレシジョンスキャン実測では4U5/4U6の個体で概ね298〜303mm程度の値が確認された(個体差あり)。メーカー公式スペックシートでは具体的なmm数値は公表されていない。ヨネックス公式の相対マトリクス図(Racquet Selector)ではAstrox 88S Pro/Tourより上(よりヘッドヘビー側)に位置しているため、ユーザー指示により図中の位置関係を優先してバランス値を調整。",
     "variants": [
-      { "weight_class": "4U(G5)", "weight_g": 81.9, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U(G6)", "weight_g": 83.1, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 303, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+      { "weight_class": "4U(G5)", "weight_g": 81.9, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 301, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "4U(G6)", "weight_g": 83.1, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 302, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 301, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
     "review_summary_ja": "PROモデルと同コンセプトのデザインを持ちつつ、中上級者向けに威力あるスマッシュとマイルドな打球感を両立させたモデル。バドナビの口コミでは「攻撃と操作性のバランスが良い」と評され、ヘッドヘビーながらシャフトのしなりとタッチの良さを両立していると好意的に評価されている。台湾製で価格は日本製PROモデルよりやや抑えられている。",
     "sources": [
@@ -1720,7 +1720,7 @@
     "price_jpy_approx": 25300,
     "balance_note": "ヨネックス公式ページでは定性的なバランス表記が見当たらず、独立レビューサイトでは一貫して「ヘッドヘビー」と記載されている一方、海外の一部データベースでは「Even Balance」と分類されており情報源間で表記の揺れがある。mm単位の実測値はいずれの情報源にも見つからなかった。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
     "variants": [
-      { "weight_class": "2F", "weight_g": 68, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 299, "balance_confidence": "estimated", "balance_specific_to_class": false }
+      { "weight_class": "2F", "weight_g": 68, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 295, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
     "review_summary_ja": "アストロクス22RXは2023年12月発売の超軽量(2F・平均68g)モデルで、軽さを武器に攻めたい中級者向けに位置づけられている。シャフトはスティッフ(かため)で、しなりすぎず打感がクリアに伝わる設計となっている。ヘッドヘビーバランスにより軽量ながらスマッシュにもそれなりの威力を出せる点が特徴で、「軽さと強さを両立した扱いやすさの究極形」と評するレビューもある。",
     "sources": [
