@@ -2198,5 +2198,32 @@
       "https://www.racket.co.jp/product/ynx-nf-400.html",
       "https://itomurablog.com/nanoflare-400-review/"
     ]
+  },
+  {
+    "id": "li-ning-axforce-big-bang-new",
+    "series": "AxForce",
+    "brand": "Li-Ning",
+    "model": "AxForce Big Bang New",
+    "short_label": "AXFBBangNew",
+    "product_code": "AXBBN",
+    "product_code_note": "旧来の「AxForce Big Bang」(AXBB、日本では7Uのみ展開)とは別モデル。日本正規代理店Funportでは4U6/5U6の2クラス展開。中国語名「雷霆BBNEW」。",
+    "release_year": "2023",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "高弾性カーボン、7.0mmシャフト",
+    "frame_material": "高弾性カーボンファイバー",
+    "string_tension_lbs": "4U ≤28 lbs / 5U ≤27 lbs",
+    "price_jpy_approx": 22000,
+    "balance_note": "日本正規代理店Funportの商品ページには重量(グラム)・バランスポイント(mm)とも数値記載がなく、「ヘッドヘビー」「スイングウェイトは軽め〜中程度」という定性的な説明のみ。独立レビューサイトでも詳細な実測データは見つからなかったため、重量は標準的な4U/5Uレンジの目安値、バランスは不明としている。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "2023年秋発売の軽量オフェンス系モデルで、旧「AxForce Big Bang」の後継的な位置づけとされる。Sonic Boom Systemによりインパクト時の音と打感を強調する演出が特徴で、ヘッドヘビーな静的バランスと軽量フレームにより初心者からある程度慣れたプレーヤーまで幅広く扱いやすいと販促文で説明されている。独立レビューサイトによる詳細な試打評価は今回見つからず、評価は主に販売店の製品説明に基づく。",
+    "sources": [
+      "https://order.funport.co.jp/view/item/000000001498",
+      "https://store.shopping.yahoo.co.jp/lining/ln-axbbn.html",
+      "https://www.shopnings.com/li-ning-axforce-big-bang-badminton-racket/"
+    ]
   }
 ]
