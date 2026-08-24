@@ -1088,9 +1088,9 @@
     "frame_material": "カーボンファイバー(MPCF複合強化、フレーム下部4孔の風洞(エアストリームチャンネル)構造、Wing Stabilizer、Cubic Locking構造)",
     "string_tension_lbs": "上限32 lbs(推奨目安24-28 lbs、販売店により20-32 lbsとも表記)",
     "price_jpy_approx": 29700,
-    "balance_note": "バランスポイント327mmという数値は、中国の中羽在線(badmintoncn.com)の製品データベース、海外小売店shopnings、Li-Ning公式英国サイト(li-ning.co.uk)など複数の独立したソースで一致して記載されており信頼性は高いが、メーカー公表のカタログ値であり第三者による実測の記述は見つからなかった。販売されている重量クラスは5U(79g)のみで、他の重量クラス展開は確認できなかった。日本正規代理店Funportの商品ページにも「5U(79g)」と明記されており、重量については実測値相当の確度とみなせる。",
+    "balance_note": "バランスポイント327mmという数値は、中国の中羽在線(badmintoncn.com)の製品データベース、海外小売店shopnings、Li-Ning公式英国サイト(li-ning.co.uk)など複数の独立したソースで一致して記載されていたが、日本正規代理店FunportのWEBカタログ・マトリクス表(スイングウェイト×打球感)では、AN9000iはコントロール重視側(打球感軸の左側)かつHalbertec7000やAxForce70/60と同程度の中〜軽めのスイングウェイト帯に位置しており、327mmでは説明できないほど軽い位置にプロットされている。327mmという値は同シリーズの9000C(298mm)を上回りシリーズ最高値になってしまい、実際のマトリクス表上の位置(むしろ軽量級)と矛盾するため、ユーザー指示によりFunportマトリクス表の位置関係を優先し298mmに修正した(以前の327mmは撤回)。",
     "variants": [
-      { "weight_class": "5U", "weight_g": 79, "weight_confidence": "measured", "grip_size": "G6 (S1)", "shaft_diameter_mm": null, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 327, "balance_confidence": "estimated", "balance_specific_to_class": true }
+      { "weight_class": "5U", "weight_g": 79, "weight_confidence": "measured", "grip_size": "G6 (S1)", "shaft_diameter_mm": null, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AN9000I(愛称「Instinct」)は同じ風動9000系の「9000C」よりも軽量な5U(79g)専用展開で、軽さと高いバランスポイントを両立させることでフロントコートでの速い展開と、軽量ながらも威力のあるスマッシュを狙えるモデルとされる。中国のユーザーレビューでは9.1〜9.7点という高評価が付けられており、球速の速さと落下点の正確さ、軽い自重による取り回しの良さが評価されている。フレーム下部の4孔風洞構造(エアストリームチャンネル)により空気抵抗を抑えつつ振り抜きの良さとコントロール性を両立させているとの説明があり、フレックスは柔らかめとする販売店表記が多く、パワーよりも操作性・タッチ重視の設計と考えられる。渡辺勇大選手のダブルスモデルとして日本の複数の正規代理店(SUNFAST、FUNPORT)で扱われているほか、Anthony Ginting、Jonatan Christie、Goh Jin Weiらの使用歴も報じられている。",
     "sources": [
@@ -2214,10 +2214,10 @@
     "frame_material": "高弾性カーボンファイバー",
     "string_tension_lbs": "4U ≤28 lbs / 5U ≤27 lbs",
     "price_jpy_approx": 22000,
-    "balance_note": "日本正規代理店Funportの商品ページには重量(グラム)・バランスポイント(mm)とも数値記載がなく、「ヘッドヘビー」「スイングウェイトは軽め〜中程度」という定性的な説明のみ。独立レビューサイトでも詳細な実測データは見つからなかったため、重量は標準的な4U/5Uレンジの目安値、バランスは不明としている。",
+    "balance_note": "商品ページには重量(グラム)・バランスポイント(mm)とも数値記載がなかったが、Funport WEBカタログのマトリクス表(スイングウェイト×打球感)には「AXBB 4U」「AXBB 5U」としてAxForce 80やBladeX 800 Power/Speedと同程度の中位のスイングウェイト帯・反発力寄りの位置にプロットされていた。このマトリクス表の位置関係から逆算した目安値としてバランスポイントを4U:295mm/5U:293mmと推定した(実測ではなくチャート上の相対位置からの推定)。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
-      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "estimated", "balance_specific_to_class": false },
+      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 293, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
     "review_summary_ja": "2023年秋発売の軽量オフェンス系モデルで、旧「AxForce Big Bang」の後継的な位置づけとされる。Sonic Boom Systemによりインパクト時の音と打感を強調する演出が特徴で、ヘッドヘビーな静的バランスと軽量フレームにより初心者からある程度慣れたプレーヤーまで幅広く扱いやすいと販促文で説明されている。独立レビューサイトによる詳細な試打評価は今回見つからず、評価は主に販売店の製品説明に基づく。",
     "sources": [
