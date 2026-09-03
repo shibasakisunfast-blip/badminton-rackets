@@ -122,64 +122,6 @@
     ]
   },
   {
-    "id": "victor-thruster-k-falcon-claw",
-    "series": "Thruster",
-    "brand": "Victor",
-    "model": "Thruster K Falcon Claw",
-    "short_label": "TK-FClaw",
-    "product_code": "TK-F C",
-    "product_code_note": "単体の統一SKUはなく、必ずエディション名付きで販売される(例: TK-F C LTD A, TK-F C Ultra X)",
-    "release_year": null,
-    "head_balance": "Head Heavy",
-    "flex": "Medium",
-    "shaft_material": "High Resilience Modulus Graphite + PYROFIL, 6.5mm極細アンチトーションシャフト",
-    "frame_material": "High Resilience Modulus Graphite + Nano Fortify TR + Hard Cored Technology",
-    "string_tension_lbs": "最大31 lbs (14kg)",
-    "price_jpy_approx": 30800,
-    "balance_note": "mm単位の実測データが信頼できる情報源から見つからなかったため、図中の位置は「Head Heavy」区分の他機種の平均値(305mm)を仮置きした概算。正確な値ではない点に注意。重量も公式レンジの中間値を使用。",
-    "variants": [
-      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "balance_point_mm": 305, "balance_confidence": "unknown", "balance_specific_to_class": false },
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": 305, "balance_confidence": "unknown", "balance_specific_to_class": false }
-    ],
-    "review_summary_ja": "戴資穎(タイ・ツーイン)使用モデルとして知られ、極端ではないヘッドヘビーバランスと6.5mmの細径アンチトーションシャフトにより、パワーと安定したコントロールを両立させたラケット。レビューでは「しっかりとした正確で心地よい打球感」と評価され、クリアとドロップを織り交ぜて主導権を握る攻撃的かつコントロール志向のシングルスプレイヤーに適するとされる。中級〜上級者向け。",
-    "sources": [
-      "https://www.victorsport.com/product/thruster-f-claw",
-      "https://shop.au.victorsport.com/products/thruster-k-falcon-claw-ltd",
-      "https://www.badmintonwarehouse.com/blogs/news/how-good-is-the-victor-thruster-f-claw-white-tai-tzu-ying-badminton-racket",
-      "https://e78.us/products/tk-fc",
-      "https://e78.us/products/thruster-k-f-claw-a"
-    ]
-  },
-  {
-    "id": "victor-auraspeed-90k",
-    "series": "Auraspeed",
-    "brand": "Victor",
-    "model": "Auraspeed 90K",
-    "short_label": "ARS90K",
-    "product_code": "ARS-90K",
-    "product_code_note": "世代・カラーにより「ARS-90K H」「ARS-90K II B」等の派生コードあり",
-    "release_year": "2019",
-    "head_balance": "Head Light",
-    "flex": "Stiff",
-    "shaft_material": "High Resilience Modulus Graphite + PYROFIL + 6.8カーボンシャフト, WES, アンチトーションシステム",
-    "frame_material": "High Resilience Modulus Graphite + Nano Fortify TR+ + Hard Cored Technology, Dynamic-Sword異形フレーム",
-    "string_tension_lbs": "19-27 lbs (4U) / 20-28 lbs前後 (3U)",
-    "price_jpy_approx": 23800,
-    "balance_note": "bd-boku.comの独立採寸(グリップ張り替え後、3U5/4U5)は314〜316mmで、実測値としてはこれが唯一の直接データ。一方、一部小売店は「ヘッドライト寄り」と真逆の表現をしており、情報源間で評価が割れている点に注意。全重量クラス共通の目安として使用。",
-    "variants": [
-      { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "balance_point_mm": 315, "balance_confidence": "estimated", "balance_specific_to_class": false },
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": 315, "balance_confidence": "estimated", "balance_specific_to_class": false }
-    ],
-    "review_summary_ja": "Dynamic-Sword構造とWES/アンチトーションシステムにより振りが速く、ネットキルやスマッシュなど攻撃面で高評価を得つつ、ドロップやクリアなどコントロール面も安定しており、バランスの取れた万能型として紹介されている。硬めのシャフトで芯を食った際の弾き返しが強く、アンダース・アントンセン選手の使用モデルとしても知られる。バランスは「ややヘッドライト」とする評が多いが情報源により見解が分かれる。中上級〜上級者向け。",
-    "sources": [
-      "https://ca.victorsport.com/product/62765/auraspeed-90k-h",
-      "https://www.ckyew.com/post/victor-auraspeed-90k-badminton-racket-review-the-underrated-gem",
-      "https://www.badmintonwarehouse.com/blogs/news/victor-auraspeed-90k-badminton-racket-seriously-good",
-      "https://bd-boku.com/ars-90k/",
-      "https://e78.us/products/ars-90k"
-    ]
-  },
-  {
     "id": "li-ning-aeronaut-9000c",
     "series": "Aeronaut",
     "brand": "Li-Ning",
@@ -233,33 +175,6 @@
       "https://www.badmintonbay.com/li-ning-windstorm-72-black-badminton-racket.html",
       "https://www.badmintoncn.com/cbo_eq/view.php?eid=6657",
       "http://www.ctsports.com.cn/article-90989.html"
-    ]
-  },
-  {
-    "id": "mizuno-fortius-11-power",
-    "series": "Fortius",
-    "brand": "Mizuno",
-    "model": "Fortius 11 Power",
-    "short_label": "FT11Power",
-    "product_code": "73JTB112",
-    "product_code_note": "カラーにより末尾2桁が変化(例: 日本仕様の黒/オレンジは73JTB11209)",
-    "release_year": "2021",
-    "head_balance": "Head Heavy",
-    "flex": "Stiff",
-    "shaft_material": "高弾性グラファイト + グラファイト, M FUSION",
-    "frame_material": "高弾性グラファイト + グラファイト, M FUSION, タングステン",
-    "string_tension_lbs": "22-29 lbs",
-    "price_jpy_approx": 27500,
-    "balance_note": "複数の販売店仕様(302mm前後)と、独立採寸データベース(bd-boku.com, 304mm)がほぼ一致しており信頼度は高い。重量は「4U6」(4U区分)としか公表されておらず正確なグラム数が見つからなかったため、4U標準レンジの中間値(82g)を暫定使用。この機種は4U(G6グリップ)の単一重量展開のみで販売されている。",
-    "variants": [
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "balance_point_mm": 303, "balance_confidence": "measured", "balance_specific_to_class": false }
-    ],
-    "review_summary_ja": "FORTIUSシリーズの最上位パワーモデルで、Trans Force Frameとタングステンをフレーム下部に配置することで重心をラケット中心付近に集め、スイングの回転速度を高めて強烈なスマッシュを生み出すとされる。レビューでは「非常に重量感がありスマッシュが重くなる」「先代モデルより扱いやすくなった」という声がある一方、「パワーの伝わりは良いが、しっかりしたフォームが求められる」との指摘もある。バックコートからの強打を武器にする攻撃的なプレースタイルの選手向け。",
-    "sources": [
-      "https://jpn.mizuno.com/badminton/news/products/20211119_fortius11_quick_power",
-      "https://jpn.mizuno.com/badminton/fortius/",
-      "https://triplepointsports.com/products/mizuno-fortius-11-power-badminton-racket-made-in-japan",
-      "https://www.racket.co.jp/product/miz-73jtb112.html"
     ]
   },
   {
