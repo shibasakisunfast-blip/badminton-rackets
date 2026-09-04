@@ -1847,6 +1847,31 @@
     ]
   },
   {
+    "id": "yonex-arcsaber-7-tour",
+    "brand": "Yonex",
+    "series": "Arcsaber",
+    "model": "Arcsaber 7 Tour",
+    "short_label": "ARC7-T",
+    "product_code": "ARC7-T",
+    "product_code_note": "2026年3月27日発売(グレー/イエローの新デザインカラーは同年7月上旬発売)。上位モデル「Arcsaber 7 Pro(ARC7-P、日本製)」の台湾製・普及版バリエーションとして展開。",
+    "release_year": "2026",
+    "head_balance": "Even Balance",
+    "flex": "Medium",
+    "shaft_material": "高弾性カーボン(内蔵T型ジョイント+Tアンカー)",
+    "frame_material": "高弾性カーボン+POCKETING BOOSTER",
+    "string_tension_lbs": "4U: 19-27 lbs",
+    "price_jpy_approx": 28600,
+    "balance_note": "ヨネックス公式オンラインショップ(yonexshop.jp)のSPEC欄には素材構成・推奨張力・原産地(台湾)の記載はあるが、撃球感やフレックスの数値区分、バランスポイント(mm)・重量(g)の実測値は公開されていない。Flexは、上位モデルArcsaber 7 Pro(ARC7-P、Medium)と素材構成がほぼ同一(ウルトラPEファイバーの有無とジョイントの「新」表記のみが差分)であることから、暫定的に同じ「Medium」と推定した。バランスポイントもARC7-Pの推定値(291mm)を暫定的に流用しており、いずれも確定値ではない。重量はヨネックス4Uクラスの標準的な目安値(約83g)を暫定採用。発売から日が浅く、実測データが得られ次第更新が必要。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 291, "balance_confidence": "estimated", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "アークセイバー7ツアーは2026年3月発売のイーブンバランス・コントロール系モデルで、日本製の上位機「Arcsaber 7 Pro」と同じPOCKETING BOOSTER技術を採用しつつ、台湾製・素材をやや簡略化した普及版として位置づけられる。発売から日が浅く独立レビューはまだ乏しいが、公式情報からはPocketing Boosterによるシャトルの「くわえ込み」感を活かしたコントロール性能を、Proより手頃な価格で提供するモデルと見られる。",
+    "sources": [
+      "https://yonexshop.jp/item/detail/1_1_ARC7-T_1/",
+      "https://www.yonex.co.jp/badminton/products/?category_m=RACQUETS"
+    ]
+  },
+  {
     "id": "yonex-nanoflare-1000z",
     "brand": "Yonex",
     "series": "Nanoflare",
