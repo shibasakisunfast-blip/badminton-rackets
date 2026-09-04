@@ -240,6 +240,31 @@
     ]
   },
   {
+    "id": "li-ning-axforce-100-ii-max",
+    "series": "AxForce",
+    "brand": "Li-Ning",
+    "model": "AxForce 100 II MAX",
+    "short_label": "AXF100IIMAX",
+    "product_code": null,
+    "product_code_note": "Li-Ning公式Instagram(@uf.lining)が2026年8月29日に予告投稿した新モデル。投稿時点(2026年9月上旬発売予定)では正式な製品型番(AYPT系)は未公開。AxForce 100 IIのさらに上位の「MAX」派生モデルとみられる。",
+    "release_year": "2026",
+    "head_balance": "Head Heavy",
+    "flex": "Extra Stiff",
+    "shaft_material": "M46+T1100+ULTRA高弾性カーボンファイバー、6.2mm極細弾性シャフト(FRTP TECH)",
+    "frame_material": "M40X+ULTRA高弾性カーボンファイバー+高分子蓄力制振材",
+    "string_tension_lbs": "4U ≤30 lbs",
+    "price_jpy_approx": 44000,
+    "price_note": "Li-Ning台湾正規代理店(uf.lining)の予告価格NT$9,200を為替レートで換算した参考値。日本正規代理店Funportでの取り扱い・発売価格は本稿時点(2026年9月4日)で未発表のため確定額ではない。",
+    "balance_note": "2026年8月29日付のLi-Ning公式Instagram(@uf.lining)予告投稿(ユーザー提供のスクリーンショット)の「戦拍檔案」記載情報のみに基づく登録。展開重量クラスは4Uのみと明記。撃球感●揮重は「硬●重」表記のため、Flexは4段階中最も硬い「Extra Stiff」に分類した。具体的な重量(g)・バランスポイント(mm)は投稿内に記載がなく、正式発売時の公式スペック表で要確認。第三者によるレビューはまだ存在しない(発売前のため)。",
+    "variants": [
+      { "weight_class": "4U", "weight_g": null, "weight_confidence": "unknown", "grip_size": "G5", "shaft_diameter_mm": 6.2, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "AxForce 100 II MAXは2026年9月上旬発売予定としてLi-Ning公式Instagram(@uf.lining)が予告したAxForce 100 IIの上位派生モデル。公式の煽り文句では「暴力進攻天花板(暴力的な攻撃力の頂点)」「出球乾脆、殺球下圧慣性更強(球離れが良く、スマッシュの押し込む慣性がより強い)」と紹介されており、100 IIよりもさらにヘッドが重く、シャフトも硬い方向にチューニングされた一撃必殺型モデルと位置づけられている。発売前のため独立したレビューはまだなく、情報は公式予告投稿の内容に限られる。",
+    "sources": [
+      "https://www.instagram.com/uf.lining/ (2026年8月29日投稿、ユーザー提供のスクリーンショットより)"
+    ]
+  },
+  {
     "id": "li-ning-axforce-90-new",
     "series": "AxForce",
     "brand": "Li-Ning",
@@ -356,6 +381,33 @@
       "https://www.racket.co.jp/product/lin-ax80-4.html",
       "https://zhuanlan.zhihu.com/p/562909305",
       "https://badmintonclick.com.au/products/new-2022-li-ning-axforce-80-83-grams-badminton-racquet"
+    ]
+  },
+  {
+    "id": "li-ning-axforce-80-ii",
+    "series": "AxForce",
+    "brand": "Li-Ning",
+    "model": "AxForce 80 II",
+    "short_label": "AXF80II",
+    "product_code": null,
+    "product_code_note": "Li-Ning公式Instagram(@uf.lining)が2026年8月21日に予告投稿した新モデル。投稿時点(2026年9月上旬発売予定)では正式な製品型番(AYPT系)は未公開。「経典永駐(クラシックの継続)」と銘打たれたAxForce 80の後継モデル。",
+    "release_year": "2026",
+    "head_balance": "Head Heavy",
+    "flex": "Medium",
+    "shaft_material": "ULTRA高弾性カーボンファイバー+高密度制振材",
+    "frame_material": "M46+T1100+ULTRA高弾性カーボンファイバー+高分子蓄力制振材",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
+    "price_jpy_approx": 37000,
+    "price_note": "Li-Ning台湾正規代理店(uf.lining)の予告価格NT$7,800を為替レートで換算した参考値。日本正規代理店Funportでの取り扱い・発売価格は本稿時点(2026年9月4日)で未発表のため確定額ではない。",
+    "balance_note": "2026年8月21日付のLi-Ning公式Instagram(@uf.lining)予告投稿(ユーザー提供のスクリーンショット)の「球拍檔案」記載情報のみに基づく登録。展開重量クラスは3U/4U/5Uの3クラス。撃球感は3U/4U/5Uいずれも「適中」表記のため、Flexは「Medium」に分類した。揮重(振ったときの重さの感覚)は3U「稍重(やや重め)」/4U「適中」/5U「稍軽(やや軽め)」と公式に記載されている。握柄は3U=G5、4U=G5またはG6、5U=G6。具体的な重量(g)・バランスポイント(mm)は投稿内に記載がなく、正式発売時の公式スペック表で要確認。第三者によるレビューはまだ存在しない(発売前のため)。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": null, "weight_confidence": "unknown", "grip_size": "G5", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": null, "weight_confidence": "unknown", "grip_size": "G5/G6", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "5U", "weight_g": null, "weight_confidence": "unknown", "grip_size": "G6", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "AxForce 80 IIは2026年9月上旬発売予定としてLi-Ning公式Instagram(@uf.lining)が予告した、初代AxForce 80(2021年、諶龍使用モデル)の正統後継。公式は「進化升級、経典永駐(進化してアップグレードしつつ、クラシックは受け継がれる)」と紹介しており、撃球感・揮重ともに3U/4U/5U全クラスで「適中」バランス型にまとめられている点が特徴。初代の6.6mm極細シャフトによる弾ける打感というコンセプトを踏襲しつつ、フレーム・シャフト素材をより新しい高分子蓄力制振材世代にアップデートしたモデルとみられる。発売前のため独立したレビューはまだなく、情報は公式予告投稿の内容に限られる。",
+    "sources": [
+      "https://www.instagram.com/uf.lining/ (2026年8月21日投稿、ユーザー提供のスクリーンショットより)"
     ]
   },
   {
