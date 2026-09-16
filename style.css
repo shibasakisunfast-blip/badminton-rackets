@@ -268,7 +268,7 @@ main {
   cursor: pointer;
   transition: r 0.1s ease;
 }
-.matrix-point:hover circle { r: 9; }
+.matrix-point:hover circle { r: var(--point-hover-r, 9); }
 .matrix-point text { pointer-events: none; }
 
 .matrix-legend {

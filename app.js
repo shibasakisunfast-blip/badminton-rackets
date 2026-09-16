@@ -289,7 +289,16 @@ function renderMatrix(rackets) {
   const yScale = sw => margin.top + plotH * (1 - (sw - yMin) / (yMax - yMin));
 
   const vb = matrixViewBox || { x: 0, y: 0, w: width, h: height };
-  let svg = `<svg viewBox="${vb.x} ${vb.y} ${vb.w} ${vb.h}" xmlns="http://www.w3.org/2000/svg" font-family="inherit">`;
+  // As the user zooms in (vb.w shrinks below the base width), scale points/labels
+  // down so they don't grow along with the magnification and start overlapping.
+  const zoomScale = width / vb.w;
+  const pointR = Math.max(2.5, 6 / zoomScale);
+  const pointHoverR = Math.max(pointR + 1.5, 9 / zoomScale);
+  const pointStrokeW = Math.max(0.5, 1.5 / zoomScale);
+  const labelFontSize = Math.max(5, 9 / zoomScale);
+  const labelYOffset = Math.max(6, 17 / zoomScale);
+
+  let svg = `<svg viewBox="${vb.x} ${vb.y} ${vb.w} ${vb.h}" xmlns="http://www.w3.org/2000/svg" font-family="inherit" style="--point-hover-r:${pointHoverR}">`;
 
   // vertical guide lines between flex columns
   for (let c = 0; c <= cols; c++) {
@@ -354,8 +363,8 @@ function renderMatrix(rackets) {
       const label = it.weightClass ? `${shortName} ${it.weightClass}` : shortName;
 
       svg += `<g class="matrix-point" data-id="${it.pointId}" transform="translate(${px},${py})">
-        <circle r="6" style="fill:${color};stroke:${color}" fill-opacity="${fillOpacity}" stroke-width="1.5" ${dash}/>
-        <text x="0" y="17" text-anchor="middle" font-size="9" style="fill:var(--text)">${escapeHtml(label)}</text>
+        <circle r="${pointR}" style="fill:${color};stroke:${color}" fill-opacity="${fillOpacity}" stroke-width="${pointStrokeW}" ${dash}/>
+        <text x="0" y="${labelYOffset}" text-anchor="middle" font-size="${labelFontSize}" style="fill:var(--text)">${escapeHtml(label)}</text>
       </g>`;
     });
   }
