@@ -238,8 +238,31 @@ main {
   .tag.balance-Head\ Light { background: #1e3a5f; }
 }
 
-#matrix-chart { width: 100%; overflow-x: auto; }
+.matrix-toolbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.matrix-toolbar .hidden { display: none; }
+.matrix-zoom-hint {
+  font-size: 0.8rem;
+  color: var(--accent);
+}
+
+#matrix-chart { width: 100%; overflow-x: auto; touch-action: pan-y; }
 #matrix-chart svg { width: 100%; height: auto; display: block; }
+#matrix-chart.zoom-select-mode { touch-action: none; cursor: crosshair; }
+#matrix-chart.zoom-select-mode svg { cursor: crosshair; }
+.matrix-select-rect {
+  fill: var(--accent);
+  fill-opacity: 0.15;
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  stroke-dasharray: 5,3;
+  pointer-events: none;
+}
 
 .matrix-point circle {
   cursor: pointer;

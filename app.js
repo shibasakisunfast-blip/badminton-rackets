@@ -18,6 +18,15 @@ const PIVOT_MM = 100;
 let RACKETS = [];
 const SELECTED_IDS = new Set();
 
+// Matrix zoom state: matrixViewBox holds the current SVG viewBox window (in the
+// fixed 0..MATRIX_W x 0..MATRIX_H coordinate space used to lay out points), or
+// null for the full/default view. Persists across re-renders (filter changes,
+// selection changes) until the user resets it or drags a new selection.
+const MATRIX_W = 680, MATRIX_H = 480;
+let matrixViewBox = null;
+let matrixZoomSelectMode = false;
+let lastMatrixRackets = [];
+
 function brandColorVar(brand) {
   return `var(${BRAND_COLOR_VAR[brand] || "--accent"})`;
 }
@@ -259,11 +268,12 @@ function escapeHtml(s) {
 }
 
 function renderMatrix(rackets) {
+  lastMatrixRackets = rackets;
   const container = document.getElementById("matrix-chart");
   const racketIds = new Set(rackets.map(r => r.id));
   const items = allVariantItems().filter(it => racketIds.has(it.racket.id) && FLEX_ORDER.includes(it.racket.flex) && it.sw !== null);
 
-  const width = 680, height = 480;
+  const width = MATRIX_W, height = MATRIX_H;
   const margin = { top: 20, right: 24, bottom: 56, left: 56 };
   const plotW = width - margin.left - margin.right;
   const plotH = height - margin.top - margin.bottom;
@@ -278,7 +288,8 @@ function renderMatrix(rackets) {
   const yMax = Math.ceil((rawMax + 3) / 5) * 5;
   const yScale = sw => margin.top + plotH * (1 - (sw - yMin) / (yMax - yMin));
 
-  let svg = `<svg viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" font-family="inherit">`;
+  const vb = matrixViewBox || { x: 0, y: 0, w: width, h: height };
+  let svg = `<svg viewBox="${vb.x} ${vb.y} ${vb.w} ${vb.h}" xmlns="http://www.w3.org/2000/svg" font-family="inherit">`;
 
   // vertical guide lines between flex columns
   for (let c = 0; c <= cols; c++) {
@@ -368,6 +379,121 @@ function renderMatrix(rackets) {
   container.querySelectorAll(".matrix-point").forEach(el => {
     el.addEventListener("click", () => openDetail(el.dataset.id.split("::")[0]));
   });
+
+  const resetBtn = document.getElementById("matrix-zoom-reset");
+  if (resetBtn) resetBtn.classList.toggle("hidden", !matrixViewBox);
+}
+
+// Converts a pointer event's screen coordinates into the SVG's own user-space
+// coordinates (the fixed 0..MATRIX_W x 0..MATRIX_H layout space), accounting
+// for both the current zoom viewBox and the responsive CSS scaling.
+function svgPointFromClient(svg, clientX, clientY) {
+  const pt = svg.createSVGPoint();
+  pt.x = clientX;
+  pt.y = clientY;
+  const ctm = svg.getScreenCTM();
+  if (!ctm) return { x: 0, y: 0 };
+  const local = pt.matrixTransform(ctm.inverse());
+  return { x: local.x, y: local.y };
+}
+
+function clampMatrixViewBox(rawX, rawY, rawW, rawH) {
+  const minW = MATRIX_W * 0.08, minH = MATRIX_H * 0.08;
+  let x = rawX, y = rawY, w = Math.max(rawW, minW), h = Math.max(rawH, minH);
+  // re-center if we had to grow a too-small selection up to the minimum size
+  x -= (w - rawW) / 2;
+  y -= (h - rawH) / 2;
+  // a little breathing room around the selection so edge points/labels aren't clipped
+  const padX = w * 0.08, padY = h * 0.08;
+  x -= padX; y -= padY; w += padX * 2; h += padY * 2;
+  // clamp within the base coordinate space
+  w = Math.min(w, MATRIX_W);
+  h = Math.min(h, MATRIX_H);
+  x = Math.max(0, Math.min(x, MATRIX_W - w));
+  y = Math.max(0, Math.min(y, MATRIX_H - h));
+  return { x, y, w, h };
+}
+
+function setupMatrixZoomControls() {
+  const container = document.getElementById("matrix-chart");
+  const toggleBtn = document.getElementById("matrix-zoom-toggle");
+  const resetBtn = document.getElementById("matrix-zoom-reset");
+  const hint = document.getElementById("matrix-zoom-hint");
+  if (!container || !toggleBtn || !resetBtn) return;
+
+  const setSelectMode = on => {
+    matrixZoomSelectMode = on;
+    toggleBtn.classList.toggle("active", on);
+    container.classList.toggle("zoom-select-mode", on);
+    hint.classList.toggle("hidden", !on);
+  };
+
+  toggleBtn.addEventListener("click", () => setSelectMode(!matrixZoomSelectMode));
+
+  resetBtn.addEventListener("click", () => {
+    matrixViewBox = null;
+    renderMatrix(lastMatrixRackets);
+  });
+
+  container.addEventListener("dblclick", () => {
+    if (matrixViewBox) {
+      matrixViewBox = null;
+      renderMatrix(lastMatrixRackets);
+    }
+  });
+
+  let drag = null; // { startX, startY, lastX, lastY, rectEl, svg }
+  const MIN_DRAG = 6; // in SVG user units; smaller than this is treated as a tap/click, not a zoom drag
+
+  container.addEventListener("pointerdown", e => {
+    if (!matrixZoomSelectMode) return;
+    const svg = container.querySelector("svg");
+    if (!svg) return;
+    const p = svgPointFromClient(svg, e.clientX, e.clientY);
+    const rectEl = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+    rectEl.setAttribute("class", "matrix-select-rect");
+    rectEl.setAttribute("x", p.x);
+    rectEl.setAttribute("y", p.y);
+    rectEl.setAttribute("width", 0);
+    rectEl.setAttribute("height", 0);
+    svg.appendChild(rectEl);
+    drag = { startX: p.x, startY: p.y, lastX: p.x, lastY: p.y, rectEl, svg };
+    container.setPointerCapture(e.pointerId);
+    e.preventDefault();
+  });
+
+  container.addEventListener("pointermove", e => {
+    if (!drag) return;
+    const p = svgPointFromClient(drag.svg, e.clientX, e.clientY);
+    drag.lastX = p.x;
+    drag.lastY = p.y;
+    const x = Math.min(drag.startX, p.x), y = Math.min(drag.startY, p.y);
+    const w = Math.abs(p.x - drag.startX), h = Math.abs(p.y - drag.startY);
+    drag.rectEl.setAttribute("x", x);
+    drag.rectEl.setAttribute("y", y);
+    drag.rectEl.setAttribute("width", w);
+    drag.rectEl.setAttribute("height", h);
+    e.preventDefault();
+  });
+
+  const endDrag = e => {
+    if (!drag) return;
+    const w = Math.abs(drag.lastX - drag.startX), h = Math.abs(drag.lastY - drag.startY);
+    drag.rectEl.remove();
+    if (w >= MIN_DRAG && h >= MIN_DRAG) {
+      const x = Math.min(drag.startX, drag.lastX), y = Math.min(drag.startY, drag.lastY);
+      matrixViewBox = clampMatrixViewBox(x, y, w, h);
+      setSelectMode(false);
+      renderMatrix(lastMatrixRackets);
+    }
+    drag = null;
+    if (e && e.pointerId != null) {
+      try { container.releasePointerCapture(e.pointerId); } catch (_) { /* already released */ }
+    }
+  };
+
+  container.addEventListener("pointerup", endDrag);
+  container.addEventListener("pointercancel", endDrag);
 }
 
 function productCodeCellHtml(r) {
@@ -449,5 +575,6 @@ document.addEventListener("keydown", e => {
 
 document.getElementById("search-input").addEventListener("input", renderList);
 setupFilterDropdowns();
+setupMatrixZoomControls();
 
 loadData();

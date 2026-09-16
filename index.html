@@ -21,6 +21,11 @@
       (同一モデルは縦の線で結んでいます)。点をクリックすると詳細が見られます。下の一覧でチェックを
       付けると、比較したいラケットだけに絞り込んで表示できます。
     </p>
+    <div class="matrix-toolbar">
+      <button type="button" id="matrix-zoom-toggle" class="filter-btn">🔍 範囲を選択して拡大</button>
+      <button type="button" id="matrix-zoom-reset" class="filter-btn hidden">↺ 全体表示に戻す</button>
+      <span id="matrix-zoom-hint" class="matrix-zoom-hint hidden">拡大したい範囲をドラッグ(スマホはタップしたまま指を動かす)して選択してください</span>
+    </div>
     <div id="matrix-chart"></div>
     <div id="matrix-legend" class="matrix-legend"></div>
     <p class="hint" style="margin-top:10px;">
