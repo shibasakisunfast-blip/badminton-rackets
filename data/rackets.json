@@ -1023,12 +1023,12 @@
     "product_code_note": "台湾Li-Ning公式サイト上の表記コードはAYPT449-5。中国語圏の比較ページ等ではAYPR138のコードでも参照されている。79Sとペアで展開されるモデル。",
     "release_year": "2021",
     "head_balance": "Even Balance",
-    "flex": "Stiff",
+    "flex": "Medium",
     "shaft_material": "STD高弾性カーボンファイバー",
     "frame_material": "STD高弾性カーボンファイバー",
     "string_tension_lbs": "5U ≤30 lbs",
     "price_jpy_approx": 17600,
-    "balance_note": "79Sと同様、台湾Li-Ning公式サイトや海外ショップはバランスポイント298mmと記載する一方、日本正規代理店Funport・SUNFASTは「イーブン」と明記。日本市場向けの公式表記を優先し、head_balanceを「Even Balance」に訂正(以前はHead Heavyと誤って記録)。独立した実測ソースは確認できず、mm数値自体はメーカー公称値(298mm)を目安として残す。Li-Ning公式中国カタログ(2026SS)の「风暴79 H版黒色」ページ(AYPT449)では素材は79Sと同じフレーム・シャフトともSTD高弾性カーボンファイバーで、打感特性は「適中・軽め」(79Sの「軟・軽め」よりやや硬め設定)のため、一時FlexをStiffからMediumに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Stiffに戻した。",
+    "balance_note": "79Sと同様、台湾Li-Ning公式サイトや海外ショップはバランスポイント298mmと記載する一方、日本正規代理店Funport・SUNFASTは「イーブン」と明記。日本市場向けの公式表記を優先し、head_balanceを「Even Balance」に訂正(以前はHead Heavyと誤って記録)。独立した実測ソースは確認できず、mm数値自体はメーカー公称値(298mm)を目安として残す。Flexの経緯: Li-Ning公式中国カタログ(2026SS)テキスト版の「风暴79 H版黒色」ページ(AYPT449)では素材は79Sと同じフレーム・シャフトともSTD高弾性カーボンファイバーで、打感特性は「適中・軽め」(79Sの「軟・軽め」よりやや硬め設定)のためMediumに訂正→ユーザー指示によりファンポートのWEBカタログ・マトリクス表を優先しStiffに戻した→さらに最新のLi-Ning公式印刷カタログ(2026、风暴/WINDSTORM硬さマトリクス画像)では全Windstormモデルが球拍软(軟らかい)寄りに密集する中、79Hは中心に最も近い(=最も硬い)位置にあり、79Sより明確に硬い側という関係性はテキスト版の記述と一致する一方、依然として明確に球拍软寄りでStiffと呼べる位置ではなかったため、この最新公式画像を最優先とするユーザー指示によりMediumに戻した。",
     "variants": [
       { "weight_class": "5U", "weight_g": 79, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": null, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
