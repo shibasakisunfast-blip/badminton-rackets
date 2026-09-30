@@ -626,9 +626,9 @@
     "frame_material": "T1100+MED高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 29700,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:290mm/4U:295mmおよび実測重量を採用。Li-Ning公式中国カタログ(2026SS)でも素材(フレームT1100+MED高弾性カーボンファイバー、シャフトULTRA高弾性カーボンファイバー+高密度制振材)と打感区分(4U「適中」=Medium)が一致することを確認。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:290mm/4U:295mmおよび実測重量を採用。Li-Ning公式中国カタログ(2026SS)でも素材(フレームT1100+MED高弾性カーボンファイバー、シャフトULTRA高弾性カーボンファイバー+高密度制振材)と打感区分(4U「適中」=Medium)が一致することを確認。スイングウェイトについて: 旧データでは3U(SW31.6)が4U(SW32.4)より軽い逆転になっていたが、Halbertec放射図では3U(球拍重寄り)が4Uより明確に上(重い)位置にある。Halbertec放射図の縦位置は他の公式実測点(Halbertec9000/9000 Power/7000、計8点)との相関が中程度(R≈-0.59、AxForceほど強くないがBladeXよりは明確)で、この回帰式から3Uの推定スイングウェイトは約33.3。ユーザー指示により放射図の位置関係を優先し、3Uのバランスポイントを290mm→295mmへ調整した(信頼度は推定値に格下げ)。4Uは公式スペック表の値のまま変更していない。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 87.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 290, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "3U", "weight_g": 87.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "estimated", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 85.3, "weight_confidence": "measured", "grip_size": "G5/G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "戦戟シリーズの第一弾として2022年9月末に発売され、羽毛球オリンピック金メダリストの傅海峰が使用したことでも知られる。中国のレビューでは、高密度制振シャフトによりインパクト時の振動を大きく抑え、柔らかい打球感を実現していると評されている。6.8mmシャフトは弾力性があり、平打ちやレシーブ・守備面で扱いやすく、初中級者でも比較的扱いやすいという声が多い。3Uはより重厚で威力重視、4Uはより軽快でシャフトもしなやかという住み分けが紹介されている。",
