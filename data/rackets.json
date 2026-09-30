@@ -221,12 +221,12 @@
     "product_code_note": null,
     "release_year": "2025",
     "head_balance": "Head Heavy",
-    "flex": "Stiff",
+    "flex": "Extra Stiff",
     "shaft_material": "M46+T1100+ULTRA高弾性カーボンファイバー、6.2mm極細弾性シャフト",
     "frame_material": "ULTRA高弾性カーボンファイバー+高分子蓄力制振材",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 33000,
-    "balance_note": "情報源によりバランス値に幅がある。intobadminton.comの実測(4U、ガット張り後88.6g)では308mmと報告される一方、別のレビュー(spinservesports.com.au)では同じ4Uクラスで295〜300mm程度としており、約10〜15mmの差がある。台湾Li-Ning公式サイトには「初代比でフレーム重心が5〜7mm前方へ移動」という定性的な記述はあるが、mm単位の確定値は掲載されていない。日本正規代理店Funportでは価格33,000円、3U/4UともグリップサイズG5で販売(4Uは在庫切れの場合あり)。Li-Ning公式中国カタログ(2026SS)の「打感特性」では3U/4Uとも「適中(普通)」表記のため、一時FlexをStiffからMediumに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Stiffに戻した。",
+    "balance_note": "情報源によりバランス値に幅がある。intobadminton.comの実測(4U、ガット張り後88.6g)では308mmと報告される一方、別のレビュー(spinservesports.com.au)では同じ4Uクラスで295〜300mm程度としており、約10〜15mmの差がある。台湾Li-Ning公式サイトには「初代比でフレーム重心が5〜7mm前方へ移動」という定性的な記述はあるが、mm単位の確定値は掲載されていない。日本正規代理店Funportでは価格33,000円、3U/4UともグリップサイズG5で販売(4Uは在庫切れの場合あり)。Flexの経緯: Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U/4Uとも「適中(普通)」表記のためMediumに訂正→ユーザー指示によりファンポートのWEBカタログ・マトリクス表を優先しStiffに戻した→さらに最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)ではAxForce100・AxForce90 Dragon Maxと同じ最硬グループに密集しており、この最新公式画像を最優先とするユーザー指示によりExtra Stiffに更新した。",
     "variants": [
       { "weight_class": "3U", "weight_g": 87.5, "weight_confidence": "estimated", "grip_size": "G5", "balance_point_mm": 308, "balance_confidence": "estimated", "balance_specific_to_class": false },
       { "weight_class": "4U", "weight_g": 84.1, "weight_confidence": "measured", "grip_size": "G5", "balance_point_mm": 308, "balance_confidence": "measured", "balance_specific_to_class": true }
@@ -279,10 +279,10 @@
     "frame_material": "MED高弾性カーボンファイバー+高分子蓄力制振材",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "ユーザー指定により3U:298mm/4U:297mm/5U:302mmに更新。Li-Ning公式中国カタログ(2026SS)の「打感特性」では3U「硬・やや重め」、4U「適中・適中」、5U「適中・やや軽め」表記のため、一時4U基準でFlexをStiffからMediumに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Stiffに戻した。",
+    "balance_note": "ユーザー指定により3U:298mm/4U:297mm/5U:302mmに更新。Li-Ning公式中国カタログ(2026SS)の「打感特性」では3U「硬・やや重め」、4U「適中・適中」、5U「適中・やや軽め」表記のため、一時4U基準でFlexをStiffからMediumに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Stiffに戻した。さらにユーザー指示により、4Uのスイングウェイトがヨネックス Astrox 88D Pro(2024)4U(SW36.3)とAstrox 88S Pro(2024)4U(SW34.5)の中間(SW約35.3)に来るよう、4Uのバランスポイントを297mm→305mmに再調整(元の297mmは公式規格表ベースの値だったが、マトリクス上の位置合わせを優先する指示のため推定値扱いに変更)。3U/5Uのバランスポイントは変更していない。",
     "variants": [
       { "weight_class": "3U", "weight_g": 88.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 83.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 297, "balance_confidence": "measured", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 83.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 305, "balance_confidence": "estimated", "balance_specific_to_class": true },
       { "weight_class": "5U", "weight_g": 77.6, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 302, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AXFORCE90 NEWは取り回しの良さと攻撃力を両立させたモデルと位置づけられ、フレーム剛性の高さから「力をスピードに変換しやすい」とする中国語レビューが見られる。6.4mmシャフトによる鋭い弾き感が特徴で、単発の強打よりも連続攻撃・後衛からの持続的な攻めを得意とするという評価が多い。海外レビューでは旧世代(Long/Tiger)と比較してスイートスポットが約1割拡大し、振り抜きが速く守備面での取り回しも改善されたとされ、「AXFORCE80から一段階レベルアップしたい層」に向くとされる。ただしヘッド面が小さいため、ミスヒット時の失速がやや大きく、ダブルス前衛の速い展開よりも、シングルスや後衛主体で連続攻撃を仕掛けるプレーヤーに適するとの指摘がある。",
@@ -305,12 +305,12 @@
     "product_code_note": "地域・カラーによりコードが異なる(台湾公式ではAYPT239系の表記もあり)。日本市場では「AX90DM」とも表記される。",
     "release_year": "2022",
     "head_balance": "Head Heavy",
-    "flex": "Stiff",
+    "flex": "Extra Stiff",
     "shaft_material": "M46+T1100+ULTRA高弾性カーボン、極細6.2mmシャフト",
     "frame_material": "M50+EXTRA高弾性カーボン",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:300mm/4U:306mmおよび実測重量に更新。以前のWeb調査(3U:307mm/4U:309mm、重量は推定)より精度が高いこちらの値を採用する。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:300mm/4U:306mmおよび実測重量に更新。以前のWeb調査(3U:307mm/4U:309mm、重量は推定)より精度が高いこちらの値を採用する。Flex: 最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)でAxForce100・AxForce100IIと同じ最硬グループに密集して配置されていたため、StiffからExtra Stiffに訂正した。",
     "variants": [
       { "weight_class": "3U", "weight_g": 89.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 84.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 306, "balance_confidence": "measured", "balance_specific_to_class": true }
@@ -363,12 +363,12 @@
     "product_code_note": "台湾公式ではカラーウェイ別コードAYPT271系の表記もあり。日本市場では「AX80」とも表記される。軽量姉妹モデル「AxForce 80 Light」とは別製品。",
     "release_year": "2021",
     "head_balance": "Head Heavy",
-    "flex": "Stiff",
+    "flex": "Medium",
     "shaft_material": "M46+ULTRA高弾性カーボンファイバー、極細6.6mmシャフト",
     "frame_material": "M40X+ULTRA高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 29700,
-    "balance_note": "ユーザー指定により3U:298mm/4U:300mm/5U:300mmに更新。Li-Ning公式中国カタログ(2026SS)の「打感特性」では3U「適中・やや重め」、4U「適中・適中」、5U「適中・やや軽め」表記のため、一時FlexをStiffからMediumに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Stiffに戻した。",
+    "balance_note": "ユーザー指定により3U:298mm/4U:300mm/5U:300mmに更新。Flexの経緯: Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U「適中・やや重め」、4U「適中・適中」、5U「適中・やや軽め」表記のためMediumに訂正→ユーザー指示によりファンポートのWEBカタログ・マトリクス表を優先しStiffに戻した→さらに最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)ではAxForce90 Tiger Max(Medium)とほぼ同じ位置(基準点AxForce90 New=Stiffより明確に軟らかい側)に配置されていたため、この最新公式画像を最優先とするユーザー指示によりMediumに戻した。",
     "variants": [
       { "weight_class": "3U", "weight_g": 86.3, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 83.0, "weight_confidence": "measured", "grip_size": "G5/G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
@@ -650,12 +650,12 @@
     "product_code_note": "カラー(青碧緑×蛍光橙など)により枝番(例: AYPU013-4)が異なる。後継の「Halbertec 7000 II」は別モデル。",
     "release_year": "2023",
     "head_balance": "Even Balance",
-    "flex": "Stiff",
+    "flex": "Medium",
     "shaft_material": "ULTRA高弾性カーボンファイバー、シャフト径6.8mm",
     "frame_material": "MED高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 27500,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:292mm/4U:292mmおよび実測重量を採用。Li-Ning公式中国カタログ(2026SS)の「打感特性」では3U「やや硬い・やや重め」、4U「適中・適中」表記のため、一時4U基準でFlexをStiffからMediumに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Stiffに戻した。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:292mm/4U:292mmおよび実測重量を採用。Flexの経緯: Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U「やや硬い・やや重め」、4U「適中・適中」表記のため4U基準でMediumに訂正→ユーザー指示によりファンポートのWEBカタログ・マトリクス表を優先しStiffに戻した→さらに最新のLi-Ning公式印刷カタログ(2026、战戟/HALBERTEC硬さマトリクス画像)ではHalbertec 9000/8000/9000 Power(いずれもMedium、中心付近)より明確に球拍软(軟らかい)側に位置していたため、この最新公式画像を最優先とするユーザー指示によりMediumに戻した。",
     "variants": [
       { "weight_class": "3U", "weight_g": 87.8, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 205, "overall_length_mm": 675, "balance_point_mm": 292, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 83.3, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 205, "overall_length_mm": 675, "balance_point_mm": 292, "balance_confidence": "measured", "balance_specific_to_class": true }
@@ -704,12 +704,12 @@
     "product_code_note": "コロンウェイ別に枝番あり(例: AYPU047-3=蛍光ベリーレッド)。中国マスターズ限定のギフトセット配色は別コード(AYPV019/AYPV085)。",
     "release_year": "2024",
     "head_balance": "Head Light",
-    "flex": "Medium",
+    "flex": "Stiff",
     "shaft_material": "ULTRA高弾性カーボンファイバー+高密度制振材、6.8mmシャフト",
     "frame_material": "M46+ULTRA高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:295mm/4U:298mmおよび実測重量を採用。Li-Ning公式中国カタログ(2026SS)でも素材・打感区分(4U「適中・適中」=Medium)が一致することを確認。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:295mm/4U:298mmおよび実測重量を採用。Li-Ning公式中国カタログ(2026SS)テキスト版でも素材・打感区分(4U「適中・適中」=Medium)が一致することを確認していたが、最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeX 800 Speed・700と同程度かそれ以上に硬い側(球拍硬寄り)に配置されていたため、この最新公式画像を最優先とするユーザー指示によりStiffに訂正した。",
     "variants": [
       { "weight_class": "3U", "weight_g": 88.0, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 83.8, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true }
@@ -813,12 +813,12 @@
     "product_code_note": "Li-Ning公式中国カタログ(2026SS)の「锋影800深墨绿」ページで型番AYPT331を確認。カラー/バージョンにより枝番が異なる場合がある(張楠モデルAYPR268等)。",
     "release_year": "2021",
     "head_balance": "Even Balance",
-    "flex": "Stiff",
+    "flex": "Extra Stiff",
     "shaft_material": "ULTRA高弾性カーボンファイバー+高密度制振材、6.8mmシャフト",
     "frame_material": "M46+ULTRA高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 28600,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:289mm/4U:292mmおよび実測重量を採用。Li-Ning公式中国カタログ(2026SS)の「打感特性」では3U「やや硬い・適中」、4U「適中・やや軽め」表記のため、一時4U基準でFlexをStiffからMediumに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Stiffに戻した。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:289mm/4U:292mmおよび実測重量を採用。Flexの経緯: Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U「やや硬い・適中」、4U「適中・やや軽め」表記のため4U基準でMediumに訂正→ユーザー指示によりファンポートのWEBカタログ・マトリクス表を優先しStiffに戻した→さらに最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeXシリーズ全体の中で最も球拍硬(硬い)側に位置し、900 Moon Max(Stiff)よりもさらに硬い側にあったため、この最新公式画像を最優先とするユーザー指示によりExtra Stiffに訂正した。",
     "variants": [
       { "weight_class": "3U", "weight_g": 87.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 289, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 84.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 292, "balance_confidence": "measured", "balance_specific_to_class": true }
@@ -866,12 +866,12 @@
     "product_code_note": "カラー・重量クラスごとに枝番が異なる(例: AYPW005-5=5U)。日本市場ではBX800Pの商品名で展開。Speed版や無印BladeX 800とは別SKU。日本正規代理店Funportでは4U(グリップG6)のみの取り扱いで、3U/5Uは掲載なし(海外向けのみの可能性)。",
     "release_year": "2025",
     "head_balance": "Head Heavy",
-    "flex": "Medium",
+    "flex": "Flexible",
     "shaft_material": "ULTRA高弾性カーボン+高密度制振材、シャフト径6.8mm",
     "frame_material": "M46X+ULTRA高弾性カーボンファイバー",
     "string_tension_lbs": "4U ≤30 lbs",
     "price_jpy_approx": 29700,
-    "balance_note": "公式サイトは打感・スイングウェイトを重量クラス別に定性的に記載するのみで、具体的なバランスポイント(mm数値)を公表しているソースは見つからなかった。日本正規代理店Funportでは4Uのみの展開と判明したため、3U/5Uのデータは参考値として残しつつも、日本国内での購入可能性は低いことに留意。Li-Ning公式中国カタログ(2026SS)の「打感特性」では3U「適中・やや重め」、4U「やや軟らかめ・適中」、5U「やや軟らかめ・やや軽め」表記で、Medium区分と概ね整合。中国での規格展開は3UG5/4UG6/5UG6、価格1680元。",
+    "balance_note": "公式サイトは打感・スイングウェイトを重量クラス別に定性的に記載するのみで、具体的なバランスポイント(mm数値)を公表しているソースは見つからなかった。日本正規代理店Funportでは4Uのみの展開と判明したため、3U/5Uのデータは参考値として残しつつも、日本国内での購入可能性は低いことに留意。Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U「適中・やや重め」、4U「やや軟らかめ・適中」、5U「やや軟らかめ・やや軽め」表記でMedium区分と概ね整合していたが、最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeXシリーズの中でも明確に球拍软(軟らかい)側に位置していたため、この最新公式画像を最優先とするユーザー指示によりFlexibleに訂正した。中国での規格展開は3UG5/4UG6/5UG6、価格1680元。",
     "variants": [
       { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
     ],
@@ -892,12 +892,12 @@
     "product_code_note": "Li-Ning公式中国カタログ(2026SS)の「锋影700荧光明黄/冰瓷绿」ページで型番AYPU015・AYPT335(カラー違い)を確認。中国では3U/4U/5Uの3クラス展開だが、日本正規代理店Funportでは4U/5Uのみの取り扱い。",
     "release_year": "2022",
     "head_balance": "Head Light",
-    "flex": "Medium",
+    "flex": "Stiff",
     "shaft_material": "ULTRA高弾性カーボンファイバー",
     "frame_material": "MED高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 26400,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:292mm/5U:300mmおよび実測重量を採用。以前の登録では素材を「高弾性M40Xカーボン、Resil Shaft」としていたが、Li-Ning公式中国カタログ(2026SS)の最新スペックではMED/ULTRA高弾性カーボンファイバー構成となっており、こちらに更新した(モデルチェンジの可能性あり)。カタログの「打感特性」は4U「適中・やや軽め」でMedium区分と一致。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:292mm/5U:300mmおよび実測重量を採用。以前の登録では素材を「高弾性M40Xカーボン、Resil Shaft」としていたが、Li-Ning公式中国カタログ(2026SS)の最新スペックではMED/ULTRA高弾性カーボンファイバー構成となっており、こちらに更新した(モデルチェンジの可能性あり)。カタログテキスト版の「打感特性」は4U「適中・やや軽め」でMedium区分と一致していたが、最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeX 800 Speedと同程度かそれ以上に球拍硬(硬い)側に位置していたため、この最新公式画像を最優先とするユーザー指示によりStiffに訂正した。",
     "variants": [
       { "weight_class": "4U", "weight_g": 83.3, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 292, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "5U", "weight_g": 81.7, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true }
@@ -2200,12 +2200,12 @@
     "product_code_note": "旧来の「AxForce Big Bang」(AXBB、日本では7Uのみ展開)とは別モデル。日本正規代理店Funportでは4U6/5U6の2クラス展開。中国語名「雷霆BBNEW」。",
     "release_year": "2023",
     "head_balance": "Head Heavy",
-    "flex": "Medium",
+    "flex": "Flexible",
     "shaft_material": "高弾性カーボン、7.0mmシャフト",
     "frame_material": "高弾性カーボンファイバー",
     "string_tension_lbs": "4U ≤28 lbs / 5U ≤27 lbs",
     "price_jpy_approx": 22000,
-    "balance_note": "商品ページには重量(グラム)・バランスポイント(mm)とも数値記載がなかったが、Funport WEBカタログのマトリクス表(スイングウェイト×打球感)には「AXBB 4U」「AXBB 5U」としてAxForce 80やBladeX 800 Power/Speedと同程度の中位のスイングウェイト帯・反発力寄りの位置にプロットされていた。このマトリクス表の位置関係から逆算した目安値としてバランスポイントを4U:295mm/5U:293mmと推定した(実測ではなくチャート上の相対位置からの推定)。",
+    "balance_note": "商品ページには重量(グラム)・バランスポイント(mm)とも数値記載がなかったが、Funport WEBカタログのマトリクス表(スイングウェイト×打球感)には「AXBB 4U」「AXBB 5U」としてAxForce 80やBladeX 800 Power/Speedと同程度の中位のスイングウェイト帯・反発力寄りの位置にプロットされていた。このマトリクス表の位置関係から逆算した目安値としてバランスポイントを4U:295mm/5U:293mmと推定した(実測ではなくチャート上の相対位置からの推定)。Flex: 最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)では「雷霆BIGBANG」4U/5U(展開クラスから本モデルと同定)が球拍软(軟らかい)側の最も端に位置しており、明確にMediumより軟らかいため、Flexibleに訂正した。",
     "variants": [
       { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "estimated", "balance_specific_to_class": false },
       { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 293, "balance_confidence": "estimated", "balance_specific_to_class": false }
