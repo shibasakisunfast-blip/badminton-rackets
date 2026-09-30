@@ -289,14 +289,15 @@ function renderMatrix(rackets) {
   const yScale = sw => margin.top + plotH * (1 - (sw - yMin) / (yMax - yMin));
 
   const vb = matrixViewBox || { x: 0, y: 0, w: width, h: height };
-  // As the user zooms in (vb.w shrinks below the base width), scale points/labels
-  // down so they don't grow along with the magnification and start overlapping.
+  // As the user zooms in (vb.w shrinks below the base width), shrink points/labels
+  // more aggressively than the zoom itself so a dense cluster actually gains
+  // breathing room instead of just getting proportionally bigger.
   const zoomScale = width / vb.w;
-  const pointR = Math.max(2.5, 6 / zoomScale);
-  const pointHoverR = Math.max(pointR + 1.5, 9 / zoomScale);
-  const pointStrokeW = Math.max(0.5, 1.5 / zoomScale);
-  const labelFontSize = Math.max(5, 9 / zoomScale);
-  const labelYOffset = Math.max(6, 17 / zoomScale);
+  const pointR = Math.max(1.6, 5 / (zoomScale * 1.4));
+  const pointHoverR = Math.max(pointR + 1, 7 / (zoomScale * 1.4));
+  const pointStrokeW = Math.max(0.35, 1.2 / (zoomScale * 1.4));
+  const labelFontSize = Math.max(3, 7 / (zoomScale * 1.6));
+  const labelYOffset = Math.max(4, 13 / (zoomScale * 1.6));
 
   let svg = `<svg viewBox="${vb.x} ${vb.y} ${vb.w} ${vb.h}" xmlns="http://www.w3.org/2000/svg" font-family="inherit" style="--point-hover-r:${pointHoverR}">`;
 
