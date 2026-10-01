@@ -76,8 +76,8 @@
     "shaft_material": "高弾性カーボン+スーパーHMG+ウルトラPEファイバー(新内蔵T型ジョイント+T-アンカー)",
     "frame_material": "高弾性カーボン+POCKETING BOOSTER",
     "string_tension_lbs": "4U: 19-27 lbs / 3U: 20-28 lbs",
-    "price_jpy_approx": 28160,
-    "balance_note": "ヨネックス公式サイト(yonex.co.jp)の現行ラインナップ掲載ページで素材構成・推奨張力を確認・更新(2026年9月確認)。以前のデータでは推奨張力を全重量クラス一律「20-28 lbs」としていたが、公式では4U「19-27 lbs」・3U「20-28 lbs」とクラス別に異なるため訂正した。独立レビューサイトの290mmを採用(Yonexの「イーブンバランス」表記と整合)。別の採寸データベースでは305〜313mmという高めの値もあるが、これはグリップ除去・張り直し後の測定によるもので、標準的な販売状態とは条件が異なる。全重量クラス共通の目安として使用。",
+    "price_jpy_approx": 37400,
+    "balance_note": "価格はヨネックス公式オンラインショップ(yonexshop.jp)にて2026年10月確認(以前の¥28,160から更新)。ヨネックス公式サイト(yonex.co.jp)の現行ラインナップ掲載ページで素材構成・推奨張力を確認・更新(2026年9月確認)。以前のデータでは推奨張力を全重量クラス一律「20-28 lbs」としていたが、公式では4U「19-27 lbs」・3U「20-28 lbs」とクラス別に異なるため訂正した。独立レビューサイトの290mmを採用(Yonexの「イーブンバランス」表記と整合)。別の採寸データベースでは305〜313mmという高めの値もあるが、これはグリップ除去・張り直し後の測定によるもので、標準的な販売状態とは条件が異なる。全重量クラス共通の目安として使用。",
     "variants": [
       { "weight_class": "3U", "weight_g": 88, "weight_confidence": "measured", "balance_point_mm": 290, "balance_confidence": "estimated", "balance_specific_to_class": false },
       { "weight_class": "4U", "weight_g": 83, "weight_confidence": "measured", "balance_point_mm": 290, "balance_confidence": "estimated", "balance_specific_to_class": false }
@@ -141,7 +141,7 @@
       { "weight_class": "3U", "weight_g": 87, "weight_confidence": "estimated", "grip_size": "G6", "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
-    "review_summary_ja": "頭部が重いヘッドヘビーバランスと中程度の張りのあるシャフトにより、強力なスマッシュや深いクリアを打ちやすい攻撃的なラケットと評価されている。エアストリームチャンネル(風洞)設計によりフレーム周りの空気抵抗を抑えてスイング速度と精度が高く、強いオーバーヘッドスマッシュから繊細なドロップショットへ滑らかに切り替えられる点が評価される一方、シャフトがやや硬くヘッド寄りの重量配分のため、守備的なプレースタイルの選手やパワー不足の初心者には扱いにくいとの指摘もある。Wing Stabilizerによるフレーム剛性の高さから、強打した際のブレの少なさとインパクトの安定感を評価する声も多く、連続スマッシュでもフォームが崩れにくいとされる。鄭思維や渡辺勇大選手が使用することでも知られ、後衛からの重い一撃を軸に試合を組み立てたい上級者・攻撃的なプレーヤー向けのモデルである。スペック(Head Heavy・Medium・3U/4Uでスイングウェイト約32〜34)とスマッシュ・パワー重視の評価傾向を総合すると、ヨネックスでは近い重量感・攻撃性を持つAstrox 77 Pro・Astrox 77 Tourが近い性格のラケットと言える。",
+    "review_summary_ja": "頭部が重いヘッドヘビーバランスと中程度の張りのあるシャフトにより、強力なスマッシュや深いクリアを打ちやすい攻撃的なラケットと評価されている。エアストリームチャンネル(風洞)設計によりフレーム周りの空気抵抗を抑えてスイング速度と精度が高く、強いオーバーヘッドスマッシュから繊細なドロップショットへ滑らかに切り替えられる点が評価される一方、シャフトがやや硬くヘッド寄りの重量配分のため、守備的なプレースタイルの選手やパワー不足の初心者には扱いにくいとの指摘もある。Wing Stabilizerによるフレーム剛性の高さから、強打した際のブレの少なさとインパクトの安定感を評価する声も多く、連続スマッシュでもフォームが崩れにくいとされる。鄭思維や渡辺勇大選手が使用することでも知られ、後衛からの重い一撃を軸に試合を組み立てたい上級者・攻撃的なプレーヤー向けのモデルである。スペック(Head Heavy・Medium・3U/4Uでスイングウェイト約32〜34)とスマッシュ・パワー重視の評価傾向を総合すると、ヨネックスでは価格帯が近いAstrox 77 Tour(約¥28,600)が最も近い性格のラケットと言える(上位のAstrox 77 Pro(約¥34,100)はコンセプトは同じだが価格帯が1割強高いフラッグシップ寄りの位置づけ)。",
     "sources": [
       "https://www.shopnings.com/li-ning-aeronaut-9000c-badminton-racket/",
       "https://order.funport.co.jp/view/item/000000000563",
@@ -374,7 +374,7 @@
       { "weight_class": "4U", "weight_g": 83.0, "weight_confidence": "measured", "grip_size": "G5/G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "5U", "weight_g": 77.6, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
-    "review_summary_ja": "AxForce 80は東京オリンピックで諶龍(チェン・ロン)が使用したことで知られる高付加価値アタッキングモデルで、6.6mmの極細シャフトによりしなりを活かした「弾ける」ような打感が特徴と評される。中国語圏のレビューでは、高めのバランスポイントとシャフトの弾性によりスマッシュの球速と角度が出しやすく、ネット前からの角度スマッシュでも威力が出ると好評な一方、クリアなどでもテンポを変えやすいとされる。公式印刷カタログのマトリクスでは撃球感が「適中」寄りに位置づけられており、上位のAxForce90系ほどの硬さは求められないため、極端にパワフルなスイングでなくてもシャフトのしなりを活かした弾きを得やすいとされる。発売から年数が経つロングセラーモデルでありながら、現在でも「価格と性能のバランスが良い攻撃ラケット」として引き合いに出されることが多く、入門機からのステップアップ先としても定番視されている。総じて、ある程度のパワーの基礎があるシングルスのラリー〜アタック型プレイヤーに向くという評価が多く、渡辺勇大、キダンビ・スリカンス、シンドゥなども使用している。スペック(Medium・ヘッドヘビー・4Uでスイングウェイト約33)とオールラウンドな攻撃性という評価傾向を総合すると、ヨネックスでは近い重さ感・硬さを持つAstrox 77 Pro・Astrox 77 Tourが最も近い性格のラケットと言える。",
+    "review_summary_ja": "AxForce 80は東京オリンピックで諶龍(チェン・ロン)が使用したことで知られる高付加価値アタッキングモデルで、6.6mmの極細シャフトによりしなりを活かした「弾ける」ような打感が特徴と評される。中国語圏のレビューでは、高めのバランスポイントとシャフトの弾性によりスマッシュの球速と角度が出しやすく、ネット前からの角度スマッシュでも威力が出ると好評な一方、クリアなどでもテンポを変えやすいとされる。公式印刷カタログのマトリクスでは撃球感が「適中」寄りに位置づけられており、上位のAxForce90系ほどの硬さは求められないため、極端にパワフルなスイングでなくてもシャフトのしなりを活かした弾きを得やすいとされる。発売から年数が経つロングセラーモデルでありながら、現在でも「価格と性能のバランスが良い攻撃ラケット」として引き合いに出されることが多く、入門機からのステップアップ先としても定番視されている。総じて、ある程度のパワーの基礎があるシングルスのラリー〜アタック型プレイヤーに向くという評価が多く、渡辺勇大、キダンビ・スリカンス、シンドゥなども使用している。スペック(Medium・ヘッドヘビー・4Uでスイングウェイト約33)とオールラウンドな攻撃性という評価傾向を総合すると、ヨネックスでは価格帯が近いAstrox 77 Tour(約¥28,600)が最も近い性格のラケットと言える(上位のAstrox 77 Pro(約¥34,100)は同コンセプトだがより高価格帯)。",
     "sources": [
       "https://www.liningtw.com/products/axforce80",
       "https://www.badmintoncn.com/eqm.php?a=view&eid=9748",
@@ -405,7 +405,7 @@
       { "weight_class": "4U", "weight_g": null, "weight_confidence": "unknown", "grip_size": "G5/G6", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
       { "weight_class": "5U", "weight_g": null, "weight_confidence": "unknown", "grip_size": "G6", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
     ],
-    "review_summary_ja": "AxForce 80 IIは2026年9月上旬発売予定としてLi-Ning公式Instagram(@uf.lining)が予告した、初代AxForce 80(2021年、諶龍使用モデル)の正統後継。公式は「進化升級、経典永駐(進化してアップグレードしつつ、クラシックは受け継がれる)」と紹介しており、撃球感・揮重ともに3U/4U/5U全クラスで「適中」バランス型にまとめられている点が特徴。初代の6.6mm極細シャフトによる弾ける打感というコンセプトを踏襲しつつ、フレーム・シャフト素材をより新しい高分子蓄力制振材世代にアップデートしたモデルとみられる。初代が長年にわたり幅広い層から支持されてきた経緯を踏まえ、極端な尖った性能よりも扱いやすさとバランスの良さを継続する方向性を公式が強調している点は、後継モデルとしては珍しい打ち出し方とも言える。3U・4U・5Uの3クラス展開は初代と同じ構成が維持される見込みで、体格やパワーに応じた選択肢の広さも引き継がれるとみられる。発売前のため独立したレビューはまだなく、情報は公式予告投稿の内容に限られる。撃球感・揮重ともに全クラス「適中」という方向性と、初代AxForce80がヘッドヘビー・Mediumフレックスのオールラウンド攻撃型だった経緯を踏まえると、ヨネックスでは同じく扱いやすさと攻撃力を両立させたAstrox 77 Pro・Astrox 77 Tourに近いコンセプトの後継になると見込まれる(ただし正式スペック未公開のため暫定的な比較)。",
+    "review_summary_ja": "AxForce 80 IIは2026年9月上旬発売予定としてLi-Ning公式Instagram(@uf.lining)が予告した、初代AxForce 80(2021年、諶龍使用モデル)の正統後継。公式は「進化升級、経典永駐(進化してアップグレードしつつ、クラシックは受け継がれる)」と紹介しており、撃球感・揮重ともに3U/4U/5U全クラスで「適中」バランス型にまとめられている点が特徴。初代の6.6mm極細シャフトによる弾ける打感というコンセプトを踏襲しつつ、フレーム・シャフト素材をより新しい高分子蓄力制振材世代にアップデートしたモデルとみられる。初代が長年にわたり幅広い層から支持されてきた経緯を踏まえ、極端な尖った性能よりも扱いやすさとバランスの良さを継続する方向性を公式が強調している点は、後継モデルとしては珍しい打ち出し方とも言える。3U・4U・5Uの3クラス展開は初代と同じ構成が維持される見込みで、体格やパワーに応じた選択肢の広さも引き継がれるとみられる。発売前のため独立したレビューはまだなく、情報は公式予告投稿の内容に限られる。撃球感・揮重ともに全クラス「適中」という方向性と、初代AxForce80がヘッドヘビー・Mediumフレックスのオールラウンド攻撃型だった経緯を踏まえると、ヨネックスでは同じく扱いやすさと攻撃力を両立させたAstrox 77 Pro(約¥34,100)に近いコンセプトの後継になると見込まれる(ただし予告時点の推定価格¥37,000自体が確定値ではなく、正式スペック未公開のため暫定的な比較)。",
     "sources": [
       "https://www.instagram.com/uf.lining/ (2026年8月21日投稿、ユーザー提供のスクリーンショットより)"
     ]
@@ -573,7 +573,7 @@
       { "weight_class": "3U", "weight_g": 88.0, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 84.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
-    "review_summary_ja": "戦戟9000(無印)からの強化モデルで、中国のレビューでは「中杆(シャフト)の鞭のようなしなりが強く、パワーショット後の収まりが速い」と評され、頭重寄りのバランスながらシャフトの反発でスタビリティと連続性を両立していると紹介されている。ネット前のカットやスライス、コントロールショットで非常に安定した挙動を見せ、「今年最強のコントロール系ラケット」と称する評もある。日本の販売店では「攻守兼用の上級者向け」「スイングスピードとシャトルの弾きを両立」と紹介され、フレーム上部の連結グロメット構造でインパクト時の安定性を高めているとされる。ポリイミド繊維を含む高密度制振材のシャフト構成により、強打時の振動吸収性にも優れるとされ、連続して強いショットを打ち込む展開が多いダブルスの後衛でも扱いやすいという評価がある。無印の戦戟9000がコントロール寄りの性格であるのに対し、Power版は同じ戦戟シリーズのコンセプトを保ちながらよりパワー方向に振った派生モデルという位置づけで語られることが多い。スペック(Medium・3U/4Uでスイングウェイト約33〜34)と価格帯(約¥31,900)を総合すると、同じコントロール型(コントロール系)に分類されるヨネックスのアークセイバーでは、価格帯が完全に一致するArcsaber 7 Proが最も近い性格のラケットと言える(9000 Powerは戦戟シリーズの中では珍しいヘッドヘビー機で、イーブンバランスが基本のアークセイバーとはバランス軸が異なる点に留意)。",
+    "review_summary_ja": "戦戟9000(無印)からの強化モデルで、中国のレビューでは「中杆(シャフト)の鞭のようなしなりが強く、パワーショット後の収まりが速い」と評され、頭重寄りのバランスながらシャフトの反発でスタビリティと連続性を両立していると紹介されている。ネット前のカットやスライス、コントロールショットで非常に安定した挙動を見せ、「今年最強のコントロール系ラケット」と称する評もある。日本の販売店では「攻守兼用の上級者向け」「スイングスピードとシャトルの弾きを両立」と紹介され、フレーム上部の連結グロメット構造でインパクト時の安定性を高めているとされる。ポリイミド繊維を含む高密度制振材のシャフト構成により、強打時の振動吸収性にも優れるとされ、連続して強いショットを打ち込む展開が多いダブルスの後衛でも扱いやすいという評価がある。無印の戦戟9000がコントロール寄りの性格であるのに対し、Power版は同じ戦戟シリーズのコンセプトを保ちながらよりパワー方向に振った派生モデルという位置づけで語られることが多い。スペック(Medium・3U/4Uでスイングウェイト約33〜34)と価格帯(約¥31,900)を総合すると、同じコントロール型(コントロール系)に分類されるヨネックスのアークセイバーでは、価格帯が近いArcsaber 7 Pro(約¥34,100)が最も近い性格のラケットと言える(9000 Powerは戦戟シリーズの中では珍しいヘッドヘビー機で、イーブンバランスが基本のアークセイバーとはバランス軸が異なる点に留意)。",
     "sources": [
       "https://www.racket.co.jp/product/lin-hal9000p.html",
       "https://item.rakuten.co.jp/sportsplaza/lin-hal9000p/",
@@ -631,7 +631,7 @@
       { "weight_class": "3U", "weight_g": 87.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "estimated", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 85.3, "weight_confidence": "measured", "grip_size": "G5/G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
-    "review_summary_ja": "戦戟シリーズの第一弾として2022年9月末に発売され、羽毛球オリンピック金メダリストの傅海峰が使用したことでも知られる。中国のレビューでは、高密度制振シャフトによりインパクト時の振動を大きく抑え、柔らかい打球感を実現していると評されている。6.8mmシャフトは弾力性があり、平打ちやレシーブ・守備面で扱いやすく、初中級者でも比較的扱いやすいという声が多い。3Uはより重厚で威力重視、4Uはより軽快でシャフトもしなやかという住み分けが紹介されている。イーブンバランス設計により前衛・後衛どちらのポジションでも極端な偏りなく使えるとされ、戦戟シリーズの中でも最初にリリースされた基準モデルとして、後発の7000・9000系列と比較される際のベンチマーク的な存在として扱われることが多い。発売から数年が経過した現在も、価格とコントロール性能のバランスの良さから安定した人気を維持しているモデルである。スペック(Even Balance・Medium・3U/4Uでスイングウェイト約32〜33)と初中級者にも扱いやすいベンチマーク的な性格という評価傾向を総合すると、ヨネックスでは同じくイーブンバランスで扱いやすいArcsaber 7 Proが近い性格のラケットと言える。",
+    "review_summary_ja": "戦戟シリーズの第一弾として2022年9月末に発売され、羽毛球オリンピック金メダリストの傅海峰が使用したことでも知られる。中国のレビューでは、高密度制振シャフトによりインパクト時の振動を大きく抑え、柔らかい打球感を実現していると評されている。6.8mmシャフトは弾力性があり、平打ちやレシーブ・守備面で扱いやすく、初中級者でも比較的扱いやすいという声が多い。3Uはより重厚で威力重視、4Uはより軽快でシャフトもしなやかという住み分けが紹介されている。イーブンバランス設計により前衛・後衛どちらのポジションでも極端な偏りなく使えるとされ、戦戟シリーズの中でも最初にリリースされた基準モデルとして、後発の7000・9000系列と比較される際のベンチマーク的な存在として扱われることが多い。発売から数年が経過した現在も、価格とコントロール性能のバランスの良さから安定した人気を維持しているモデルである。スペック(Even Balance・Medium・3U/4Uでスイングウェイト約32〜33)と初中級者にも扱いやすいベンチマーク的な性格という評価傾向を総合すると、ヨネックスでは価格帯が近いArcsaber 7 Tour(約¥28,600)が最も近い性格のラケットと言える。",
     "sources": [
       "https://www.sunfast.jp/shopdetail/000000032832/",
       "https://item.rakuten.co.jp/sunfast/ln-hal8000/",
@@ -714,7 +714,7 @@
       { "weight_class": "3U", "weight_g": 88.0, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 83.8, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
-    "review_summary_ja": "レビューでは、旧世代の900 MAXシリーズと比較してヘッドライトバランスと6.8mmのやや硬めのシャフトにより、スマッシュやドライブの打球感・レスポンスが向上したと評価されている。中国メディアの評測では、旧モデルよりスイングウェイトがやや重くシャフトも硬くなったため、プレーヤー自身のパワーをより必要とすると指摘されている。前衛でのハイスピードなプレッシャーラリーや連続性を重視するダブルスプレーヤーに向いているとされ、中級者以上向けの一本として紹介されている。公式印刷カタログのマトリクスではBladeXシリーズの中でもかなり硬い側に位置づけられており、しっかりとスイングできるプレーヤーほどシャフトの反発を活かした鋭いショットを打ちやすいとされる。高密度制振材がシャフトに組み込まれているため、硬めの打球感でありながらインパクト時の衝撃は抑えられており、連続した強打でも腕への負担が少ないという評価も見られる。スペック(Head Light・Stiff・3U/4Uでスイングウェイト約33)とスピード・レスポンス重視の評価傾向を総合すると、ヨネックスでは同じくヘッドライトで速さを追求したNanoflare 800 Proが近い性格のラケットと言える。",
+    "review_summary_ja": "レビューでは、旧世代の900 MAXシリーズと比較してヘッドライトバランスと6.8mmのやや硬めのシャフトにより、スマッシュやドライブの打球感・レスポンスが向上したと評価されている。中国メディアの評測では、旧モデルよりスイングウェイトがやや重くシャフトも硬くなったため、プレーヤー自身のパワーをより必要とすると指摘されている。前衛でのハイスピードなプレッシャーラリーや連続性を重視するダブルスプレーヤーに向いているとされ、中級者以上向けの一本として紹介されている。公式印刷カタログのマトリクスではBladeXシリーズの中でもかなり硬い側に位置づけられており、しっかりとスイングできるプレーヤーほどシャフトの反発を活かした鋭いショットを打ちやすいとされる。高密度制振材がシャフトに組み込まれているため、硬めの打球感でありながらインパクト時の衝撃は抑えられており、連続した強打でも腕への負担が少ないという評価も見られる。スペック(Head Light・Stiff・3U/4Uでスイングウェイト約33)とスピード・レスポンス重視の評価傾向を総合すると、ヨネックスでは同じくヘッドライト・Stiffで速さを追求したNanoflare 800 Pro(約¥36,300)が近い性格のラケットと言える(価格帯はNanoflare 800 Proの方が2割弱高いフラッグシップ寄りの位置づけ)。",
     "sources": [
       "https://www.liningtw.com/products/aypu047-3",
       "https://www.sunfast.jp/shopdetail/000000035031/",
@@ -742,7 +742,7 @@
       { "weight_class": "3U", "weight_g": 87.8, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 293, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 84.5, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
-    "review_summary_ja": "太陽をモチーフにしたゴールドカラーが特徴で、BLADEXシリーズの最高峰モデルとしてテンポの速いラリーやパワフルなスマッシュに対応できると説明されている。海外レビューでは、シャフトが硬く最初は振り抜きにやや硬さを感じるものの、実際に打ち込むうちに扱いやすくなり、パワーよりコントロールを重視する上級者・経験者向けと評価されている。ヨネックスのアークセイバー10/11 Proのようなイーブンバランス系ハイエンドモデルに近い打球感とも比較されている。対となるMoon Maxがヘッドライト・より硬めのシャフトでスピード寄りに仕上げられているのに対し、Sun Maxはイーブンバランスでやや穏やかな硬さに設定されており、ペアモデルの中では比較的オールラウンドな性格を持つとされる。男子ダブルスの張楠選手と関連付けて紹介されることが多い。スペック(Medium・3U/4Uでスイングウェイト約33)と価格帯(約¥30,800)を総合すると、同じ速度型(スピード系)に分類されるヨネックスのナノフレアでは、価格帯が一致するNanoflare 800 Proが近い性格のラケットと言える(Sun MaxはBladeXシリーズの中では珍しいイーブンバランス機で、Nanoflare側の基本であるヘッドライトとはバランス軸が異なる点に留意。フレックスもSun MaxのMediumに対しNanoflare 800 ProはStiffとやや硬めで、打球感には差がある)。",
+    "review_summary_ja": "太陽をモチーフにしたゴールドカラーが特徴で、BLADEXシリーズの最高峰モデルとしてテンポの速いラリーやパワフルなスマッシュに対応できると説明されている。海外レビューでは、シャフトが硬く最初は振り抜きにやや硬さを感じるものの、実際に打ち込むうちに扱いやすくなり、パワーよりコントロールを重視する上級者・経験者向けと評価されている。ヨネックスのアークセイバー10/11 Proのようなイーブンバランス系ハイエンドモデルに近い打球感とも比較されている。対となるMoon Maxがヘッドライト・より硬めのシャフトでスピード寄りに仕上げられているのに対し、Sun Maxはイーブンバランスでやや穏やかな硬さに設定されており、ペアモデルの中では比較的オールラウンドな性格を持つとされる。男子ダブルスの張楠選手と関連付けて紹介されることが多い。スペック(Medium・3U/4Uでスイングウェイト約33)と価格帯(約¥30,800)を総合すると、同じ速度型(スピード系)に分類されるヨネックスのナノフレアでは、価格帯・フレックスともに近いNanoflare 700 Tour(約¥28,600、Medium)が最も近い性格のラケットと言える(Sun MaxはBladeXシリーズの中では珍しいイーブンバランス機で、Nanoflare側の基本であるヘッドライトとはバランス軸が異なる点に留意)。",
     "sources": [
       "https://www.sunfast.jp/shopdetail/000000032831/",
       "https://volantbadminton.com/blogs/volant-community/li-ning-blade-x-900-sun-max-badminton-racket-review",
@@ -770,7 +770,7 @@
       { "weight_class": "3U", "weight_g": 88.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 290, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 84.2, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 287, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
-    "review_summary_ja": "月をモチーフにしたブルーカラーが特徴で、Sun Maxと対をなすBLADEXシリーズ最高峰モデルと位置付けられている。Sun Maxより硬いシャフトとややヘッドライトのバランス設計により、前衛での素早いタッチとシャトルコントロールがしやすいとされる。中国の販売情報では男子ダブルスの張楠(Zhang Nan)選手と関連付けて紹介されており、Sun Max(イーブン寄り・やや硬め)とMoon Max(ヘッドライト寄り・硬め)はヘッドバランスとシャフト硬度の違いで打感を打ち分けたペアモデルという位置付けである。3Uはシャフトが「硬い」(Extra Stiff相当)、4Uは「やや硬い」(Stiff)とクラスによって硬さの表現が変わる点も特徴で、より威力を求めるなら3U、取り回しと威力のバランスを求めるなら4Uという選び方が想定される。ヘッドライトバランスによる素早い振り抜きと高い反発性を併せ持つため、前衛での速いタッチプレーとドライブ合戦を得意とする上級者に向いたモデルである。スペック(Head Light・Stiff・3U/4Uでスイングウェイト約30〜32)と速いタッチプレー重視の評価傾向を総合すると、ヨネックスでは近いスイングウェイト帯でヘッドライトのNanoflare 800 Proが近い性格のラケットと言える。",
+    "review_summary_ja": "月をモチーフにしたブルーカラーが特徴で、Sun Maxと対をなすBLADEXシリーズ最高峰モデルと位置付けられている。Sun Maxより硬いシャフトとややヘッドライトのバランス設計により、前衛での素早いタッチとシャトルコントロールがしやすいとされる。中国の販売情報では男子ダブルスの張楠(Zhang Nan)選手と関連付けて紹介されており、Sun Max(イーブン寄り・やや硬め)とMoon Max(ヘッドライト寄り・硬め)はヘッドバランスとシャフト硬度の違いで打感を打ち分けたペアモデルという位置付けである。3Uはシャフトが「硬い」(Extra Stiff相当)、4Uは「やや硬い」(Stiff)とクラスによって硬さの表現が変わる点も特徴で、より威力を求めるなら3U、取り回しと威力のバランスを求めるなら4Uという選び方が想定される。ヘッドライトバランスによる素早い振り抜きと高い反発性を併せ持つため、前衛での速いタッチプレーとドライブ合戦を得意とする上級者に向いたモデルである。スペック(Head Light・Stiff・3U/4Uでスイングウェイト約30〜32)と速いタッチプレー重視の評価傾向を総合すると、ヨネックスでは近いスイングウェイト帯でヘッドライト・StiffのNanoflare 800 Pro(約¥36,300)が近い性格のラケットと言える(価格帯はNanoflare側が2割弱高いフラッグシップ寄り)。",
     "sources": [
       "https://www.sunfast.jp/shopdetail/000000032830/",
       "https://www.badmintoncn.com/eqm.php?a=view&eid=15734",
@@ -823,7 +823,7 @@
       { "weight_class": "3U", "weight_g": 87.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 301, "balance_confidence": "estimated", "balance_specific_to_class": true },
       { "weight_class": "4U", "weight_g": 84.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 292, "balance_confidence": "measured", "balance_specific_to_class": true }
     ],
-    "review_summary_ja": "BladeX 800は速度重視のドライブ型ラケットとして位置づけられ、ヨネックスのAstroxシリーズに対抗する国産速度型モデルの代表格と評されている。しっかりとした打感で、鋭く歯切れの良いショットと正確な配球がしやすいとの評価がある。速度型としてはフレームがやや大きめで、ミッドコートでのコントロールや受け身の展開処理にも強いとされる。2021年発売当初は張楠選手が起用され、ダブルスのドライブ合戦を意識した設計思想が語られている。公式印刷カタログのマトリクスではBladeXシリーズの中でも最も硬い部類に位置づけられており、シリーズを代表するロングセラーモデルでありながら、現在でもシリーズ最高峰クラスの硬さを維持している点は興味深い。発売から時間が経つ現在でも、Speed版やPower版といった派生モデルの「無印・基準モデル」として引き合いに出されることが多く、BladeXシリーズの打球感を知る上でのベンチマークとして扱われている。スペック(Extra Stiff・3U/4Uでスイングウェイト約31〜35)と価格帯(約¥28,600)を総合すると、同じ速度型(スピード系)に分類されるヨネックスのナノフレアでは、価格帯が近いNanoflare 800 Proが近い性格のラケットと言える(無印BladeX800はイーブンバランス・Extra Stiffだが、Nanoflare 800 Proはヘッドライト・Stiffとバランス軸・硬さの両方で一段異なる点に留意。より硬さが近いNanoflare 1000Zはコンセプトはさらに近いが価格帯が3割以上高いフラッグシップ機のため参考程度)。",
+    "review_summary_ja": "BladeX 800は速度重視のドライブ型ラケットとして位置づけられ、ヨネックスのAstroxシリーズに対抗する国産速度型モデルの代表格と評されている。しっかりとした打感で、鋭く歯切れの良いショットと正確な配球がしやすいとの評価がある。速度型としてはフレームがやや大きめで、ミッドコートでのコントロールや受け身の展開処理にも強いとされる。2021年発売当初は張楠選手が起用され、ダブルスのドライブ合戦を意識した設計思想が語られている。公式印刷カタログのマトリクスではBladeXシリーズの中でも最も硬い部類に位置づけられており、シリーズを代表するロングセラーモデルでありながら、現在でもシリーズ最高峰クラスの硬さを維持している点は興味深い。発売から時間が経つ現在でも、Speed版やPower版といった派生モデルの「無印・基準モデル」として引き合いに出されることが多く、BladeXシリーズの打球感を知る上でのベンチマークとして扱われている。スペック(Extra Stiff・3U/4Uでスイングウェイト約31〜35)と価格帯(約¥28,600)を総合すると、同じ速度型(スピード系)に分類されるヨネックスのナノフレアでは、価格帯が完全に一致するNanoflare 700 Tour(約¥28,600)が最も近い性格のラケットと言える(ただし無印BladeX800はイーブンバランス・Extra Stiffなのに対し、Nanoflare 700 Tourはヘッドライト・Mediumとバランス軸・硬さともに大きく異なる点に注意。硬さが近いNanoflare 800 Pro(約¥36,300、Stiff)はコンセプトはより近いが価格帯が3割ほど高いフラッグシップ機のため、価格を取るか硬さを取るかはトレードオフとなる)。",
     "sources": [
       "https://order.funport.co.jp/view/item/000000001039",
       "https://www.racket-company.com/en/li-ning-bladex-800.html",
@@ -850,7 +850,7 @@
     "variants": [
       { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
-    "review_summary_ja": "2026年3月に発売された鋒影(BladeX)800シリーズの速度特化モデルで、東レM46X+ULTRAカーボンフレームと6.8mm高密度制振シャフトを採用し、速く連続した引き球・平打ちを得意とするプレースタイル向けとされる。李寧ブランドの3U完成品ラケットの中でも特にバランスポイントが低い(ヘッドライト)部類とされ、振り抜きの速さが特徴と評されている。同800シリーズの通常版・Power版とは異なる独立SKUとして併売されている。公式印刷カタログのマトリクスでも球拍硬寄りに位置づけられており、ヘッドライトながらシャフト自体はしっかりとした硬さを持つという、スピードと手応えを両立させた設計思想がうかがえる。日本国内ではFunportが4Uのみを取り扱っており、3U・5Uは主に海外向けの展開にとどまる点には注意が必要である。スペック(Head Light・Stiff・4Uでスイングウェイト約31)とスピード・連続性重視の評価傾向を総合すると、ヨネックスでは近いスイングウェイト帯でヘッドライトのNanoflare 800 Proが近い性格のラケットと言える。",
+    "review_summary_ja": "2026年3月に発売された鋒影(BladeX)800シリーズの速度特化モデルで、東レM46X+ULTRAカーボンフレームと6.8mm高密度制振シャフトを採用し、速く連続した引き球・平打ちを得意とするプレースタイル向けとされる。李寧ブランドの3U完成品ラケットの中でも特にバランスポイントが低い(ヘッドライト)部類とされ、振り抜きの速さが特徴と評されている。同800シリーズの通常版・Power版とは異なる独立SKUとして併売されている。公式印刷カタログのマトリクスでも球拍硬寄りに位置づけられており、ヘッドライトながらシャフト自体はしっかりとした硬さを持つという、スピードと手応えを両立させた設計思想がうかがえる。日本国内ではFunportが4Uのみを取り扱っており、3U・5Uは主に海外向けの展開にとどまる点には注意が必要である。スペック(Head Light・Stiff・4Uでスイングウェイト約31)とスピード・連続性重視の評価傾向を総合すると、ヨネックスでは価格帯が近いNanoflare 700 Tour(約¥28,600)が最も近い性格のラケットと言える(フレックスはやや柔らかめのMedium区分だが価格の近さを優先した。硬さが近いNanoflare 800 Pro(約¥36,300、Stiff)は打球感はより近いが価格帯が2割強高い)。",
     "sources": [
       "https://www.liningtw.com/products/aypw003-4",
       "https://zhuanlan.zhihu.com/p/2015443106837865100"
@@ -875,7 +875,7 @@
     "variants": [
       { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 290, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
-    "review_summary_ja": "BladeX 800 Powerは、速度重視のSpeed版に対してヘッド側にわずかに荷重を寄せ、スマッシュの威力を高めた攻撃寄りのバリエーションである。M46X+ULTRA高弾性カーボンフレームと高密度制振シャフトにより、しっかりとした打感と重みのあるスマッシュを両立させているとレビューされている。海外レビューでは中管がやや硬めでクリアやドライブ、レシーブからのブロックに向く一方、ネット前での取り回しはSpeed版よりやや遅れると指摘されている。公式印刷カタログのマトリクスではBladeXシリーズの中でもむしろ軟らかい側に位置づけられており、ヘッドヘビーな重量配分としなやかなシャフトの組み合わせで、力任せではなくシャトルを乗せて運ぶような弾き方を狙った設計とみられる。総じて、スピードを保ちながら決定力のあるスマッシュを求める中上級ダブルスプレーヤー向けとされる。スペック(Flexible・4Uでスイングウェイト約30)と価格帯(約¥29,700)を総合すると、同じ速度型(スピード系)に分類されるヨネックスのナノフレアでは、価格帯・スイングウェイトともに近いNanoflare 800 Proが最も近い性格のラケットと言える(Power版は珍しくヘッドヘビー寄り・Flexibleだが、Nanoflare 800 Proはヘッドライト・Stiffとバランス・硬さの両方で方向性が異なり、Yonex側のスピード系に対応するヘッドヘビー・柔らかめの機種が無いため、価格・スイングウェイトの近さを優先した)。",
+    "review_summary_ja": "BladeX 800 Powerは、速度重視のSpeed版に対してヘッド側にわずかに荷重を寄せ、スマッシュの威力を高めた攻撃寄りのバリエーションである。M46X+ULTRA高弾性カーボンフレームと高密度制振シャフトにより、しっかりとした打感と重みのあるスマッシュを両立させているとレビューされている。海外レビューでは中管がやや硬めでクリアやドライブ、レシーブからのブロックに向く一方、ネット前での取り回しはSpeed版よりやや遅れると指摘されている。公式印刷カタログのマトリクスではBladeXシリーズの中でもむしろ軟らかい側に位置づけられており、ヘッドヘビーな重量配分としなやかなシャフトの組み合わせで、力任せではなくシャトルを乗せて運ぶような弾き方を狙った設計とみられる。総じて、スピードを保ちながら決定力のあるスマッシュを求める中上級ダブルスプレーヤー向けとされる。スペック(Flexible・4Uでスイングウェイト約30)と価格帯(約¥29,700)を総合すると、同じ速度型(スピード系)に分類されるヨネックスのナノフレアでは、価格帯・フレックスともに近いNanoflare 70(約¥30,250、Flexible)が最も近い性格のラケットと言える(Power版は珍しくヘッドヘビー寄りだが、Nanoflare 70はヘッドライトとバランス軸が異なる点に留意。Yonex側のスピード系にヘッドヘビー機は存在しないため、価格・フレックスの近さを優先した)。",
     "sources": [
       "https://intobadminton.com/review/li-ning-bladex-800-power-review/",
       "https://www.liningtw.com/products/aypw005",
@@ -1354,8 +1354,8 @@
     "shaft_material": "高弾性カーボン+2G-Namd FLEX FORCE(内蔵T型ジョイント)",
     "frame_material": "高弾性カーボン+CSR+タングステン",
     "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
-    "price_jpy_approx": 29700,
-    "balance_note": "ヨネックス公式サイト(yonex.co.jp)の現行ラインナップ掲載ページで素材構成を確認・更新(2026年9月確認)。ヨネックス公式・独立レビューサイトともにバランスポイントのmm数値は確認できず、「プロよりイーブン寄り」という定性的な相対評価のみが得られた。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
+    "price_jpy_approx": 30800,
+    "balance_note": "価格はヨネックス公式オンラインショップ(yonexshop.jp)にて2026年10月確認(以前の¥29,700から更新)。ヨネックス公式サイト(yonex.co.jp)の現行ラインナップ掲載ページで素材構成を確認・更新(2026年9月確認)。ヨネックス公式・独立レビューサイトともにバランスポイントのmm数値は確認できず、「プロよりイーブン寄り」という定性的な相対評価のみが得られた。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
     "variants": [
       { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 670, "balance_point_mm": 296, "balance_confidence": "estimated", "balance_specific_to_class": false },
       { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 670, "balance_point_mm": 296, "balance_confidence": "estimated", "balance_specific_to_class": false }
@@ -1542,8 +1542,8 @@
     "shaft_material": "高弾性カーボンシャフト+Namd+ウルトラPEファイバー",
     "frame_material": "高弾性カーボン+フレックスフューズ+タングステン",
     "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
-    "price_jpy_approx": 27500,
-    "balance_note": "海外レビューサイトBadmintonBitesの実測では4U/G5で重量84.2g・バランス点298mmと報告されている(タツミスポーツのプレシジョンスキャン実測でも概ね299〜306mm程度)。ただしヨネックス公式の相対マトリクス図(Racquet Selector)ではAstrox 88S Pro/Tourより上(よりヘッドヘビー側)に位置しており、実測値の並び(88Sの方が高い)とは逆転している。ユーザー指示により、図中の位置関係を優先してバランス値を301mmに調整(実測値298mmより高く設定)。",
+    "price_jpy_approx": 34100,
+    "balance_note": "価格はヨネックス公式オンラインショップ(yonexshop.jp)にて2026年10月確認(以前の¥27,500から更新)。海外レビューサイトBadmintonBitesの実測では4U/G5で重量84.2g・バランス点298mmと報告されている(タツミスポーツのプレシジョンスキャン実測でも概ね299〜306mm程度)。ただしヨネックス公式の相対マトリクス図(Racquet Selector)ではAstrox 88S Pro/Tourより上(よりヘッドヘビー側)に位置しており、実測値の並び(88Sの方が高い)とは逆転している。ユーザー指示により、図中の位置関係を優先してバランス値を301mmに調整(実測値298mmより高く設定)。",
     "variants": [
       { "weight_class": "4U", "weight_g": 84.2, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 301, "balance_confidence": "estimated", "balance_specific_to_class": true },
       { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 301, "balance_confidence": "estimated", "balance_specific_to_class": false }
@@ -1569,8 +1569,8 @@
     "shaft_material": "高弾性カーボン+ナノメッシュネオ(内蔵T型ジョイント)",
     "frame_material": "高弾性カーボン+ライトフィールカーボンネオ+タングステン",
     "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
-    "price_jpy_approx": 27500,
-    "balance_note": "ヨネックス公式サイト(yonex.co.jp)の現行ラインナップ掲載ページで素材構成を確認・更新(2026年9月確認、原産地は台湾)。米国公式サイトでは同素材を「REXIS SHAFT/LIGHT FEEL」と呼ぶ場合があるが、日本公式サイトの表記は「ナノメッシュネオ」で統一されている。タツミスポーツのプレシジョンスキャン実測では4U5/4U6の個体で概ね298〜303mm程度の値が確認された(個体差あり)。メーカー公式スペックシートでは具体的なmm数値は公表されていない。ヨネックス公式の相対マトリクス図(Racquet Selector)ではAstrox 88S Pro/Tourより上(よりヘッドヘビー側)に位置しているため、ユーザー指示により図中の位置関係を優先してバランス値を調整。",
+    "price_jpy_approx": 28600,
+    "balance_note": "価格はヨネックス公式オンラインショップ(yonexshop.jp)にて2026年10月確認(以前の¥27,500から更新)。ヨネックス公式サイト(yonex.co.jp)の現行ラインナップ掲載ページで素材構成を確認・更新(2026年9月確認、原産地は台湾)。米国公式サイトでは同素材を「REXIS SHAFT/LIGHT FEEL」と呼ぶ場合があるが、日本公式サイトの表記は「ナノメッシュネオ」で統一されている。タツミスポーツのプレシジョンスキャン実測では4U5/4U6の個体で概ね298〜303mm程度の値が確認された(個体差あり)。メーカー公式スペックシートでは具体的なmm数値は公表されていない。ヨネックス公式の相対マトリクス図(Racquet Selector)ではAstrox 88S Pro/Tourより上(よりヘッドヘビー側)に位置しているため、ユーザー指示により図中の位置関係を優先してバランス値を調整。",
     "variants": [
       { "weight_class": "4U(G5)", "weight_g": 81.9, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 301, "balance_confidence": "estimated", "balance_specific_to_class": true },
       { "weight_class": "4U(G6)", "weight_g": 83.1, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 302, "balance_confidence": "estimated", "balance_specific_to_class": true },
@@ -1623,8 +1623,8 @@
     "shaft_material": "高弾性カーボン+Namd+ウルトラPEファイバー",
     "frame_material": "高弾性カーボン+VOLUME CUT RESIN+タングステン",
     "string_tension_lbs": "19-24 lbs (5U)",
-    "price_jpy_approx": 25850,
-    "balance_note": "ヨネックス公式・小売サイトともに「ヘッドヘビー」という定性的表記のみで、mm単位のバランスポイント値は見つからなかった。フレックス区分も公式には数値化されておらず、レビュー記述からの推定値である。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
+    "price_jpy_approx": 26950,
+    "balance_note": "価格はヨネックス公式オンラインショップ(yonexshop.jp)にて2026年10月確認(以前の¥25,850から更新)。ヨネックス公式・小売サイトともに「ヘッドヘビー」という定性的表記のみで、mm単位のバランスポイント値は見つからなかった。フレックス区分も公式には数値化されておらず、レビュー記述からの推定値である。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
     "variants": [
       { "weight_class": "5U", "weight_g": 78, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 296, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
@@ -1834,8 +1834,8 @@
     "shaft_material": "高弾性カーボン+ウルトラPEファイバー(新内蔵T型ジョイント+T-アンカー)",
     "frame_material": "高弾性カーボン+POCKETING BOOSTER",
     "string_tension_lbs": "19-27 lbs",
-    "price_jpy_approx": 31900,
-    "balance_note": "ヨネックス公式サイト(yonex.co.jp)の現行ラインナップ掲載ページで素材構成を確認し訂正(2026年9月確認)。以前はT-アンカーやアイソメトリック形状をフレーム素材欄に含めていたが、公式ページの区分に合わせてT-アンカーはジョイント(シャフト側)の記載に整理した。「イーブンバランス」「ミディアムフレックス」はヨネックス公式(プレスリリース含む)と複数販売店で一致している。バランスポイントのmm実測値は確認できなかった。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
+    "price_jpy_approx": 34100,
+    "balance_note": "価格はヨネックス公式オンラインショップ(yonexshop.jp)にて2026年10月確認(以前の¥31,900から更新)。ヨネックス公式サイト(yonex.co.jp)の現行ラインナップ掲載ページで素材構成を確認し訂正(2026年9月確認)。以前はT-アンカーやアイソメトリック形状をフレーム素材欄に含めていたが、公式ページの区分に合わせてT-アンカーはジョイント(シャフト側)の記載に整理した。「イーブンバランス」「ミディアムフレックス」はヨネックス公式(プレスリリース含む)と複数販売店で一致している。バランスポイントのmm実測値は確認できなかった。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
     "variants": [
       { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 291, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
@@ -1939,8 +1939,8 @@
     "shaft_material": "高弾性カーボン(HM Graphite)+SUPER HMG+ULTRA PE FIBER",
     "frame_material": "高弾性カーボン(HM Graphite)+M40X+SUPER HMG+銅(Copper)",
     "string_tension_lbs": "4U: 20-28 lbs / 3U: 21-29 lbs",
-    "price_jpy_approx": 30800,
-    "balance_note": "公式・小売サイトともにバランスポイントの実測mm値は非公開で、「ヘッドライト」という定性的表現に留まる。海外レビューでは「1000 Proよりヘッド側の効きは弱い」との相対評価があるのみ。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
+    "price_jpy_approx": 36300,
+    "balance_note": "価格はヨネックス公式オンラインショップ(yonexshop.jp)にて2026年10月確認(以前の¥30,800から更新)。公式・小売サイトともにバランスポイントの実測mm値は非公開で、「ヘッドライト」という定性的表現に留まる。海外レビューでは「1000 Proよりヘッド側の効きは弱い」との相対評価があるのみ。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
     "variants": [
       { "weight_class": "3U", "weight_g": 88, "weight_confidence": "measured", "grip_size": "G4/G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 289, "balance_confidence": "estimated", "balance_specific_to_class": false },
       { "weight_class": "4U", "weight_g": 83, "weight_confidence": "measured", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 289, "balance_confidence": "estimated", "balance_specific_to_class": false }
@@ -1992,8 +1992,8 @@
     "shaft_material": "高弾性カーボン+SUPER HMG+ウルトラPEファイバー、スーパースリムシャフト",
     "frame_material": "高弾性カーボン+トレカM40X+SUPER HMG+SERVO FILTER、アイソメトリック形状",
     "string_tension_lbs": "4U: 20-28 lbs / 5U: 19-27 lbs",
-    "price_jpy_approx": 31900,
-    "balance_note": "バランスポイントの実測値はタツミスポーツのプレシジョンスキャン計測データに基づく。同一ウェイトクラス内でも個体差が見られ(4U・G5とG6で289〜293mm)、カタログ値ではなく実機計測値のため参考程度に留めるべき。",
+    "price_jpy_approx": 34100,
+    "balance_note": "価格はヨネックス公式オンラインショップ(yonexshop.jp)にて2026年10月確認(以前の¥31,900から更新)。バランスポイントの実測値はタツミスポーツのプレシジョンスキャン計測データに基づく。同一ウェイトクラス内でも個体差が見られ(4U・G5とG6で289〜293mm)、カタログ値ではなく実機計測値のため参考程度に留めるべき。",
     "variants": [
       { "weight_class": "5U", "weight_g": 79.2, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 299, "balance_confidence": "measured", "balance_specific_to_class": true },
       { "weight_class": "4U(G5)", "weight_g": 83.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 293, "balance_confidence": "measured", "balance_specific_to_class": true },
@@ -2021,8 +2021,8 @@
     "shaft_material": "高弾性カーボン+SUPER HMG(レクシスシャフト)、スーパースリムシャフト",
     "frame_material": "高弾性カーボン+ナノセルネオ+SUPER HMG+SERVO FILTER、アイソメトリック形状",
     "string_tension_lbs": "4U: 20-28 lbs / 5U: 19-27 lbs",
-    "price_jpy_approx": 27500,
-    "balance_note": "公式・販売店のいずれもヘッドライトという定性的表現のみで、数値としてのバランスポイントを公表しているソースは見つからなかった。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
+    "price_jpy_approx": 28600,
+    "balance_note": "価格はヨネックス公式オンラインショップ(yonexshop.jp)にて2026年10月確認(以前の¥27,500から更新)。公式・販売店のいずれもヘッドライトという定性的表現のみで、数値としてのバランスポイントを公表しているソースは見つからなかった。 ヨネックス公式の相対マトリクス図(Racquet Selector)における他機種との位置関係から算出した推定値であり、独自の実測データではない。",
     "variants": [
       { "weight_class": "5U", "weight_g": 78, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 294, "balance_confidence": "estimated", "balance_specific_to_class": false },
       { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 294, "balance_confidence": "estimated", "balance_specific_to_class": false }
