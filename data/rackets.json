@@ -192,10 +192,10 @@
     "frame_material": "M50+M40X+EXTRA高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 33000,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により304mm(3U/4U共通)に更新。以前のWeb調査では306〜316mmとばらつきがあったが、こちらの数値を採用する。Li-Ning公式中国カタログ(2026SS)の「打感特性」表記では3U「硬・重め」、4U「やや硬い・やや重め」となっており、一時4U基準でFlexをExtra StiffからStiffに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Extra Stiffに戻した。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により304mm(3U/4U共通)に更新。以前のWeb調査では306〜316mmとばらつきがあったが、こちらの数値を採用する。Li-Ning公式中国カタログ(2026SS)の「打感特性」表記では3U「硬・重め」、4U「やや硬い・やや重め」となっており、一時4U基準でFlexをExtra StiffからStiffに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Extra Stiffに戻した。ユーザー指摘(AXFORCEはヘッドヘビー系の中でもスイングウェイトがもう少し重く出るはずで、AstroxシリーズのPro機などと比較されることが多い)を受け、AXFORCEシリーズ全体のバランスポイントを一律+5mm調整(推定値に変更)。304mm→309mm。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 88.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.0, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 304, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 82.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.0, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 304, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 88.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.0, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 309, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 82.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.0, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 309, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AXFORCE100はシリーズ最高峰の攻撃型モデルで、極細6.0mmシャフトとヘッドヘビーバランスの組み合わせにより、後衛からの一撃必殺のスマッシュに強みを持つとされる。日本語レビューでは「フレーム・シャフトともに非常に硬く、しっかりした打感」「Astrox 99PROなど硬めのラケットに慣れた上級者向け」と評され、素早いドライブ交換やレシーブではその硬さゆえに扱いにくいという指摘もある。海外レビューでは後継のGen2と比較して「pure violence」的な、握力とスイングパワーを要求する荒々しい打感と表現されており、シャフトのたわみを感じさせずダイレクトに力を伝えるタイプのパワーラケットとされる。極細6.0mmシャフトは他のAxForceモデルよりもさらに細く、しなりの反発よりもフレーム全体の剛性でスマッシュを打ち抜く設計思想が特徴で、ネット前の繊細なタッチや守備的なレシーブではその硬さが裏目に出やすいという声も多い。初中級者よりも、ある程度完成されたフォームと十分なスイングスピードを備え、スマッシュの威力を最優先したいシングルスプレーヤー向けのモデルである。スペック(Extra Stiff・ヘッドヘビー・高めのスイングウェイト)と後衛からの一撃必殺型という評価傾向を総合すると、ヨネックスではシリーズ最硬のAstrox 100ZZ・Astrox 100 Tourが最も近い性格のラケットと言える。",
     "sources": [
@@ -226,10 +226,10 @@
     "frame_material": "ULTRA高弾性カーボンファイバー+高分子蓄力制振材",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 33000,
-    "balance_note": "情報源によりバランス値に幅がある。intobadminton.comの実測(4U、ガット張り後88.6g)では308mmと報告される一方、別のレビュー(spinservesports.com.au)では同じ4Uクラスで295〜300mm程度としており、約10〜15mmの差がある。台湾Li-Ning公式サイトには「初代比でフレーム重心が5〜7mm前方へ移動」という定性的な記述はあるが、mm単位の確定値は掲載されていない。日本正規代理店Funportでは価格33,000円、3U/4UともグリップサイズG5で販売(4Uは在庫切れの場合あり)。Flexの経緯: Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U/4Uとも「適中(普通)」表記のためMediumに訂正→ユーザー指示によりファンポートのWEBカタログ・マトリクス表を優先しStiffに戻した→さらに最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)ではAxForce100・AxForce90 Dragon Maxと同じ最硬グループに密集しており、この最新公式画像を最優先とするユーザー指示によりExtra Stiffに更新した。ユーザー指示によりヨネックス Astrox 100ZZ 3U(SW38.8)との一致を試みたが、AxForce放射図内の既知実測点(AxForce100/90 Dragon Max/90 Tiger Max/80、いずれも3U)から求めた「縦位置→SW」の回帰式で検証すると、AXFORCE100IIはAxForce90 Dragon Maxと放射図上で全く同じ高さにあり、SWは約36.4相当と推定され、AX100ZZ(38.8)とは整合しないことが判明。ユーザー指示により放射図自体の内部一貫性を優先し、3Uのバランスポイントを回帰式予測値に基づき308mm→304mmに再調整した。",
+    "balance_note": "情報源によりバランス値に幅がある。intobadminton.comの実測(4U、ガット張り後88.6g)では308mmと報告される一方、別のレビュー(spinservesports.com.au)では同じ4Uクラスで295〜300mm程度としており、約10〜15mmの差がある。台湾Li-Ning公式サイトには「初代比でフレーム重心が5〜7mm前方へ移動」という定性的な記述はあるが、mm単位の確定値は掲載されていない。日本正規代理店Funportでは価格33,000円、3U/4UともグリップサイズG5で販売(4Uは在庫切れの場合あり)。Flexの経緯: Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U/4Uとも「適中(普通)」表記のためMediumに訂正→ユーザー指示によりファンポートのWEBカタログ・マトリクス表を優先しStiffに戻した→さらに最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)ではAxForce100・AxForce90 Dragon Maxと同じ最硬グループに密集しており、この最新公式画像を最優先とするユーザー指示によりExtra Stiffに更新した。ユーザー指示によりヨネックス Astrox 100ZZ 3U(SW38.8)との一致を試みたが、AxForce放射図内の既知実測点(AxForce100/90 Dragon Max/90 Tiger Max/80、いずれも3U)から求めた「縦位置→SW」の回帰式で検証すると、AXFORCE100IIはAxForce90 Dragon Maxと放射図上で全く同じ高さにあり、SWは約36.4相当と推定され、AX100ZZ(38.8)とは整合しないことが判明。ユーザー指示により放射図自体の内部一貫性を優先し、3Uのバランスポイントを回帰式予測値に基づき308mm→304mmに再調整した。その後、ユーザー指摘によりAXFORCEシリーズ全体のバランスポイントを一律+5mm調整(推定値に変更)。3U:304mm→309mm、4U:308mm→313mm。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 87.5, "weight_confidence": "estimated", "grip_size": "G5", "balance_point_mm": 304, "balance_confidence": "estimated", "balance_specific_to_class": false },
-      { "weight_class": "4U", "weight_g": 84.1, "weight_confidence": "measured", "grip_size": "G5", "balance_point_mm": 308, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 87.5, "weight_confidence": "estimated", "grip_size": "G5", "balance_point_mm": 309, "balance_confidence": "estimated", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 84.1, "weight_confidence": "measured", "grip_size": "G5", "balance_point_mm": 313, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AXFORCE100 IIは初代からシャフトを6.0mmから6.2mmへ、カーボン素材をM50+T1100からM46+T1100系へと変更し、上部フレームをわずかに補強することでパワーを維持しつつ扱いやすさを高めたモデルと評価されている。海外レビューでは「振りやすくなったが破壊力は健在」とされ、初代よりスイングが軽く、ネット前のコントロールにも優れるとの指摘がある。フレーム重心を前モデルより5〜7mm前方へ移動させたとされる設計変更により、スマッシュの打ち出し角度がつけやすくなったと評する声もあり、後衛からの急角度のスマッシュを得意とする点は初代の系譜を受け継いでいる。一方でAstrox100ZZと比較されるほどの小径ヘッド・攻撃特化設計であることに変わりはなく、ミスヒットには厳しい(甘打が結果に出やすい)ラケットともされ、守備的なラリーでの安定感は専用のコントロール系モデルに譲るとされる。上級者からアッパー中級者で、初代AXFORCE100より取り回しの良い攻撃ラケットを求める層に向いている。スペック・評価傾向を総合すると、ヨネックスでは同じExtra Stiff・ヘッドヘビーのAstrox 100ZZ・Astrox 100 Tourが近い性格のラケットとして挙げられる。",
     "sources": [
@@ -279,11 +279,11 @@
     "frame_material": "MED高弾性カーボンファイバー+高分子蓄力制振材",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "ユーザー指定により3U:298mm/4U:297mm/5U:302mmに更新。Li-Ning公式中国カタログ(2026SS)の「打感特性」では3U「硬・やや重め」、4U「適中・適中」、5U「適中・やや軽め」表記のため、一時4U基準でFlexをStiffからMediumに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Stiffに戻した。一時、4Uのスイングウェイトがヨネックス Astrox 88D Pro(2024)4U(SW36.3)とAstrox 88S Pro(2024)4U(SW34.5)の中間(SW約35.3)に来るよう4Uのバランスポイントを297mm→305mmに調整したが、これだと同一モデル内で4U(重量軽)のSWが3U(重量重)を上回る逆転が生じるため、ユーザー指示(重量クラスが軽くなるほどSWも単調に軽くなるべき)により撤回し、3U(298mm)と5U(302mm)の間となる300mmに再修正した(推定値)。3U/5Uのバランスポイントは変更していない。",
+    "balance_note": "ユーザー指定により3U:298mm/4U:297mm/5U:302mmに更新。Li-Ning公式中国カタログ(2026SS)の「打感特性」では3U「硬・やや重め」、4U「適中・適中」、5U「適中・やや軽め」表記のため、一時4U基準でFlexをStiffからMediumに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Stiffに戻した。一時、4Uのスイングウェイトがヨネックス Astrox 88D Pro(2024)4U(SW36.3)とAstrox 88S Pro(2024)4U(SW34.5)の中間(SW約35.3)に来るよう4Uのバランスポイントを297mm→305mmに調整したが、これだと同一モデル内で4U(重量軽)のSWが3U(重量重)を上回る逆転が生じるため、ユーザー指示(重量クラスが軽くなるほどSWも単調に軽くなるべき)により撤回し、3U(298mm)と5U(302mm)の間となる300mmに再修正した(推定値)。その後、ユーザー指摘(AXFORCEはAstrox 88D Proなどと比較されることが多く、スイングウェイトがもう少し重く出るはず)によりAXFORCEシリーズ全体のバランスポイントを一律+5mm調整(推定値に変更)。3U:298mm→303mm、4U:300mm→305mm、5U:302mm→307mm(各クラス間の相対関係・単調減少の順序は維持)。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 88.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 83.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "estimated", "balance_specific_to_class": true },
-      { "weight_class": "5U", "weight_g": 77.6, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 302, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 88.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 303, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 83.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 305, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 77.6, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.4, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 307, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AXFORCE90 NEWは取り回しの良さと攻撃力を両立させたモデルと位置づけられ、フレーム剛性の高さから「力をスピードに変換しやすい」とする中国語レビューが見られる。6.4mmシャフトによる鋭い弾き感が特徴で、単発の強打よりも連続攻撃・後衛からの持続的な攻めを得意とするという評価が多い。海外レビューでは旧世代(Long/Tiger)と比較してスイートスポットが約1割拡大し、振り抜きが速く守備面での取り回しも改善されたとされ、「AXFORCE80から一段階レベルアップしたい層」に向くとされる。高密度制振材の採用によりインパクト時の振動が抑えられ、連続して強いショットを打ち込んでも手元の疲労が蓄積しにくいという評価もあり、長いラリーが続くダブルスの後衛でも扱いやすいとされる。ただしヘッド面が小さいため、ミスヒット時の失速がやや大きく、ダブルス前衛の速い展開よりも、シングルスや後衛主体で連続攻撃を仕掛けるプレーヤーに適するとの指摘がある。3U・4U・5Uと幅広い重量クラスが展開されているため、パワー重視なら3U、取り回し重視なら5Uというように、自身の体力やスイングスピードに応じて選びやすい点も支持されている。スペック(Stiff・ヘッドヘビー・4Uでスイングウェイト約35)と連続攻撃型という評価傾向を総合すると、ヨネックスでは同程度の硬さ・重さ感を持つAstrox 88D Pro・Astrox 88D Tour(2024)が近い性格のラケットと言える。",
     "sources": [
@@ -310,10 +310,10 @@
     "frame_material": "M50+EXTRA高弾性カーボン",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:300mm/4U:306mmおよび実測重量に更新。以前のWeb調査(3U:307mm/4U:309mm、重量は推定)より精度が高いこちらの値を採用する。Flex: 最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)でAxForce100・AxForce100IIと同じ最硬グループに密集して配置されていたため、StiffからExtra Stiffに訂正した。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:300mm/4U:306mmおよび実測重量に更新。以前のWeb調査(3U:307mm/4U:309mm、重量は推定)より精度が高いこちらの値を採用する。Flex: 最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)でAxForce100・AxForce100IIと同じ最硬グループに密集して配置されていたため、StiffからExtra Stiffに訂正した。その後、ユーザー指摘によりAXFORCEシリーズ全体のバランスポイントを一律+5mm調整(推定値に変更)。3U:300mm→305mm、4U:306mm→311mm。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 89.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 84.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 306, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 89.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 305, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 84.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 311, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AxForce 90 Dragon MaxはLi-Ningが「硬め」に分類する最上位アタッキングモデルで、Tiger Maxと比較してシャフトが硬く、拍頭側の重さも強めに設定されている。レビュアーの間ではスマッシュの破壊力とドライブ・ドロップの精度の両立が評価される一方、シャフトが硬いためスイングを速く振り抜けるパワーとタイミングが必要で、上級者向けという評価が多い。公式印刷カタログのマトリクス上ではAxForce100シリーズと並ぶ最も硬いグループに位置づけられており、見た目以上に手強いシャフトフィーリングを持つモデルとされる。極細6.2mmシャフトによりしなり戻りの速さも兼ね備えており、力任せのスマッシュだけでなく、タイミングを合わせた鋭いハーフスマッシュやプッシュでも威力を発揮するとの評価がある。羅健佑(Loh Kean Yew)が使用していることで知られ、Tiger Maxよりもさらに踏み込んだパワーを求める、片手で強打を打ち込むシングルスのアタッカーに向くとされる。スペック(Extra Stiff・ヘッドヘビー・3U/4Uでスイングウェイト約36)と価格帯(約¥30,800)を総合すると、ヨネックスではAstrox 100 Tour(約¥33,000、価格差¥2,200)・Astrox 100ZZ(約¥38,500、価格差¥7,700)のいずれもフレックス・バランスが一致し、近い性格のラケットと言える。",
     "sources": [
@@ -339,10 +339,10 @@
     "frame_material": "M50+EXTRA高弾性カーボン",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:302mm/4U:304mmおよび実測重量に更新。以前のWeb調査(3U:302mm/4U:305mm、重量は推定)とほぼ近い値だが、こちらをより精度の高い出典として採用する。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:302mm/4U:304mmおよび実測重量に更新。以前のWeb調査(3U:302mm/4U:305mm、重量は推定)とほぼ近い値だが、こちらをより精度の高い出典として採用する。その後、ユーザー指摘によりAXFORCEシリーズ全体のバランスポイントを一律+5mm調整(推定値に変更)。3U:302mm→307mm、4U:304mm→309mm。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 86.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 205, "overall_length_mm": 675, "balance_point_mm": 302, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 83.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 205, "overall_length_mm": 675, "balance_point_mm": 304, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 86.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 205, "overall_length_mm": 675, "balance_point_mm": 307, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 83.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.2, "grip_length_mm": 205, "overall_length_mm": 675, "balance_point_mm": 309, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AxForce 90 Tiger MaxはLi-Ningが「中程度」に分類するモデルで、Dragon Maxよりもシャフトがしなやかで扱いやすく、連続攻撃やスピード重視のプレーに向くとされる。拍頭は重めだが中間的な硬さのシャフトによりスイング時の振り抜けが良く、スマッシュの威力とテンポの速い連続攻撃を両立しやすいという評価が多い。Dragon Maxと同じフレーム素材・同じ極細6.2mmシャフト径を採用しながらも、シャフトのチューニングだけで打球感を明確に差別化している点が特徴で、同シリーズ内でのステップアップ・ダウンの選択肢として紹介されることが多い。ドライブの打ち合いやレシーブからの切り返しでもシャフトのしなりが活きるため、パワーと操作性のバランスを重視するプレーヤーから支持されている。ジョナタン・クリスティが使用していることで知られ、シングルス・ダブルスを問わず連続攻撃を得意とする中上級のパワー/スピード型プレイヤー向けとされる。スペック(Medium・ヘッドヘビー・3U/4Uでスイングウェイト約35)と価格帯(約¥30,800)を総合すると、ヨネックスでは価格差¥3,300のAstrox 77 Pro(約¥34,100)がフレックス(Medium)・バランス(ヘッドヘビー)ともに一致する最も近い性格のラケットと言える。",
     "sources": [
@@ -368,11 +368,11 @@
     "frame_material": "M40X+ULTRA高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 29700,
-    "balance_note": "ユーザー指定により3U:298mm/4U:300mm/5U:300mmに更新。Flexの経緯: Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U「適中・やや重め」、4U「適中・適中」、5U「適中・やや軽め」表記のためMediumに訂正→ユーザー指示によりファンポートのWEBカタログ・マトリクス表を優先しStiffに戻した→さらに最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)ではAxForce90 Tiger Max(Medium)とほぼ同じ位置(基準点AxForce90 New=Stiffより明確に軟らかい側)に配置されていたため、この最新公式画像を最優先とするユーザー指示によりMediumに戻した。",
+    "balance_note": "ユーザー指定により3U:298mm/4U:300mm/5U:300mmに更新。Flexの経緯: Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U「適中・やや重め」、4U「適中・適中」、5U「適中・やや軽め」表記のためMediumに訂正→ユーザー指示によりファンポートのWEBカタログ・マトリクス表を優先しStiffに戻した→さらに最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)ではAxForce90 Tiger Max(Medium)とほぼ同じ位置(基準点AxForce90 New=Stiffより明確に軟らかい側)に配置されていたため、この最新公式画像を最優先とするユーザー指示によりMediumに戻した。その後、ユーザー指摘によりAXFORCEシリーズ全体のバランスポイントを一律+5mm調整(推定値に変更)。3U:298mm→303mm、4U/5U:300mm→305mm。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 86.3, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 83.0, "weight_confidence": "measured", "grip_size": "G5/G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "5U", "weight_g": 77.6, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 86.3, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 303, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 83.0, "weight_confidence": "measured", "grip_size": "G5/G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 305, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 77.6, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 305, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AxForce 80は東京オリンピックで諶龍(チェン・ロン)が使用したことで知られる高付加価値アタッキングモデルで、6.6mmの極細シャフトによりしなりを活かした「弾ける」ような打感が特徴と評される。中国語圏のレビューでは、高めのバランスポイントとシャフトの弾性によりスマッシュの球速と角度が出しやすく、ネット前からの角度スマッシュでも威力が出ると好評な一方、クリアなどでもテンポを変えやすいとされる。公式印刷カタログのマトリクスでは撃球感が「適中」寄りに位置づけられており、上位のAxForce90系ほどの硬さは求められないため、極端にパワフルなスイングでなくてもシャフトのしなりを活かした弾きを得やすいとされる。発売から年数が経つロングセラーモデルでありながら、現在でも「価格と性能のバランスが良い攻撃ラケット」として引き合いに出されることが多く、入門機からのステップアップ先としても定番視されている。総じて、ある程度のパワーの基礎があるシングルスのラリー〜アタック型プレイヤーに向くという評価が多く、渡辺勇大、キダンビ・スリカンス、シンドゥなども使用している。スペック(Medium・ヘッドヘビー・4Uでスイングウェイト約33)とオールラウンドな攻撃性という評価傾向を総合すると、ヨネックスではAstrox 77 Tour(約¥28,600、価格差¥1,100)・Astrox 77 Pro(約¥34,100、価格差¥4,400)のいずれもフレックス・バランスが一致し、近い性格のラケットと言える。",
     "sources": [
@@ -454,10 +454,10 @@
     "string_tension_lbs": "4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 27500,
     "price_note": "実売は22,000円前後、メーカー希望小売価格は27,500円程度とサイトにより表記に差がある。",
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:300mm/5U:300mmおよび実測重量に更新。以前のWeb調査ではmm値を確認できていなかった。日本正規代理店Funportでは4U=G5、5U=G6で販売(以前のデータでは逆に記録されていたため訂正)。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:300mm/5U:300mmおよび実測重量に更新。以前のWeb調査ではmm値を確認できていなかった。日本正規代理店Funportでは4U=G5、5U=G6で販売(以前のデータでは逆に記録されていたため訂正)。その後、ユーザー指摘によりAXFORCEシリーズ全体のバランスポイントを一律+5mm調整(推定値に変更)。4U/5U:300mm→305mm。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 84.4, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "5U", "weight_g": 80.5, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "4U", "weight_g": 84.4, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 305, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 80.5, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 305, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AxForce 70はLi-Ningの攻撃的なラインナップの中でも国際トップ選手仕様として展開されるモデルで、ヘッドヘビーなバランスと6.6mmの柔らかめシャフトの組み合わせにより強いスマッシュを打ちやすい設計とされる。フレームにはM40X世代のカーボンを採用し、反発力と操作性の両立を狙う。高密度制振材がシャフトに組み込まれているため、強打を連続して打ち込んでもインパクト時の振動が抑えられ、手首や肘への負担が少ないという点も製品説明で強調されている。4Uに加え5Uという軽量クラスも用意されており、パワーのあるスマッシュを打ちたいが本格的な上位モデルほどの重さは扱いきれないという中級者層の受け皿としても位置づけられる。公式説明では上級者だけでなく、これからレベルアップを目指す中級者にも推奨されている。独立系メディアによる詳細な試打レビューは少なく、評価は主にメーカー・代理店の製品説明に基づく。スペック(Medium・ヘッドヘビー・4Uでスイングウェイト約34、6.6mmの柔らかめシャフト)とスマッシュ重視の評価傾向を総合すると、ヨネックスでは近い重量感とパワー寄りの性格を持つAstrox 77 Tourが最も近いラケットと言える。",
     "sources": [
@@ -484,10 +484,10 @@
     "string_tension_lbs": "4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 26400,
     "price_note": "実売は21,000円前後、メーカー希望小売価格は26,400円程度とサイトにより表記に差がある。",
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:298mm/5U:302mmおよび実測重量に更新。以前のWeb調査ではmm値を確認できていなかった。日本正規代理店Funportでは4U=G5、5U=G6で販売(以前のデータでは5UもG5と記録していたため訂正)。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:298mm/5U:302mmおよび実測重量に更新。以前のWeb調査ではmm値を確認できていなかった。日本正規代理店Funportでは4U=G5、5U=G6で販売(以前のデータでは5UもG5と記録していたため訂正)。その後、ユーザー指摘によりAXFORCEシリーズ全体のバランスポイントを一律+5mm調整(推定値に変更)。4U:298mm→303mm、5U:302mm→307mm。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 82.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 205, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "5U", "weight_g": 77.8, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 302, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "4U", "weight_g": 82.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 205, "overall_length_mm": 675, "balance_point_mm": 303, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 77.8, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 307, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AxForce 60はシリーズの中でもラリー型・エントリー向けに位置づけられ、柔らかめの6.8mmシャフトによりジュニアやレディースプレーヤーでも扱いやすいとされる。ヘッドヘビーのバランスとしなりのあるシャフトによりクリアが飛ばしやすく、強打一辺倒よりも安定したラリー展開を重視するプレーヤー向けとされる。中国語圏のレビュー(知乎)では、重すぎない重量とやや高めのバランスポイントがスマッシュなど下方向への打球に有利と評されている。上位モデルのAxForce70・80と比較するとフレーム・シャフトともに廉価な素材構成だが、その分シャフトが柔らかく仕上がっており、非力なプレーヤーでもシャトルを奥まで運びやすい点が評価されている。独立系の詳細な計測データは限定的で、評価は主に公式説明と限られたユーザーレビューに基づく。スペック(Flexible・ヘッドヘビー・4Uでスイングウェイト約32、柔らかめの6.8mmシャフト)と価格帯(約¥26,400)を総合すると、ヨネックスでは同じくFlexible・ヘッドヘビーで価格帯も近いAstrox 66が近い性格のラケットと言えるが、Astrox66は現在ヨネックス公式ラインナップから外れており(生産終了の可能性)、正確なバランスポイント(mm)も非公表のため、厳密な数値比較はできない点に留意。",
     "sources": [
@@ -540,9 +540,9 @@
     "frame_material": "MED高弾性カーボンファイバー",
     "string_tension_lbs": "7U ≤27 lbs(中国カタログでは4U≤28lbs/5U≤27lbs/7U≤27lbs)",
     "price_jpy_approx": 22000,
-    "balance_note": "日本正規代理店Funportでの取り扱いは7U(グリップG6)のみと判明したため、以前登録していた4U/5U/6Uのデータ(海外通販サイトベース)は削除した。7Uの重量70.3g・バランス316mmは以前の実測ベースの値を維持(超軽量ながら極端なヘッドヘビー値だが、同様の超軽量帯で意図的にヘッドヘビー設計とされるWindstorm72(72g/315mm)と近い傾向で方向性は整合的)。Li-Ning公式中国カタログ(2026SS)では素材がフレーム・シャフトともMED高弾性カーボンファイバーとシンプルな構成であることを確認、打感特性は4U/5U/7Uいずれも「やや軟らかめ」でFlexible区分と一致、価格680元。",
+    "balance_note": "日本正規代理店Funportでの取り扱いは7U(グリップG6)のみと判明したため、以前登録していた4U/5U/6Uのデータ(海外通販サイトベース)は削除した。7Uの重量70.3g・バランス316mmは以前の実測ベースの値を維持(超軽量ながら極端なヘッドヘビー値だが、同様の超軽量帯で意図的にヘッドヘビー設計とされるWindstorm72(72g/315mm)と近い傾向で方向性は整合的)。Li-Ning公式中国カタログ(2026SS)では素材がフレーム・シャフトともMED高弾性カーボンファイバーとシンプルな構成であることを確認、打感特性は4U/5U/7Uいずれも「やや軟らかめ」でFlexible区分と一致、価格680元。その後、ユーザー指摘によりAXFORCEシリーズ全体のバランスポイントを一律+5mm調整。316mm→321mm。",
     "variants": [
-      { "weight_class": "7U", "weight_g": 70.3, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 316, "balance_confidence": "estimated", "balance_specific_to_class": true }
+      { "weight_class": "7U", "weight_g": 70.3, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": 200, "overall_length_mm": 675, "balance_point_mm": 321, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "AXFORCE BigBangは「シャフトのしなりで攻める攻撃型」と位置づけられ、従来のAXFORCEシリーズよりシャフトを柔らかめに仕上げることで、より幅広いレベルの選手が扱いやすいよう設計されている。ヘッドヘビーな静的バランスながら、4U〜7Uという非常に軽量なクラス展開により振り抜きは軽く、初中級者・ジュニア・レディース・シニア層でも強打を打ちやすいことが特徴として挙げられている。日本で流通する7Uモデルは70g台という極端な軽量フレームにもかかわらずバランスポイントが316mm前後とヘッドヘビー方向に寄せられており、軽さと一発の重さを両立させるWindstormシリーズに近い設計思想が垣間見える。軽量設計のため長時間プレーでの腕への負担が少ない点も評価されている。独立レビューサイトには本モデル単体の詳細レビュー記事は少なく、上記の評価は主に販売ページ・日本語商品データベースの記述に基づく。スペック(Flexible・ヘッドヘビー・7Uでスイングウェイト約33という軽量ながら頭重気味の設計)と初中級者〜軽量志向プレーヤー向けという評価傾向を総合すると、ヨネックスでは価格差¥5,500のAstrox 11(約¥16,500)がスイングウェイト(約32)も近く、最も近い性格のラケットと言えるが、Astrox11は4U展開でBigBangの7Uよりは一段重いクラスのため、実際の軽さの感覚はBigBangの方がさらに上回る点に留意。",
     "sources": [
@@ -709,10 +709,10 @@
     "frame_material": "M46+ULTRA高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:295mm/4U:298mmおよび実測重量を採用。Li-Ning公式中国カタログ(2026SS)テキスト版でも素材・打感区分(4U「適中・適中」=Medium)が一致することを確認していたが、最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeX 800 Speed・700と同程度かそれ以上に硬い側(球拍硬寄り)に配置されていたため、この最新公式画像を最優先とするユーザー指示によりStiffに訂正した。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:295mm/4U:298mmおよび実測重量を採用。Li-Ning公式中国カタログ(2026SS)テキスト版でも素材・打感区分(4U「適中・適中」=Medium)が一致することを確認していたが、最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeX 800 Speed・700と同程度かそれ以上に硬い側(球拍硬寄り)に配置されていたため、この最新公式画像を最優先とするユーザー指示によりStiffに訂正した。その後、ユーザー指摘(BladeXはヘッドライト系のためスイングウェイトはもう少し軽く出るはず)によりBladeXシリーズ全体のバランスポイントを一律-5mm調整(推定値に変更)。3U:295mm→290mm、4U:298mm→293mm。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 88.0, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 83.8, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 88.0, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 290, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 83.8, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 215, "overall_length_mm": 675, "balance_point_mm": 293, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "レビューでは、旧世代の900 MAXシリーズと比較してヘッドライトバランスと6.8mmのやや硬めのシャフトにより、スマッシュやドライブの打球感・レスポンスが向上したと評価されている。中国メディアの評測では、旧モデルよりスイングウェイトがやや重くシャフトも硬くなったため、プレーヤー自身のパワーをより必要とすると指摘されている。前衛でのハイスピードなプレッシャーラリーや連続性を重視するダブルスプレーヤーに向いているとされ、中級者以上向けの一本として紹介されている。公式印刷カタログのマトリクスではBladeXシリーズの中でもかなり硬い側に位置づけられており、しっかりとスイングできるプレーヤーほどシャフトの反発を活かした鋭いショットを打ちやすいとされる。高密度制振材がシャフトに組み込まれているため、硬めの打球感でありながらインパクト時の衝撃は抑えられており、連続した強打でも腕への負担が少ないという評価も見られる。スペック(Head Light・Stiff・3U/4Uでスイングウェイト約33)とスピード・レスポンス重視の評価傾向を総合すると、ヨネックスでは価格差¥5,500のNanoflare 800 Pro(約¥36,300)がフレックス(Stiff)・バランス(ヘッドライト)ともに一致する最も近い性格のラケットと言える。",
     "sources": [
@@ -737,10 +737,10 @@
     "frame_material": "高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:293mm/4U:298mmおよび実測重量を採用。ただし公式規格表どおりの3U:293mm/4U:298mmでは、軽い4Uのスイングウェイト(33.1)が重い3U(32.7)を上回る逆転が生じるため、ユーザー指示(重量クラスが軽くなるほどSWも単調に軽くなるべき)により4Uのバランスポイントを298mm→296mmへ微調整(推定値に変更)。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:293mm/4U:298mmおよび実測重量を採用。ただし公式規格表どおりの3U:293mm/4U:298mmでは、軽い4Uのスイングウェイト(33.1)が重い3U(32.7)を上回る逆転が生じるため、ユーザー指示(重量クラスが軽くなるほどSWも単調に軽くなるべき)により4Uのバランスポイントを298mm→296mmへ微調整(推定値に変更)。その後、ユーザー指摘によりBladeXシリーズ全体のバランスポイントを一律-5mm調整。3U:293mm→288mm、4U:296mm→291mm。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 87.8, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 293, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 84.5, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 296, "balance_confidence": "estimated", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 87.8, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 288, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 84.5, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 291, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "太陽をモチーフにしたゴールドカラーが特徴で、BLADEXシリーズの最高峰モデルとしてテンポの速いラリーやパワフルなスマッシュに対応できると説明されている。海外レビューでは、シャフトが硬く最初は振り抜きにやや硬さを感じるものの、実際に打ち込むうちに扱いやすくなり、パワーよりコントロールを重視する上級者・経験者向けと評価されている。ヨネックスのアークセイバー10/11 Proのようなイーブンバランス系ハイエンドモデルに近い打球感とも比較されている。対となるMoon Maxがヘッドライト・より硬めのシャフトでスピード寄りに仕上げられているのに対し、Sun Maxはイーブンバランスでやや穏やかな硬さに設定されており、ペアモデルの中では比較的オールラウンドな性格を持つとされる。男子ダブルスの張楠選手と関連付けて紹介されることが多い。スペック(Medium・3U/4Uでスイングウェイト約33)と価格帯(約¥30,800)を総合すると、同じ速度型(スピード系)に分類されるヨネックスのナノフレアでは、価格帯・フレックスともに近いNanoflare 700 Tour(約¥28,600、Medium)が最も近い性格のラケットと言える(Sun MaxはBladeXシリーズの中では珍しいイーブンバランス機で、Nanoflare側の基本であるヘッドライトとはバランス軸が異なる点に留意)。",
     "sources": [
@@ -765,10 +765,10 @@
     "frame_material": "高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 30800,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:290mm/4U:287mmおよび実測重量を採用。シャフト硬さは3Uが「硬い」(Extra Stiff相当)、4Uが「やや硬い」(Stiff)とやや異なり、Sun Maxよりどちらも一段硬めの設定。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:290mm/4U:287mmおよび実測重量を採用。シャフト硬さは3Uが「硬い」(Extra Stiff相当)、4Uが「やや硬い」(Stiff)とやや異なり、Sun Maxよりどちらも一段硬めの設定。その後、ユーザー指摘によりBladeXシリーズ全体のバランスポイントを一律-5mm調整(推定値に変更)。3U:290mm→285mm、4U:287mm→282mm。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 88.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 290, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 84.2, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 287, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 88.6, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 285, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 84.2, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.6, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 282, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "月をモチーフにしたブルーカラーが特徴で、Sun Maxと対をなすBLADEXシリーズ最高峰モデルと位置付けられている。Sun Maxより硬いシャフトとややヘッドライトのバランス設計により、前衛での素早いタッチとシャトルコントロールがしやすいとされる。中国の販売情報では男子ダブルスの張楠(Zhang Nan)選手と関連付けて紹介されており、Sun Max(イーブン寄り・やや硬め)とMoon Max(ヘッドライト寄り・硬め)はヘッドバランスとシャフト硬度の違いで打感を打ち分けたペアモデルという位置付けである。3Uはシャフトが「硬い」(Extra Stiff相当)、4Uは「やや硬い」(Stiff)とクラスによって硬さの表現が変わる点も特徴で、より威力を求めるなら3U、取り回しと威力のバランスを求めるなら4Uという選び方が想定される。ヘッドライトバランスによる素早い振り抜きと高い反発性を併せ持つため、前衛での速いタッチプレーとドライブ合戦を得意とする上級者に向いたモデルである。スペック(Head Light・Stiff・3U/4Uでスイングウェイト約30〜32)と速いタッチプレー重視の評価傾向を総合すると、ヨネックスでは価格差¥5,500のNanoflare 800 Pro(約¥36,300)がフレックス(Stiff)・バランス(ヘッドライト)・スイングウェイトすべて近い、最も近い性格のラケットと言える。",
     "sources": [
@@ -792,9 +792,9 @@
     "frame_material": "M46X+ULTRA高弾性カーボン、薄型のエアロフレーム構造",
     "string_tension_lbs": "30-32 lbs (代理店表記により差あり)",
     "price_jpy_approx": 33000,
-    "balance_note": "SUNFASTおよびFUNPORTの正規販売ページでは重量・バランスポイントの数値記載がなかった。中国の通販サイト情報では4Uで約83g・バランスポイント295mm前後(ヘッドライト)とする記述が複数見られたが、いずれも販促コピーの範囲で独立した実測データではないため推定値として扱う。海外の一般レビューサイトでは292〜298mmなど微妙に異なる数値も見られ、確証は取れていない。",
+    "balance_note": "SUNFASTおよびFUNPORTの正規販売ページでは重量・バランスポイントの数値記載がなかった。中国の通販サイト情報では4Uで約83g・バランスポイント295mm前後(ヘッドライト)とする記述が複数見られたが、いずれも販促コピーの範囲で独立した実測データではないため推定値として扱う。海外の一般レビューサイトでは292〜298mmなど微妙に異なる数値も見られ、確証は取れていない。その後、ユーザー指摘によりBladeXシリーズ全体のバランスポイントを一律-5mm調整。295mm→290mm。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "estimated", "balance_specific_to_class": true }
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 290, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "日本代表・志田千陽選手のシグネチャーモデルで、定番の鋒影(BladeX)800をベースにパールホワイト×ピンク×ブルーの専用カラーとM46X+ULTRAフレーム、T1100+ULTRA+高密度制振シャフトへとアップグレードされている。速度型(スピード系)に分類され、前衛でのネット処理やダブルスでの連続した速い展開を得意とするプレースタイル向けと紹介されている。グリップエンドには志田選手本人のサインが入り、専用ラケットケースが付属する限定モデルである。ベースのBladeX800から素材をワングレード引き上げつつ、約6.8mmの超極細シャフトで振り抜きの軽さを追求している点が特徴で、女子ダブルスのトップ選手が実際に使用するモデルとして、速いタッチと正確なコントロールを両立したいプレーヤーから注目されている。2026年発売ということもあり、発売間もない段階では独立したレビュー記事がまだ少なく、情報は主に代理店の商品説明に基づく。スペック(Head Light・Medium・4Uでスイングウェイト約32、超極細シャフトによる軽い振り抜き)とネット前の速いタッチプレー重視の評価傾向を総合すると、ヨネックスでは近いスイングウェイト帯のNanoflare 700 Pro・Nanoflare 700 Tourが近い性格のラケットと言える。",
     "sources": [
@@ -818,10 +818,10 @@
     "frame_material": "M46+ULTRA高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 28600,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:289mm/4U:292mmおよび実測重量を採用。Flexの経緯: Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U「やや硬い・適中」、4U「適中・やや軽め」表記のため4U基準でMediumに訂正→ユーザー指示によりファンポートのWEBカタログ・マトリクス表を優先しStiffに戻した→さらに最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeXシリーズ全体の中で最も球拍硬(硬い)側に位置し、900 Moon Max(Stiff)よりもさらに硬い側にあったため、この最新公式画像を最優先とするユーザー指示によりExtra Stiffに訂正した。スイングウェイトについて: 旧データでは3U(SW31.1)と4U(SW31.2)がほぼ同じ高さになっており、BladeX放射図では3U(球拍重寄り)が4Uより明確に上(重い)位置にあることと矛盾していた。ただしBladeX放射図の縦位置は、既に公式スペック表で確定している他機種の実測バランス値との相関が弱く(検証した8点でR≈0.14)、ピクセル位置から高精度にmm値を逆算する根拠は乏しい。ユーザー指示により放射図の位置関係(3Uが4Uより明確に重い)を優先し、同一モデル内の重量クラス間隔が近い900 Moon Max(3U/4U)の実測データから求めた比例関係を参考に、3Uのバランスポイントを289mm→301mmへ暫定的に引き上げた(信頼度は推定値に格下げ)。4Uは公式スペック表の値のまま変更していない。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により3U:289mm/4U:292mmおよび実測重量を採用。Flexの経緯: Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U「やや硬い・適中」、4U「適中・やや軽め」表記のため4U基準でMediumに訂正→ユーザー指示によりファンポートのWEBカタログ・マトリクス表を優先しStiffに戻した→さらに最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeXシリーズ全体の中で最も球拍硬(硬い)側に位置し、900 Moon Max(Stiff)よりもさらに硬い側にあったため、この最新公式画像を最優先とするユーザー指示によりExtra Stiffに訂正した。スイングウェイトについて: 旧データでは3U(SW31.1)と4U(SW31.2)がほぼ同じ高さになっており、BladeX放射図では3U(球拍重寄り)が4Uより明確に上(重い)位置にあることと矛盾していた。ただしBladeX放射図の縦位置は、既に公式スペック表で確定している他機種の実測バランス値との相関が弱く(検証した8点でR≈0.14)、ピクセル位置から高精度にmm値を逆算する根拠は乏しい。ユーザー指示により放射図の位置関係(3Uが4Uより明確に重い)を優先し、同一モデル内の重量クラス間隔が近い900 Moon Max(3U/4U)の実測データから求めた比例関係を参考に、3Uのバランスポイントを289mm→301mmへ暫定的に引き上げた(信頼度は推定値に格下げ)。4Uは公式スペック表の値のまま変更していない。その後、ユーザー指摘によりBladeXシリーズ全体のバランスポイントを一律-5mm調整(推定値に変更)。3U:301mm→296mm、4U:292mm→287mm。",
     "variants": [
-      { "weight_class": "3U", "weight_g": 87.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 301, "balance_confidence": "estimated", "balance_specific_to_class": true },
-      { "weight_class": "4U", "weight_g": 84.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 292, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "3U", "weight_g": 87.1, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 296, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "4U", "weight_g": 84.5, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 287, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "BladeX 800は速度重視のドライブ型ラケットとして位置づけられ、ヨネックスのAstroxシリーズに対抗する国産速度型モデルの代表格と評されている。しっかりとした打感で、鋭く歯切れの良いショットと正確な配球がしやすいとの評価がある。速度型としてはフレームがやや大きめで、ミッドコートでのコントロールや受け身の展開処理にも強いとされる。2021年発売当初は張楠選手が起用され、ダブルスのドライブ合戦を意識した設計思想が語られている。公式印刷カタログのマトリクスではBladeXシリーズの中でも最も硬い部類に位置づけられており、シリーズを代表するロングセラーモデルでありながら、現在でもシリーズ最高峰クラスの硬さを維持している点は興味深い。発売から時間が経つ現在でも、Speed版やPower版といった派生モデルの「無印・基準モデル」として引き合いに出されることが多く、BladeXシリーズの打球感を知る上でのベンチマークとして扱われている。スペック(Extra Stiff・3U/4Uでスイングウェイト約31〜35)と価格帯(約¥28,600)を総合すると、同じ速度型(スピード系)に分類されるヨネックスのナノフレアでは、価格差¥9,900のNanoflare 1000Z(約¥38,500)がフレックス(Extra Stiff)まで一致する最も近い性格のラケットと言える(ただしバランスはイーブンに対しNanoflare側はヘッドライトが基本のため、バランス軸は異なる点に注意。価格がより近いNanoflare 700 Tour(約¥28,600、Medium)はフレックスの硬さがかなり離れる)。",
     "sources": [
@@ -846,9 +846,9 @@
     "frame_material": "M46X+ULTRA高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 29700,
-    "balance_note": "台湾公式サイトの商品ページには重量・バランスポイントの数値明記がなかった。中国語の紹介記事では「李寧の3U完成品の中でも最もバランスポイントが低い」「3U=293mm、4U=295mm程度」とする記述が見られたが、公式スペックシートによる裏付けは取れておらず、推定値として扱う。日本正規代理店Funportでは4Uのみの展開と判明したため、3U/5Uのデータは参考値として残しつつも、日本国内での購入可能性は低いことに留意。Li-Ning公式中国カタログ(2026SS)の「打感特性」では3U「適中・適中」、4U「適中・やや軽め」、5U「やや軟らかめ・軽め」表記のため、一時FlexをStiffからMediumに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Stiffに戻した。中国での規格展開は3UG5/4UG6/5UG6、価格1680元。",
+    "balance_note": "台湾公式サイトの商品ページには重量・バランスポイントの数値明記がなかった。中国語の紹介記事では「李寧の3U完成品の中でも最もバランスポイントが低い」「3U=293mm、4U=295mm程度」とする記述が見られたが、公式スペックシートによる裏付けは取れておらず、推定値として扱う。日本正規代理店Funportでは4Uのみの展開と判明したため、3U/5Uのデータは参考値として残しつつも、日本国内での購入可能性は低いことに留意。Li-Ning公式中国カタログ(2026SS)の「打感特性」では3U「適中・適中」、4U「適中・やや軽め」、5U「やや軟らかめ・軽め」表記のため、一時FlexをStiffからMediumに訂正したが、ユーザー指示によりファンポートのWEBカタログ・マトリクス表での配置を優先し、Stiffに戻した。中国での規格展開は3UG5/4UG6/5UG6、価格1680元。その後、ユーザー指摘によりBladeXシリーズ全体のバランスポイントを一律-5mm調整。295mm→290mm。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "estimated", "balance_specific_to_class": true }
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 290, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "2026年3月に発売された鋒影(BladeX)800シリーズの速度特化モデルで、東レM46X+ULTRAカーボンフレームと6.8mm高密度制振シャフトを採用し、速く連続した引き球・平打ちを得意とするプレースタイル向けとされる。李寧ブランドの3U完成品ラケットの中でも特にバランスポイントが低い(ヘッドライト)部類とされ、振り抜きの速さが特徴と評されている。同800シリーズの通常版・Power版とは異なる独立SKUとして併売されている。公式印刷カタログのマトリクスでも球拍硬寄りに位置づけられており、ヘッドライトながらシャフト自体はしっかりとした硬さを持つという、スピードと手応えを両立させた設計思想がうかがえる。日本国内ではFunportが4Uのみを取り扱っており、3U・5Uは主に海外向けの展開にとどまる点には注意が必要である。スペック(Head Light・Stiff・4Uでスイングウェイト約31)とスピード・連続性重視の評価傾向を総合すると、ヨネックスでは価格差¥6,600のNanoflare 800 Pro(約¥36,300)がフレックス(Stiff)・バランス(ヘッドライト)ともに一致する最も近い性格のラケットと言える。",
     "sources": [
@@ -871,9 +871,9 @@
     "frame_material": "M46X+ULTRA高弾性カーボンファイバー",
     "string_tension_lbs": "4U ≤30 lbs",
     "price_jpy_approx": 29700,
-    "balance_note": "公式サイトは打感・スイングウェイトを重量クラス別に定性的に記載するのみで、具体的なバランスポイント(mm数値)を公表しているソースは見つからなかった。日本正規代理店Funportでは4Uのみの展開と判明したため、3U/5Uのデータは参考値として残しつつも、日本国内での購入可能性は低いことに留意。Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U「適中・やや重め」、4U「やや軟らかめ・適中」、5U「やや軟らかめ・やや軽め」表記でMedium区分と概ね整合していたが、最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeXシリーズの中でも明確に球拍软(軟らかい)側に位置していたため、この最新公式画像を最優先とするユーザー指示によりFlexibleに訂正した。中国での規格展開は3UG5/4UG6/5UG6、価格1680元。バランスポイントは従来不明だったが、放射図上でBladeX 900 Moon Max 4U(実測SW29.4)とほぼ同じ縦位置にあったため、参考値として290mm(推定SW29.5)を暫定登録した。BladeX放射図の縦位置は他の公式実測点との相関が弱く(検証した8点でR≈0.14)、精度は低い参考値である点に留意。",
+    "balance_note": "公式サイトは打感・スイングウェイトを重量クラス別に定性的に記載するのみで、具体的なバランスポイント(mm数値)を公表しているソースは見つからなかった。日本正規代理店Funportでは4Uのみの展開と判明したため、3U/5Uのデータは参考値として残しつつも、日本国内での購入可能性は低いことに留意。Li-Ning公式中国カタログ(2026SS)テキスト版の「打感特性」では3U「適中・やや重め」、4U「やや軟らかめ・適中」、5U「やや軟らかめ・やや軽め」表記でMedium区分と概ね整合していたが、最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeXシリーズの中でも明確に球拍软(軟らかい)側に位置していたため、この最新公式画像を最優先とするユーザー指示によりFlexibleに訂正した。中国での規格展開は3UG5/4UG6/5UG6、価格1680元。バランスポイントは従来不明だったが、放射図上でBladeX 900 Moon Max 4U(実測SW29.4)とほぼ同じ縦位置にあったため、参考値として290mm(推定SW29.5)を暫定登録した。BladeX放射図の縦位置は他の公式実測点との相関が弱く(検証した8点でR≈0.14)、精度は低い参考値である点に留意。その後、ユーザー指摘によりBladeXシリーズ全体のバランスポイントを一律-5mm調整。290mm→285mm。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 290, "balance_confidence": "estimated", "balance_specific_to_class": true }
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 285, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "BladeX 800 Powerは、速度重視のSpeed版に対してヘッド側にわずかに荷重を寄せ、スマッシュの威力を高めた攻撃寄りのバリエーションである。M46X+ULTRA高弾性カーボンフレームと高密度制振シャフトにより、しっかりとした打感と重みのあるスマッシュを両立させているとレビューされている。海外レビューでは中管がやや硬めでクリアやドライブ、レシーブからのブロックに向く一方、ネット前での取り回しはSpeed版よりやや遅れると指摘されている。公式印刷カタログのマトリクスではBladeXシリーズの中でもむしろ軟らかい側に位置づけられており、ヘッドヘビーな重量配分としなやかなシャフトの組み合わせで、力任せではなくシャトルを乗せて運ぶような弾き方を狙った設計とみられる。総じて、スピードを保ちながら決定力のあるスマッシュを求める中上級ダブルスプレーヤー向けとされる。スペック(Flexible・4Uでスイングウェイト約30)と価格帯(約¥29,700)を総合すると、同じ速度型(スピード系)に分類されるヨネックスのナノフレアでは、価格帯・フレックスともに近いNanoflare 70(約¥30,250、Flexible)が最も近い性格のラケットと言える(Power版は珍しくヘッドヘビー寄りだが、Nanoflare 70はヘッドライトとバランス軸が異なる点に留意。Yonex側のスピード系にヘッドヘビー機は存在しないため、価格・フレックスの近さを優先した)。",
     "sources": [
@@ -897,10 +897,10 @@
     "frame_material": "MED高弾性カーボンファイバー",
     "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
     "price_jpy_approx": 26400,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:292mm/5U:300mmおよび実測重量を採用。以前の登録では素材を「高弾性M40Xカーボン、Resil Shaft」としていたが、Li-Ning公式中国カタログ(2026SS)の最新スペックではMED/ULTRA高弾性カーボンファイバー構成となっており、こちらに更新した(モデルチェンジの可能性あり)。カタログテキスト版の「打感特性」は4U「適中・やや軽め」でMedium区分と一致していたが、最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeX 800 Speedと同程度かそれ以上に球拍硬(硬い)側に位置していたため、この最新公式画像を最優先とするユーザー指示によりStiffに訂正した。スイングウェイトについて: 旧データでは5U(SW32.7)が4U(SW30.7)より数値上重くなっており、BladeX放射図で5U(球拍轻寄り)が4Uより明確に下(軽い)位置にあることと逆転していた。BladeX放射図の縦位置は他の公式実測点との相関が弱く(検証した8点でR≈0.14)高精度な逆算は困難だが、ユーザー指示により放射図の位置関係(5Uが4Uより明確に軽い)を優先し、5Uのバランスポイントを300mm→282mmへ暫定的に引き下げた(信頼度は推定値に格下げ)。4Uは公式スペック表の値のまま変更していない。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により4U:292mm/5U:300mmおよび実測重量を採用。以前の登録では素材を「高弾性M40Xカーボン、Resil Shaft」としていたが、Li-Ning公式中国カタログ(2026SS)の最新スペックではMED/ULTRA高弾性カーボンファイバー構成となっており、こちらに更新した(モデルチェンジの可能性あり)。カタログテキスト版の「打感特性」は4U「適中・やや軽め」でMedium区分と一致していたが、最新のLi-Ning公式印刷カタログ(2026、锋影/BLADEX硬さマトリクス画像)ではBladeX 800 Speedと同程度かそれ以上に球拍硬(硬い)側に位置していたため、この最新公式画像を最優先とするユーザー指示によりStiffに訂正した。スイングウェイトについて: 旧データでは5U(SW32.7)が4U(SW30.7)より数値上重くなっており、BladeX放射図で5U(球拍轻寄り)が4Uより明確に下(軽い)位置にあることと逆転していた。BladeX放射図の縦位置は他の公式実測点との相関が弱く(検証した8点でR≈0.14)高精度な逆算は困難だが、ユーザー指示により放射図の位置関係(5Uが4Uより明確に軽い)を優先し、5Uのバランスポイントを300mm→282mmへ暫定的に引き下げた(信頼度は推定値に格下げ)。4Uは公式スペック表の値のまま変更していない。その後、ユーザー指摘によりBladeXシリーズ全体のバランスポイントを一律-5mm調整(推定値に変更)。4U:292mm→287mm、5U:282mm→277mm。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 83.3, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 292, "balance_confidence": "measured", "balance_specific_to_class": true },
-      { "weight_class": "5U", "weight_g": 81.7, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 282, "balance_confidence": "estimated", "balance_specific_to_class": true }
+      { "weight_class": "4U", "weight_g": 83.3, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 287, "balance_confidence": "estimated", "balance_specific_to_class": true },
+      { "weight_class": "5U", "weight_g": 81.7, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 6.8, "grip_length_mm": 210, "overall_length_mm": 675, "balance_point_mm": 277, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "BladeX 700は小顔(スモールフレーム)設計の速度型ラケットで、女性プレーヤーやアジリティ重視の選手を意識した製品と紹介されている。手に取った際の軽さと、ミッドシャフトの反発が非常にクリアで、振り抜きの良さと弾き感の良さが評価されている。前衛での平打ちや素早いネットプレー、連続したスマッシュ回収に強いとの声がある一方、フレームが小さいためミスヒットへの許容度が低く、フレーム剛性がやや弱いためスマッシュの威力が安定しにくいという指摘もある。全体としてはコストパフォーマンスの高さが評価されている。公式印刷カタログのマトリクスでは見た目のエントリー向けな価格帯に反してBladeXシリーズでも硬めの部類に位置づけられており、軽量フレームでありながらシャフト自体はしっかりした弾き返しを持つ設計とみられる。中国では3U/4U/5Uの3クラスが展開される一方、日本正規代理店では4U/5Uのみの取り扱いとなっており、より重いクラスを求める場合は海外からの購入を検討する必要がある。スペック(Head Light・Stiff・4U/5Uでスイングウェイト約27〜31、小顔フレーム)と価格帯(約¥26,400)を総合すると、ヨネックスでは価格差¥9,900のNanoflare 800 Pro(約¥36,300)がフレックス(Stiff)・バランス(ヘッドライト)ともに一致する最も近い性格のラケットと言える。",
     "sources": [
@@ -924,9 +924,9 @@
     "frame_material": "MED高弾性カーボンファイバー",
     "string_tension_lbs": "6U ≤26 lbs",
     "price_jpy_approx": 20900,
-    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により6U:297mmおよび実測重量を採用。Li-Ning公式中国カタログ(2026SS)の「打感特性」では6U「やや軟らかめ・軽め」表記でFlexible区分と整合。フレーム・シャフトともMED高弾性カーボンファイバーで統一されている点を確認。",
+    "balance_note": "ユーザー提供のスペック表(公式規格表ベース)により6U:297mmおよび実測重量を採用。Li-Ning公式中国カタログ(2026SS)の「打感特性」では6U「やや軟らかめ・軽め」表記でFlexible区分と整合。フレーム・シャフトともMED高弾性カーボンファイバーで統一されている点を確認。その後、ユーザー指摘によりBladeXシリーズ全体のバランスポイントを一律-5mm調整(推定値に変更)。297mm→292mm。",
     "variants": [
-      { "weight_class": "6U", "weight_g": 72.5, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": 205, "overall_length_mm": 670, "balance_point_mm": 297, "balance_confidence": "measured", "balance_specific_to_class": true }
+      { "weight_class": "6U", "weight_g": 72.5, "weight_confidence": "measured", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": 205, "overall_length_mm": 670, "balance_point_mm": 292, "balance_confidence": "estimated", "balance_specific_to_class": true }
     ],
     "review_summary_ja": "BladeX 73 Lightは6U(実測72.5g前後)の超軽量モデルで、初中級の女性プレーヤー層をターゲットにした製品と紹介されている。軽さゆえにラケットを振り出しやすく、テンポの速いラリーでの連続したストロークがしやすいとされる。ソフトフレックス気味のシャフトにより、非力なプレーヤーでも比較的楽に飛びと打感の心地よさを得られる設計とされているが、本機に特化した詳細なインプレッション記事は他モデルほど多くは見つからない。フレーム・シャフトともにMED高弾性カーボンファイバーで統一されたシンプルな素材構成で、7.0mmという太めのシャフト径によりしなりの戻りが安定しやすく、軽量フレームにありがちな打球時のブレを抑えているとみられる。ヘッドライトバランスと相まって、パワーよりもテンポとコントロールを重視したラリー運びを好むプレーヤーに向くモデルである。スペック(Head Light・Flexible・6Uでスイングウェイト約28という超軽量設計)と価格帯(約¥20,900)を総合すると、ヨネックスでは価格帯・スイングウェイトともに近いNanoflare 300が最も近い性格のラケットと言える。",
     "sources": [
@@ -2205,10 +2205,10 @@
     "frame_material": "高弾性カーボンファイバー",
     "string_tension_lbs": "4U ≤28 lbs / 5U ≤27 lbs",
     "price_jpy_approx": 22000,
-    "balance_note": "商品ページには重量(グラム)・バランスポイント(mm)とも数値記載がなかったが、Funport WEBカタログのマトリクス表(スイングウェイト×打球感)には「AXBB 4U」「AXBB 5U」としてAxForce 80やBladeX 800 Power/Speedと同程度の中位のスイングウェイト帯・反発力寄りの位置にプロットされていた。このマトリクス表の位置関係から逆算した目安値としてバランスポイントを4U:295mm/5U:293mmと推定した(実測ではなくチャート上の相対位置からの推定)。Flex: 最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)では「雷霆BIGBANG」4U/5U(展開クラスから本モデルと同定)が球拍软(軟らかい)側の最も端に位置しており、明確にMediumより軟らかいため、Flexibleに訂正した。",
+    "balance_note": "商品ページには重量(グラム)・バランスポイント(mm)とも数値記載がなかったが、Funport WEBカタログのマトリクス表(スイングウェイト×打球感)には「AXBB 4U」「AXBB 5U」としてAxForce 80やBladeX 800 Power/Speedと同程度の中位のスイングウェイト帯・反発力寄りの位置にプロットされていた。このマトリクス表の位置関係から逆算した目安値としてバランスポイントを4U:295mm/5U:293mmと推定した(実測ではなくチャート上の相対位置からの推定)。Flex: 最新のLi-Ning公式印刷カタログ(2026、雷霆/AXFORCE硬さマトリクス画像)では「雷霆BIGBANG」4U/5U(展開クラスから本モデルと同定)が球拍软(軟らかい)側の最も端に位置しており、明確にMediumより軟らかいため、Flexibleに訂正した。その後、ユーザー指摘によりAXFORCEシリーズ全体のバランスポイントを一律+5mm調整。4U:295mm→300mm、5U:293mm→298mm。",
     "variants": [
-      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 295, "balance_confidence": "estimated", "balance_specific_to_class": false },
-      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 293, "balance_confidence": "estimated", "balance_specific_to_class": false }
+      { "weight_class": "4U", "weight_g": 82, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 300, "balance_confidence": "estimated", "balance_specific_to_class": false },
+      { "weight_class": "5U", "weight_g": 77, "weight_confidence": "estimated", "grip_size": "G6", "shaft_diameter_mm": 7.0, "grip_length_mm": null, "overall_length_mm": 675, "balance_point_mm": 298, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
     "review_summary_ja": "2023年秋発売の軽量オフェンス系モデルで、旧「AxForce Big Bang」の後継的な位置づけとされる。Sonic Boom Systemによりインパクト時の音と打感を強調する演出が特徴で、ヘッドヘビーな静的バランスと軽量フレームにより初心者からある程度慣れたプレーヤーまで幅広く扱いやすいと販促文で説明されている。独立レビューサイトによる詳細な試打評価は今回見つからず、評価は主に販売店の製品説明に基づく。公式印刷カタログのマトリクスではAxForceシリーズの中でも最も軟らかい部類に位置づけられており、シャフトのしなりを存分に活かしてシャトルを奥まで運べる設計とみられる。日本正規代理店Funportでは4U・5Uの2クラスで展開されており、旧「AxForce Big Bang」(7Uのみ)よりも幅広い体格のプレーヤーに対応している点も特徴である。スペック(Flexible・ヘッドヘビー・4U/5Uでスイングウェイト約29〜31という軽量オフェンス設計)と初心者にも扱いやすいという評価傾向を総合すると、ヨネックスでは価格差¥3,300のAstrox 33(約¥18,700)がスイングウェイト(約30前後)も近く、最も近い性格のラケットと言える。",
     "sources": [
