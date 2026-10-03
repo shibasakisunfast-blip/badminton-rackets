@@ -513,6 +513,19 @@ function productCodeCellHtml(r) {
   return `${escapeHtml(r.product_code)}${r.product_code_note ? `<div style="font-size:0.8em;color:var(--text-muted);margin-top:2px;">${escapeHtml(r.product_code_note)}</div>` : ""}`;
 }
 
+function grommetsRowHtml(r) {
+  if (!r.grommets || !r.grommets.length) return "";
+  const items = r.grommets.map(g => {
+    const link = g.source ? ` <a href="${escapeHtml(g.source)}" target="_blank" rel="noopener" style="color:var(--accent);">出典</a>` : "";
+    return `<div style="margin-bottom:6px;">
+      <strong>${escapeHtml(g.kind)}</strong>${g.name ? `「${escapeHtml(g.name)}」` : ""}<br>
+      ${escapeHtml(g.detail)}
+      <span style="font-size:0.8em;color:var(--text-muted);">(${escapeHtml(g.basis)})</span>${link}
+    </div>`;
+  }).join("");
+  return `<tr><th>グロメット</th><td>${items}</td></tr>`;
+}
+
 function variantsTableHtml(r) {
   if (!r.variants || !r.variants.length) return "";
   const rows = r.variants.map(v => {
@@ -554,6 +567,7 @@ function openDetail(id) {
       <tr><th>硬さ (Flex)</th><td>${escapeHtml(r.flex)}</td></tr>
       <tr><th>シャフト素材</th><td>${escapeHtml(r.shaft_material) || "不明"}</td></tr>
       <tr><th>フレーム素材</th><td>${escapeHtml(r.frame_material) || "不明"}</td></tr>
+      ${grommetsRowHtml(r)}
       <tr><th>推奨テンション</th><td>${escapeHtml(r.string_tension_lbs) || "不明"}</td></tr>
       <tr><th>参考価格</th><td>${r.price_jpy_approx ? "¥" + Number(r.price_jpy_approx).toLocaleString() + " (税抜目安)" : "不明"}${r.price_note ? `<div style="font-size:0.8em;color:var(--text-muted);margin-top:2px;">${escapeHtml(r.price_note)}</div>` : ""}</td></tr>
     </table>

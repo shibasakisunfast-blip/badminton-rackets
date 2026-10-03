@@ -64,6 +64,7 @@
   },
   {
     "id": "yonex-arcsaber-11-pro",
+    "grommets": [{ "kind": "連結グロメット", "name": "コントロールアシストバンパー", "detail": "T-アンカーを配合した連続グロメットをフレームトップに搭載し、面安定性を高める。", "basis": "ヨネックス公式発表(2022年)", "source": "https://www.yonex.co.jp/badminton/news/2022/01/2201071603.html" }, { "kind": "球持ち向上構造", "name": "ポケッティングブースター", "detail": "ゴムのように大きく伸びて素早く戻るエラストマー素材をフレームトップに搭載し、球持ちと球の出を向上(グロメットそのものではなく、エラストマー素材による構造)。", "basis": "ヨネックス公式発表(2022年)", "source": "https://www.yonex.co.jp/badminton/news/2022/01/2201071603.html" }],
     "series": "Arcsaber",
     "brand": "Yonex",
     "model": "Arcsaber 11 Pro",
@@ -555,6 +556,7 @@
   },
   {
     "id": "li-ning-halbertec-9000-power",
+    "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ連結グロメット", "detail": "フレーム上部に連結グロメット構造を採用しているとする販売店情報がある。ただし国内代理店・公式の商品ページでは確認できていないため、9000の連結グロメットを継承している可能性として参考扱い。", "basis": "販売店情報(公式・代理店での確認は取れず)", "source": null }],
     "series": "Halbertec",
     "brand": "Li-Ning",
     "model": "Halbertec 9000 Power",
@@ -584,6 +586,7 @@
   },
   {
     "id": "li-ning-halbertec-9000",
+    "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ連結グロメット", "detail": "LI-NINGラケット初となるフレームトップの連結グロメットを搭載。フレームとガットの接地面積を増やしてエネルギーロスを減らし、インパクト時のパワーを増強する。", "basis": "国内代理店の商品説明", "source": "https://www.racket.co.jp/product/lin-hal9000.html" }],
     "series": "Halbertec",
     "brand": "Li-Ning",
     "model": "Halbertec 9000",
@@ -1125,6 +1128,7 @@
   },
   {
     "id": "yonex-astrox-99-pro-gen3",
+    "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットをフレームトップに搭載し、重量を加えつつ空気抵抗を抑えてパワー伝達を強化する(第2世代にあった太径孔の「新孔空け設計」は公式発表に記載なし)。", "basis": "ヨネックス公式発表(2025年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2025/3315.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 99 Pro (2025)",
@@ -1153,6 +1157,7 @@
   },
   {
     "id": "yonex-astrox-99-game-gen3",
+    "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットをフレームトップに搭載し、重量を加えつつ空気抵抗を抑えてパワー伝達を強化する(PRO/TOUR/GAME共通。第2世代にあった太径孔の「新孔空け設計」は公式発表に記載なし)。", "basis": "ヨネックス公式発表(2025年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2025/3315.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 99 Game (2025)",
@@ -1179,6 +1184,7 @@
   },
   {
     "id": "yonex-astrox-99-pro-gen2",
+    "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを配合した連続グロメットをフレームトップに搭載。単体グロメットより55%重く、ヘッドの効き(パワー)を高める。", "basis": "ヨネックス公式発表(2021年)", "source": "https://www.yonex.co.jp/badminton/news/2021/09/2108231600.html" }, { "kind": "大口径グロメット", "name": "新孔空け設計", "detail": "高強度のVOLUME CUT RESINにより、フレームサイドに太径の孔を配置。ストリングの可動域が広がり、打球時の球持ちが向上する。", "basis": "ヨネックス公式発表(2021年)", "source": "https://www.yonex.co.jp/badminton/news/2021/09/2108231600.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 99 Pro (2021)",
@@ -1207,6 +1213,7 @@
   },
   {
     "id": "yonex-astrox-99-game-gen2",
+    "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを配合した連続グロメットをフレームトップに搭載。単体グロメットより55%重く、ヘッドの効き(パワー)を高める。", "basis": "ヨネックス公式発表(2021年、PRO/GAME共通)", "source": "https://www.yonex.co.jp/badminton/news/2021/09/2108231600.html" }, { "kind": "大口径グロメット", "name": "新孔空け設計", "detail": "高強度のVOLUME CUT RESINにより、フレームサイドに太径の孔を配置。ストリングの可動域が広がり、打球時の球持ちが向上する。", "basis": "ヨネックス公式発表(2021年、PRO/GAME共通)", "source": "https://www.yonex.co.jp/badminton/news/2021/09/2108231600.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 99 Game (2021)",
@@ -1234,6 +1241,7 @@
   },
   {
     "id": "yonex-astrox-88d-pro-gen3",
+    "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 88D Pro (2024)",
@@ -1261,6 +1269,7 @@
   },
   {
     "id": "yonex-astrox-88d-tour-gen3",
+    "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 88D Tour (2024)",
@@ -1288,6 +1297,7 @@
   },
   {
     "id": "yonex-astrox-88d-game-gen3",
+    "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 88D Game (2024)",
@@ -1314,6 +1324,7 @@
   },
   {
     "id": "yonex-astrox-88s-pro-gen3",
+    "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 88S Pro (2024)",
@@ -1342,6 +1353,7 @@
   },
   {
     "id": "yonex-astrox-88s-tour-gen3",
+    "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 88S Tour (2024)",
@@ -1369,6 +1381,7 @@
   },
   {
     "id": "yonex-astrox-88s-game-gen3",
+    "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 88S Game (2024)",
@@ -1395,6 +1408,7 @@
   },
   {
     "id": "yonex-astrox-88d-pro-gen2",
+    "grommets": [{ "kind": "大口径グロメット", "name": "新孔空け設計", "detail": "高強度のVOLUME CUT RESINにより、これまで採用できなかったフレームサイド部に太径の孔を採用。ストリングの可動域が広がり球持ちが向上する。孔の数と位置は後衛向け(D)の特性に合わせて最適化。", "basis": "ヨネックス公式発表(2021年、88 S/D・PRO/GAME共通)", "source": "https://www.yonex.co.jp/badminton/news/2021/03/2101071700.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 88D Pro (2021)",
@@ -1422,6 +1436,7 @@
   },
   {
     "id": "yonex-astrox-88d-game-gen2",
+    "grommets": [{ "kind": "大口径グロメット", "name": "新孔空け設計", "detail": "高強度のVOLUME CUT RESINにより、これまで採用できなかったフレームサイド部に太径の孔を採用。ストリングの可動域が広がり球持ちが向上する。孔の数と位置は後衛向け(D)の特性に合わせて最適化。", "basis": "ヨネックス公式発表(2021年、88 S/D・PRO/GAME共通)", "source": "https://www.yonex.co.jp/badminton/news/2021/03/2101071700.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 88D Game (2021)",
@@ -1449,6 +1464,7 @@
   },
   {
     "id": "yonex-astrox-88s-game-gen2",
+    "grommets": [{ "kind": "大口径グロメット", "name": "新孔空け設計", "detail": "高強度のVOLUME CUT RESINにより、これまで採用できなかったフレームサイド部に太径の孔を採用。ストリングの可動域が広がり球持ちが向上する。孔の数と位置は前衛向け(S)の特性に合わせて最適化。", "basis": "ヨネックス公式発表(2021年、88 S/D・PRO/GAME共通。本モデルは同型番AX88S-Gとして掲載)", "source": "https://www.yonex.co.jp/badminton/news/2021/03/2101071700.html" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 88S Game (2022)",
@@ -1822,6 +1838,7 @@
   },
   {
     "id": "yonex-arcsaber-7-pro",
+    "grommets": [{ "kind": "球持ち向上構造", "name": "ポケッティングブースター", "detail": "ゴムのように大きく伸びて素早く戻るエラストマー素材を、効果の大きいフレームサイドに搭載し、球持ちと球の出を向上(グロメットそのものではなく、エラストマー素材による構造。連続グロメットの記載はなし)。", "basis": "ヨネックス公式発表(2022年)", "source": "https://www.yonex.co.jp/badminton/news/2022/06/2206281000.html" }],
     "brand": "Yonex",
     "series": "Arcsaber",
     "model": "Arcsaber 7 Pro",
@@ -1848,6 +1865,7 @@
   },
   {
     "id": "yonex-arcsaber-7-tour",
+    "grommets": [{ "kind": "連結グロメット", "name": "コントロールアシストバンパー", "detail": "T-アンカーを配合した連続グロメットで面安定性を高める(公式のイノベーション解説による定義)。", "basis": "ヨネックス米国公式サイトのテクノロジー欄に記載", "source": "https://us.yonex.com/products/arcsaber-7-tour" }, { "kind": "球持ち向上構造", "name": "ポケッティングブースター", "detail": "エラストマー素材でシャトルをくわえ込み、接触時間を延ばして球持ちを向上(グロメットそのものではなく、エラストマー素材による構造)。", "basis": "ヨネックス米国公式サイトに記載", "source": "https://us.yonex.com/products/arcsaber-7-tour" }],
     "brand": "Yonex",
     "series": "Arcsaber",
     "model": "Arcsaber 7 Tour",
@@ -1873,6 +1891,7 @@
   },
   {
     "id": "yonex-nanoflare-1000z",
+    "grommets": [{ "kind": "連結グロメット", "name": "スピードアシストバンパー", "detail": "変形しにくい高剛性のチタン酸カリウムを配合した連続グロメットをフレーム下部に装着し、フレームの変形を減らして弾き性能を向上させる(1000 Zのみ。1000 GAMEは非搭載)。", "basis": "ヨネックス公式発表(2023年)", "source": "https://www.yonex.co.jp/badminton/news/2023/05/2305121300.html" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare 1000Z",
