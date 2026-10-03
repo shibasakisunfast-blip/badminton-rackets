@@ -1,6 +1,7 @@
 [
   {
     "id": "yonex-astrox-100zz",
+    "features": [{ "id": "isometric" }, { "id": "rgs" }, { "id": "namd" }, { "id": "new-t-joint" }, { "id": "ebc-plus" }, { "id": "hyper-slim" }, { "id": "aero-box" }, { "id": "solid-feel-core" }, { "id": "nanometric" }],
     "series": "Astrox",
     "brand": "Yonex",
     "model": "Astrox 100ZZ",
@@ -32,6 +33,7 @@
   },
   {
     "id": "yonex-nanoflare-800",
+    "features": [{ "id": "razor-frame" }, { "id": "sonic-flare" }, { "id": "toray-m40x" }, { "id": "hmg" }, { "id": "nanometric" }, { "id": "new-t-joint" }, { "id": "slim-shaft" }, { "id": "isometric" }],
     "series": "Nanoflare",
     "brand": "Yonex",
     "model": "Nanoflare 800",
@@ -64,6 +66,7 @@
   },
   {
     "id": "yonex-arcsaber-11-pro",
+    "features": [{ "id": "isometric" }, { "id": "new-t-joint" }],
     "grommets": [{ "kind": "連結グロメット", "name": "コントロールアシストバンパー", "detail": "T-アンカーを配合した連続グロメットをフレームトップに搭載し、面安定性を高める。", "basis": "ヨネックス公式発表(2022年)", "source": "https://www.yonex.co.jp/badminton/news/2022/01/2201071603.html" }, { "kind": "球持ち向上構造", "name": "ポケッティングブースター", "detail": "ゴムのように大きく伸びて素早く戻るエラストマー素材をフレームトップに搭載し、球持ちと球の出を向上(グロメットそのものではなく、エラストマー素材による構造)。", "basis": "ヨネックス公式発表(2022年)", "source": "https://www.yonex.co.jp/badminton/news/2022/01/2201071603.html" }],
     "series": "Arcsaber",
     "brand": "Yonex",
@@ -95,6 +98,7 @@
   },
   {
     "id": "yonex-duora-10",
+    "features": [{ "id": "dual-optimum" }],
     "series": "Duora",
     "brand": "Yonex",
     "model": "Duora 10",
@@ -124,6 +128,7 @@
   },
   {
     "id": "li-ning-aeronaut-9000c",
+    "features": [{ "id": "li-airstream" }, { "id": "li-hollow-frame" }, { "id": "li-grommet-lock" }, { "id": "li-sweetspot" }, { "id": "li-tb-nano" }, { "id": "li-wing-stabilizer", "note": "海外販売店の製品説明に基づく。" }, { "id": "li-sonic-boom", "note": "海外販売店の製品説明に基づく。" }],
     "series": "Aeronaut",
     "brand": "Li-Ning",
     "model": "Aeronaut 9000C",
@@ -153,6 +158,7 @@
   },
   {
     "id": "li-ning-windstorm-72",
+    "features": [{ "id": "li-ultralight" }],
     "series": "Windstorm",
     "brand": "Li-Ning",
     "model": "Windstorm 72",
@@ -180,6 +186,7 @@
   },
   {
     "id": "li-ning-axforce-100",
+    "features": [{ "id": "li-slim-shaft", "note": "6.0mm" }, { "id": "li-damping-material", "note": "「振動吸収素材も使用」と説明。" }, { "id": "li-box-wing-frame" }, { "id": "li-aramid-shaft" }, { "id": "li-kick-point-up" }, { "id": "li-foam-solid-frame" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 100",
@@ -214,7 +221,8 @@
   },
   {
     "id": "li-ning-axforce-100-ii",
-    "grommets": [{ "kind": "連結グロメット", "name": "8連連続グロメット(ジョイントグロメット)", "detail": "フレームトップに8連の連続グロメット(ジョイントグロメット)を新たに搭載。あわせて5時・7時位置とT型ジョイントの構造を最適化し、面安定性と攻撃力をさらに向上させている(同ページの記載)。", "basis": "国内代理店Funportの商品ページ", "source": "https://order.funport.co.jp/view/item/000000001809" }],
+    "features": [{ "id": "li-slim-shaft", "note": "6.2mm(「リーニン史上最細クラスのバイオニック・スリムシャフト」)" }, { "id": "li-frame-energy-damping" }, { "id": "li-57-tjoint" }, { "id": "li-cg-forward" }],
+    "grommets": [{ "kind": "連結グロメット", "name": "8連連続グロメット(ジョイントグロメット)", "detail": "フレームトップに8連の連続グロメット(ジョイントグロメット)を新たに搭載。", "basis": "国内代理店Funportの商品ページ", "source": "https://order.funport.co.jp/view/item/000000001809" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 100 II",
@@ -243,6 +251,7 @@
   },
   {
     "id": "li-ning-axforce-100-ii-max",
+    "features": [{ "id": "li-slim-shaft", "note": "6.2mm(ウルトラスリムシャフト)" }, { "id": "li-frame-energy-damping", "note": "公式予告投稿の「高分子蓄力制振材」表記に基づく(発売前)。" }, { "id": "li-frtp" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 100 II MAX",
@@ -268,6 +277,7 @@
   },
   {
     "id": "li-ning-axforce-90-new",
+    "features": [{ "id": "li-slim-shaft", "note": "6.4mm" }, { "id": "li-damping-material", "note": "「振動吸収素材が衝撃を軽減し、肘や手首への負担を抑える」と説明。" }, { "id": "li-frame-energy-damping", "note": "スマッシュ時のエネルギーを蓄え、角度をつけやすいと説明。" }, { "id": "li-wing-stabilizer" }, { "id": "li-box-wing-frame", "note": "ウィングスタビライザーとの組み合わせで説明されている。" }],
     "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ2連結グロメット(3ヶ所)", "detail": "フレームトップに2連結のグロメットを3ヶ所装着。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "AxForce",
     "brand": "Li-Ning",
@@ -300,6 +310,7 @@
   },
   {
     "id": "li-ning-axforce-90-dragon-max",
+    "features": [{ "id": "li-slim-shaft", "note": "6.2mm" }, { "id": "li-5-7-oclock" }, { "id": "li-kick-point-up", "note": "ロンググリップ設計でキックポイントを上方に移動。" }, { "id": "li-foam-solid-frame" }, { "id": "li-aramid-shaft" }],
     "grommets": [{ "kind": "大口径グロメット", "name": null, "detail": "スイートスポットに影響する部分に大口径のグロメットを使用し、ストリングの動きを確保して球持ちの向上を図っている。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "AxForce",
     "brand": "Li-Ning",
@@ -330,6 +341,7 @@
   },
   {
     "id": "li-ning-axforce-90-tiger-max",
+    "features": [{ "id": "li-slim-shaft", "note": "6.2mm" }, { "id": "li-5-7-oclock" }, { "id": "li-kick-point-up", "note": "ロンググリップ設計でキックポイントを上方に移動。" }, { "id": "li-foam-solid-frame" }, { "id": "li-aramid-shaft" }],
     "grommets": [{ "kind": "大口径グロメット", "name": null, "detail": "スイートスポットに影響する部分に大口径のグロメットを使用し、ストリングの動きを確保して球持ちの向上を図っている。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "AxForce",
     "brand": "Li-Ning",
@@ -360,6 +372,7 @@
   },
   {
     "id": "li-ning-axforce-80",
+    "features": [{ "id": "li-slim-shaft", "note": "6.6mm" }, { "id": "li-5-7-oclock" }, { "id": "li-kick-point-up" }, { "id": "li-foam-solid-frame" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 80",
@@ -390,6 +403,7 @@
   },
   {
     "id": "li-ning-axforce-80-ii",
+    "features": [{ "id": "li-damping-material", "note": "発売前の予告投稿の素材表記(高密度制振材)に基づく。" }, { "id": "li-frame-energy-damping", "note": "発売前の予告投稿の「高分子蓄力制振材」表記に基づく。" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 80 II",
@@ -417,6 +431,7 @@
   },
   {
     "id": "li-ning-axforce-80-light",
+    "features": [{ "id": "li-slim-shaft", "note": "6.6mm" }, { "id": "li-composite-shock" }, { "id": "li-tb-nano", "note": "商品ページに「TB NANO」搭載と記載。" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 80 Light",
@@ -445,6 +460,7 @@
   },
   {
     "id": "li-ning-axforce-70",
+    "features": [{ "id": "li-slim-shaft", "note": "6.6mm" }, { "id": "li-damping-material" }, { "id": "li-box-wing-frame" }, { "id": "li-aramid-shaft" }, { "id": "li-kick-point-up" }, { "id": "li-foam-solid-frame" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 70",
@@ -475,6 +491,7 @@
   },
   {
     "id": "li-ning-axforce-60",
+    "features": [{ "id": "li-slim-shaft", "note": "6.8mm" }, { "id": "li-damping-material", "note": "「6.8mm高密度減衰スリムシャフト」と説明。" }, { "id": "li-box-wing-frame" }, { "id": "li-5-7-oclock" }, { "id": "li-kick-point-up" }, { "id": "li-foam-solid-frame" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 60",
@@ -505,6 +522,7 @@
   },
   {
     "id": "li-ning-axforce-30-ex-light",
+    "features": [{ "id": "li-sonic-boom" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 30 EX-Light",
@@ -532,6 +550,7 @@
   },
   {
     "id": "li-ning-axforce-big-bang",
+    "features": [{ "id": "li-box-wing-frame" }, { "id": "li-5-7-oclock" }, { "id": "li-hollow-frame" }, { "id": "li-ultralight" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce Big Bang",
@@ -560,6 +579,7 @@
   },
   {
     "id": "li-ning-halbertec-9000-power",
+    "features": [{ "id": "li-slim-shaft", "note": "6.6mm" }, { "id": "li-box-wing-frame", "note": "「ボックス形状でフレーム設計」と説明。" }, { "id": "li-damping-material" }, { "id": "li-polyimide-shaft" }],
     "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ連結グロメット", "detail": "Halbertec 9000と同じ連結グロメットをフレームトップに採用。フレームとガットの接地面積を増やしてエネルギーロスを減らし、インパクト時のパワーを増強する(効果の説明はHalbertec 9000の国内代理店説明による)。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "Halbertec",
     "brand": "Li-Ning",
@@ -590,6 +610,7 @@
   },
   {
     "id": "li-ning-halbertec-9000",
+    "features": [{ "id": "li-slim-shaft", "note": "6.6mm" }, { "id": "li-box-wing-frame", "note": "「ボックス形状でフレーム設計」と説明。" }, { "id": "li-acc-rifftech", "note": "海外販売店の製品説明に基づく。" }, { "id": "li-hdf", "note": "海外販売店の製品説明では「HDF TECHNOLOGY」と表記。" }],
     "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ連結グロメット", "detail": "LI-NINGラケット初となるフレームトップの連結グロメットを搭載。フレームとガットの接地面積を増やしてエネルギーロスを減らし、インパクト時のパワーを増強する。", "basis": "国内代理店の商品説明", "source": "https://www.racket.co.jp/product/lin-hal9000.html" }],
     "series": "Halbertec",
     "brand": "Li-Ning",
@@ -620,6 +641,7 @@
   },
   {
     "id": "li-ning-halbertec-8000",
+    "features": [{ "id": "li-torsion-slim-shaft" }, { "id": "li-damping-material" }, { "id": "li-foam-solid-frame" }],
     "series": "Halbertec",
     "brand": "Li-Ning",
     "model": "Halbertec 8000",
@@ -649,6 +671,7 @@
   },
   {
     "id": "li-ning-halbertec-7000",
+    "features": [{ "id": "li-acc-rifftech", "note": "中国語メディアの紹介記事に基づく。" }],
     "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ2連結グロメット(3ヶ所)", "detail": "フレームトップに2連結のグロメットを3ヶ所装着。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "Halbertec",
     "brand": "Li-Ning",
@@ -678,6 +701,7 @@
   },
   {
     "id": "li-ning-halbertec-7000-ii",
+    "features": [{ "id": "li-vibration-suppression" }, { "id": "li-torsion-rigid-frame" }],
     "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ2連結グロメット(3ヶ所)", "detail": "フレームトップに2連結のグロメットを3ヶ所装着。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "Halbertec",
     "brand": "Li-Ning",
@@ -705,6 +729,7 @@
   },
   {
     "id": "li-ning-bladex-900-new",
+    "features": [{ "id": "li-slim-shaft", "note": "6.8mm" }, { "id": "li-damping-material" }, { "id": "li-tb-nano" }, { "id": "li-hdf" }, { "id": "li-sharp-wind" }, { "id": "li-aero-frame" }],
     "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 900 New",
@@ -733,6 +758,7 @@
   },
   {
     "id": "li-ning-bladex-900-sunmax",
+    "features": [{ "id": "li-slim-shaft", "note": "6.6mm" }, { "id": "li-accele-tech" }, { "id": "li-hdf" }, { "id": "li-inner-taper" }, { "id": "li-aero-frame" }],
     "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 900 Sun Max",
@@ -761,6 +787,7 @@
   },
   {
     "id": "li-ning-bladex-900-moonmax",
+    "features": [{ "id": "li-slim-shaft", "note": "6.6mm" }, { "id": "li-accele-tech" }, { "id": "li-hdf" }, { "id": "li-inner-taper" }, { "id": "li-aero-frame" }],
     "grommets": [{ "kind": "大口径グロメット", "name": null, "detail": "スイートスポットに影響する部分に大口径のグロメットを使用し、ストリングの動きを確保して球持ちの向上を図っている。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "BladeX",
     "brand": "Li-Ning",
@@ -789,6 +816,7 @@
   },
   {
     "id": "li-ning-bladex-880-shida",
+    "features": [{ "id": "li-aero-frame", "note": "「高弾性エアロダイナミクスフレーム」と説明。" }, { "id": "li-damping-material", "note": "「高密度減震素材」と説明。" }],
     "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 880 Shida",
@@ -815,6 +843,7 @@
   },
   {
     "id": "li-ning-bladex-800",
+    "features": [{ "id": "li-slim-shaft", "note": "6.8mm" }, { "id": "li-aero-frame" }, { "id": "li-eva-damping" }, { "id": "li-inner-taper" }],
     "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 800",
@@ -843,6 +872,7 @@
   },
   {
     "id": "li-ning-bladex-800-speed",
+    "features": [{ "id": "li-slim-shaft", "note": "6.8mm" }, { "id": "li-aero-frame" }, { "id": "li-eva-damping" }, { "id": "li-inner-taper" }],
     "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 800 Speed",
@@ -868,6 +898,7 @@
   },
   {
     "id": "li-ning-bladex-800-power",
+    "features": [{ "id": "li-slim-shaft", "note": "6.8mm" }, { "id": "li-aero-frame" }, { "id": "li-eva-damping" }, { "id": "li-inner-taper" }],
     "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 800 Power",
@@ -894,6 +925,7 @@
   },
   {
     "id": "li-ning-bladex-700",
+    "features": [{ "id": "li-slim-shaft", "note": "6.8mm(肉薄シャフト)" }, { "id": "li-aero-frame" }, { "id": "li-eva-damping" }, { "id": "li-inner-taper" }],
     "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 700",
@@ -921,6 +953,7 @@
   },
   {
     "id": "li-ning-bladex-73-light",
+    "features": [{ "id": "li-aero-frame" }, { "id": "li-hollow-frame" }, { "id": "li-ultralight" }],
     "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 73 Light",
@@ -947,6 +980,7 @@
   },
   {
     "id": "li-ning-windstorm-72s",
+    "features": [{ "id": "li-ultralight" }],
     "series": "Windstorm",
     "brand": "Li-Ning",
     "model": "Windstorm 72S",
@@ -973,6 +1007,7 @@
   },
   {
     "id": "li-ning-windstorm-74",
+    "features": [{ "id": "li-ultralight" }],
     "series": "Windstorm",
     "brand": "Li-Ning",
     "model": "Windstorm 74",
@@ -999,6 +1034,7 @@
   },
   {
     "id": "li-ning-windstorm-79s",
+    "features": [{ "id": "li-ultralight" }],
     "series": "Windstorm",
     "brand": "Li-Ning",
     "model": "Windstorm 79S",
@@ -1025,6 +1061,7 @@
   },
   {
     "id": "li-ning-windstorm-79h",
+    "features": [{ "id": "li-ultralight" }],
     "series": "Windstorm",
     "brand": "Li-Ning",
     "model": "Windstorm 79H",
@@ -1051,6 +1088,7 @@
   },
   {
     "id": "li-ning-aeronaut-9000i",
+    "features": [{ "id": "li-airstream", "note": "4つの風洞。" }, { "id": "li-hollow-frame" }, { "id": "li-grommet-lock" }, { "id": "li-wing-stabilizer", "note": "海外販売店の製品説明に基づく。" }, { "id": "li-tb-nano", "note": "海外販売店の製品説明に基づく。" }],
     "series": "Aeronaut",
     "brand": "Li-Ning",
     "model": "Aeronaut 9000I",
@@ -1080,6 +1118,7 @@
   },
   {
     "id": "yonex-astrox-100-tour",
+    "features": [{ "id": "isometric" }, { "id": "ebc-plus" }, { "id": "slim-shaft" }, { "id": "nanomesh-neo" }, { "id": "t-joint" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 100 Tour",
@@ -1108,6 +1147,7 @@
   },
   {
     "id": "yonex-astrox-100-game",
+    "features": [{ "id": "isometric" }, { "id": "ebc" }, { "id": "nanomesh-neo" }, { "id": "t-joint" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 100 Game",
@@ -1135,6 +1175,7 @@
   },
   {
     "id": "yonex-astrox-99-pro-gen3",
+    "features": [{ "id": "isometric" }, { "id": "rgs" }, { "id": "namd" }, { "id": "new-t-joint" }, { "id": "ebc-plus" }, { "id": "slim-shaft" }, { "id": "solid-feel-core" }, { "id": "aero-box" }],
     "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットをフレームトップに搭載し、重量を加えつつ空気抵抗を抑えてパワー伝達を強化する(第2世代にあった太径孔の「新孔空け設計」は公式発表に記載なし)。", "basis": "ヨネックス公式発表(2025年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2025/3315.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1164,6 +1205,7 @@
   },
   {
     "id": "yonex-astrox-99-game-gen3",
+    "features": [{ "id": "isometric" }, { "id": "rgs" }, { "id": "aero-box" }, { "id": "ebc" }, { "id": "nanomesh-neo", "note": "公式ショップの技術欄では「2G-NANOMESH NEO」表記。" }],
     "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットをフレームトップに搭載し、重量を加えつつ空気抵抗を抑えてパワー伝達を強化する(PRO/TOUR/GAME共通。第2世代にあった太径孔の「新孔空け設計」は公式発表に記載なし)。", "basis": "ヨネックス公式発表(2025年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2025/3315.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1191,6 +1233,7 @@
   },
   {
     "id": "yonex-astrox-99-pro-gen2",
+    "features": [{ "id": "isometric" }, { "id": "rgs" }, { "id": "namd" }, { "id": "new-t-joint" }, { "id": "ebc-plus" }, { "id": "slim-shaft" }, { "id": "solid-feel-core" }, { "id": "aero-box" }],
     "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを配合した連続グロメットをフレームトップに搭載。単体グロメットより55%重く、ヘッドの効き(パワー)を高める。", "basis": "ヨネックス公式発表(2021年)", "source": "https://www.yonex.co.jp/badminton/news/2021/09/2108231600.html" }, { "kind": "大口径グロメット", "name": "新孔空け設計", "detail": "高強度のVOLUME CUT RESINにより、フレームサイドに太径の孔を配置。ストリングの可動域が広がり、打球時の球持ちが向上する。", "basis": "ヨネックス公式発表(2021年)", "source": "https://www.yonex.co.jp/badminton/news/2021/09/2108231600.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1220,6 +1263,7 @@
   },
   {
     "id": "yonex-astrox-99-game-gen2",
+    "features": [{ "id": "isometric" }, { "id": "rgs" }, { "id": "aero-box" }, { "id": "ebc" }],
     "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを配合した連続グロメットをフレームトップに搭載。単体グロメットより55%重く、ヘッドの効き(パワー)を高める。", "basis": "ヨネックス公式発表(2021年、PRO/GAME共通)", "source": "https://www.yonex.co.jp/badminton/news/2021/09/2108231600.html" }, { "kind": "大口径グロメット", "name": "新孔空け設計", "detail": "高強度のVOLUME CUT RESINにより、フレームサイドに太径の孔を配置。ストリングの可動域が広がり、打球時の球持ちが向上する。", "basis": "ヨネックス公式発表(2021年、PRO/GAME共通)", "source": "https://www.yonex.co.jp/badminton/news/2021/09/2108231600.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1248,6 +1292,7 @@
   },
   {
     "id": "yonex-astrox-88d-pro-gen3",
+    "features": [{ "id": "isometric" }, { "id": "namd-2g" }, { "id": "new-t-joint" }, { "id": "ultra-pe" }, { "id": "ebc-plus" }, { "id": "slim-shaft" }, { "id": "aero-box" }, { "id": "cfr-csr" }],
     "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1276,6 +1321,7 @@
   },
   {
     "id": "yonex-astrox-88d-tour-gen3",
+    "features": [{ "id": "isometric" }, { "id": "namd-2g" }, { "id": "t-joint" }, { "id": "ebc-plus" }, { "id": "slim-shaft" }, { "id": "aero-box" }, { "id": "cfr-csr" }],
     "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1304,6 +1350,7 @@
   },
   {
     "id": "yonex-astrox-88d-game-gen3",
+    "features": [{ "id": "isometric" }, { "id": "t-joint" }, { "id": "nanomesh-neo" }, { "id": "ebc-plus" }, { "id": "slim-shaft" }, { "id": "aero-box" }, { "id": "cfr-csr" }],
     "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1331,6 +1378,7 @@
   },
   {
     "id": "yonex-astrox-88s-pro-gen3",
+    "features": [{ "id": "isometric" }, { "id": "namd-2g" }, { "id": "new-t-joint" }, { "id": "ultra-pe" }, { "id": "ebc-plus" }, { "id": "slim-shaft" }, { "id": "aero-box" }, { "id": "cfr-csr" }],
     "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1360,6 +1408,7 @@
   },
   {
     "id": "yonex-astrox-88s-tour-gen3",
+    "features": [{ "id": "isometric" }, { "id": "namd-2g" }, { "id": "t-joint" }, { "id": "ebc-plus" }, { "id": "slim-shaft" }, { "id": "aero-box" }, { "id": "cfr-csr" }],
     "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1388,6 +1437,7 @@
   },
   {
     "id": "yonex-astrox-88s-game-gen3",
+    "features": [{ "id": "isometric" }, { "id": "t-joint" }, { "id": "nanomesh-neo" }, { "id": "ebc-plus" }, { "id": "slim-shaft" }, { "id": "aero-box" }, { "id": "cfr-csr" }],
     "grommets": [{ "kind": "連結グロメット", "name": "パワーアシストバンパー", "detail": "タングステンを内包した連続グロメットを新形状でフレームトップに搭載し、重量を追加しつつ空気抵抗を低減する(88 S/D・PRO/TOUR/GAME共通)。", "basis": "ヨネックス公式発表(2024年)・公式イノベーション解説", "source": "https://www.yonex.co.jp/news/2024/983.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1415,6 +1465,7 @@
   },
   {
     "id": "yonex-astrox-88d-pro-gen2",
+    "features": [{ "id": "rgs" }, { "id": "t-joint" }, { "id": "isometric" }, { "id": "namd" }],
     "grommets": [{ "kind": "大口径グロメット", "name": "新孔空け設計", "detail": "高強度のVOLUME CUT RESINにより、これまで採用できなかったフレームサイド部に太径の孔を採用。ストリングの可動域が広がり球持ちが向上する。孔の数と位置は後衛向け(D)の特性に合わせて最適化。", "basis": "ヨネックス公式発表(2021年、88 S/D・PRO/GAME共通)", "source": "https://www.yonex.co.jp/badminton/news/2021/03/2101071700.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1443,6 +1494,7 @@
   },
   {
     "id": "yonex-astrox-88d-game-gen2",
+    "features": [{ "id": "rgs" }, { "id": "t-joint" }, { "id": "nanomesh-neo" }],
     "grommets": [{ "kind": "大口径グロメット", "name": "新孔空け設計", "detail": "高強度のVOLUME CUT RESINにより、これまで採用できなかったフレームサイド部に太径の孔を採用。ストリングの可動域が広がり球持ちが向上する。孔の数と位置は後衛向け(D)の特性に合わせて最適化。", "basis": "ヨネックス公式発表(2021年、88 S/D・PRO/GAME共通)", "source": "https://www.yonex.co.jp/badminton/news/2021/03/2101071700.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1471,6 +1523,7 @@
   },
   {
     "id": "yonex-astrox-88s-game-gen2",
+    "features": [{ "id": "rgs" }, { "id": "t-joint" }, { "id": "nanomesh-neo" }],
     "grommets": [{ "kind": "大口径グロメット", "name": "新孔空け設計", "detail": "高強度のVOLUME CUT RESINにより、これまで採用できなかったフレームサイド部に太径の孔を採用。ストリングの可動域が広がり球持ちが向上する。孔の数と位置は前衛向け(S)の特性に合わせて最適化。", "basis": "ヨネックス公式発表(2021年、88 S/D・PRO/GAME共通。本モデルは同型番AX88S-Gとして掲載)", "source": "https://www.yonex.co.jp/badminton/news/2021/03/2101071700.html" }],
     "brand": "Yonex",
     "series": "Astrox",
@@ -1499,6 +1552,7 @@
   },
   {
     "id": "yonex-astrox-88d-gen1",
+    "features": [{ "id": "rgs" }, { "id": "namd" }, { "id": "ebc" }, { "id": "nanometric" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 88D (2018)",
@@ -1526,6 +1580,7 @@
   },
   {
     "id": "yonex-astrox-88s-gen1",
+    "features": [{ "id": "rgs" }, { "id": "namd" }, { "id": "ebc" }, { "id": "nanometric" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 88S (2018)",
@@ -1553,6 +1608,7 @@
   },
   {
     "id": "yonex-astrox-77-pro",
+    "features": [{ "id": "isometric" }, { "id": "rgs" }, { "id": "namd" }, { "id": "new-t-joint" }, { "id": "flex-fuse" }, { "id": "aero-box" }, { "id": "slim-shaft" }, { "id": "ultra-pe" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 77 Pro",
@@ -1580,6 +1636,7 @@
   },
   {
     "id": "yonex-astrox-77-tour",
+    "features": [{ "id": "isometric" }, { "id": "ebc-plus" }, { "id": "nanomesh-neo" }, { "id": "t-joint" }, { "id": "rgs" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 77 Tour",
@@ -1608,6 +1665,7 @@
   },
   {
     "id": "yonex-astrox-66",
+    "features": [{ "id": "rgs" }, { "id": "namd" }, { "id": "tough-g-fiber" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 66",
@@ -1634,6 +1692,7 @@
   },
   {
     "id": "yonex-astrox-55a",
+    "features": [{ "id": "isometric" }, { "id": "rgs" }, { "id": "namd" }, { "id": "aero-box" }, { "id": "t-joint" }, { "id": "ultra-pe" }, { "id": "slim-shaft" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 55 A",
@@ -1660,6 +1719,7 @@
   },
   {
     "id": "yonex-astrox-33",
+    "features": [{ "id": "rgs" }, { "id": "namd" }, { "id": "t-joint" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 33",
@@ -1686,6 +1746,7 @@
   },
   {
     "id": "yonex-astrox-22rx",
+    "features": [{ "id": "isometric" }, { "id": "nanomesh-neo" }, { "id": "rgs" }, { "id": "aero-box" }, { "id": "t-joint" }, { "id": "ebc" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 22 RX",
@@ -1712,6 +1773,7 @@
   },
   {
     "id": "yonex-astrox-11",
+    "features": [{ "id": "isometric" }, { "id": "nanomesh-neo" }, { "id": "rgs" }, { "id": "aero-box" }, { "id": "t-joint" }, { "id": "ebc-plus" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 11",
@@ -1738,6 +1800,7 @@
   },
   {
     "id": "yonex-astrox-nextage",
+    "features": [{ "id": "isometric" }, { "id": "nanomesh-neo" }, { "id": "rgs" }, { "id": "aero-box" }, { "id": "rexis" }, { "id": "torque-to-flight" }, { "id": "vdm" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox Nextage",
@@ -1765,6 +1828,7 @@
   },
   {
     "id": "yonex-astrox-70",
+    "features": [{ "id": "isometric" }, { "id": "rgs" }, { "id": "namd" }, { "id": "ebc" }, { "id": "aero-box" }, { "id": "slim-shaft" }, { "id": "solid-feel-core" }, { "id": "vdm" }],
     "brand": "Yonex",
     "series": "Astrox",
     "model": "Astrox 70",
@@ -1792,6 +1856,7 @@
   },
   {
     "id": "yonex-arcsaber-1",
+    "features": [{ "id": "isometric" }, { "id": "box" }, { "id": "t-joint" }, { "id": "slim-shaft" }, { "id": "ebc-plus" }, { "id": "t-anchor" }],
     "brand": "Yonex",
     "series": "Arcsaber",
     "model": "Arcsaber 1",
@@ -1819,6 +1884,7 @@
   },
   {
     "id": "yonex-arcsaber-3",
+    "features": [{ "id": "isometric" }, { "id": "box" }, { "id": "t-joint" }, { "id": "slim-shaft" }, { "id": "ebc-plus" }, { "id": "t-anchor" }, { "id": "ultra-pe" }],
     "brand": "Yonex",
     "series": "Arcsaber",
     "model": "Arcsaber 3",
@@ -1845,6 +1911,7 @@
   },
   {
     "id": "yonex-arcsaber-7-pro",
+    "features": [{ "id": "isometric" }, { "id": "new-t-joint" }, { "id": "ultra-pe" }, { "id": "t-anchor" }, { "id": "enhanced-arcsaber-frame" }, { "id": "solid-feel-core" }, { "id": "slim-shaft" }, { "id": "ebc-plus" }, { "id": "box" }],
     "grommets": [{ "kind": "球持ち向上構造", "name": "ポケッティングブースター", "detail": "ゴムのように大きく伸びて素早く戻るエラストマー素材を、効果の大きいフレームサイドに搭載し、球持ちと球の出を向上(グロメットそのものではなく、エラストマー素材による構造。連続グロメットの記載はなし)。", "basis": "ヨネックス公式発表(2022年)", "source": "https://www.yonex.co.jp/badminton/news/2022/06/2206281000.html" }],
     "brand": "Yonex",
     "series": "Arcsaber",
@@ -1872,6 +1939,7 @@
   },
   {
     "id": "yonex-arcsaber-7-tour",
+    "features": [{ "id": "isometric" }, { "id": "box" }, { "id": "t-anchor" }],
     "grommets": [{ "kind": "連結グロメット", "name": "コントロールアシストバンパー", "detail": "T-アンカーを配合した連続グロメットで面安定性を高める(公式のイノベーション解説による定義)。", "basis": "ヨネックス米国公式サイトのテクノロジー欄に記載", "source": "https://us.yonex.com/products/arcsaber-7-tour" }, { "kind": "球持ち向上構造", "name": "ポケッティングブースター", "detail": "エラストマー素材でシャトルをくわえ込み、接触時間を延ばして球持ちを向上(グロメットそのものではなく、エラストマー素材による構造)。", "basis": "ヨネックス米国公式サイトに記載", "source": "https://us.yonex.com/products/arcsaber-7-tour" }],
     "brand": "Yonex",
     "series": "Arcsaber",
@@ -1898,6 +1966,7 @@
   },
   {
     "id": "yonex-nanoflare-1000z",
+    "features": [{ "id": "isometric" }, { "id": "sonic-flare" }, { "id": "toray-m40x" }, { "id": "new-t-joint" }, { "id": "hmg", "note": "公式ショップの技術欄では「EX Hyper-MG」表記。" }, { "id": "nanometric", "note": "公式ショップの技術欄では「ナノメトリックDR」表記。" }, { "id": "ultra-pe" }, { "id": "slim-shaft" }, { "id": "ebc-plus" }, { "id": "solid-feel-core" }, { "id": "aero" }, { "id": "compact-frame" }],
     "grommets": [{ "kind": "連結グロメット", "name": "スピードアシストバンパー", "detail": "変形しにくい高剛性のチタン酸カリウムを配合した連続グロメットをフレーム下部に装着し、フレームの変形を減らして弾き性能を向上させる(1000 Zのみ。1000 GAMEは非搭載)。", "basis": "ヨネックス公式発表(2023年)", "source": "https://www.yonex.co.jp/badminton/news/2023/05/2305121300.html" }],
     "brand": "Yonex",
     "series": "Nanoflare",
@@ -1927,6 +1996,7 @@
   },
   {
     "id": "yonex-nanoflare-1000-game",
+    "features": [{ "id": "isometric" }, { "id": "nanocell-neo" }, { "id": "slim-shaft" }, { "id": "t-joint" }, { "id": "ebc-plus" }, { "id": "aero" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare 1000 Game",
@@ -1953,6 +2023,7 @@
   },
   {
     "id": "yonex-nanoflare-800-pro",
+    "features": [{ "id": "toray-m40x" }, { "id": "slim-shaft" }, { "id": "ebc-plus" }, { "id": "hmg", "note": "公式ショップの技術欄では「EX Hyper-MG / Hyper-MG / EX-HMG / SUPER HMG」と併記。" }, { "id": "new-t-joint" }, { "id": "ultra-pe" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare 800 Pro",
@@ -1980,6 +2051,7 @@
   },
   {
     "id": "yonex-nanoflare-800-game",
+    "features": [{ "id": "slim-shaft" }, { "id": "ebc-plus" }, { "id": "nanocell-neo" }, { "id": "t-joint" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare 800 Game",
@@ -2006,6 +2078,7 @@
   },
   {
     "id": "yonex-nanoflare-700-pro",
+    "features": [{ "id": "isometric" }, { "id": "sonic-flare" }, { "id": "toray-m40x" }, { "id": "new-t-joint" }, { "id": "servo-filter" }, { "id": "ultra-pe" }, { "id": "solid-feel-core" }, { "id": "slim-shaft" }, { "id": "hmg", "note": "公式ショップの技術欄では「EX Hyper-MG / Hyper-MG / EX-HMG / SUPER HMG」と併記。" }, { "id": "ebc-plus" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare 700 Pro",
@@ -2035,6 +2108,7 @@
   },
   {
     "id": "yonex-nanoflare-700-tour",
+    "features": [{ "id": "isometric" }, { "id": "servo-filter" }, { "id": "slim-shaft" }, { "id": "hmg", "note": "公式ショップの技術欄では「EX Hyper-MG / Hyper-MG / EX-HMG / SUPER HMG」と併記。" }, { "id": "ebc-plus" }, { "id": "nanocell-neo" }, { "id": "t-joint" }, { "id": "rexis" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare 700 Tour",
@@ -2062,6 +2136,7 @@
   },
   {
     "id": "yonex-nanoflare-700-game",
+    "features": [{ "id": "isometric" }, { "id": "servo-filter" }, { "id": "slim-shaft" }, { "id": "ebc-plus" }, { "id": "nanocell-neo" }, { "id": "t-joint" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare 700 Game",
@@ -2088,6 +2163,7 @@
   },
   {
     "id": "yonex-nanoflare-junior",
+    "features": [{ "id": "aero" }, { "id": "slim-shaft" }, { "id": "nanocell-neo" }, { "id": "t-joint" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare Junior",
@@ -2114,6 +2190,7 @@
   },
   {
     "id": "yonex-nanoflare-70",
+    "features": [{ "id": "isometric" }, { "id": "sonic-flare" }, { "id": "toray-m40x" }, { "id": "new-t-joint" }, { "id": "aero-box" }, { "id": "slim-shaft" }, { "id": "ebc" }, { "id": "solid-feel-core" }, { "id": "vdm" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare 70",
@@ -2140,6 +2217,7 @@
   },
   {
     "id": "yonex-nanoflare-111",
+    "features": [{ "id": "nanocell-neo" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare 111",
@@ -2166,6 +2244,7 @@
   },
   {
     "id": "yonex-nanoflare-300",
+    "features": [{ "id": "isometric" }, { "id": "sonic-flare" }, { "id": "toray-m40x" }, { "id": "aero" }, { "id": "shock-absorb" }, { "id": "slim-shaft" }, { "id": "t-joint" }, { "id": "ebc-plus" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare 300",
@@ -2192,6 +2271,7 @@
   },
   {
     "id": "yonex-nanoflare-400",
+    "features": [{ "id": "isometric" }, { "id": "sonic-flare" }, { "id": "toray-m40x" }, { "id": "t-joint" }],
     "brand": "Yonex",
     "series": "Nanoflare",
     "model": "Nanoflare 400",
@@ -2218,6 +2298,7 @@
   },
   {
     "id": "li-ning-axforce-big-bang-new",
+    "features": [{ "id": "li-sonic-boom", "note": "海外販売店の製品説明に基づく。" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce Big Bang New",

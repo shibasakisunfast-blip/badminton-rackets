@@ -16,6 +16,7 @@ const CONFIDENCE_LABEL = { measured: "実測値", estimated: "推定値", unknow
 const PIVOT_MM = 100;
 
 let RACKETS = [];
+let FEATURES = {};
 const SELECTED_IDS = new Set();
 
 // Matrix zoom state: matrixViewBox holds the current SVG viewBox window (in the
@@ -64,6 +65,12 @@ function allVariantItems() {
 async function loadData() {
   const res = await fetch("data/rackets.json", { cache: "no-store" });
   RACKETS = await res.json();
+  try {
+    const fres = await fetch("data/features.json", { cache: "no-store" });
+    FEATURES = fres.ok ? await fres.json() : {};
+  } catch (_) {
+    FEATURES = {};
+  }
   populateBrandFilter();
   renderMatrix(RACKETS);
   renderList();
@@ -526,6 +533,45 @@ function grommetsRowHtml(r) {
   return `<tr><th>グロメット</th><td>${items}</td></tr>`;
 }
 
+function featuresRowHtml(r) {
+  const items = (r.features || []).filter(f => FEATURES[f.id]);
+  if (!items.length) return "";
+  const chips = items.map(f => `<button type="button" class="feature-chip" data-feature="${escapeHtml(f.id)}">${escapeHtml(FEATURES[f.id].name)}</button>`).join("");
+  return `<tr><th>機能性</th><td>
+    <div class="feature-chips">${chips}</div>
+    <div id="feature-detail-panel" class="feature-detail hidden"></div>
+    <div style="font-size:0.75em;color:var(--text-muted);margin-top:4px;">各機能名をクリックすると説明が表示されます。</div>
+  </td></tr>`;
+}
+
+function setupFeatureChips(r) {
+  const panel = document.getElementById("feature-detail-panel");
+  if (!panel) return;
+  const chips = document.querySelectorAll("#detail-content .feature-chip");
+  chips.forEach(chip => {
+    chip.addEventListener("click", () => {
+      const id = chip.dataset.feature;
+      const wasActive = chip.classList.contains("active");
+      chips.forEach(c => c.classList.remove("active"));
+      if (wasActive) {
+        panel.classList.add("hidden");
+        return;
+      }
+      chip.classList.add("active");
+      const f = FEATURES[id];
+      const own = (r.features || []).find(x => x.id === id);
+      const meta = [f.brand, f.category].filter(Boolean).join("・");
+      panel.innerHTML = `
+        <strong>${escapeHtml(f.name)}</strong>${f.en ? ` <span style="color:var(--text-muted);">(${escapeHtml(f.en)})</span>` : ""}
+        ${meta ? `<span style="font-size:0.8em;color:var(--text-muted);"> ${escapeHtml(meta)}</span>` : ""}
+        <p style="margin:4px 0;color:var(--text);">${escapeHtml(f.description)}</p>
+        ${own && own.note ? `<p style="margin:4px 0;font-size:0.9em;">このラケットでは: ${escapeHtml(own.note)}</p>` : ""}
+        <div style="font-size:0.8em;color:var(--text-muted);">${escapeHtml(f.basis || "")}${f.source ? ` <a href="${escapeHtml(f.source)}" target="_blank" rel="noopener" style="color:var(--accent);">出典</a>` : ""}</div>`;
+      panel.classList.remove("hidden");
+    });
+  });
+}
+
 function variantsTableHtml(r) {
   if (!r.variants || !r.variants.length) return "";
   const rows = r.variants.map(v => {
@@ -568,6 +614,7 @@ function openDetail(id) {
       <tr><th>シャフト素材</th><td>${escapeHtml(r.shaft_material) || "不明"}</td></tr>
       <tr><th>フレーム素材</th><td>${escapeHtml(r.frame_material) || "不明"}</td></tr>
       ${grommetsRowHtml(r)}
+      ${featuresRowHtml(r)}
       <tr><th>推奨テンション</th><td>${escapeHtml(r.string_tension_lbs) || "不明"}</td></tr>
       <tr><th>参考価格</th><td>${r.price_jpy_approx ? "¥" + Number(r.price_jpy_approx).toLocaleString() + " (税抜目安)" : "不明"}${r.price_note ? `<div style="font-size:0.8em;color:var(--text-muted);margin-top:2px;">${escapeHtml(r.price_note)}</div>` : ""}</td></tr>
     </table>
@@ -582,6 +629,7 @@ function openDetail(id) {
       <ul class="source-list">${sources}</ul>
     </div>
   `;
+  setupFeatureChips(r);
   document.getElementById("detail-overlay").classList.remove("hidden");
 }
 
