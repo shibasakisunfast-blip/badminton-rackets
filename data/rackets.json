@@ -267,6 +267,7 @@
   },
   {
     "id": "li-ning-axforce-90-new",
+    "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ2連結グロメット(3ヶ所)", "detail": "フレームトップに2連結のグロメットを3ヶ所装着。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 90 New",
@@ -298,6 +299,7 @@
   },
   {
     "id": "li-ning-axforce-90-dragon-max",
+    "grommets": [{ "kind": "大口径グロメット", "name": null, "detail": "スイートスポットに影響する部分に大口径のグロメットを使用し、ストリングの動きを確保して球持ちの向上を図っている。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 90 Dragon Max",
@@ -327,6 +329,7 @@
   },
   {
     "id": "li-ning-axforce-90-tiger-max",
+    "grommets": [{ "kind": "大口径グロメット", "name": null, "detail": "スイートスポットに影響する部分に大口径のグロメットを使用し、ストリングの動きを確保して球持ちの向上を図っている。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 90 Tiger Max",
@@ -556,7 +559,7 @@
   },
   {
     "id": "li-ning-halbertec-9000-power",
-    "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ連結グロメット", "detail": "フレーム上部に連結グロメット構造を採用しているとする販売店情報がある。ただし国内代理店・公式の商品ページでは確認できていないため、9000の連結グロメットを継承している可能性として参考扱い。", "basis": "販売店情報(公式・代理店での確認は取れず)", "source": null }],
+    "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ連結グロメット", "detail": "Halbertec 9000と同じ連結グロメットをフレームトップに採用。フレームとガットの接地面積を増やしてエネルギーロスを減らし、インパクト時のパワーを増強する(効果の説明はHalbertec 9000の国内代理店説明による)。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "Halbertec",
     "brand": "Li-Ning",
     "model": "Halbertec 9000 Power",
@@ -645,6 +648,7 @@
   },
   {
     "id": "li-ning-halbertec-7000",
+    "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ2連結グロメット(3ヶ所)", "detail": "フレームトップに2連結のグロメットを3ヶ所装着。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "Halbertec",
     "brand": "Li-Ning",
     "model": "Halbertec 7000",
@@ -673,6 +677,7 @@
   },
   {
     "id": "li-ning-halbertec-7000-ii",
+    "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ2連結グロメット(3ヶ所)", "detail": "フレームトップに2連結のグロメットを3ヶ所装着。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "Halbertec",
     "brand": "Li-Ning",
     "model": "Halbertec 7000 II",
@@ -755,6 +760,7 @@
   },
   {
     "id": "li-ning-bladex-900-moonmax",
+    "grommets": [{ "kind": "大口径グロメット", "name": null, "detail": "スイートスポットに影響する部分に大口径のグロメットを使用し、ストリングの動きを確保して球持ちの向上を図っている。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
     "series": "BladeX",
     "brand": "Li-Ning",
     "model": "BladeX 900 Moon Max",
