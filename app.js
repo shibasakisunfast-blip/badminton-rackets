@@ -611,8 +611,8 @@ function openDetail(id) {
       <tr><th>品番</th><td>${productCodeCellHtml(r)}</td></tr>
       <tr><th>ヘッドバランス</th><td>${escapeHtml(r.head_balance)}</td></tr>
       <tr><th>硬さ (Flex)</th><td>${escapeHtml(r.flex)}</td></tr>
-      <tr><th>シャフト素材</th><td>${escapeHtml(r.shaft_material) || "不明"}</td></tr>
       <tr><th>フレーム素材</th><td>${escapeHtml(r.frame_material) || "不明"}</td></tr>
+      <tr><th>シャフト素材</th><td>${escapeHtml(r.shaft_material) || "不明"}</td></tr>
       ${grommetsRowHtml(r)}
       ${featuresRowHtml(r)}
       <tr><th>推奨テンション</th><td>${escapeHtml(r.string_tension_lbs) || "不明"}</td></tr>
