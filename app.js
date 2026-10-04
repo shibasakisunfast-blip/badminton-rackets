@@ -619,7 +619,6 @@ function openDetail(id) {
       <tr><th>参考価格</th><td>${r.price_jpy_approx ? "¥" + Number(r.price_jpy_approx).toLocaleString() + " (税抜目安)" : "不明"}${r.price_note ? `<div style="font-size:0.8em;color:var(--text-muted);margin-top:2px;">${escapeHtml(r.price_note)}</div>` : ""}</td></tr>
     </table>
     ${variantsTableHtml(r)}
-    ${r.balance_note ? `<p style="font-size:0.8em;color:var(--text-muted);">${escapeHtml(r.balance_note)}</p>` : ""}
     <div class="review-block">
       <h4>レビューまとめ</h4>
       <p>${escapeHtml(r.review_summary_ja)}</p>
