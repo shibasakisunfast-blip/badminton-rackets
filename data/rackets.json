@@ -20,7 +20,7 @@
       { "weight_class": "3U", "weight_g": 88, "weight_confidence": "measured", "balance_point_mm": 310, "balance_confidence": "estimated", "balance_specific_to_class": false },
       { "weight_class": "4U", "weight_g": 83, "weight_confidence": "measured", "balance_point_mm": 310, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
-    "review_summary_ja": "エクストラスティッフのシャフトとヘッドヘビーバランスにより、鋭く正確なスマッシュやハーフスマッシュ、スライス系のショットを得意とするラケット。レビューでは「生々しい強打というよりクリーンで精密な一撃」と評価され、シングルスで攻撃的にネット前のスピンショットやジャンプスマッシュを織り交ぜるプレイヤーに向く。Namd素材とコンパクトなヘッド形状の組み合わせにより、インパクトの瞬間にシャトルを弾き出すような鋭い加速感が得られる一方、スイートスポットはシリーズの中でも狭めで、芯を外した際の失速が大きいとの声もある。ドライブ戦や連続レシーブのように素早い振り替えが求められる場面では、ヘッドヘビーな重量配分とシャフトの硬さが相まって振り遅れが生じやすく、前後左右の切り返しもやや遅くなるため、基礎技術が未熟な初心者には扱いづらいという指摘もある。より前衛寄りのAstrox 88D系統と比較すると、こちらは後衛からの一撃で沈める直線的なパワー伝達を重視した設計とされ、タイミングを合わせて強打を集中させたいシングルスのアタッカーに向いたモデルと位置づけられている。リーニンでは、AxForce 100(約¥33,000・Extra Stiff・ヘッドヘビー、価格差¥5,500)・AxForce 100 II(約¥33,000・Extra Stiff・ヘッドヘビー、価格差¥5,500)・AxForce 100 II MAX(約¥44,000・Extra Stiff・ヘッドヘビー、価格差¥5,500)・AxForce 90 Dragon Max(約¥30,800・Extra Stiff・ヘッドヘビー、価格差¥7,700)が近い性格のラケットとして挙げられる。",
+    "review_summary_ja": "エクストラスティッフのシャフトとヘッドヘビーバランスにより、鋭く正確なスマッシュやハーフスマッシュ、スライス系のショットを得意とするラケット。レビューでは「生々しい強打というよりクリーンで精密な一撃」と評価され、シングルスで攻撃的にネット前のスピンショットやジャンプスマッシュを織り交ぜるプレイヤーに向く。Namd素材とコンパクトなヘッド形状の組み合わせにより、インパクトの瞬間にシャトルを弾き出すような鋭い加速感が得られる一方、スイートスポットはシリーズの中でも狭めで、芯を外した際の失速が大きいとの声もある。ドライブ戦や連続レシーブのように素早い振り替えが求められる場面では、ヘッドヘビーな重量配分とシャフトの硬さが相まって振り遅れが生じやすく、前後左右の切り返しもやや遅くなるため、基礎技術が未熟な初心者には扱いづらいという指摘もある。より前衛寄りのAstrox 88D系統と比較すると、こちらは後衛からの一撃で沈める直線的なパワー伝達を重視した設計とされ、タイミングを合わせて強打を集中させたいシングルスのアタッカーに向いたモデルと位置づけられている。リーニンでは、AxForce 100(約¥33,000・Extra Stiff・ヘッドヘビー、価格差¥5,500)・AxForce 100 II(約¥33,000・Extra Stiff・ヘッドヘビー、価格差¥5,500)・AxForce 100 MAX(約¥44,000(日本価格未確認のため推定)・Extra Stiff・ヘッドヘビー、価格差¥5,500)・AxForce 90 Dragon Max(約¥30,800・Extra Stiff・ヘッドヘビー、価格差¥7,700)が近い性格のラケットとして挙げられる。",
     "sources": [
       "https://www.yonex.com/badminton/racquets/astrox/astrox-100zz-ax100zz",
       "https://us.yonex.com/products/astrox-100zz",
@@ -252,14 +252,14 @@
     ]
   },
   {
-    "id": "li-ning-axforce-100-ii-max",
-    "features": [{ "id": "li-slim-shaft", "note": "6.2mm(ウルトラスリムシャフト)" }, { "id": "li-frame-energy-damping", "note": "公式予告投稿の「高分子蓄力制振材」表記に基づく(発売前)。" }, { "id": "li-frtp" }],
+    "id": "li-ning-axforce-100-max",
+    "features": [{ "id": "li-slim-shaft", "note": "6.2mm(ウルトラスリムシャフト)" }, { "id": "li-frame-energy-damping", "note": "公式予告投稿の「高分子蓄力制振材」・海外販売店の「POLYMER ENERGY」表記に基づく。" }, { "id": "li-hdf", "note": "海外販売店の「HDF Shock Absorption System」表記に基づく。" }, { "id": "li-frtp", "note": "公式予告投稿の記載に基づく(海外販売店ページには記載なし)。" }],
     "series": "AxForce",
     "brand": "Li-Ning",
-    "model": "AxForce 100 II MAX",
-    "short_label": "AXF100IIMAX",
+    "model": "AxForce 100 MAX",
+    "short_label": "AXF100MAX",
     "product_code": null,
-    "product_code_note": "Li-Ning公式Instagram(@uf.lining)が2026年8月29日に予告投稿した新モデル。投稿時点(2026年9月上旬発売予定)では正式な製品型番(AYPT系)は未公開。AxForce 100 IIのさらに上位の「MAX」派生モデルとみられる。",
+    "product_code_note": "Li-Ning公式Instagram(@uf.lining)が2026年8月29日に予告した新モデルで、海外販売店(TriplePointSports)では「Axforce 100 Max」の名称で4U・G5のみ掲載。正式な製品型番は未確認。以前は「AxForce 100 II MAX」の名称で登録していたが、海外販売店の表記とユーザー指摘により「AxForce 100 MAX」に改めた(100 IIの派生モデルかどうかは公式に確認できていない)。",
     "release_year": "2026",
     "head_balance": "Head Heavy",
     "flex": "Extra Stiff",
@@ -267,14 +267,15 @@
     "frame_material": "M40X+ULTRA高弾性カーボンファイバー+高分子蓄力制振材",
     "string_tension_lbs": "4U ≤30 lbs",
     "price_jpy_approx": 44000,
-    "price_note": "Li-Ning台湾正規代理店(uf.lining)の予告価格NT$9,200を為替レートで換算した参考値。日本正規代理店Funportでの取り扱い・発売価格は本稿時点(2026年9月4日)で未発表のため確定額ではない。",
-    "balance_note": "2026年8月29日付のLi-Ning公式Instagram(@uf.lining)予告投稿(ユーザー提供のスクリーンショット)の「戦拍檔案」記載情報のみに基づく登録。展開重量クラスは4Uのみと明記。撃球感●揮重は「硬●重」表記のため、Flexは4段階中最も硬い「Extra Stiff」に分類した。具体的な重量(g)・バランスポイント(mm)は投稿内に記載がなく、正式発売時の公式スペック表で要確認。第三者によるレビューはまだ存在しない(発売前のため)。",
+    "price_note": "Li-Ning台湾正規代理店(uf.lining)の予告価格NT$9,200を為替レートで換算した参考値。日本正規代理店での取り扱い・発売価格は未確認のため確定額ではない(AxForce 100の日本定価は33,000円)。",
+    "balance_note": "展開重量クラスは4Uのみ(G5)。予告投稿(ユーザー提供のスクリーンショット)の打感特性は「硬●重」、海外販売店(TriplePointSports)も「Stiff, Heavy」・攻撃型(Offensive)と記載しているため、Flexは4段階で最も硬い「Extra Stiff」に分類した。全長675mm、シャフト径6.2mmは海外販売店の記載。具体的な重量(g)・バランスポイント(mm)はどちらの情報源にも記載がなく、推定の根拠となる数値もないため未登録(スイングウェイト図には表示されない)。正式なスペック表が確認でき次第追記する。第三者によるレビューはまだ存在しない。",
     "variants": [
-      { "weight_class": "4U", "weight_g": null, "weight_confidence": "unknown", "grip_size": "G5", "shaft_diameter_mm": 6.2, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+      { "weight_class": "4U", "weight_g": null, "weight_confidence": "unknown", "grip_size": "G5", "shaft_diameter_mm": 6.2, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
     ],
-    "review_summary_ja": "AxForce 100 II MAXは2026年9月上旬発売予定としてLi-Ning公式Instagram(@uf.lining)が予告したAxForce 100 IIの上位派生モデル。公式の煽り文句では「暴力進攻天花板(暴力的な攻撃力の頂点)」「出球乾脆、殺球下圧慣性更強(球離れが良く、スマッシュの押し込む慣性がより強い)」と紹介されており、100 IIよりもさらにヘッドが重く、シャフトも硬い方向にチューニングされた一撃必殺型モデルと位置づけられている。展開クラスが4Uのみと発表されている点から、軽量帯でのラインナップ拡充よりも、既存ユーザーの中でもさらに威力を追求する層へ向けたピンポイントなモデル展開を意図していると見られる。シャフト径6.2mmのウルトラスリムシャフトにFRTP TECHという新技術が投入されている旨が公式に示されているが、この技術の具体的な効果については現時点で詳細な説明がない。発売前のため独立したレビューはまだなく、情報は公式予告投稿の内容に限られる。スペック(Extra Stiff・ヘッドヘビー)から判断すると、ヨネックスではシリーズ最硬のAstrox 100ZZ(約¥38,500、価格差¥5,500)が最も近い性格のモデルになると見込まれる。",
+    "review_summary_ja": "AxForce 100 MAXは2026年8月末にLi-Ning公式Instagram(@uf.lining)が予告したAxForce 100系の最上位クラスのモデルで、4U(G5)のみの展開。公式の煽り文句は「暴力進攻天花板(暴力的な攻撃力の頂点)」「出球乾脆、殺球下圧慣性更強(球離れが良く、スマッシュの押し込む慣性がより強い)」で、打感特性は「硬●重」と最も硬く重い側に位置づけられている。海外販売店は、上級者・プロの攻撃型プレーヤー向けで、後衛からの強打とスピード展開での安定感を重視する設計と説明している。フレームはM40X+ULTRA高弾性カーボンに高分子蓄力制振材(POLYMER ENERGY)、シャフトはM46+T1100+ULTRA高弾性カーボンの6.2mm極細シャフトで、複合素材(COMPOSITE POWER)によりインパクトにパワーを集中させ、HDF衝撃吸収システムで振動を抑えるとされる。公式予告投稿ではFRTP TECHという新技術も示されているが、具体的な効果の説明はない。発売直後のため独立したレビューはまだなく、重量・バランスポイントも未公表のため、情報は予告投稿と海外販売店の説明に限られる。スペック(Extra Stiff・ヘッドヘビー)から判断すると、ヨネックスではシリーズ最硬のAstrox 100ZZ(約¥38,500、価格差¥5,500)が最も近い性格のモデルになると見込まれる(推定価格のため暫定的な比較)。",
     "sources": [
-      "https://www.instagram.com/uf.lining/ (2026年8月29日投稿、ユーザー提供のスクリーンショットより)"
+      "https://www.instagram.com/uf.lining/ (2026年8月29日投稿、ユーザー提供のスクリーンショットより)",
+      "https://triplepointsports.com/products/li-ning-axforce-100-max-badminton-racket"
     ]
   },
   {
@@ -405,30 +406,30 @@
   },
   {
     "id": "li-ning-axforce-80-ii",
-    "features": [{ "id": "li-damping-material", "note": "発売前の予告投稿の素材表記(高密度制振材)に基づく。" }, { "id": "li-frame-energy-damping", "note": "発売前の予告投稿の「高分子蓄力制振材」表記に基づく。" }],
+    "features": [{ "id": "li-torsion-rigid-frame", "note": "海外販売店の説明(高剛性の抗ねじれボックスフレーム、フレームトップを嵩上げ・薄肉化)に基づく。" }, { "id": "li-damping-material", "note": "シャフトに高密度制振材を使用(予告投稿・海外販売店の素材表記)。" }, { "id": "li-frame-energy-damping", "note": "フレームに高分子蓄力制振材を使用(予告投稿・海外販売店の素材表記)。" }],
     "series": "AxForce",
     "brand": "Li-Ning",
     "model": "AxForce 80 II",
     "short_label": "AXF80II",
-    "product_code": null,
-    "product_code_note": "Li-Ning公式Instagram(@uf.lining)が2026年8月21日に予告投稿した新モデル。投稿時点(2026年9月上旬発売予定)では正式な製品型番(AYPT系)は未公開。「経典永駐(クラシックの継続)」と銘打たれたAxForce 80の後継モデル。",
+    "product_code": "AYPW049",
+    "product_code_note": "海外販売店(Li-Ning Nings)の掲載SKU。カラー「Electro Purple」はAYPW049-3。日本正規代理店での型番表記は未確認。初代AxForce 80(2021年、渡辺勇大選手使用モデル)の後継で、Li-Ning公式Instagram(@uf.lining)が2026年8月21日に「進化升級、経典永駐」として予告。",
     "release_year": "2026",
     "head_balance": "Head Heavy",
     "flex": "Medium",
     "shaft_material": "ULTRA高弾性カーボンファイバー+高密度制振材",
     "frame_material": "M46+T1100+ULTRA高弾性カーボンファイバー+高分子蓄力制振材",
-    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs / 5U ≤29 lbs",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
     "price_jpy_approx": 37000,
-    "price_note": "Li-Ning台湾正規代理店(uf.lining)の予告価格NT$7,800を為替レートで換算した参考値。日本正規代理店Funportでの取り扱い・発売価格は本稿時点(2026年9月4日)で未発表のため確定額ではない。",
-    "balance_note": "2026年8月21日付のLi-Ning公式Instagram(@uf.lining)予告投稿(ユーザー提供のスクリーンショット)の「球拍檔案」記載情報のみに基づく登録。展開重量クラスは3U/4U/5Uの3クラス。撃球感は3U/4U/5Uいずれも「適中」表記のため、Flexは「Medium」に分類した。揮重(振ったときの重さの感覚)は3U「稍重(やや重め)」/4U「適中」/5U「稍軽(やや軽め)」と公式に記載されている。握柄は3U=G5、4U=G5またはG6、5U=G6。具体的な重量(g)・バランスポイント(mm)は投稿内に記載がなく、正式発売時の公式スペック表で要確認。第三者によるレビューはまだ存在しない(発売前のため)。",
+    "price_note": "Li-Ning台湾正規代理店(uf.lining)の予告価格NT$7,800を為替レートで換算した参考値(日本正規代理店での発売価格は未確認のため確定額ではない)。初代AxForce 80の日本定価は29,700円。",
+    "balance_note": "日本でのサイズ展開は3Uと4Uのみ(ユーザー提供情報、5Uは日本では予定なし)。予告投稿(ユーザー提供のスクリーンショット)では撃球感は「適中」、揮重は3U「稍重」/4U「適中」と公式に記載され、Flexは「Medium」に分類した。海外販売店(Li-Ning Nings、AYPW049)は4U約83g・全長675mm・ヘッドヘビー・G5/G6・4U張力上限30lbsと記載し、「初代よりバランスポイントを上げて(重心を高くして)スマッシュの慣性を増した」と説明しているが、mm値や3Uの重量は公表されていない。そのため4U=83gは販売店記載の概数、3U=86gは初代AxForce 80(3U 86.3g/4U 83.0g)の重量差からの推定、バランスポイントは初代(3U 303mm/4U 305mm)から約3mm上げた306mm/308mmの推定(いずれも公式の確定値ではなく、正式スペック表の確認が必要)。握柄は3U=G5、4U=G5またはG6。第三者によるレビューはまだ存在しない。",
     "variants": [
-      { "weight_class": "3U", "weight_g": null, "weight_confidence": "unknown", "grip_size": "G5", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
-      { "weight_class": "4U", "weight_g": null, "weight_confidence": "unknown", "grip_size": "G5/G6", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
-      { "weight_class": "5U", "weight_g": null, "weight_confidence": "unknown", "grip_size": "G6", "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+      { "weight_class": "3U", "weight_g": 86, "weight_confidence": "estimated", "grip_size": "G5", "overall_length_mm": 675, "balance_point_mm": 306, "balance_confidence": "estimated", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "overall_length_mm": 675, "balance_point_mm": 308, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
-    "review_summary_ja": "AxForce 80 IIは2026年9月上旬発売予定としてLi-Ning公式Instagram(@uf.lining)が予告した、初代AxForce 80(2021年、諶龍使用モデル)の正統後継。公式は「進化升級、経典永駐(進化してアップグレードしつつ、クラシックは受け継がれる)」と紹介しており、撃球感・揮重ともに3U/4U/5U全クラスで「適中」バランス型にまとめられている点が特徴。初代の6.6mm極細シャフトによる弾ける打感というコンセプトを踏襲しつつ、フレーム・シャフト素材をより新しい高分子蓄力制振材世代にアップデートしたモデルとみられる。初代が長年にわたり幅広い層から支持されてきた経緯を踏まえ、極端な尖った性能よりも扱いやすさとバランスの良さを継続する方向性を公式が強調している点は、後継モデルとしては珍しい打ち出し方とも言える。3U・4U・5Uの3クラス展開は初代と同じ構成が維持される見込みで、体格やパワーに応じた選択肢の広さも引き継がれるとみられる。発売前のため独立したレビューはまだなく、情報は公式予告投稿の内容に限られる。撃球感・揮重ともに全クラス「適中」という方向性と、初代AxForce80がヘッドヘビー・Mediumフレックスのオールラウンド攻撃型だった経緯を踏まえると、ヨネックスでは同じく扱いやすさと攻撃力を両立させたAstrox 77 Pro(約¥34,100)に近いコンセプトの後継になると見込まれる(ただし予告時点の推定価格¥37,000自体が確定値ではなく、正式スペック未公開のため暫定的な比較)。",
+    "review_summary_ja": "AxForce 80 IIは2026年8月に海外で発売された、初代AxForce 80(2021年、渡辺勇大選手使用モデル)の正統後継。Li-Ning公式Instagram(@uf.lining)は「進化升級、経典永駐(進化してアップグレードしつつ、クラシックは受け継がれる)」と紹介し、撃球感はいずれのクラスも「適中」、揮重は3U「稍重」・4U「適中」と、扱いやすいバランス型にまとめられている。海外販売店は「Enter the Evolution」を掲げ、高剛性の抗ねじれボックスフレーム、嵩上げして薄肉化したフレームトップ、スイートスポットの拡大と安定したフレーム、重心(バランスポイント)を上げてスマッシュの慣性を高めた設計、エネルギーを素早く返すシャフトを特徴として挙げている。素材はフレームがM46+T1100+ULTRA高弾性カーボンに高分子蓄力制振材、シャフトがULTRA高弾性カーボンに高密度制振材で、初代よりも新しい制振材世代へアップデートされている。日本では3U・4Uの2クラス展開の予定で、初代の3U/4U/5Uの3クラス展開から5Uが外れる(ユーザー提供情報)。発売直後のため独立したレビューはまだなく、情報は予告投稿と海外販売店の説明に限られる。初代AxForce 80がヘッドヘビー・Mediumフレックスのオールラウンド攻撃型だった経緯を踏まえると、ヨネックスでは同じく扱いやすさと攻撃力を両立させたAstrox 77 Pro(約¥34,100)に近いコンセプトの後継になると見込まれる(ただし推定価格¥37,000は確定値ではなく、バランス・重量も推定値のため暫定的な比較)。",
     "sources": [
-      "https://www.instagram.com/uf.lining/ (2026年8月21日投稿、ユーザー提供のスクリーンショットより)"
+      "https://www.instagram.com/uf.lining/ (2026年8月21日投稿、ユーザー提供のスクリーンショットより)",
+      "https://www.shopnings.com/li-ning-axforce-80-ii-badminton-racket/"
     ]
   },
   {
@@ -1629,7 +1630,7 @@
       { "weight_class": "4U", "weight_g": 84.2, "weight_confidence": "measured", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 301, "balance_confidence": "estimated", "balance_specific_to_class": true },
       { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "grip_length_mm": null, "overall_length_mm": null, "balance_point_mm": 301, "balance_confidence": "estimated", "balance_specific_to_class": false }
     ],
-    "review_summary_ja": "新素材「フレックスフューズ」をジョイント部に採用し、マイルドな打球感としなやかなショット性能を両立したモデル。海外レビューでは、オールラウンドプレーヤー向けに「ドライブが直線的でパンチが効く」「クリアが打ちやすい」「コントロールとパワーのバランスが良い」と評されている。ラリーを組み立てながら得点機会を作るタイプのシングルスプレーヤーや、ローテーションの多いダブルスプレーヤーに向くとされる。Namdとウルトラ PEファイバーを組み合わせたシャフトにより、ミディアムフレックスでありながら弾き返しの鋭さも併せ持つとされ、77シリーズの中でも最初のモデルとして長く支持されてきた。日本製で、価格と性能のバランスが良いオールラウンドモデルとして中級〜上級者の間で評価が高い。リーニンでは、Aeronaut 9000C(約¥29,700・Medium・ヘッドヘビー、価格差¥4,400)・AxForce 90 Tiger Max(約¥30,800・Medium・ヘッドヘビー、価格差¥3,300)・AxForce 80(約¥29,700・Medium・ヘッドヘビー、価格差¥4,400)・AxForce 80 II(約¥37,000(予告時点の推定)・Medium・ヘッドヘビー、価格差¥2,900・発売前のため暫定的な対応)が近い性格のラケットとして挙げられる。",
+    "review_summary_ja": "新素材「フレックスフューズ」をジョイント部に採用し、マイルドな打球感としなやかなショット性能を両立したモデル。海外レビューでは、オールラウンドプレーヤー向けに「ドライブが直線的でパンチが効く」「クリアが打ちやすい」「コントロールとパワーのバランスが良い」と評されている。ラリーを組み立てながら得点機会を作るタイプのシングルスプレーヤーや、ローテーションの多いダブルスプレーヤーに向くとされる。Namdとウルトラ PEファイバーを組み合わせたシャフトにより、ミディアムフレックスでありながら弾き返しの鋭さも併せ持つとされ、77シリーズの中でも最初のモデルとして長く支持されてきた。日本製で、価格と性能のバランスが良いオールラウンドモデルとして中級〜上級者の間で評価が高い。リーニンでは、Aeronaut 9000C(約¥29,700・Medium・ヘッドヘビー、価格差¥4,400)・AxForce 90 Tiger Max(約¥30,800・Medium・ヘッドヘビー、価格差¥3,300)・AxForce 80(約¥29,700・Medium・ヘッドヘビー、価格差¥4,400)・AxForce 80 II(約¥37,000(日本価格未確認のため推定)・Medium・ヘッドヘビー、価格差¥2,900・発売直後のため暫定的な対応)が近い性格のラケットとして挙げられる。",
     "sources": [
       "https://www.yonex.co.jp/badminton/news/2022/09/2209221300.html",
       "https://yonexshop.jp/item/detail/1_1_AX77-P_1/752",
