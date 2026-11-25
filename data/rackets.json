@@ -281,6 +281,33 @@
     ]
   },
   {
+    "id": "li-ning-axforce-x-shape",
+    "features": [{ "id": "li-x-variable-shaft", "note": "シャフト径が6.6mm→6.2mm→6.6mmと変化する「X型」構造。東レT1200+M46原装カーボンを初搭載し、シャフトの形変を増やして弾性を高め、毎回の進攻をより強力にするとされる(公式予告投稿)。" }, { "id": "li-iso-stress", "note": "M50+T1100原装カーボンを採用し、穿線(ストリング張り)の際にフレームへかかる応力を均一化して、撃球の弾性を高めるとされる等応力フレーム技術(公式予告投稿)。" }, { "id": "li-damping-material", "note": "シャフト素材に高密度減震材料を使用(公式予告投稿の素材表記に基づく)。" }, { "id": "li-frame-energy-damping", "note": "フレーム素材に高分子儲能減震材料を使用(公式予告投稿の素材表記に基づく)。" }],
+    "series": "AxForce",
+    "brand": "Li-Ning",
+    "model": "AxForce X-SHAPE",
+    "short_label": "AXFXSHAPE",
+    "product_code": null,
+    "product_code_note": "Li-Ning公式Instagram(@uf.lining)の予告投稿(ユーザー提供のスクリーンショット)で発表された新モデル。カラーは星耀藍(星耀ブルー)。2026年12月1日に全球同步上市(世界同時発売)、首批限量發售(初回ロットは数量限定)とされる。型番(AYP系の品番)は予告投稿に記載がなく未確認。",
+    "release_year": "2026",
+    "head_balance": "Head Heavy",
+    "flex": "Stiff",
+    "shaft_material": "M46+T1200+ULTRA高弾性カーボンファイバー+高密度減震材料、X型変径シャフト(6.6mm→6.2mm→6.6mm)",
+    "frame_material": "M50+T1100+ULTRA高弾性カーボンファイバー+高分子儲能減震材料、ISO STRESS等応力フレームテクノロジー",
+    "string_tension_lbs": "3U ≤31 lbs / 4U ≤30 lbs",
+    "price_jpy_approx": null,
+    "price_note": "予告投稿に価格の記載はなく、日本での発売・価格も未確認のため未登録。正式な価格が確認でき次第追記する。",
+    "balance_note": "予告投稿(ユーザー提供のスクリーンショット)の性能分類は「進攻型(攻撃型)」で、打感特性(撃球感・揮重)は3Uが「稍硬・稍重(やや硬い・やや重い)」、4Uが「適中・適中(中庸)」と記載されている。AxForceシリーズは全機種がヘッドヘビーで、本モデルも攻撃型として位置づけられるため、Head Heavyに分類した。Flexは3Uの「稍硬」を基準に「Stiff」とした(4Uは「適中」のため、実際の体感は重量クラスで異なる)。規格は3UG5/4UG5/4UG6、全長675mm。バランスポイント(mm)は予告投稿を含む現時点の情報源に記載がなく、推定の根拠となる数値もないため未登録とした。重量は重量クラスの標準的な概数(3U=88g、4U=83g)を推定として登録した。シャフト径は6.6mm→6.2mm→6.6mmの変径シャフトのため、単一の数値は登録していない。正式なスペック表や国内代理店の掲載が確認でき次第追記する。第三者によるレビューはまだ存在しない。",
+    "variants": [
+      { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
+      { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
+    ],
+    "review_summary_ja": "AxForce X-SHAPEは、Li-Ning公式Instagram(@uf.lining)が2026年12月1日の世界同時発売(初回ロットは数量限定)を予告した、雷霆(AXFORCE)シリーズの新型攻撃型モデル。カラーは星耀藍。「為進攻而生(攻撃のために生まれた)」と銘打ち、進攻を好む専業・高水準の選手のために作られたとされる。目玉は2つの新技術で、1つ目はシャフト径が6.6mmから6.2mmへ細くなり、再び6.6mmへ戻る「X型変径中桿(X型変径シャフト)」。東レT1200+M46原装カーボンを初めて搭載し、シャフトの形変を増やして弾性を高めることで、毎回の進攻をより強力にするとされる。2つ目は「ISO STRESS等応力拍框科技(等応力フレーム技術)」で、M50+T1100原装カーボンにより、ストリングを張る際のフレームの受力をより均一にし、撃球の弾性を高めるとされる。スペック表では性能分類は進攻型、打感特性は3Uが「稍硬・稍重」、4Uが「適中・適中」とされ、同じモデルでも重量クラスによって性格が異なる。規格は3UG5/4UG5/4UG6、全長675mm、穿線磅数(張力上限)は3Uが31lbs、4Uが30lbs。発売前のため第三者によるレビューはまだなく、日本での発売・価格・型番も未確認で、現時点の情報は公式予告投稿に基づく。",
+    "sources": [
+      "https://www.instagram.com/uf.lining/ (AxForce X-SHAPE予告投稿、ユーザー提供のスクリーンショットより、2026年11月25日確認)"
+    ]
+  },
+  {
     "id": "li-ning-axforce-90-new",
     "features": [{ "id": "li-slim-shaft", "note": "6.4mm" }, { "id": "li-damping-material", "note": "「振動吸収素材が衝撃を軽減し、肘や手首への負担を抑える」と説明。" }, { "id": "li-frame-energy-damping", "note": "スマッシュ時のエネルギーを蓄え、角度をつけやすいと説明。" }, { "id": "li-wing-stabilizer" }, { "id": "li-box-wing-frame", "note": "ウィングスタビライザーとの組み合わせで説明されている。" }],
     "grommets": [{ "kind": "連結グロメット", "name": "フレームトップ2連結グロメット(3ヶ所)", "detail": "フレームトップに2連結のグロメットを3ヶ所装着。", "basis": "ユーザー提供情報(公式資料での明記は未確認)", "source": null }],
