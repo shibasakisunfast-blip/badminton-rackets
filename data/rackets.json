@@ -287,8 +287,8 @@
     "brand": "Li-Ning",
     "model": "AxForce X-SHAPE",
     "short_label": "AXFXSHAPE",
-    "product_code": null,
-    "product_code_note": "Li-Ning公式Instagram(@uf.lining)の予告投稿(ユーザー提供のスクリーンショット)で発表された新モデル。カラーは星耀藍(星耀ブルー)。2026年12月1日に全球同步上市(世界同時発売)、首批限量發售(初回ロットは数量限定)とされる。型番(AYP系の品番)は予告投稿に記載がなく未確認。",
+    "product_code": "AYPX001",
+    "product_code_note": "Li-Ning公式Instagram(@uf.lining)の予告投稿(ユーザー提供のスクリーンショット)で発表された新モデル。カラーは星耀藍(星耀ブルー)。2026年12月1日に全球同步上市(世界同時発売)、首批限量發售(初回ロットは数量限定)とされる。型番は予告投稿に記載がなかったが、中国の展示会(2026年9月17日)で撮影されたスペックシート写真に「雷霆 X-SHAPE 星耀藍 AYPX001、価格1,980元」と記載されているのを確認した(日本価格は未確認)。",
     "release_year": "2026",
     "head_balance": "Head Heavy",
     "flex": "Stiff",
@@ -302,9 +302,10 @@
       { "weight_class": "3U", "weight_g": 88, "weight_confidence": "estimated", "grip_size": "G5", "shaft_diameter_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false },
       { "weight_class": "4U", "weight_g": 83, "weight_confidence": "estimated", "grip_size": "G5/G6", "shaft_diameter_mm": null, "overall_length_mm": 675, "balance_point_mm": null, "balance_confidence": "unknown", "balance_specific_to_class": false }
     ],
-    "review_summary_ja": "AxForce X-SHAPEは、Li-Ning公式Instagram(@uf.lining)が2026年12月1日の世界同時発売(初回ロットは数量限定)を予告した、雷霆(AXFORCE)シリーズの新型攻撃型モデル。カラーは星耀藍。「為進攻而生(攻撃のために生まれた)」と銘打ち、進攻を好む専業・高水準の選手のために作られたとされる。目玉は2つの新技術で、1つ目はシャフト径が6.6mmから6.2mmへ細くなり、再び6.6mmへ戻る「X型変径中桿(X型変径シャフト)」。東レT1200+M46原装カーボンを初めて搭載し、シャフトの形変を増やして弾性を高めることで、毎回の進攻をより強力にするとされる。2つ目は「ISO STRESS等応力拍框科技(等応力フレーム技術)」で、M50+T1100原装カーボンにより、ストリングを張る際のフレームの受力をより均一にし、撃球の弾性を高めるとされる。スペック表では性能分類は進攻型、打感特性は3Uが「稍硬・稍重」、4Uが「適中・適中」とされ、同じモデルでも重量クラスによって性格が異なる。規格は3UG5/4UG5/4UG6、全長675mm、穿線磅数(張力上限)は3Uが31lbs、4Uが30lbs。発売前のため第三者によるレビューはまだなく、日本での発売・価格・型番も未確認で、現時点の情報は公式予告投稿に基づく。",
+    "review_summary_ja": "AxForce X-SHAPEは、Li-Ning公式Instagram(@uf.lining)が2026年12月1日の世界同時発売(初回ロットは数量限定)を予告した、雷霆(AXFORCE)シリーズの新型攻撃型モデル。カラーは星耀藍。「為進攻而生(攻撃のために生まれた)」と銘打ち、進攻を好む専業・高水準の選手のために作られたとされる。目玉は2つの新技術で、1つ目はシャフト径が6.6mmから6.2mmへ細くなり、再び6.6mmへ戻る「X型変径中桿(X型変径シャフト)」。東レT1200+M46原装カーボンを初めて搭載し、シャフトの形変を増やして弾性を高めることで、毎回の進攻をより強力にするとされる。2つ目は「ISO STRESS等応力拍框科技(等応力フレーム技術)」で、M50+T1100原装カーボンにより、ストリングを張る際のフレームの受力をより均一にし、撃球の弾性を高めるとされる。スペック表では性能分類は進攻型、打感特性は3Uが「稍硬・稍重」、4Uが「適中・適中」とされ、同じモデルでも重量クラスによって性格が異なる。規格は3UG5/4UG5/4UG6、全長675mm、穿線磅数(張力上限)は3Uが31lbs、4Uが30lbs。発売前のため第三者によるレビューはまだなく、日本での発売・価格は未確認。型番は中国の展示会(2026年9月17日)のスペックシート写真でAYPX001と確認済み(同資料では中国価格1,980元と記載)。",
     "sources": [
-      "https://www.instagram.com/uf.lining/ (AxForce X-SHAPE予告投稿、ユーザー提供のスクリーンショットより、2026年11月25日確認)"
+      "https://www.instagram.com/uf.lining/ (AxForce X-SHAPE予告投稿、ユーザー提供のスクリーンショットより、2026年11月25日確認)",
+      "中国の展示会で撮影されたスペックシート写真(2026年9月17日、型番AYPX001・価格1,980元の記載を確認、2026年11月25日)"
     ]
   },
   {
